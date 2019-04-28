@@ -1,3 +1,6 @@
+<?php
+  // Copyright 2019 Andover CCA.  All rights reserved.
+?>
 
 <!-- tablesorter theme -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.29.0/css/theme.dropbox.min.css" integrity="sha256-VFOuP1wPK9H/EeQZEmYL0TZlkMtUthqMBdrqfopliF4=" crossorigin="anonymous" />
