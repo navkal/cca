@@ -1,6 +1,28 @@
 <?php
-  include $_SERVER['DOCUMENT_ROOT'] . '/../bgt/util/tablesorter.php';
+  // Copyright 2019 Andover CCA.  All rights reserved.
 ?>
+
+<script>
+var g_tTableProps =
+{
+  theme : 'dropbox',
+  headerTemplate : '{content} {icon}',
+  widgets : [ 'uitheme', 'resizable', 'filter' ],
+  widgetOptions :
+  {
+    resizable: true,
+    filter_reset : '.reset',
+    filter_cssFilter: 'form-control'
+  }
+};
+</script>
+
+<!-- tablesorter theme -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.0/css/theme.dropbox.min.css" integrity="sha256-CbNE7knbzUGwr4jEImul6Ww8oP32d5W88KjDPoJUzdk=" crossorigin="anonymous" />
+
+<!-- tablesorter basic libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.0/js/jquery.tablesorter.min.js" integrity="sha256-Ae7jmRrbL3hf1J/y22SYMPtx0wMVbG4g3HtpjioYuyk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.0/js/jquery.tablesorter.widgets.js" integrity="sha256-sg80NyaLmey6oXCdI+VhKtRMYkI//IMuua1N9pG9HI8=" crossorigin="anonymous"></script>
 
 <table id="bgt_table" class="tablesorter">
   <thead>
