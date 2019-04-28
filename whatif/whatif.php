@@ -26,41 +26,27 @@
 
 
 <div class="backdrop">
-  <div id="a" class="split split-horizontal">
-    <div id="table_pane" class="split content">
+  <div id="a" class="split content">
+      <?php
+        include 'form.php';
+      ?>
+  </div>
+  <div id="b" class="split content">
       <?php
         include 'table_pane.php';
       ?>
-    </div>
-  </div>
-  <div id="b" class="split split-horizontal">
-    <div id="e" class="split content">
-        <?php
-          include 'bar.php';
-        ?>
-    </div>
-    <div id="f" class="split content">
-        <?php
-          include 'bar.php';
-        ?>
-    </div>
   </div>
 </div>
 
 <script src="/split/split.min.js"></script>
 <script>
-    Split(['#a', '#b'], {
-      gutterSize: 8,
-      minSize: 0,
-      cursor: 'col-resize'
-    })
 
-    Split(['#e', '#f'], {
-      direction: 'vertical',
-      sizes: [50, 50],
-      minSize: 0,
-      gutterSize: 8,
-      cursor: 'row-resize'
-    })
+  Split(['#a', '#b'], {
+    direction: 'vertical',
+    sizes: [50, 50],
+    minSize: 0,
+    gutterSize: 8,
+    cursor: 'row-resize'
+  })
 </script>
 </html>
