@@ -1,6 +1,9 @@
-BACnet Gateway
-&copy; 2018 BACnet Gateway.  All rights reserved.
+Andover CCA
+&copy; 2019 Andover CCA.  All rights reserved.
 energizeAndover@gmail.com
 #
 # --- Public views ---
-test,Test,test.php
+about,About,about/about.php
+whatif,What If?,whatif/whatif.php
+faq,FAQ,faq/faq.php
+more,More,more/more.php
