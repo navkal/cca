@@ -77,9 +77,9 @@
 </div>
 
 <script>
-  $( document ).ready( init );
+  $( document ).ready( onInputReady );
 
-  function init()
+  function onInputReady()
   {
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     onChangeStartMonth();
@@ -87,7 +87,9 @@
 
   function onChangeStartMonth()
   {
-    alert( 'selected=' + $( '#start-month' ).val() );
+    console.log( 'selected=' + $( '#start-month' ).val() );
+    var aInputs = $( 'input' );
+    console.log( '==> num inputs: ' + aInputs.length );
   }
 
   function calculate()
