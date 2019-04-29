@@ -48,7 +48,7 @@
         Make the plan available for review by citizens
       </li>
       <li>
-        Secure approval of the plan by Board of Selectmen
+        Secure approval of the plan by the Select Board
       </li>
       <li>
         Submit the plan to MA Department of Public Utilities for final approval
