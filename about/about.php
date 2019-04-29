@@ -5,15 +5,11 @@
 <div class="container">
 
   <p class="h5">
-    Community Choice Aggregation (CCA)
+    What is <i>Community Choice Aggregation</i>?
   </p>
 
   <p>
-    Many of Andover’s residents and businesses wish to be able to purchase renewable energy at a competitive price.  <i>Community Choice Aggregation</i> (CCA) is a state-regulated program that addresses this growing demand by consumers to choose their source of electricity.  Also known as <i>Municipal Aggregation</i>, the program authorizes a municipality to purchase electricity in bulk from competitive suppliers on behalf of the community.
-  </p>
-
-  <p>
-    Through CCA, Andover would be able to purchase energy with a higher renewable content than required by the Massachusetts Renewable Portfolio Standard, in keeping with the town's values as a designated Massachusetts Green Community.
+    Community Choice Aggregation (CCA) is a state-regulated program that addresses the growing demand by Massachusetts electricity consumers to purchase renewable energy at a competitive price.  Also known as <i>Municipal Aggregation</i>, the program authorizes a municipality to negotiate with competing electricity suppliers on behalf of the community.  Today, 146 Massachusetts towns and cities already participate in this program.  Andover should, too.
   </p>
 
   <p>
@@ -32,10 +28,14 @@
   </p>
 
   <p>
-    The program will give participants greater control over their electricity supply by offering multiple options for their electricity mix as well as the ability to leave the program and return to National Grid’s Basic Service at any time with no penalty or fee.  For all customers, National Grid will continue to be the distributor and billing agent.
+    Through CCA, Andover would be able to purchase energy with a higher renewable content than required by the Massachusetts Renewable Portfolio Standard, in keeping with the town's values as a designated Massachusetts Green Community.
   </p>
-  <p>
 
+  <p>
+    The program would give consumers greater control over their electricity supply by offering multiple options for their electricity mix as well as the ability to leave the program and return to National Grid’s Basic Service at any time, with no penalty or fee.  For all customers, National Grid would continue to be the distributor and billing agent.
+  </p>
+
+  <p>
     Massachusetts General Law, M.G.L. c. 164 sec. 134, outlines CCA rules.  To implement CCA in Andover, the town must take the following steps:
     <ol>
       <li>
@@ -54,6 +54,10 @@
         Submit the plan to MA Department of Public Utilities for final approval
       </li>
     </ol>
+  </p>
+
+  <p>
+    Andover CCA is supported by the <a href="https://andoverma.gov/189/Andover-Green-Advisory-Board" target="_blank">Andover Green Advisory Board</a>.
   </p>
 
 </div>
