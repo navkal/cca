@@ -28,16 +28,6 @@
       <td>http://www.google.com</td>
     </tr>
     <tr>
-      <td>abc 1</td>
-      <td>234</td>
-      <td>Ox</td>
-      <td>http://www.yahoo.com</td>
-      <td>abc 1</td>
-      <td>234</td>
-      <td>Ox</td>
-      <td>http://www.yahoo.com</td>
-    </tr>
-    <tr>
       <td>abc 9</td>
       <td>10</td>
       <td>Girafee</td>
@@ -68,24 +58,94 @@
       <td>http://www.ucla.edu/</td>
     </tr>
     <tr>
-      <td>abc 2</td>
-      <td>56</td>
-      <td>Elephant</td>
-      <td>http://www.wikipedia.org/</td>
-      <td>abc 2</td>
-      <td>56</td>
-      <td>Elephant</td>
-      <td>http://www.wikipedia.org/</td>
+      <td>ABC 10</td>
+      <td>87</td>
+      <td>Zebra</td>
+      <td>http://www.google.com</td>
+      <td>ABC 10</td>
+      <td>87</td>
+      <td>Zebra</td>
+      <td>http://www.google.com</td>
     </tr>
     <tr>
-      <td>abc 9</td>
-      <td>155</td>
-      <td>Lion</td>
-      <td>http://www.nytimes.com/</td>
-      <td>abc 9</td>
-      <td>155</td>
-      <td>Lion</td>
-      <td>http://www.nytimes.com/</td>
+      <td>abc 123</td>
+      <td>10</td>
+      <td>Koala</td>
+      <td>http://www.google.com</td>
+      <td>abc 123</td>
+      <td>10</td>
+      <td>Koala</td>
+      <td>http://www.google.com</td>
+    </tr>
+    <tr>
+      <td>zyx 24</td>
+      <td>767</td>
+      <td>Bison</td>
+      <td>http://www.whitehouse.gov/</td>
+      <td>zyx 24</td>
+      <td>767</td>
+      <td>Bison</td>
+      <td>http://www.whitehouse.gov/</td>
+    </tr>
+    <tr>
+      <td>abc 11</td>
+      <td>3</td>
+      <td>Chimp</td>
+      <td>http://www.ucla.edu/</td>
+      <td>abc 11</td>
+      <td>3</td>
+      <td>Chimp</td>
+      <td>http://www.ucla.edu/</td>
+    </tr>
+    <tr>
+      <td>ABC 10</td>
+      <td>87</td>
+      <td>Zebra</td>
+      <td>http://www.google.com</td>
+      <td>ABC 10</td>
+      <td>87</td>
+      <td>Zebra</td>
+      <td>http://www.google.com</td>
+    </tr>
+    <tr>
+      <td>abc 123</td>
+      <td>10</td>
+      <td>Koala</td>
+      <td>http://www.google.com</td>
+      <td>abc 123</td>
+      <td>10</td>
+      <td>Koala</td>
+      <td>http://www.google.com</td>
+    </tr>
+    <tr>
+      <td>zyx 24</td>
+      <td>767</td>
+      <td>Bison</td>
+      <td>http://www.whitehouse.gov/</td>
+      <td>zyx 24</td>
+      <td>767</td>
+      <td>Bison</td>
+      <td>http://www.whitehouse.gov/</td>
+    </tr>
+    <tr>
+      <td>abc 11</td>
+      <td>3</td>
+      <td>Chimp</td>
+      <td>http://www.ucla.edu/</td>
+      <td>abc 11</td>
+      <td>3</td>
+      <td>Chimp</td>
+      <td>http://www.ucla.edu/</td>
+    </tr>
+    <tr>
+      <td>abc 2</td>
+      <td>56</td>
+      <td>Elephant</td>
+      <td>http://www.wikipedia.org/</td>
+      <td>abc 2</td>
+      <td>56</td>
+      <td>Elephant</td>
+      <td>http://www.wikipedia.org/</td>
     </tr>
     <tr>
       <td>ABC 10</td>
@@ -148,26 +208,6 @@
       <td>http://www.ucla.edu/</td>
     </tr>
     <tr>
-      <td>abc 2</td>
-      <td>56</td>
-      <td>Elephant</td>
-      <td>http://www.wikipedia.org/</td>
-      <td>abc 2</td>
-      <td>56</td>
-      <td>Elephant</td>
-      <td>http://www.wikipedia.org/</td>
-    </tr>
-    <tr>
-      <td>abc 9</td>
-      <td>155</td>
-      <td>Lion</td>
-      <td>http://www.nytimes.com/</td>
-      <td>abc 9</td>
-      <td>155</td>
-      <td>Lion</td>
-      <td>http://www.nytimes.com/</td>
-    </tr>
-    <tr>
       <td>ABC 10</td>
       <td>87</td>
       <td>Zebra</td>
@@ -186,26 +226,6 @@
       <td>10</td>
       <td>Koala</td>
       <td>http://www.google.com</td>
-    </tr>
-    <tr>
-      <td>abc 1</td>
-      <td>234</td>
-      <td>Ox</td>
-      <td>http://www.yahoo.com</td>
-      <td>abc 1</td>
-      <td>234</td>
-      <td>Ox</td>
-      <td>http://www.yahoo.com</td>
-    </tr>
-    <tr>
-      <td>abc 9</td>
-      <td>10</td>
-      <td>Girafee</td>
-      <td>http://www.facebook.com</td>
-      <td>abc 9</td>
-      <td>10</td>
-      <td>Girafee</td>
-      <td>http://www.facebook.com</td>
     </tr>
     <tr>
       <td>zyx 24</td>
@@ -228,26 +248,6 @@
       <td>http://www.ucla.edu/</td>
     </tr>
     <tr>
-      <td>abc 2</td>
-      <td>56</td>
-      <td>Elephant</td>
-      <td>http://www.wikipedia.org/</td>
-      <td>abc 2</td>
-      <td>56</td>
-      <td>Elephant</td>
-      <td>http://www.wikipedia.org/</td>
-    </tr>
-    <tr>
-      <td>abc 9</td>
-      <td>155</td>
-      <td>Lion</td>
-      <td>http://www.nytimes.com/</td>
-      <td>abc 9</td>
-      <td>155</td>
-      <td>Lion</td>
-      <td>http://www.nytimes.com/</td>
-    </tr>
-    <tr>
       <td>ABC 10</td>
       <td>87</td>
       <td>Zebra</td>
@@ -266,186 +266,6 @@
       <td>10</td>
       <td>Koala</td>
       <td>http://www.google.com</td>
-    </tr>
-    <tr>
-      <td>abc 1</td>
-      <td>234</td>
-      <td>Ox</td>
-      <td>http://www.yahoo.com</td>
-      <td>abc 1</td>
-      <td>234</td>
-      <td>Ox</td>
-      <td>http://www.yahoo.com</td>
-    </tr>
-    <tr>
-      <td>abc 9</td>
-      <td>10</td>
-      <td>Girafee</td>
-      <td>http://www.facebook.com</td>
-      <td>abc 9</td>
-      <td>10</td>
-      <td>Girafee</td>
-      <td>http://www.facebook.com</td>
-    </tr>
-    <tr>
-      <td>zyx 24</td>
-      <td>767</td>
-      <td>Bison</td>
-      <td>http://www.whitehouse.gov/</td>
-      <td>zyx 24</td>
-      <td>767</td>
-      <td>Bison</td>
-      <td>http://www.whitehouse.gov/</td>
-    </tr>
-    <tr>
-      <td>abc 11</td>
-      <td>3</td>
-      <td>Chimp</td>
-      <td>http://www.ucla.edu/</td>
-      <td>abc 11</td>
-      <td>3</td>
-      <td>Chimp</td>
-      <td>http://www.ucla.edu/</td>
-    </tr>
-    <tr>
-      <td>abc 2</td>
-      <td>56</td>
-      <td>Elephant</td>
-      <td>http://www.wikipedia.org/</td>
-      <td>abc 2</td>
-      <td>56</td>
-      <td>Elephant</td>
-      <td>http://www.wikipedia.org/</td>
-    </tr>
-    <tr>
-      <td>abc 9</td>
-      <td>155</td>
-      <td>Lion</td>
-      <td>http://www.nytimes.com/</td>
-      <td>abc 9</td>
-      <td>155</td>
-      <td>Lion</td>
-      <td>http://www.nytimes.com/</td>
-    </tr>
-    <tr>
-      <td>ABC 10</td>
-      <td>87</td>
-      <td>Zebra</td>
-      <td>http://www.google.com</td>
-      <td>ABC 10</td>
-      <td>87</td>
-      <td>Zebra</td>
-      <td>http://www.google.com</td>
-    </tr>
-    <tr>
-      <td>abc 123</td>
-      <td>10</td>
-      <td>Koala</td>
-      <td>http://www.google.com</td>
-      <td>abc 123</td>
-      <td>10</td>
-      <td>Koala</td>
-      <td>http://www.google.com</td>
-    </tr>
-    <tr>
-      <td>abc 1</td>
-      <td>234</td>
-      <td>Ox</td>
-      <td>http://www.yahoo.com</td>
-      <td>abc 1</td>
-      <td>234</td>
-      <td>Ox</td>
-      <td>http://www.yahoo.com</td>
-    </tr>
-    <tr>
-      <td>abc 9</td>
-      <td>10</td>
-      <td>Girafee</td>
-      <td>http://www.facebook.com</td>
-      <td>abc 9</td>
-      <td>10</td>
-      <td>Girafee</td>
-      <td>http://www.facebook.com</td>
-    </tr>
-    <tr>
-      <td>zyx 24</td>
-      <td>767</td>
-      <td>Bison</td>
-      <td>http://www.whitehouse.gov/</td>
-      <td>zyx 24</td>
-      <td>767</td>
-      <td>Bison</td>
-      <td>http://www.whitehouse.gov/</td>
-    </tr>
-    <tr>
-      <td>abc 11</td>
-      <td>3</td>
-      <td>Chimp</td>
-      <td>http://www.ucla.edu/</td>
-      <td>abc 11</td>
-      <td>3</td>
-      <td>Chimp</td>
-      <td>http://www.ucla.edu/</td>
-    </tr>
-    <tr>
-      <td>abc 2</td>
-      <td>56</td>
-      <td>Elephant</td>
-      <td>http://www.wikipedia.org/</td>
-      <td>abc 2</td>
-      <td>56</td>
-      <td>Elephant</td>
-      <td>http://www.wikipedia.org/</td>
-    </tr>
-    <tr>
-      <td>abc 9</td>
-      <td>155</td>
-      <td>Lion</td>
-      <td>http://www.nytimes.com/</td>
-      <td>abc 9</td>
-      <td>155</td>
-      <td>Lion</td>
-      <td>http://www.nytimes.com/</td>
-    </tr>
-    <tr>
-      <td>ABC 10</td>
-      <td>87</td>
-      <td>Zebra</td>
-      <td>http://www.google.com</td>
-      <td>ABC 10</td>
-      <td>87</td>
-      <td>Zebra</td>
-      <td>http://www.google.com</td>
-    </tr>
-    <tr>
-      <td>abc 123</td>
-      <td>10</td>
-      <td>Koala</td>
-      <td>http://www.google.com</td>
-      <td>abc 123</td>
-      <td>10</td>
-      <td>Koala</td>
-      <td>http://www.google.com</td>
-    </tr>
-    <tr>
-      <td>abc 1</td>
-      <td>234</td>
-      <td>Ox</td>
-      <td>http://www.yahoo.com</td>
-      <td>abc 1</td>
-      <td>234</td>
-      <td>Ox</td>
-      <td>http://www.yahoo.com</td>
-    </tr>
-    <tr>
-      <td>abc 9</td>
-      <td>10</td>
-      <td>Girafee</td>
-      <td>http://www.facebook.com</td>
-      <td>abc 9</td>
-      <td>10</td>
-      <td>Girafee</td>
-      <td>http://www.facebook.com</td>
     </tr>
     <tr>
       <td>zyx 24</td>
