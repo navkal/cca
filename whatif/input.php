@@ -24,21 +24,24 @@
           // Generate dropdown options
           do
           {
-        ?>
-          <option value="" >
-            <?=date( 'M', mktime( 0, 0, 0, $iMonth, 1 ) )?> <?=$iYear?>
-          </option>
-        <?php
+            // Format option display text
+            $sOptionText = date( 'M', mktime( 0, 0, 0, $iMonth, 1 ) ) . ' ' . $iYear;
 
-            // Increment counters
+            // Increment month and year counters
             $iMonth ++;
             if ( $iMonth > 12 )
             {
               $iMonth = 1;
               $iYear ++;
             }
+
+            // Determine loop status
+            $bLastOption = ( $iYear >= $iLastYear ) && ( $iMonth > $iThisMonth );
+
+            // Echo option
+            echo( '<option ' . ( $bLastOption ? 'selected' : '' ) . ' >' . $sOptionText . '</option>' );
           }
-          while( ( $iYear < $iLastYear ) || ( $iMonth <= $iThisMonth ) );
+          while( ! $bLastOption );
         ?>
 
       </select>
