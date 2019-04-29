@@ -39,7 +39,7 @@
     Massachusetts General Law, M.G.L. c. 164 sec. 134, outlines CCA rules.  To implement CCA in Andover, the town must take the following steps:
     <ol>
       <li>
-        Secure authorization to initiate the program at Town Meeting
+        Secure authorization from voters at Town Meeting to initiate CCA
       </li>
       <li>
         Plan the program in consultation with the Department of Energy Resources
