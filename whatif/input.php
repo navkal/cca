@@ -72,13 +72,24 @@
       ?>
     </div>
 
-
-
   </form>
 
 </div>
 
 <script>
+  $( document ).ready( init );
+
+  function init()
+  {
+    $( '#start-month' ).on( 'change', onChangeStartMonth );
+    onChangeStartMonth();
+  }
+
+  function onChangeStartMonth()
+  {
+    alert( 'selected=' + $( '#start-month' ).val() );
+  }
+
   function calculate()
   {
     alert( 'calculcate()' );
