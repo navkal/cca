@@ -188,12 +188,10 @@
   {
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     onChangeStartMonth();
-    calculate();
   }
 
   function onChangeStartMonth()
   {
-    console.log( 'selected=' + $( '#start-month' ).val() );
     var aInputs = $( 'input' );
     console.log( '==> num inputs: ' + aInputs.length );
   }
