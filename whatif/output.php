@@ -523,7 +523,7 @@
   {
     theme : 'green',
     headerTemplate : '{content} {icon}',
-    widgets : [ 'uitheme', 'resizable', 'filter', 'zebra', 'columns' ],
+    widgets : [ 'uitheme', 'resizable', 'filter' ],
     widgetOptions :
     {
       resizable: true,
