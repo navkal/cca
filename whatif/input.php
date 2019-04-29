@@ -5,6 +5,8 @@
 <div class="container">
 
   <form action="javascript:calculate();">
+
+    <!-- Dropdown to select start month -->
     <div class="form-group">
       <label for="start-month">Start Month</label>
       <select id="start-month" class="form-control" >
@@ -18,7 +20,7 @@
           // Initialize month and year counters
           $iMonth = 1;
           $iYear = 18;
-          
+
           // Generate dropdown options
           do
           {
@@ -41,6 +43,23 @@
 
       </select>
     </div>
+
+    <!-- 13 input fields -->
+    <div class="form-group">
+      <?php
+        for ( $iMonth = 0; $iMonth < 13; $iMonth ++ )
+        {
+          $sId = 'kwh-' . $iMonth;
+      ?>
+          <label for="<?=$sId?>">Moo</label>
+          <input id="<?=$sId?>" type="text">
+      <?php
+        }
+      ?>
+    </div>
+
+
+
   </form>
 
 </div>
