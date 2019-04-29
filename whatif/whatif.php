@@ -10,7 +10,7 @@
       <!-- Dropdown to select start month -->
       <div class="form-group">
         <label for="start-month">Start Month</label>
-        <select id="start-month" class="form-control" >
+        <select id="start-month" class="form-control" onchange="onChangeStartMonth" >
           <?php
 
             // Get upper boundary: this month last year
@@ -73,10 +73,13 @@
         ?>
       </div>
 
+      <button id="calculate-button" type="submit" class="btn btn-primary" >Calculate</button>
+      <button id="clear-button" type="button" class="btn btn-secondary" onclick="clearInput()" >Clear</button>
+
     </form>
   </div>
 
-  <div>
+  <div class="mt-5">
 
     <table id="cca-table" class="tablesorter" style="display:none">
       <thead>
@@ -113,46 +116,6 @@
           <td>http://www.facebook.com</td>
         </tr>
         <tr>
-          <td>zyx 24</td>
-          <td>767</td>
-          <td>Bison</td>
-          <td>http://www.whitehouse.gov/</td>
-          <td>zyx 24</td>
-          <td>767</td>
-          <td>Bison</td>
-          <td>http://www.whitehouse.gov/</td>
-        </tr>
-        <tr>
-          <td>abc 11</td>
-          <td>3</td>
-          <td>Chimp</td>
-          <td>http://www.ucla.edu/</td>
-          <td>abc 11</td>
-          <td>3</td>
-          <td>Chimp</td>
-          <td>http://www.ucla.edu/</td>
-        </tr>
-        <tr>
-          <td>ABC 10</td>
-          <td>87</td>
-          <td>Zebra</td>
-          <td>http://www.google.com</td>
-          <td>ABC 10</td>
-          <td>87</td>
-          <td>Zebra</td>
-          <td>http://www.google.com</td>
-        </tr>
-        <tr>
-          <td>zyx 24</td>
-          <td>767</td>
-          <td>Bison</td>
-          <td>http://www.whitehouse.gov/</td>
-          <td>zyx 24</td>
-          <td>767</td>
-          <td>Bison</td>
-          <td>http://www.whitehouse.gov/</td>
-        </tr>
-        <tr>
           <td>ABC 10</td>
           <td>87</td>
           <td>Zebra</td>
@@ -186,7 +149,6 @@
 
   function onDocumentReady()
   {
-    $( '#start-month' ).on( 'change', onChangeStartMonth );
     onChangeStartMonth();
   }
 
@@ -214,8 +176,13 @@
     $( '#cca-table' ).tablesorter( jQuery.extend( true, { sortList: [[0,0]] }, tTableProps ) );
     $( '#cca-table' ).show();
   }
-</script>
 
+  function clearInput()
+  {
+    $( '#cca-table' ).hide();
+    $( 'input' ).val( '' );
+  }
+</script>
 
 <!-- tablesorter theme -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.1/css/theme.green.min.css" integrity="sha256-5wegm6TtJ7+Md5L+1lED6TVE+NAr0G+ZyHuPRrihJHE=" crossorigin="anonymous" />
