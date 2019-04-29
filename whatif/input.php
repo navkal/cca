@@ -47,12 +47,23 @@
     <!-- 13 input fields -->
     <div class="form-group">
       <?php
-        for ( $iMonth = 0; $iMonth < 13; $iMonth ++ )
+        for ( $iRow = 1; $iRow <= 7; $iRow ++ )
         {
-          $sId = 'kwh-' . $iMonth;
+          $sId1 = 'kwh-' . $iRow;
+          $sId2 = 'kwh-' . ( $iRow + 7 );
       ?>
-          <label for="<?=$sId?>">Moo</label>
-          <input id="<?=$sId?>" type="text">
+          <label for="<?=$sId1?>"><?=$sId1?></label>
+          <input id="<?=$sId1?>" type="text">
+          <?php
+            if ( $iRow < 7 )
+            {
+          ?>
+              <label for="<?=$sId2?>"><?=$sId2?></label>
+              <input id="<?=$sId2?>" type="text">
+          <?php
+            }
+          ?>
+          <br/>
       <?php
         }
       ?>
