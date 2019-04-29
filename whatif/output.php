@@ -3,7 +3,7 @@
 ?>
 
 
-<table id="acc-table" class="tablesorter">
+<table id="cca-table" class="tablesorter" style="display:none">
   <thead>
     <tr>
       <th>AlphaNumeric</th>
@@ -350,12 +350,4 @@
       filter_cssFilter: 'form-control'
     }
   };
-
-  $( document ).ready( init );
-
-  function init()
-  {
-    // Initialize the tablesorter
-    $( '#acc-table' ).tablesorter( jQuery.extend( true, { sortList: [[0,0]] }, g_tTableProps ) );
-  }
 </script>

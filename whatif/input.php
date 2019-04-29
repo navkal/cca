@@ -95,5 +95,8 @@
   function calculate()
   {
     alert( 'calculcate()' );
+    // Initialize the tablesorter
+    $( '#cca-table' ).tablesorter( jQuery.extend( true, { sortList: [[0,0]] }, g_tTableProps ) );
+    $( '#cca-table' ).show();
   }
 </script>
