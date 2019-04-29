@@ -77,9 +77,9 @@
 </div>
 
 <script>
-  $( document ).ready( onInputReady );
+  $( document ).ready( onDocumentReady );
 
-  function onInputReady()
+  function onDocumentReady()
   {
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     onChangeStartMonth();
