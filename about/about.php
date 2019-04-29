@@ -9,7 +9,7 @@
   </p>
 
   <p>
-    Community Choice Aggregation (CCA) is a state-regulated program that addresses the growing demand by Massachusetts electricity consumers to purchase renewable energy at a competitive price.  Also known as <i>Municipal Aggregation</i>, the program authorizes a municipality to negotiate prices and terms with competing electricity suppliers on behalf of the community.  Today, 146 Massachusetts towns and cities already participate in this program.  Andover should, too.
+    Community Choice Aggregation (CCA) is a state-regulated program that addresses the growing demand by Massachusetts electricity consumers to purchase renewable energy at competitive prices.  Also known as <i>Municipal Aggregation</i>, the program authorizes a municipality to negotiate prices and terms with competing electricity suppliers on behalf of the community.  One hundred forty-six Massachusetts towns and cities already participate in this program today.  Andover should, too.
   </p>
 
   <p>
