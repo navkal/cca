@@ -3,7 +3,7 @@
 ?>
 
 
-<table id="bgt_table" class="tablesorter">
+<table id="acc-table" class="tablesorter">
   <thead>
     <tr>
       <th>AlphaNumeric</th>
@@ -356,6 +356,6 @@
   function init()
   {
     // Initialize the tablesorter
-    $( '#bgt_table' ).tablesorter( jQuery.extend( true, { sortList: [[0,0]] }, g_tTableProps ) );
+    $( '#acc-table' ).tablesorter( jQuery.extend( true, { sortList: [[0,0]] }, g_tTableProps ) );
   }
 </script>
