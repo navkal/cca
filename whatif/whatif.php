@@ -7,6 +7,10 @@
 {
   max-width: 70px
 }
+.kwh-input-label
+{
+  min-width: 70px
+}
 </style>
 
 <div class="container">
@@ -66,7 +70,7 @@
         ?>
             <div class="row">
               <div class="col">
-                <label for="<?=$sId1?>"><?=$sId1?></label>
+                <label for="<?=$sId1?>" class="control-label text-right kwh-input-label mr-1" ></label>
                 <input id="<?=$sId1?>" type="text" class="kwh-input">
               </div>
               <?php
@@ -74,7 +78,7 @@
                 {
               ?>
                 <div class="col">
-                  <label for="<?=$sId2?>"><?=$sId2?></label>
+                  <label for="<?=$sId2?>" class="control-label text-right kwh-input-label mr-1"></label>
                   <input id="<?=$sId2?>" type="text" class="kwh-input">
                 </div>
               <?php
@@ -200,8 +204,6 @@
     for ( var iInput = 1; iInput <= aInputs.length; iInput ++ )
     {
       var tLabel = $( "label[for='kwh-" + iInput + "']" );
-      console.log( tLabel.text() );
-
       tLabel.text( aMonths[ iStartMonth - 1 ] );
       iStartMonth = ( iStartMonth % 12 ) + 1;
     }
