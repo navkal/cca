@@ -191,8 +191,11 @@
     var aInputs = $( 'input' );
     for ( var iInput = 1; iInput <= aInputs.length; iInput ++ )
     {
+      // Set next label
       var tLabel = $( "label[for='kwh-" + iInput + "']" );
       tLabel.text( aMonths[ iStartMonth - 1 ] + ' ' +  iStartYear );
+
+      // Increment month and year counters
       iStartMonth = ( iStartMonth % 12 ) + 1;
       if ( iStartMonth == 1 )
       {
