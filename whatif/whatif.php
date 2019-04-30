@@ -169,19 +169,17 @@
     $( '#start-month' ).focus();
 
     // Fix tab order
-    fixTabOrder();
+    initTabOrder();
 
     // Handle initial dropdown selection
     onChangeStartMonth();
   }
 
-  function fixTabOrder()
+  function initTabOrder()
   {
-    var aInputs = $( 'input' );
-    console.log( '==> num inputs: ' + aInputs.length );
-
-
     $( '#start-month' ).prop( 'tabindex', 1 );
+
+    var aInputs = $( 'input' );
     for ( var iInput = 0; iInput < aInputs.length; iInput ++ )
     {
       $( aInputs[iInput] ).prop( 'tabindex', ( iInput % 2 ) + 1 );
@@ -189,7 +187,6 @@
 
     $( '#calculate-button' ).prop( 'tabindex', 2 );
     $( '#clear-button' ).prop( 'tabindex', 3 );
-
   }
 
   function onChangeStartMonth()
