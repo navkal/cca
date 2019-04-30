@@ -2,6 +2,13 @@
   // Copyright 2019 Andover CCA.  All rights reserved.
 ?>
 
+<style>
+.kwh-input
+{
+  max-width: 70px
+}
+</style>
+
 <div class="container">
 
   <div>
@@ -10,7 +17,7 @@
       <!-- Dropdown to select start month -->
       <div class="form-group">
         <label for="start-month">Start Month</label>
-        <select id="start-month" class="form-control" onchange="onChangeStartMonth" >
+        <select id="start-month" class="form-control" >
           <?php
 
             // Get upper boundary: this month last year
@@ -56,25 +63,30 @@
             $sId1 = 'kwh-' . $iRow;
             $sId2 = 'kwh-' . ( $iRow + 7 );
         ?>
-            <label for="<?=$sId1?>"><?=$sId1?></label>
-            <input id="<?=$sId1?>" type="text">
-            <?php
-              if ( $iRow < 7 )
-              {
-            ?>
-                <label for="<?=$sId2?>"><?=$sId2?></label>
-                <input id="<?=$sId2?>" type="text">
-            <?php
-              }
-            ?>
-            <br/>
+            <div class="row">
+              <div class="col">
+                <label for="<?=$sId1?>"><?=$sId1?></label>
+                <input id="<?=$sId1?>" type="text" class="kwh-input">
+              </div>
+              <?php
+                if ( $iRow < 7 )
+                {
+              ?>
+                <div class="col">
+                  <label for="<?=$sId2?>"><?=$sId2?></label>
+                  <input id="<?=$sId2?>" type="text" class="kwh-input">
+                </div>
+              <?php
+                }
+              ?>
+            </div>
         <?php
           }
         ?>
       </div>
 
       <button id="calculate-button" type="submit" class="btn btn-primary" >Calculate</button>
-      <button id="clear-button" type="button" class="btn btn-secondary" onclick="clearInput()" >Clear</button>
+      <button id="clear-button" type="button" class="btn btn-secondary" >Clear</button>
 
     </form>
   </div>
@@ -149,7 +161,35 @@
 
   function onDocumentReady()
   {
+    // Set up event handlers
+    $( '#start-month' ).on( 'change', onChangeStartMonth );
+    $( 'clear-button' ).on( 'click', clearInput );
+
+    // Focus on the dropdown
+    $( '#start-month' ).focus();
+
+    // Fix tab order
+    fixTabOrder();
+
+    // Handle initial dropdown selection
     onChangeStartMonth();
+  }
+
+  function fixTabOrder()
+  {
+    var aInputs = $( 'input' );
+    console.log( '==> num inputs: ' + aInputs.length );
+
+
+    $( '#start-month' ).prop( 'tabindex', 1 );
+    for ( var iInput = 0; iInput < aInputs.length; iInput ++ )
+    {
+      $( aInputs[iInput] ).prop( 'tabindex', ( iInput % 2 ) + 1 );
+    }
+
+    $( '#calculate-button' ).prop( 'tabindex', 2 );
+    $( '#clear-button' ).prop( 'tabindex', 3 );
+
   }
 
   function onChangeStartMonth()
