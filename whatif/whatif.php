@@ -12,7 +12,7 @@
 <div class="container">
 
   <div>
-    <form action="javascript:calculate();">
+    <form action="javascript:calculateOutput();">
 
       <!-- Dropdown to select start month -->
       <div class="form-group">
@@ -163,7 +163,7 @@
   {
     // Set up event handlers
     $( '#start-month' ).on( 'change', onChangeStartMonth );
-    $( 'clear-button' ).on( 'click', clearInput );
+    $( '#clear-button' ).on( 'click', clearInput );
 
     // Focus on the dropdown
     $( '#start-month' ).focus();
@@ -200,7 +200,7 @@
     }
   }
 
-  function calculate()
+  function calculateOutput()
   {
     var tTableProps =
     {
@@ -223,6 +223,7 @@
   {
     $( '#cca-table' ).hide();
     $( 'input' ).val( '' );
+    $( '#start-month' ).focus();
   }
 </script>
 
