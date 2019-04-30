@@ -34,6 +34,7 @@
             {
               // Format option display text
               $sOptionText = date( 'M', mktime( 0, 0, 0, $iMonth, 1 ) ) . ' ' . $iYear;
+              $sOptionValue = $iMonth;
 
               // Increment month and year counters
               $iMonth ++;
@@ -47,7 +48,7 @@
               $bLastOption = ( $iYear >= $iLastYear ) && ( $iMonth > $iThisMonth );
 
               // Echo option
-              echo( '<option ' . ( $bLastOption ? 'selected' : '' ) . ' >' . $sOptionText . '</option>' );
+              echo( '<option ' . ( $bLastOption ? 'selected' : '' ) . ' value="' . $sOptionValue . '" >' . $sOptionText . '</option>' );
             }
             while( ! $bLastOption );
           ?>
@@ -157,6 +158,8 @@
 
 <script>
 
+  var aMonths = [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ];
+
   $( document ).ready( onDocumentReady );
 
   function onDocumentReady()
@@ -191,12 +194,16 @@
 
   function onChangeStartMonth()
   {
+    var iStartMonth = $( '#start-month' ).val();
+
     var aInputs = $( '.kwh-input' );
     for ( var iInput = 1; iInput <= aInputs.length; iInput ++ )
     {
       var tLabel = $( "label[for='kwh-" + iInput + "']" );
       console.log( tLabel.text() );
-      tLabel.text( $( '#start-month' ).val() );
+
+      tLabel.text( aMonths[ iStartMonth - 1 ] );
+      iStartMonth = ( iStartMonth % 12 ) + 1;
     }
   }
 
