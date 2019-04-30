@@ -15,86 +15,84 @@
 
 <div class="container">
 
-  <div>
-    <form action="javascript:calculateOutput();">
+  <form action="javascript:calculateOutput();" style="display:none">
 
-      <!-- Dropdown to select start month -->
-      <div class="form-group">
-        <label for="start-month">Start Month</label>
-        <select id="start-month" class="form-control" >
-          <?php
-
-            // Get upper boundary: this month last year
-            $iTime = time();
-            $iThisMonth = intval( date( 'm', $iTime ) );
-            $iLastYear = intval( date( 'y', $iTime ) ) - 1;
-
-            // Initialize month and year counters
-            $iMonth = 1;
-            $iYear = 18;
-
-            // Generate dropdown options
-            do
-            {
-              // Format option display text
-              $sOptionText = date( 'M', mktime( 0, 0, 0, $iMonth, 1 ) ) . ' ' . $iYear;
-              $sOptionValue = $iMonth;
-
-              // Increment month and year counters
-              $iMonth ++;
-              if ( $iMonth > 12 )
-              {
-                $iMonth = 1;
-                $iYear ++;
-              }
-
-              // Determine loop status
-              $bLastOption = ( $iYear >= $iLastYear ) && ( $iMonth > $iThisMonth );
-
-              // Echo option
-              echo( '<option ' . ( $bLastOption ? 'selected' : '' ) . ' value="' . $sOptionValue . '" >' . $sOptionText . '</option>' );
-            }
-            while( ! $bLastOption );
-          ?>
-
-        </select>
-      </div>
-
-      <!-- 13 input fields -->
-      <div class="form-group">
+    <!-- Dropdown to select start month -->
+    <div class="form-group">
+      <label for="start-month">Start Month</label>
+      <select id="start-month" class="form-control" >
         <?php
-          for ( $iRow = 1; $iRow <= 7; $iRow ++ )
+
+          // Get upper boundary: this month last year
+          $iTime = time();
+          $iThisMonth = intval( date( 'm', $iTime ) );
+          $iLastYear = intval( date( 'y', $iTime ) ) - 1;
+
+          // Initialize month and year counters
+          $iMonth = 1;
+          $iYear = 18;
+
+          // Generate dropdown options
+          do
           {
-            $sId1 = 'kwh-' . $iRow;
-            $sId2 = 'kwh-' . ( $iRow + 7 );
-        ?>
-            <div class="row">
-              <div class="col">
-                <label for="<?=$sId1?>" class="control-label text-right kwh-input-label mr-1" ></label>
-                <input id="<?=$sId1?>" type="text" class="kwh-input">
-              </div>
-              <?php
-                if ( $iRow < 7 )
-                {
-              ?>
-                <div class="col">
-                  <label for="<?=$sId2?>" class="control-label text-right kwh-input-label mr-1"></label>
-                  <input id="<?=$sId2?>" type="text" class="kwh-input">
-                </div>
-              <?php
-                }
-              ?>
-            </div>
-        <?php
+            // Format option display text
+            $sOptionText = date( 'M', mktime( 0, 0, 0, $iMonth, 1 ) ) . ' ' . $iYear;
+            $sOptionValue = $iMonth;
+
+            // Increment month and year counters
+            $iMonth ++;
+            if ( $iMonth > 12 )
+            {
+              $iMonth = 1;
+              $iYear ++;
+            }
+
+            // Determine loop status
+            $bLastOption = ( $iYear >= $iLastYear ) && ( $iMonth > $iThisMonth );
+
+            // Echo option
+            echo( '<option ' . ( $bLastOption ? 'selected' : '' ) . ' value="' . $sOptionValue . '" >' . $sOptionText . '</option>' );
           }
+          while( ! $bLastOption );
         ?>
-      </div>
 
-      <button id="calculate-button" type="submit" class="btn btn-primary" >Calculate</button>
-      <button id="clear-button" type="button" class="btn btn-secondary" >Clear</button>
+      </select>
+    </div>
 
-    </form>
-  </div>
+    <!-- 13 input fields -->
+    <div class="form-group">
+      <?php
+        for ( $iRow = 1; $iRow <= 7; $iRow ++ )
+        {
+          $sId1 = 'kwh-' . $iRow;
+          $sId2 = 'kwh-' . ( $iRow + 7 );
+      ?>
+          <div class="row">
+            <div class="col">
+              <label for="<?=$sId1?>" class="kwh-input-label text-right mr-1" ></label>
+              <input id="<?=$sId1?>" type="text" class="kwh-input">
+            </div>
+            <?php
+              if ( $iRow < 7 )
+              {
+            ?>
+              <div class="col">
+                <label for="<?=$sId2?>" class="kwh-input-label text-right mr-1"></label>
+                <input id="<?=$sId2?>" type="text" class="kwh-input">
+              </div>
+            <?php
+              }
+            ?>
+          </div>
+      <?php
+        }
+      ?>
+    </div>
+
+    <button id="calculate-button" type="submit" class="btn btn-primary" >Calculate</button>
+    <button id="clear-button" type="button" class="btn btn-secondary" >Clear</button>
+
+  </form>
 
   <div class="mt-5">
 
@@ -180,6 +178,9 @@
 
     // Handle initial dropdown selection
     onChangeStartMonth();
+    
+    // Show the form
+    $( 'form' ).show();
   }
 
   function initTabOrder()
