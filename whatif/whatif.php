@@ -2,17 +2,6 @@
   // Copyright 2019 Andover CCA.  All rights reserved.
 ?>
 
-<style>
-.kwh-input
-{
-  max-width: 70px
-}
-.kwh-input-label
-{
-  min-width: 70px
-}
-</style>
-
 <div class="container">
 
   <form action="javascript:calculateOutput();" style="display:none">
