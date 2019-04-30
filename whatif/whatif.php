@@ -179,7 +179,7 @@
   {
     $( '#start-month' ).prop( 'tabindex', 1 );
 
-    var aInputs = $( 'input' );
+    var aInputs = $( '.kwh-input' );
     for ( var iInput = 0; iInput < aInputs.length; iInput ++ )
     {
       $( aInputs[iInput] ).prop( 'tabindex', ( iInput % 2 ) + 1 );
@@ -191,8 +191,13 @@
 
   function onChangeStartMonth()
   {
-    var aInputs = $( 'input' );
-    console.log( '==> num inputs: ' + aInputs.length );
+    var aInputs = $( '.kwh-input' );
+    for ( var iInput = 1; iInput <= aInputs.length; iInput ++ )
+    {
+      var tLabel = $( "label[for='kwh-" + iInput + "']" );
+      console.log( tLabel.text() );
+      tLabel.text( 'moo-' + iInput );
+    }
   }
 
   function calculate()
