@@ -196,7 +196,7 @@
     {
       var tLabel = $( "label[for='kwh-" + iInput + "']" );
       console.log( tLabel.text() );
-      tLabel.text( 'moo-' + iInput );
+      tLabel.text( $( '#start-month' ).val() );
     }
   }
 
