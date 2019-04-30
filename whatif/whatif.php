@@ -26,7 +26,7 @@
           {
             // Format option display text
             $sOptionText = date( 'M', mktime( 0, 0, 0, $iMonth, 1 ) ) . ' ' . $iYear;
-            $sOptionValue = $iMonth;
+            $sOptionValue = $iMonth . '.' . $iYear;
 
             // Increment month and year counters
             $iMonth ++;
@@ -184,14 +184,20 @@
 
   function onChangeStartMonth()
   {
-    var iStartMonth = $( '#start-month' ).val();
+    var aMonthYear = $( '#start-month' ).val().split( '.' );
+    var iStartMonth = aMonthYear[0];
+    var iStartYear = aMonthYear[1];
 
     var aInputs = $( 'input' );
     for ( var iInput = 1; iInput <= aInputs.length; iInput ++ )
     {
       var tLabel = $( "label[for='kwh-" + iInput + "']" );
-      tLabel.text( aMonths[ iStartMonth - 1 ] );
+      tLabel.text( aMonths[ iStartMonth - 1 ] + ' ' +  iStartYear );
       iStartMonth = ( iStartMonth % 12 ) + 1;
+      if ( iStartMonth == 1 )
+      {
+        iStartYear ++;
+      }
     }
   }
 
