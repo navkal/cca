@@ -59,35 +59,26 @@
       </select>
     </div>
 
-    <!-- 13 input fields -->
-    <div class="form-group">
-      <?php
-        for ( $iRow = 1; $iRow <= 7; $iRow ++ )
-        {
-          $sId1 = 'kwh-' . $iRow;
-          $sId2 = 'kwh-' . ( $iRow + 7 );
-      ?>
-          <div class="row">
-            <div class="col">
-              <label for="<?=$sId1?>" class="kwh-input-label text-right mr-1" ></label>
-              <input id="<?=$sId1?>" type="text" class="kwh-input">
-            </div>
-            <?php
-              if ( $iRow < 7 )
-              {
-            ?>
-              <div class="col">
-                <label for="<?=$sId2?>" class="kwh-input-label text-right mr-1"></label>
-                <input id="<?=$sId2?>" type="text" class="kwh-input">
-              </div>
-            <?php
-              }
-            ?>
+    <!-- kWh input fields -->
+    <?php
+      for ( $iRow = 1; $iRow <= 7; $iRow ++ )
+      {
+        $sId1 = 'kwh-' . $iRow;
+        $sId2 = 'kwh-' . ( $iRow + 7 );
+    ?>
+        <div class="form-group row">
+          <div class="col">
+            <label for="<?=$sId1?>" class="col-sm-2 col-form-label col-form-label-sm" ></label>
+            <input id="<?=$sId1?>" type="text" class="form-control form-control-sm">
           </div>
-      <?php
-        }
-      ?>
-    </div>
+          <div class="col">
+            <label for="<?=$sId2?>" class="col-sm-2 col-form-label col-form-label-sm"></label>
+            <input id="<?=$sId2?>" type="text" class="form-control form-control-sm">
+          </div>
+        </div>
+    <?php
+      }
+    ?>
 
     <button id="calculate-button" type="submit" class="btn btn-primary" >Calculate</button>
     <button id="clear-button" type="button" class="btn btn-secondary" >Clear</button>
@@ -170,24 +161,29 @@
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     $( '#clear-button' ).on( 'click', clearInput );
 
-    // Focus on the dropdown
-    $( '#start-month' ).focus();
+    // Hide the last label and input
+    var aInputs = $( 'input' );
+    $( "label[for='kwh-14']" ).hide();
+    $( aInputs[aInputs.length-1] ).hide();
 
-    // Fix tab order
+    // Set the tab order
     initTabOrder();
 
     // Handle initial dropdown selection
     onChangeStartMonth();
-    
+
     // Show the form
     $( 'form' ).show();
+
+    // Focus on the dropdown
+    $( '#start-month' ).focus();
   }
 
   function initTabOrder()
   {
     $( '#start-month' ).prop( 'tabindex', 1 );
 
-    var aInputs = $( '.kwh-input' );
+    var aInputs = $( 'input' );
     for ( var iInput = 0; iInput < aInputs.length; iInput ++ )
     {
       $( aInputs[iInput] ).prop( 'tabindex', ( iInput % 2 ) + 1 );
@@ -201,7 +197,7 @@
   {
     var iStartMonth = $( '#start-month' ).val();
 
-    var aInputs = $( '.kwh-input' );
+    var aInputs = $( 'input' );
     for ( var iInput = 1; iInput <= aInputs.length; iInput ++ )
     {
       var tLabel = $( "label[for='kwh-" + iInput + "']" );
