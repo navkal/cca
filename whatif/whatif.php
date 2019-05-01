@@ -16,6 +16,7 @@ input.error
 
 <div class="container">
 
+  <!-- Input -->
   <form action="javascript:calculateOutput();" style="display:none">
 
     <!-- Dropdown to select start month -->
@@ -82,9 +83,9 @@ input.error
     ?>
 
     <!-- Buttons -->
-    <div class="row">
+    <div class="row mt-4">
       <div class="col text-center">
-        <button id="calculate-button" type="submit" class="btn btn-primary" disabled >
+        <button id="calculate-button" type="submit" class="btn btn-primary" >
           Calculate
         </button>
         <button id="clear-button" type="button" class="btn btn-secondary" >
@@ -98,27 +99,8 @@ input.error
 
   </form>
 
-<!-- Modal -->
-<div class="modal fade" id="instructions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
+  <!-- Output -->
   <div class="mt-5">
 
     <table id="cca-table" class="tablesorter" style="display:none">
@@ -180,7 +162,27 @@ input.error
 
   </div>
 
+</div>
 
+<!-- Help modal -->
+<div class="modal fade" id="instructions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -212,8 +214,7 @@ input.error
     // Show the form
     $( 'form' ).show();
 
-    // Focus on the dropdown
-    $( '#start-month' ).focus();
+    clearInput();
   }
 
   function initTabOrder()
@@ -226,8 +227,7 @@ input.error
       $( aInputs[iInput] ).prop( 'tabindex', ( iInput % 2 ) + 1 );
     }
 
-    $( '#calculate-button' ).prop( 'tabindex', 2 );
-    $( '#clear-button' ).prop( 'tabindex', 3 );
+    $( 'form button' ).prop( 'tabindex', 2 );
   }
 
   function onChangeStartMonth()
@@ -308,7 +308,7 @@ input.error
 
   function enableCalculateButton( bEnable )
   {
-    $( '#calculate-button' ).prop( 'disabled', ! bEnable );
+    $( '#calculate-button' ).prop( 'disabled', ! bEnable ).focus();
   }
 
   function clearInput()
