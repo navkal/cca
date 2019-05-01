@@ -164,7 +164,7 @@ input.error
 
 </div>
 
-<!-- Help modal -->
+<!-- Help modal dialog -->
 <div class="modal fade" id="instructions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
