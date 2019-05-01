@@ -222,6 +222,10 @@ input.error
     var tTarget = $( tEvent.target );
     var tParent = tTarget.parent();
 
+    // Trim the input
+    tTarget.val( tTarget.val().trim() );
+    
+    // Validate the input
     if ( /^\d+$/.test( tTarget.val() ) )
     {
       tTarget.removeClass( 'error' );
