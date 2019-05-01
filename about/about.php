@@ -4,7 +4,7 @@
 
 <div class="container">
 
-  <p class="h5">
+  <p class="h5 mt-1">
     What is <i>Community Choice Aggregation</i>?
   </p>
 

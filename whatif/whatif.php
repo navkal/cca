@@ -16,10 +16,10 @@ input.error
 
 <div class="container">
 
-  <div class="mb-5">
+  <div class="mt-1 mb-5">
     <div class="row">
       <div class="h6 col">
-        What if I already had CCA?
+        What would your electric bill be with CCA?
       </div>
       <div class="col">
         <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#help-modal">
@@ -179,14 +179,14 @@ input.error
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Help</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Instructions</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
         <div class="alert alert-info" role="alert">
-          Enter <b>Electric Usage History</b> readings, listed on page 2 of your National Grid bill.
+          Enter <b>Electric Usage History</b> readings, listed on page 2 of your National Grid bill.  Then click 'Calculate'.
         </div>
 
         <img src="whatif/bill.png"></img>
@@ -194,7 +194,6 @@ input.error
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
