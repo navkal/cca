@@ -16,6 +16,19 @@ input.error
 
 <div class="container">
 
+  <div class="mb-5">
+    <div class="row">
+      <div class="h6 col">
+        What if I already had CCA?
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#help-modal">
+          Help
+        </button>
+      </div>
+    </div>
+  </div>
+
   <!-- Input -->
   <form action="javascript:calculateOutput();" style="display:none">
 
@@ -90,9 +103,6 @@ input.error
         </button>
         <button id="clear-button" type="button" class="btn btn-secondary" >
           Clear
-        </button>
-        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#help-modal">
-          Help
         </button>
       </div>
     </div>
@@ -176,7 +186,7 @@ input.error
       </div>
       <div class="modal-body">
         <div class="alert alert-info" role="alert">
-          Enter the monthly readings shown on the reverse side of your National Grid bill.
+          Enter <b>Electric Usage History</b> readings, listed on page 2 of your National Grid bill.
         </div>
 
         <img src="whatif/bill.png"></img>
