@@ -91,7 +91,7 @@ input.error
         <button id="clear-button" type="button" class="btn btn-secondary" >
           Clear
         </button>
-        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#instructions">
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#help-modal">
           Help
         </button>
       </div>
@@ -165,17 +165,22 @@ input.error
 </div>
 
 <!-- Help modal dialog -->
-<div class="modal fade" id="instructions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<div class="modal fade" id="help-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Help</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="alert alert-info" role="alert">
+          Enter the monthly readings shown on the reverse side of your National Grid bill.
+        </div>
+
+        <img src="whatif/bill.png"></img>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
