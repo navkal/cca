@@ -166,7 +166,9 @@ input.error
     // Hide the last label and input
     $( "label[for='kwh-14']" ).hide();
     var aInputs = $( '.kwh-input' );
-    $( aInputs[aInputs.length-1] ).hide();
+    var tDummy = $( aInputs[aInputs.length-1] );
+    tDummy.hide();
+    tDummy.removeClass( 'kwh-input' );
 
     // Set the tab order
     initTabOrder();
@@ -224,18 +226,25 @@ input.error
 
     // Trim the input
     tTarget.val( tTarget.val().trim() );
-    
+
     // Validate the input
     if ( /^\d+$/.test( tTarget.val() ) )
     {
       tTarget.removeClass( 'error' );
       tParent.removeClass( 'error' );
-      if ( /* all kwh inputs filled */ true )
+
+      // If all inputs contain integers, enable the calculate button
+      var bReady = $( '.error' ).length == 0;
+      var aInputs = $( '.kwh-input' );
+      for ( var iInput = 0 ; bReady && ( iInput < aInputs.length ); iInput ++ )
+      {
+        bReady = $( aInputs[iInput] ).val() != '';
+      }
+
+      if ( bReady )
       {
         enableCalculateButton( true );
       }
-
-      //////////// if all inputs filled, enable lthe calculate button
     }
     else
     {
