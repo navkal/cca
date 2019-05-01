@@ -2,6 +2,18 @@
   // Copyright 2019 Andover CCA.  All rights reserved.
 ?>
 
+<style>
+div.error
+{
+  color: #b30000;
+}
+input.error
+{
+  border: solid 1px #b30000;
+  color: #b30000;
+}
+</style>
+
 <div class="container">
 
   <form action="javascript:calculateOutput();" style="display:none">
@@ -58,18 +70,18 @@
         <div class="form-group row">
           <div class="col">
             <label for="<?=$sId1?>" class="col-sm-2 col-form-label col-form-label-sm" ></label>
-            <input id="<?=$sId1?>" type="text" class="form-control form-control-sm">
+            <input id="<?=$sId1?>" type="text" class="form-control form-control-sm kwh-input">
           </div>
           <div class="col">
             <label for="<?=$sId2?>" class="col-sm-2 col-form-label col-form-label-sm"></label>
-            <input id="<?=$sId2?>" type="text" class="form-control form-control-sm">
+            <input id="<?=$sId2?>" type="text" class="form-control form-control-sm kwh-input">
           </div>
         </div>
     <?php
       }
     ?>
 
-    <button id="calculate-button" type="submit" class="btn btn-primary" >Calculate</button>
+    <button id="calculate-button" type="submit" class="btn btn-primary" disabled >Calculate</button>
     <button id="clear-button" type="button" class="btn btn-secondary" >Clear</button>
 
   </form>
@@ -148,11 +160,12 @@
   {
     // Set up event handlers
     $( '#start-month' ).on( 'change', onChangeStartMonth );
+    $( '.kwh-input' ).on( 'change', onChangeKwhInput );
     $( '#clear-button' ).on( 'click', clearInput );
 
     // Hide the last label and input
-    var aInputs = $( 'input' );
     $( "label[for='kwh-14']" ).hide();
+    var aInputs = $( '.kwh-input' );
     $( aInputs[aInputs.length-1] ).hide();
 
     // Set the tab order
@@ -172,7 +185,7 @@
   {
     $( '#start-month' ).prop( 'tabindex', 1 );
 
-    var aInputs = $( 'input' );
+    var aInputs = $( '.kwh-input' );
     for ( var iInput = 0; iInput < aInputs.length; iInput ++ )
     {
       $( aInputs[iInput] ).prop( 'tabindex', ( iInput % 2 ) + 1 );
@@ -188,7 +201,7 @@
     var iStartMonth = aMonthYear[0];
     var iStartYear = aMonthYear[1];
 
-    var aInputs = $( 'input' );
+    var aInputs = $( '.kwh-input' );
     for ( var iInput = 1; iInput <= aInputs.length; iInput ++ )
     {
       // Set next label
@@ -201,6 +214,30 @@
       {
         iStartYear ++;
       }
+    }
+  }
+
+  function onChangeKwhInput( tEvent )
+  {
+    var tTarget = $( tEvent.target );
+    var tParent = tTarget.parent();
+
+    if ( /^\d+$/.test( tTarget.val() ) )
+    {
+      tTarget.removeClass( 'error' );
+      tParent.removeClass( 'error' );
+      if ( /* all kwh inputs filled */ true )
+      {
+        enableCalculateButton( true );
+      }
+
+      //////////// if all inputs filled, enable lthe calculate button
+    }
+    else
+    {
+      tTarget.addClass( 'error' );
+      tParent.addClass( 'error' );
+      enableCalculateButton( false );
     }
   }
 
@@ -223,10 +260,17 @@
     $( '#cca-table' ).show();
   }
 
+  function enableCalculateButton( bEnable )
+  {
+    $( '#calculate-button' ).prop( 'disabled', ! bEnable );
+  }
+
   function clearInput()
   {
+    $( '.kwh-input' ).val( '' );
+    $( '.error' ).removeClass( 'error' );
+    enableCalculateButton( false );
     $( '#cca-table' ).hide();
-    $( 'input' ).val( '' );
     $( '#start-month' ).focus();
   }
 </script>
