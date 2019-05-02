@@ -30,7 +30,7 @@ input.error
   </div>
 
   <!-- Input -->
-  <form action="javascript:calculateOutput();" style="display:none">
+  <form action="javascript:makeOutput();" style="display:none">
 
     <!-- Dropdown to select start month -->
     <div class="form-group">
@@ -367,9 +367,9 @@ input.error
     $( '#cca-table' ).tablesorter( jQuery.extend( true, { sortList: [[0,0]] }, tTableProps ) );
   }
 
-  function calculateOutput()
+  function makeOutput()
   {
-    var nCostNg = calculateCost( 'National Grid' );
+    var nCostNg = calculateOutput( 'National Grid' );
 
     var sHtml = '';
     for ( var iSource = 0; iSource < g_aSources.length; iSource ++ )
@@ -380,10 +380,10 @@ input.error
       sHtml += sSource;
       sHtml += '</td>';
       sHtml += '<td>$';
-      sHtml += calculateCost( sSource );
+      sHtml += calculateOutput( sSource );
       sHtml += '</td>';
       sHtml += '<td>$';
-      sHtml += ( nCostNg - calculateCost( sSource ) ).toFixed( 0 );
+      sHtml += ( nCostNg - calculateOutput( sSource ) ).toFixed( 0 );
       sHtml += '</td>';
       sHtml += '</tr>';
     }
@@ -396,7 +396,7 @@ input.error
     showOutput( true );
   }
 
-  function calculateCost( sSource )
+  function calculateOutput( sSource )
   {
     var nCost = 0;
 
@@ -461,7 +461,7 @@ input.error
     $( '#kwh-12' ).val( 715 );
     $( '#kwh-13' ).val( 695 );
     enableCalculateButton( true );
-    calculateOutput();
+    makeOutput();
   }
 </script>
 
