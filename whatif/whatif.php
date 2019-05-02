@@ -201,8 +201,6 @@ input.error
 
 <script>
 
-  var aMonths = [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ];
-
   $( document ).ready( onDocumentReady );
 
   function onDocumentReady()
@@ -251,6 +249,7 @@ input.error
     var iStartYear = aMonthYear[1];
 
     var aInputs = $( '.kwh-input' );
+    var aMonths = [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ];
     for ( var iInput = 1; iInput <= aInputs.length; iInput ++ )
     {
       // Set next label
