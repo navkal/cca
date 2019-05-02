@@ -159,7 +159,7 @@ input.error
 
   var g_tRates =
   {
-    'All':
+    'Fixed':
     {
       'Billerica Standard': 10.631,
       'Billerica Green': 10.733,
@@ -266,7 +266,8 @@ input.error
     initTable();
 
     // Clear the input
-    clearInput();
+    //clearInput();
+    loadHouse1();
   }
 
   function initTabOrder()
@@ -395,7 +396,7 @@ input.error
     {
       var tLabel = $( aLabels[iLabel] );
       var sMonthYear = tLabel.text().replace( /\u00a0/g, ' ' );
-      var nRate = ( sSource in g_tRates['All'] ) ? g_tRates['All'][sSource] : g_tRates[sMonthYear][sSource];
+      var nRate = ( sSource in g_tRates['Fixed'] ) ? g_tRates['Fixed'][sSource] : g_tRates[sMonthYear][sSource];
       nCost += nRate * $( '#' + tLabel.attr( 'for' ) ).val();
     }
 
@@ -418,9 +419,11 @@ input.error
     enableCalculateButton( false );
     $( '#cca-table' ).hide();
     $( '#start-month' ).focus();
+  }
 
-    // For testing
-    // House 1
+  function loadHouse1()
+  {
+    $( '#start-month' ).val( '4.18' );
     $( '#kwh-1' ).val( 659 );
     $( '#kwh-2' ).val( 599 );
     $( '#kwh-3' ).val( 988 );
