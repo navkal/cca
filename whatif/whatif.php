@@ -83,11 +83,11 @@ input.error
     ?>
         <div class="form-group row">
           <div class="col">
-            <label for="<?=$sId1?>" class="col-sm-2 col-form-label col-form-label-sm" ></label>
+            <label for="<?=$sId1?>" class="col-sm-2 col-form-label col-form-label-sm kwh-label" ></label>
             <input id="<?=$sId1?>" type="text" class="form-control form-control-sm kwh-input">
           </div>
           <div class="col">
-            <label for="<?=$sId2?>" class="col-sm-2 col-form-label col-form-label-sm"></label>
+            <label for="<?=$sId2?>" class="col-sm-2 col-form-label col-form-label-sm kwh-label"></label>
             <input id="<?=$sId2?>" type="text" class="form-control form-control-sm kwh-input">
           </div>
         </div>
@@ -204,88 +204,111 @@ input.error
   {
     'Jan 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 12.673,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'Feb 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 12.673,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'Mar 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 12.673,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'Apr 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 12.673,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'May 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 10.87,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'Jun 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 10.87,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'Jul 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 10.87,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'Aug 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 10.87,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'Sep 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 10.87,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'Oct 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 10.87,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'Nov 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 13.718,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'Dec 18':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 13.718,
+      'Billerica Standard': 10.984,
+      'Billerica Green': 11.032,
     },
     'Jan 19':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 13.718,
+      'Billerica Standard': 10.631,
+      'Billerica Green': 10.733,
     },
     'Jan 19':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 13.718,
+      'Billerica Standard': 10.631,
+      'Billerica Green': 10.733,
     },
     'Feb 19':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 13.718,
+      'Billerica Standard': 10.631,
+      'Billerica Green': 10.733,
     },
     'Mar 19':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 13.718,
+      'Billerica Standard': 10.631,
+      'Billerica Green': 10.733,
     },
     'Apr 19':
     {
-      'NG Basic': 10,
-      'Billerica Whatever': 10,
+      'NG': 13.718,
+      'Billerica Standard': 10.631,
+      'Billerica Green': 10.733,
+    },
+    'May 19':
+    {
+      'NG': 13.718,
+      'Billerica Standard': 10.631,
+      'Billerica Green': 10.733,
     },
   };
 
@@ -299,11 +322,8 @@ input.error
     $( '#clear-button' ).on( 'click', clearInput );
 
     // Hide the last label and input
-    $( "label[for='kwh-14']" ).hide();
-    var aInputs = $( '.kwh-input' );
-    var tDummy = $( aInputs[aInputs.length-1] );
-    tDummy.hide();
-    tDummy.removeClass( 'kwh-input' );
+    $( 'label[for="kwh-14"]' ).hide().removeClass( 'kwh-label' );
+    $( '#kwh-14' ).hide().removeClass( 'kwh-input' );;
 
     // Set the tab order
     initTabOrder();
@@ -390,6 +410,7 @@ input.error
 
   function calculateOutput()
   {
+    var nNg = calculateCost( 'NG' );
 
     var tTableProps =
     {
@@ -408,6 +429,27 @@ input.error
     $( '#cca-table' ).show();
   }
 
+  function calculateCost( sRateName )
+  {
+    var nCost = 0;
+    var aLabels = $( '.kwh-label' );
+    console.log( '==> num labels=' + aLabels.length );
+    for ( var iLabel = 0; iLabel < aLabels.length; iLabel ++ )
+    {
+      var tLabel = $( aLabels[iLabel] );
+      var sLabel = tLabel.text().replace( /\u00a0/g, ' ' );
+      console.log( '==> label=' + sLabel );
+      var nRate = g_tRates[sLabel]['NG'];
+      nCost += nRate * $( '#' + tLabel.attr( 'for' ) ).val();
+      console.log( '==> ' + sLabel + ' Added ' + nRate );
+    }
+
+    nCost = nCost / 100;
+    console.log( '===> ' + sRateName + ': ' + nCost );
+
+    return nCost;
+  }
+
   function enableCalculateButton( bEnable )
   {
     $( '#calculate-button' ).prop( 'disabled', ! bEnable ).focus();
@@ -420,6 +462,10 @@ input.error
     enableCalculateButton( false );
     $( '#cca-table' ).hide();
     $( '#start-month' ).focus();
+
+    // For testing
+    $( '.kwh-input' ).val( '1' );
+    enableCalculateButton( true );
   }
 </script>
 
