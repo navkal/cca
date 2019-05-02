@@ -200,6 +200,94 @@ input.error
 </div>
 
 <script>
+  var g_tRates =
+  {
+    'Jan 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Feb 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Mar 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Apr 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'May 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Jun 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Jul 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Aug 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Sep 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Oct 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Nov 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Dec 18':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Jan 19':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Jan 19':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Feb 19':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Mar 19':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+    'Apr 19':
+    {
+      'NG Basic': 10,
+      'Billerica Whatever': 10,
+    },
+  };
 
   $( document ).ready( onDocumentReady );
 
@@ -302,6 +390,7 @@ input.error
 
   function calculateOutput()
   {
+
     var tTableProps =
     {
       theme : 'green',
