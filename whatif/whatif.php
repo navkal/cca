@@ -111,9 +111,9 @@ input.error
 
 
   <!-- Output -->
-  <div id="output" class="mt-5">
+  <div id="output" class="mt-5" style="display:none" >
 
-    <table id="cca-table" class="tablesorter" style="display:none">
+    <table id="cca-table" class="tablesorter" >
       <thead>
         <tr>
           <th>Source</th>
@@ -307,7 +307,7 @@ input.error
 
   function onChangeKwhInput( tEvent )
   {
-    hideOutput();
+    showOutput( false );
 
     var tTarget = $( tEvent.target );
     var tParent = tTarget.parent();
@@ -393,7 +393,7 @@ input.error
     // Initialize the tablesorter
     var tTable = $( '#cca-table' );
     tTable.trigger( 'updateAll' );
-    tTable.show();
+    showOutput( true );
   }
 
   function calculateCost( sSource )
@@ -423,7 +423,7 @@ input.error
 
   function clearInput()
   {
-    hideOutput();
+    showOutput( false );
 
     $( '.error' ).removeClass( 'error' );
     $( '.kwh-input' ).val( '' );
@@ -432,9 +432,16 @@ input.error
     $( '#start-month' ).focus();
   }
 
-  function hideOutput()
+  function showOutput( bShow )
   {
-    $( '#output' ).hide();
+    if ( bShow )
+    {
+      $( '#output' ).show();
+    }
+    else
+    {
+      $( '#output' ).hide();
+    }
   }
 
   function loadHouse1()
