@@ -16,7 +16,7 @@ input.error
 
 <div class="container">
 
-  <div class="mt-1 mb-5">
+  <div class="pt-1 pb-5">
     <div class="row">
       <div class="h6 col">
         What would your electric bill be with CCA?
@@ -96,12 +96,12 @@ input.error
     ?>
 
     <!-- Buttons -->
-    <div class="row mt-4">
+    <div class="row pt-3">
       <div class="col text-center">
-        <button id="calculate-button" type="submit" class="btn btn-primary" >
+        <button id="calculate-button" type="submit" class="btn btn-primary mr-2" >
           Calculate
         </button>
-        <button id="clear-button" type="button" class="btn btn-secondary" >
+        <button id="clear-button" type="button" class="btn btn-secondary ml-2" >
           Clear
         </button>
       </div>
@@ -111,7 +111,7 @@ input.error
 
 
   <!-- Output -->
-  <div id="output" class="mt-5" style="display:none" >
+  <div id="output" class="pt-3" style="display:none" >
 
     <div id="total-kwh" class="alert alert-success" role="alert">
     </div>
@@ -421,7 +421,7 @@ input.error
       nCost += nRate * iKwh;
     }
 
-    nCost = nCost  / 100;
+    nCost = nCost / 100;
     nCost = nCost.toFixed( 0 );
     console.log( '===> ' + sSource + ', ' + g_iTotalKwh + ' kWh: $' + nCost + ' from ' + $( '#kwh-1' ).parent().find('label').text() + ' to ' + $( '#kwh-13' ).parent().find('label').text() ) ;
 
