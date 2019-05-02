@@ -155,6 +155,8 @@ input.error
 </div>
 
 <script>
+  var g_aSources = [ 'National Grid', 'Billerica Standard', 'Billerica Green', 'Cambridge Green', 'Cambridge Green Local' ];
+
   var g_tRates =
   {
     'All':
@@ -359,12 +361,10 @@ input.error
   {
     var nCostNg = calculateCost( 'National Grid' );
 
-    var aSources = ['National Grid', 'Billerica Standard', 'Billerica Green', 'Cambridge Green', 'Cambridge Green Local' ];
-
     var sHtml = '';
-    for ( var iSource = 0; iSource < aSources.length; iSource ++ )
+    for ( var iSource = 0; iSource < g_aSources.length; iSource ++ )
     {
-      var sSource = aSources[iSource];
+      var sSource = g_aSources[iSource];
       sHtml += '<tr>';
       sHtml += '<td>';
       sHtml += sSource;
