@@ -202,113 +202,82 @@ input.error
 <script>
   var g_tRates =
   {
+    'All':
+    {
+      'Billerica Standard': 10.631,
+      'Billerica Green': 10.733,
+    },
     'Jan 18':
     {
-      'NG': 12.673,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 12.673,
     },
     'Feb 18':
     {
-      'NG': 12.673,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 12.673,
     },
     'Mar 18':
     {
-      'NG': 12.673,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 12.673,
     },
     'Apr 18':
     {
-      'NG': 12.673,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 12.673,
     },
     'May 18':
     {
-      'NG': 10.87,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 10.87,
     },
     'Jun 18':
     {
-      'NG': 10.87,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 10.87,
     },
     'Jul 18':
     {
-      'NG': 10.87,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 10.87,
     },
     'Aug 18':
     {
-      'NG': 10.87,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 10.87,
     },
     'Sep 18':
     {
-      'NG': 10.87,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 10.87,
     },
     'Oct 18':
     {
-      'NG': 10.87,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 10.87,
     },
     'Nov 18':
     {
-      'NG': 13.718,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 13.718,
     },
     'Dec 18':
     {
-      'NG': 13.718,
-      'Billerica Standard': 10.984,
-      'Billerica Green': 11.032,
+      'National Grid': 13.718,
     },
     'Jan 19':
     {
-      'NG': 13.718,
-      'Billerica Standard': 10.631,
-      'Billerica Green': 10.733,
+      'National Grid': 13.718,
     },
     'Jan 19':
     {
-      'NG': 13.718,
-      'Billerica Standard': 10.631,
-      'Billerica Green': 10.733,
+      'National Grid': 13.718,
     },
     'Feb 19':
     {
-      'NG': 13.718,
-      'Billerica Standard': 10.631,
-      'Billerica Green': 10.733,
+      'National Grid': 13.718,
     },
     'Mar 19':
     {
-      'NG': 13.718,
-      'Billerica Standard': 10.631,
-      'Billerica Green': 10.733,
+      'National Grid': 13.718,
     },
     'Apr 19':
     {
-      'NG': 13.718,
-      'Billerica Standard': 10.631,
-      'Billerica Green': 10.733,
+      'National Grid': 13.718,
     },
     'May 19':
     {
-      'NG': 13.718,
-      'Billerica Standard': 10.631,
-      'Billerica Green': 10.733,
+      'National Grid': 13.718,
     },
   };
 
@@ -410,7 +379,9 @@ input.error
 
   function calculateOutput()
   {
-    var nNg = calculateCost( 'NG' );
+    var nCostNg = calculateCost( 'National Grid' );
+    var nCostBs = calculateCost( 'Billerica Standard' );
+    var nCostBg = calculateCost( 'Billerica Green' );
 
     var tTableProps =
     {
@@ -432,20 +403,20 @@ input.error
   function calculateCost( sRateName )
   {
     var nCost = 0;
+
     var aLabels = $( '.kwh-label' );
-    console.log( '==> num labels=' + aLabels.length );
     for ( var iLabel = 0; iLabel < aLabels.length; iLabel ++ )
     {
       var tLabel = $( aLabels[iLabel] );
-      var sLabel = tLabel.text().replace( /\u00a0/g, ' ' );
-      console.log( '==> label=' + sLabel );
-      var nRate = g_tRates[sLabel]['NG'];
+      var sMonthYear = tLabel.text().replace( /\u00a0/g, ' ' );
+      var nRate = ( sRateName in g_tRates['All'] ) ? g_tRates['All'][sRateName] : g_tRates[sMonthYear][sRateName];
       nCost += nRate * $( '#' + tLabel.attr( 'for' ) ).val();
-      console.log( '==> ' + sLabel + ' Added ' + nRate );
+      console.log( '==> ' + sMonthYear + ' Added ' + nRate );
     }
 
     nCost = nCost / 100;
-    console.log( '===> ' + sRateName + ': ' + nCost );
+    nCost = nCost.toFixed( 2 );
+    console.log( '===> ' + sRateName + ': $' + nCost + ' from ' + $( '#kwh-1' ).parent().find('label').text() + ' to ' + $( '#kwh-13' ).parent().find('label').text() ) ;
 
     return nCost;
   }
