@@ -263,11 +263,10 @@ input.error
     $( 'form' ).show();
 
     // Initialize the table
-    initTable();
-
-    // Clear the input
-    //clearInput();
-    loadHouse1();
+    initTable(
+      // clearInput
+      loadHouse1
+      );
   }
 
   function initTabOrder()
@@ -343,7 +342,7 @@ input.error
     }
   }
 
-  function initTable()
+  function initTable( fnReadyHandler )
   {
     var tTableProps =
     {
@@ -357,6 +356,14 @@ input.error
       }
     };
 
+    $( '#cca-table' ).on(
+      'tablesorter-ready',
+      function()
+      {
+        $( '#cca-table' ).off( 'tablesorter-ready' );
+        fnReadyHandler();
+      }
+    );
     $( '#cca-table' ).tablesorter( jQuery.extend( true, { sortList: [[0,0]] }, tTableProps ) );
   }
 
@@ -447,6 +454,7 @@ input.error
     $( '#kwh-12' ).val( 715 );
     $( '#kwh-13' ).val( 695 );
     enableCalculateButton( true );
+    calculateOutput();
   }
 </script>
 
