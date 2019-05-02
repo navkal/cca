@@ -308,6 +308,8 @@ input.error
 
   function onChangeKwhInput( tEvent )
   {
+    hideOutput();
+
     var tTarget = $( tEvent.target );
     var tParent = tTarget.parent();
 
@@ -417,8 +419,13 @@ input.error
     $( '.kwh-input' ).val( '' );
     $( '.error' ).removeClass( 'error' );
     enableCalculateButton( false );
-    $( '#cca-table' ).hide();
+    hideOutput();
     $( '#start-month' ).focus();
+  }
+
+  function hideOutput()
+  {
+    $( '#cca-table' ).hide();
   }
 
   function loadHouse1()
