@@ -111,7 +111,7 @@ input.error
 
 
   <!-- Output -->
-  <div class="mt-5">
+  <div id="output" class="mt-5">
 
     <table id="cca-table" class="tablesorter" style="display:none">
       <thead>
@@ -434,7 +434,7 @@ input.error
 
   function hideOutput()
   {
-    $( '#cca-table' ).hide();
+    $( '#output' ).hide();
   }
 
   function loadHouse1()
