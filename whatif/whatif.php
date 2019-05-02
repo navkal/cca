@@ -161,6 +161,8 @@ input.error
     {
       'Billerica Standard': 10.631,
       'Billerica Green': 10.733,
+      'Cambridge Green': 11.12,
+      'Cambridge Green Local': 11.94
     },
     'Jan 18':
     {
@@ -357,7 +359,7 @@ input.error
   {
     var nCostNg = calculateCost( 'National Grid' );
 
-    var aSources = ['National Grid', 'Billerica Standard', 'Billerica Green' ];
+    var aSources = ['National Grid', 'Billerica Standard', 'Billerica Green', 'Cambridge Green', 'Cambridge Green Local' ];
 
     var sHtml = '';
     for ( var iSource = 0; iSource < aSources.length; iSource ++ )
@@ -371,7 +373,7 @@ input.error
       sHtml += calculateCost( sSource );
       sHtml += '</td>';
       sHtml += '<td>$';
-      sHtml += ( nCostNg - calculateCost( sSource ) ).toFixed( 2 );
+      sHtml += ( nCostNg - calculateCost( sSource ) ).toFixed( 0 );
       sHtml += '</td>';
       sHtml += '</tr>';
     }
@@ -398,7 +400,7 @@ input.error
     }
 
     nCost = nCost / 100;
-    nCost = nCost.toFixed( 2 );
+    nCost = nCost.toFixed( 0 );
     console.log( '===> ' + sSource + ': $' + nCost + ' from ' + $( '#kwh-1' ).parent().find('label').text() + ' to ' + $( '#kwh-13' ).parent().find('label').text() ) ;
 
     return nCost;
@@ -418,8 +420,21 @@ input.error
     $( '#start-month' ).focus();
 
     // For testing
-    // $( '.kwh-input' ).val( '1' );
-    // enableCalculateButton( true );
+    // House 1
+    $( '#kwh-1' ).val( 659 );
+    $( '#kwh-2' ).val( 599 );
+    $( '#kwh-3' ).val( 988 );
+    $( '#kwh-4' ).val( 1569 );
+    $( '#kwh-5' ).val( 2132 );
+    $( '#kwh-6' ).val( 1736 );
+    $( '#kwh-7' ).val( 797 );
+    $( '#kwh-8' ).val( 608 );
+    $( '#kwh-9' ).val( 777 );
+    $( '#kwh-10' ).val( 1119 );
+    $( '#kwh-11' ).val( 709 );
+    $( '#kwh-12' ).val( 715 );
+    $( '#kwh-13' ).val( 695 );
+    enableCalculateButton( true );
   }
 </script>
 
