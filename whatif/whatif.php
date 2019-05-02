@@ -116,57 +116,12 @@ input.error
     <table id="cca-table" class="tablesorter" style="display:none">
       <thead>
         <tr>
-          <th>AlphaNumeric</th>
-          <th>Numeric</th>
-          <th>Animals</th>
-          <th>Sites</th>
-          <th>AlphaNumeric</th>
-          <th>Numeric</th>
-          <th>Animals</th>
-          <th>Sites</th>
+          <th>Source</th>
+          <th>Cost</th>
+          <th>Savings</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>aaa 000</td>
-          <td>10</td>
-          <td>Koala</td>
-          <td>http://www.google.com</td>
-          <td>abc 123</td>
-          <td>10</td>
-          <td>Koala</td>
-          <td>http://www.google.com</td>
-        </tr>
-        <tr>
-          <td>abc 9</td>
-          <td>10</td>
-          <td>Girafee</td>
-          <td>http://www.facebook.com</td>
-          <td>abc 9</td>
-          <td>10</td>
-          <td>Girafee</td>
-          <td>http://www.facebook.com</td>
-        </tr>
-        <tr>
-          <td>ABC 10</td>
-          <td>87</td>
-          <td>Zebra</td>
-          <td>http://www.google.com</td>
-          <td>ABC 10</td>
-          <td>87</td>
-          <td>Zebra</td>
-          <td>http://www.google.com</td>
-        </tr>
-        <tr>
-          <td>abc 123</td>
-          <td>10</td>
-          <td>Koala</td>
-          <td>http://www.google.com</td>
-          <td>abc 123</td>
-          <td>10</td>
-          <td>Koala</td>
-          <td>http://www.google.com</td>
-        </tr>
       </tbody>
     </table>
 
@@ -303,6 +258,10 @@ input.error
     // Show the form
     $( 'form' ).show();
 
+    // Initialize the table
+    initTable();
+
+    // Clear the input
     clearInput();
   }
 
@@ -377,12 +336,8 @@ input.error
     }
   }
 
-  function calculateOutput()
+  function initTable()
   {
-    var nCostNg = calculateCost( 'National Grid' );
-    var nCostBs = calculateCost( 'Billerica Standard' );
-    var nCostBg = calculateCost( 'Billerica Green' );
-
     var tTableProps =
     {
       theme : 'green',
@@ -395,12 +350,41 @@ input.error
       }
     };
 
-    // Initialize the tablesorter
     $( '#cca-table' ).tablesorter( jQuery.extend( true, { sortList: [[0,0]] }, tTableProps ) );
-    $( '#cca-table' ).show();
   }
 
-  function calculateCost( sRateName )
+  function calculateOutput()
+  {
+    var nCostNg = calculateCost( 'National Grid' );
+
+    var aSources = ['National Grid', 'Billerica Standard', 'Billerica Green' ];
+
+    var sHtml = '';
+    for ( var iSource = 0; iSource < aSources.length; iSource ++ )
+    {
+      var sSource = aSources[iSource];
+      sHtml += '<tr>';
+      sHtml += '<td>';
+      sHtml += sSource;
+      sHtml += '</td>';
+      sHtml += '<td>$';
+      sHtml += calculateCost( sSource );
+      sHtml += '</td>';
+      sHtml += '<td>$';
+      sHtml += ( nCostNg - calculateCost( sSource ) ).toFixed( 2 );
+      sHtml += '</td>';
+      sHtml += '</tr>';
+    }
+
+    $( '#cca-table tbody' ).html( sHtml );
+
+    // Initialize the tablesorter
+    var tTable = $( '#cca-table' );
+    tTable.trigger( 'updateAll' );
+    tTable.show();
+  }
+
+  function calculateCost( sSource )
   {
     var nCost = 0;
 
@@ -409,14 +393,13 @@ input.error
     {
       var tLabel = $( aLabels[iLabel] );
       var sMonthYear = tLabel.text().replace( /\u00a0/g, ' ' );
-      var nRate = ( sRateName in g_tRates['All'] ) ? g_tRates['All'][sRateName] : g_tRates[sMonthYear][sRateName];
+      var nRate = ( sSource in g_tRates['All'] ) ? g_tRates['All'][sSource] : g_tRates[sMonthYear][sSource];
       nCost += nRate * $( '#' + tLabel.attr( 'for' ) ).val();
-      console.log( '==> ' + sMonthYear + ' Added ' + nRate );
     }
 
     nCost = nCost / 100;
     nCost = nCost.toFixed( 2 );
-    console.log( '===> ' + sRateName + ': $' + nCost + ' from ' + $( '#kwh-1' ).parent().find('label').text() + ' to ' + $( '#kwh-13' ).parent().find('label').text() ) ;
+    console.log( '===> ' + sSource + ': $' + nCost + ' from ' + $( '#kwh-1' ).parent().find('label').text() + ' to ' + $( '#kwh-13' ).parent().find('label').text() ) ;
 
     return nCost;
   }
