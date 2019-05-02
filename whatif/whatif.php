@@ -113,6 +113,9 @@ input.error
   <!-- Output -->
   <div id="output" class="mt-5" style="display:none" >
 
+    <div id="total-kwh" class="alert alert-success" role="alert">
+    </div>
+
     <table id="cca-table" class="tablesorter" >
       <thead>
         <tr>
@@ -239,6 +242,8 @@ input.error
       'National Grid': 13.718,
     },
   };
+
+  var g_iTotalKwh = 0;
 
   $( document ).ready( onDocumentReady );
 
@@ -390,14 +395,19 @@ input.error
 
     $( '#cca-table tbody' ).html( sHtml );
 
-    // Initialize the tablesorter
+    $( '#total-kwh' ).text( 'Total kWh: ' + g_iTotalKwh.toLocaleString() );
+
+    // Update the tablesorter
     var tTable = $( '#cca-table' );
     tTable.trigger( 'updateAll' );
+
+    // Show the output
     showOutput( true );
   }
 
   function calculateOutput( sSource )
   {
+    g_iTotalKwh = 0;
     var nCost = 0;
 
     var aLabels = $( '.kwh-label' );
@@ -406,12 +416,14 @@ input.error
       var tLabel = $( aLabels[iLabel] );
       var sMonthYear = tLabel.text().replace( /\u00a0/g, ' ' );
       var nRate = ( sSource in g_tRates['Fixed'] ) ? g_tRates['Fixed'][sSource] : g_tRates[sMonthYear][sSource];
-      nCost += nRate * $( '#' + tLabel.attr( 'for' ) ).val();
+      var iKwh = $( '#' + tLabel.attr( 'for' ) ).val();
+      g_iTotalKwh += parseInt( iKwh );
+      nCost += nRate * iKwh;
     }
 
-    nCost = nCost / 100;
+    nCost = nCost  / 100;
     nCost = nCost.toFixed( 0 );
-    console.log( '===> ' + sSource + ': $' + nCost + ' from ' + $( '#kwh-1' ).parent().find('label').text() + ' to ' + $( '#kwh-13' ).parent().find('label').text() ) ;
+    console.log( '===> ' + sSource + ', ' + g_iTotalKwh + ' kWh: $' + nCost + ' from ' + $( '#kwh-1' ).parent().find('label').text() + ' to ' + $( '#kwh-13' ).parent().find('label').text() ) ;
 
     return nCost;
   }
