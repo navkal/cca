@@ -416,10 +416,12 @@ input.error
 
   function clearInput()
   {
-    $( '.kwh-input' ).val( '' );
-    $( '.error' ).removeClass( 'error' );
-    enableCalculateButton( false );
     hideOutput();
+
+    $( '.error' ).removeClass( 'error' );
+    $( '.kwh-input' ).val( '' );
+    enableCalculateButton( false );
+
     $( '#start-month' ).focus();
   }
 
