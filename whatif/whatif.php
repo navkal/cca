@@ -116,18 +116,19 @@ input.error
     <div id="total-kwh" class="alert alert-success" role="alert">
     </div>
 
-    <table id="cca-table" class="tablesorter" >
-      <thead>
-        <tr>
-          <th>Source</th>
-          <th>Cost</th>
-          <th>Savings</th>
-        </tr>
-      </thead>
-      <tbody>
-      </tbody>
-    </table>
-
+    <div class="card" style="padding:3px;background-color:#eef7f0">
+      <table id="cca-table" class="tablesorter" >
+        <thead>
+          <tr>
+            <th>Source</th>
+            <th>Cost</th>
+            <th>Savings</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
   </div>
 
 </div>
