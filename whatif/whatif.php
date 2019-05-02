@@ -35,7 +35,7 @@ input.error
     <!-- Dropdown to select start month -->
     <div class="form-group">
       <label for="start-month">Start Month</label>
-      <select id="start-month" class="form-control" >
+      <select id="start-month" class="form-control form-control-sm" >
         <?php
 
           // Get upper boundary: this month last year
