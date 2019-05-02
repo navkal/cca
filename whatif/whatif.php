@@ -180,7 +180,7 @@ input.error
     },
     'May 18':
     {
-      'National Grid': 10.87,
+      'National Grid': 12.673,
     },
     'Jun 18':
     {
@@ -418,8 +418,8 @@ input.error
     $( '#start-month' ).focus();
 
     // For testing
-    $( '.kwh-input' ).val( '1' );
-    enableCalculateButton( true );
+    // $( '.kwh-input' ).val( '1' );
+    // enableCalculateButton( true );
   }
 </script>
 
