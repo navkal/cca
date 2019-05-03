@@ -12,6 +12,13 @@ input.error
   border: solid 1px #b30000;
   color: #b30000;
 }
+.alert
+{
+  height: 32px;
+  line-height:32px;
+  padding:0px 16px;
+  margin-bottom: 8px;
+}
 </style>
 
 <div class="container">
