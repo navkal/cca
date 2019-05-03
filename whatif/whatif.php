@@ -107,7 +107,7 @@ input.error
         <button id="calculate-button" type="submit" class="btn btn-primary mr-2" >
           Calculate
         </button>
-        <button id="clear-button" type="button" class="btn btn-secondary ml-2" >
+        <button id="clear-button" type="button" class="btn btn-danger ml-2" >
           Clear
         </button>
       </div>
