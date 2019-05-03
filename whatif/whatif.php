@@ -398,6 +398,7 @@ input.error
     var aSources = Object.keys( g_tRates['Fixed'] );
     aSources.push( 'National Grid' );
 
+    // Generate the table
     var sHtml = '';
     for ( var iSource = 0; iSource < aSources.length; iSource ++ )
     {
@@ -417,11 +418,12 @@ input.error
 
     $( '#cca-table tbody' ).html( sHtml );
 
-    $( '#total-kwh' ).text( 'Total kWh: ' + g_iTotalKwh.toLocaleString() );
-
     // Update the tablesorter
     var tTable = $( '#cca-table' );
     tTable.trigger( 'updateAll' );
+
+    // Show total kWh
+    $( '#total-kwh' ).text( 'Total kWh: ' + g_iTotalKwh.toLocaleString() );
 
     // Show the output
     showOutput( true );
