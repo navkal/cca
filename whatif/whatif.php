@@ -12,7 +12,7 @@ input.error
   border: solid 1px #b30000;
   color: #b30000;
 }
-.alert
+#total-kwh.alert
 {
   height: 32px;
   line-height:32px;
@@ -172,7 +172,19 @@ input.error
 </div>
 
 <script>
-  var g_aSources = [ 'National Grid', 'Billerica Standard', 'Billerica Green', 'Cambridge Green', 'Cambridge Green Local' ];
+  var g_aSources = 
+  [
+    'National Grid',
+    'Billerica Standard',
+    'Billerica Green', 
+    'Cambridge Green', 
+    'Cambridge Green Local',
+    'Carlisle Standard',
+    'Carlisle Green',
+    'Sudbury Standard',
+    'Sudbury Green',
+    'Sudbury Green Local',
+  ];
 
   var g_tRates =
   {
@@ -181,7 +193,12 @@ input.error
       'Billerica Standard': 10.631,
       'Billerica Green': 10.733,
       'Cambridge Green': 11.12,
-      'Cambridge Green Local': 11.94
+      'Cambridge Green Local': 11.94,
+      'Carlisle Standard': 10.879,
+      'Carlisle Green': 10.981,
+      'Sudbury Standard': 10.624,
+      'Sudbury Green': 10.749,
+      'Sudbury Green Local': 13.124,
     },
     'Jan 18':
     {
