@@ -83,11 +83,15 @@ input.error
     ?>
         <div class="form-group row">
           <div class="col">
-            <label for="<?=$sId1?>" class="col-sm-2 col-form-label col-form-label-sm kwh-label" ></label>
+            <label for="<?=$sId1?>" class="col-form-label col-form-label-sm kwh-label" ></label>
+          </div>
+          <div class="col">
             <input id="<?=$sId1?>" type="text" class="form-control form-control-sm kwh-input">
           </div>
           <div class="col">
-            <label for="<?=$sId2?>" class="col-sm-2 col-form-label col-form-label-sm kwh-label"></label>
+            <label for="<?=$sId2?>" class="col-form-label col-form-label-sm kwh-label"></label>
+          </div>
+          <div class="col">
             <input id="<?=$sId2?>" type="text" class="form-control form-control-sm kwh-input">
           </div>
         </div>
