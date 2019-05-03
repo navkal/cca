@@ -7,11 +7,13 @@ div.error
 {
   color: #b30000;
 }
+
 input.error
 {
   border: solid 1px #b30000;
   color: #b30000;
 }
+
 #total-kwh.alert
 {
   height: 32px;
@@ -172,20 +174,6 @@ input.error
 </div>
 
 <script>
-  var g_aSources = 
-  [
-    'National Grid',
-    'Billerica Standard',
-    'Billerica Green', 
-    'Cambridge Green', 
-    'Cambridge Green Local',
-    'Carlisle Standard',
-    'Carlisle Green',
-    'Sudbury Standard',
-    'Sudbury Green',
-    'Sudbury Green Local',
-  ];
-
   var g_tRates =
   {
     'Fixed':
@@ -407,10 +395,13 @@ input.error
   {
     var nCostNg = calculateOutput( 'National Grid' );
 
+    var aSources = Object.keys( g_tRates['Fixed'] );
+    aSources.push( 'National Grid' );
+
     var sHtml = '';
-    for ( var iSource = 0; iSource < g_aSources.length; iSource ++ )
+    for ( var iSource = 0; iSource < aSources.length; iSource ++ )
     {
-      var sSource = g_aSources[iSource];
+      var sSource = aSources[iSource];
       sHtml += '<tr>';
       sHtml += '<td>';
       sHtml += sSource;
