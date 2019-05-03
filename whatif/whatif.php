@@ -16,10 +16,10 @@ input.error
 
 <div class="container">
 
-  <div class="pt-1 pb-5">
+  <div class="pt-1 pb-3">
     <div class="row">
       <div class="h6 col">
-        What would your electric bill be if you had CCA?
+        What would your electric bill be in a town with CCA?
       </div>
       <div class="col">
         <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#help-modal">
