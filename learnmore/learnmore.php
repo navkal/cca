@@ -4,8 +4,8 @@
 
 <div class="container">
 
-  <p class="h5">
-    Community Choice Aggregation (CCA)
+  <p class="h5 mt-1">
+    Learn more about <i>Community Choice Aggregation</i>
   </p>
 
   <p>

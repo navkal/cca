@@ -5,5 +5,4 @@ energizeAndover@gmail.com
 # --- Public views ---
 about,About,about/about.php
 whatif,What If?,whatif/whatif.php
-faq,FAQ,faq/faq.php
-more,More,more/more.php
+learnmore,Learn More,learnmore/learnmore.php
