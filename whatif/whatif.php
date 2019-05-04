@@ -111,7 +111,7 @@ input.error
     ?>
 
     <!-- Buttons -->
-    <div class="row pt-3">
+    <div class="row pt-3 pb-3">
       <div class="col text-center">
         <button id="calculate-button" type="submit" class="btn btn-primary mr-2" >
           Calculate
@@ -124,9 +124,13 @@ input.error
 
   </form>
 
+  <div id="error-message" class="alert alert-danger"  style="display:none" role="alert">
+    There are errors.
+  </div>
+
 
   <!-- Output -->
-  <div id="output" class="pt-3" style="display:none" >
+  <div id="output" style="display:none" >
 
     <div id="total-kwh" class="alert alert-success" role="alert">
     </div>
@@ -334,35 +338,19 @@ input.error
     showOutput( false );
 
     var tTarget = $( tEvent.target );
-    var tParent = tTarget.parent();
 
     // Trim the input
     tTarget.val( tTarget.val().trim() );
+    var sInput = tTarget.val();
 
     // Validate the input
-    if ( /^\d+$/.test( tTarget.val() ) )
+    if ( ( sInput == '' ) || /^\d+$/.test( sInput ) )
     {
-      tTarget.removeClass( 'error' );
-      tParent.removeClass( 'error' );
-
-      // If all inputs contain integers, enable the calculate button
-      var bReady = $( '.error' ).length == 0;
-      var aInputs = $( '.kwh-input' );
-      for ( var iInput = 0 ; bReady && ( iInput < aInputs.length ); iInput ++ )
-      {
-        bReady = $( aInputs[iInput] ).val() != '';
-      }
-
-      if ( bReady )
-      {
-        enableCalculateButton( true );
-      }
+      highlightError( tTarget, false );
     }
     else
     {
-      tTarget.addClass( 'error' );
-      tParent.addClass( 'error' );
-      enableCalculateButton( false );
+      highlightError( tTarget, true );
     }
   }
 
@@ -393,40 +381,67 @@ input.error
 
   function makeOutput()
   {
-    var nCostNg = calculateOutput( 'National Grid' );
+    showErrorMessage( false );
 
-    var aSources = Object.keys( g_tRates['Fixed'] );
-    aSources.push( 'National Grid' );
-
-    // Generate the table
-    var sHtml = '';
-    for ( var iSource = 0; iSource < aSources.length; iSource ++ )
+    if ( isInputReady() )
     {
-      var sSource = aSources[iSource];
-      sHtml += '<tr>';
-      sHtml += '<td>';
-      sHtml += sSource;
-      sHtml += '</td>';
-      sHtml += '<td>$';
-      sHtml += calculateOutput( sSource );
-      sHtml += '</td>';
-      sHtml += '<td>$';
-      sHtml += ( nCostNg - calculateOutput( sSource ) ).toFixed( 0 );
-      sHtml += '</td>';
-      sHtml += '</tr>';
+      var nCostNg = calculateOutput( 'National Grid' );
+
+      var aSources = Object.keys( g_tRates['Fixed'] );
+      aSources.push( 'National Grid' );
+
+      // Generate the table
+      var sHtml = '';
+      for ( var iSource = 0; iSource < aSources.length; iSource ++ )
+      {
+        var sSource = aSources[iSource];
+        sHtml += '<tr>';
+        sHtml += '<td>';
+        sHtml += sSource;
+        sHtml += '</td>';
+        sHtml += '<td>$';
+        sHtml += calculateOutput( sSource );
+        sHtml += '</td>';
+        sHtml += '<td>$';
+        sHtml += ( nCostNg - calculateOutput( sSource ) ).toFixed( 0 );
+        sHtml += '</td>';
+        sHtml += '</tr>';
+      }
+
+      $( '#cca-table tbody' ).html( sHtml );
+
+      // Update the tablesorter
+      var tTable = $( '#cca-table' );
+      tTable.trigger( 'updateAll' );
+
+      // Show total kWh
+      $( '#total-kwh' ).text( 'Total kWh: ' + g_iTotalKwh.toLocaleString() );
+
+      // Show the output
+      showOutput( true );
+    }
+    else
+    {
+      showErrorMessage( true );
+    }
+  }
+
+  function isInputReady()
+  {
+    var aInputs = $( '.kwh-input' );
+
+    // Highlight empty fields, if any
+    for ( var iInput = 0 ; iInput < aInputs.length; iInput ++ )
+    {
+      var tInput = $( aInputs[iInput] );
+      if ( tInput.val() == '' )
+      {
+        highlightError( tInput, true );
+      }
     }
 
-    $( '#cca-table tbody' ).html( sHtml );
-
-    // Update the tablesorter
-    var tTable = $( '#cca-table' );
-    tTable.trigger( 'updateAll' );
-
-    // Show total kWh
-    $( '#total-kwh' ).text( 'Total kWh: ' + g_iTotalKwh.toLocaleString() );
-
-    // Show the output
-    showOutput( true );
+    var bReady = $( '.error' ).length == 0;
+    return bReady;
   }
 
   function calculateOutput( sSource )
@@ -452,20 +467,41 @@ input.error
     return nCost;
   }
 
-  function enableCalculateButton( bEnable )
-  {
-    $( '#calculate-button' ).prop( 'disabled', ! bEnable ).focus();
-  }
-
   function clearInput()
   {
     showOutput( false );
+    showErrorMessage( false );
 
     $( '.error' ).removeClass( 'error' );
     $( '.kwh-input' ).val( '' );
-    enableCalculateButton( false );
 
     $( '#start-month' ).focus();
+  }
+
+  function highlightError( tInput, bHighlight )
+  {
+    if ( bHighlight )
+    {
+      tInput.addClass( 'error' );
+      tInput.parent().addClass( 'error' );
+    }
+    else
+    {
+      tInput.removeClass( 'error' );
+      tInput.parent().removeClass( 'error' );
+    }
+  }
+
+  function showErrorMessage( bShow )
+  {
+    if ( bShow )
+    {
+      $( '#error-message' ).show();
+    }
+    else
+    {
+      $( '#error-message' ).hide();
+    }
   }
 
   function showOutput( bShow )
@@ -496,7 +532,6 @@ input.error
     $( '#kwh-11' ).val( 709 );
     $( '#kwh-12' ).val( 715 );
     $( '#kwh-13' ).val( 695 );
-    enableCalculateButton( true );
     makeOutput();
   }
 </script>
