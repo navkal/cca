@@ -197,6 +197,15 @@ input.error
 </div>
 
 <script>
+
+  var g_tSampleHouses =
+  [
+    [ '4.18', 659, 599, 988, 1569, 2132, 1736, 797, 608, 777, 1119, 709, 715, 695 ],
+    [ '4.18', 659, 599, 988, 1569, 2132, 1736, 797, 608, 777, 1119, 709, 715, 695 ],
+    [ '4.18', 659, 599, 988, 1569, 2132, 1736, 797, 608, 777, 1119, 709, 715, 695 ],
+    [ '4.18', 659, 599, 988, 1569, 2132, 1736, 797, 608, 777, 1119, 709, 715, 695 ],
+  ];
+
   var g_tRates =
   {
     'Fixed':
@@ -538,35 +547,40 @@ input.error
 
   function loadHouse1()
   {
-    clearInput();
-    $( '#start-month' ).val( '4.18' );
-    $( '#kwh-1' ).val( 659 );
-    $( '#kwh-2' ).val( 599 );
-    $( '#kwh-3' ).val( 988 );
-    $( '#kwh-4' ).val( 1569 );
-    $( '#kwh-5' ).val( 2132 );
-    $( '#kwh-6' ).val( 1736 );
-    $( '#kwh-7' ).val( 797 );
-    $( '#kwh-8' ).val( 608 );
-    $( '#kwh-9' ).val( 777 );
-    $( '#kwh-10' ).val( 1119 );
-    $( '#kwh-11' ).val( 709 );
-    $( '#kwh-12' ).val( 715 );
-    $( '#kwh-13' ).val( 695 );
-    makeOutput();
+    loadHouse( 1 );
   }
+
   function loadHouse2()
   {
-    loadHouse1();
+    loadHouse( 2 );
   }
+
   function loadHouse3()
   {
-    loadHouse1();
+    loadHouse( 3 );
   }
+
   function loadHouse4()
   {
-    loadHouse1();
+    loadHouse( 4 );
   }
+
+  function loadHouse( iHouse )
+  {
+    clearInput();
+
+    var aReadings = g_tSampleHouses[iHouse-1];
+
+    $( '#start-month' ).val( aReadings[0] );
+
+    for ( var iReading = 1; iReading < aReadings.length; iReading ++ )
+    {
+      $( '#kwh-' + iReading ).val( aReadings[iReading] );
+    }
+
+    makeOutput();
+  }
+
 </script>
 
 <!-- tablesorter theme -->
