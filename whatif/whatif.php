@@ -42,10 +42,10 @@ input.error
   <form action="javascript:makeOutput();" style="display:none">
 
     <div class="form-group row">
-      <div class="col-2 col-lg-1">
+      <div class="col-3 col-md-2">
         <label>Samples</label>
       </div>
-      <div class="col-10 col-lg-11">
+      <div class="col-9 col-md-10">
         <div class="btn-group btn-group-sm">
           <button type="button" id="house-1" class="btn btn-outline-secondary">House 1</button>
           <button type="button" id="house-2" class="btn btn-outline-secondary">House 2</button>
@@ -55,45 +55,50 @@ input.error
     </div>
 
     <!-- Dropdown to select start month -->
-    <div class="form-group">
-      <label for="start-month">Start Month</label>
-      <select id="start-month" class="form-control form-control-sm" >
-        <?php
+    <div class="form-group row">
+      <div class="col-3 col-md-2">
+        <label for="start-month">Start Month</label>
+      </div>
 
-          // Get upper boundary: this month last year
-          $iTime = time();
-          $iThisMonth = intval( date( 'm', $iTime ) );
-          $iLastYear = intval( date( 'y', $iTime ) ) - 1;
+      <div class="col-9 col-md-10">
+        <select id="start-month" class="form-control form-control-sm" >
+          <?php
 
-          // Initialize month and year counters
-          $iMonth = 1;
-          $iYear = 18;
+            // Get upper boundary: this month last year
+            $iTime = time();
+            $iThisMonth = intval( date( 'm', $iTime ) );
+            $iLastYear = intval( date( 'y', $iTime ) ) - 1;
 
-          // Generate dropdown options
-          do
-          {
-            // Format option display text
-            $sOptionText = date( 'M', mktime( 0, 0, 0, $iMonth, 1 ) ) . ' ' . $iYear;
-            $sOptionValue = $iMonth . '.' . $iYear;
+            // Initialize month and year counters
+            $iMonth = 1;
+            $iYear = 18;
 
-            // Increment month and year counters
-            $iMonth ++;
-            if ( $iMonth > 12 )
+            // Generate dropdown options
+            do
             {
-              $iMonth = 1;
-              $iYear ++;
+              // Format option display text
+              $sOptionText = date( 'M', mktime( 0, 0, 0, $iMonth, 1 ) ) . ' ' . $iYear;
+              $sOptionValue = $iMonth . '.' . $iYear;
+
+              // Increment month and year counters
+              $iMonth ++;
+              if ( $iMonth > 12 )
+              {
+                $iMonth = 1;
+                $iYear ++;
+              }
+
+              // Determine loop status
+              $bLastOption = ( $iYear >= $iLastYear ) && ( $iMonth > $iThisMonth );
+
+              // Echo option
+              echo( '<option ' . ( $bLastOption ? 'selected' : '' ) . ' value="' . $sOptionValue . '" >' . $sOptionText . '</option>' );
             }
+            while( ! $bLastOption );
+          ?>
 
-            // Determine loop status
-            $bLastOption = ( $iYear >= $iLastYear ) && ( $iMonth > $iThisMonth );
-
-            // Echo option
-            echo( '<option ' . ( $bLastOption ? 'selected' : '' ) . ' value="' . $sOptionValue . '" >' . $sOptionText . '</option>' );
-          }
-          while( ! $bLastOption );
-        ?>
-
-      </select>
+        </select>
+      </div>
     </div>
 
     <!-- kWh input fields -->
