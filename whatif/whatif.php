@@ -50,6 +50,7 @@ input.error
           <button type="button" id="house-1" class="btn btn-outline-secondary">House 1</button>
           <button type="button" id="house-2" class="btn btn-outline-secondary">House 2</button>
           <button type="button" id="house-3" class="btn btn-outline-secondary">House 3</button>
+          <button type="button" id="house-4" class="btn btn-outline-secondary">House 4</button>
         </div>
       </div>
     </div>
@@ -294,6 +295,7 @@ input.error
     $( '#house-1' ).on( 'click', loadHouse1 );
     $( '#house-2' ).on( 'click', loadHouse2 );
     $( '#house-3' ).on( 'click', loadHouse3 );
+    $( '#house-4' ).on( 'click', loadHouse4 );
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     $( '.kwh-input' ).on( 'change', onChangeKwhInput );
     $( '#clear-button' ).on( 'click', clearInput );
@@ -558,6 +560,10 @@ input.error
     loadHouse1();
   }
   function loadHouse3()
+  {
+    loadHouse1();
+  }
+  function loadHouse4()
   {
     loadHouse1();
   }
