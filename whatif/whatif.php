@@ -41,6 +41,19 @@ input.error
   <!-- Input -->
   <form action="javascript:makeOutput();" style="display:none">
 
+    <div class="form-group row">
+      <div class="col-2 col-lg-1">
+        <label>Samples</label>
+      </div>
+      <div class="col-10 col-lg-11">
+        <div class="btn-group btn-group-sm">
+          <button type="button" id="house-1" class="btn btn-outline-secondary">House 1</button>
+          <button type="button" id="house-2" class="btn btn-outline-secondary">House 2</button>
+          <button type="button" id="house-3" class="btn btn-outline-secondary">House 3</button>
+        </div>
+      </div>
+    </div>
+
     <!-- Dropdown to select start month -->
     <div class="form-group">
       <label for="start-month">Start Month</label>
@@ -273,6 +286,9 @@ input.error
   function onDocumentReady()
   {
     // Set up event handlers
+    $( '#house-1' ).on( 'click', loadHouse1 );
+    $( '#house-2' ).on( 'click', loadHouse2 );
+    $( '#house-3' ).on( 'click', loadHouse3 );
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     $( '.kwh-input' ).on( 'change', onChangeKwhInput );
     $( '#clear-button' ).on( 'click', clearInput );
@@ -291,10 +307,7 @@ input.error
     $( 'form' ).show();
 
     // Initialize the table
-    initTable(
-      // clearInput
-      loadHouse1
-      );
+    initTable( clearInput );
   }
 
   function initTabOrder()
@@ -518,6 +531,7 @@ input.error
 
   function loadHouse1()
   {
+    clearInput();
     $( '#start-month' ).val( '4.18' );
     $( '#kwh-1' ).val( 659 );
     $( '#kwh-2' ).val( 599 );
@@ -533,6 +547,14 @@ input.error
     $( '#kwh-12' ).val( 715 );
     $( '#kwh-13' ).val( 695 );
     makeOutput();
+  }
+  function loadHouse2()
+  {
+    loadHouse1();
+  }
+  function loadHouse3()
+  {
+    loadHouse1();
   }
 </script>
 
