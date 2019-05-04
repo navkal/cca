@@ -469,8 +469,8 @@ input.error
 
   function clearInput()
   {
-    showOutput( false );
     showErrorMessage( false );
+    showOutput( false );
 
     $( '.error' ).removeClass( 'error' );
     $( '.kwh-input' ).val( '' );
