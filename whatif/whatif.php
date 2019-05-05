@@ -221,14 +221,14 @@ input.error
       'Cambridge Green':
       {
         url: 'http://www.google.com',
-        broker: 'Broker Foo',
+        broker: 'Mass Power Choice',
         contract: 'Whenever to Whenever',
         rate: 11.12
       },
       'Cambridge Green Local':
       {
         url: 'http://www.google.com',
-        broker: 'Broker Foo',
+        broker: 'Mass Power Choice',
         contract: 'Whenever to Whenever',
         rate: 11.94
       },
