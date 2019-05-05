@@ -249,21 +249,21 @@ input.error
       'Sudbury Standard':
       {
         url: 'http://www.google.com',
-        broker: 'Broker Foo',
+        broker: 'Good Energy',
         contract: 'Whenever to Whenever',
         rate: 10.624
       },
       'Sudbury Green':
       {
         url: 'http://www.google.com',
-        broker: 'Broker Foo',
+        broker: 'Good Energy',
         contract: 'Whenever to Whenever',
         rate: 10.749
       },
       'Sudbury Green Local':
       {
         url: 'http://www.google.com',
-        broker: 'Broker Foo',
+        broker: 'Good Energy',
         contract: 'Whenever to Whenever',
         rate: 13.124
       },
