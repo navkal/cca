@@ -200,74 +200,75 @@ input.error
     [ '4.18',  380,  372,  621,  654,  785,  883,  527,  572,  459,  619,  681,  676,  353 ],
   ];
 
-  var g_tRates =
+  var g_tRatesCca =
   {
-    'Fixed':
+    'Billerica Standard':
     {
-      'Billerica Standard':
-      {
-        url: 'http://www.google.com',
-        broker: 'Colonial Power Group',
-        contract: 'January 2019 – January 2021',
-        rate: 10.631
-      },
-      'Billerica Green':
-      {
-        url: 'http://www.google.com',
-        broker: 'Colonial Power Group',
-        contract: 'January 2019 – January 2021',
-        rate: 10.733
-      },
-      'Cambridge Green':
-      {
-        url: 'http://www.google.com',
-        broker: 'Mass Power Choice',
-        contract: 'January 2019 – January 2021',
-        rate: 11.12
-      },
-      'Cambridge Green Local':
-      {
-        url: 'http://www.google.com',
-        broker: 'Mass Power Choice',
-        contract: 'January 2019 – January 2021',
-        rate: 11.94
-      },
-      'Carlisle Standard':
-      {
-        url: 'http://www.google.com',
-        broker: 'Colonial Power Group',
-        contract: 'July 2018 – January 2021',
-        rate: 10.879
-      },
-      'Carlisle Green':
-      {
-        url: 'http://www.google.com',
-        broker: 'Colonial Power Group',
-        contract: 'July 2018 – January 2021',
-        rate: 10.981
-      },
-      'Sudbury Standard':
-      {
-        url: 'http://www.google.com',
-        broker: 'Good Energy',
-        contract: 'August 2017 – August 2020',
-        rate: 10.624
-      },
-      'Sudbury Green':
-      {
-        url: 'http://www.google.com',
-        broker: 'Good Energy',
-        contract: 'August 2017 – August 2020',
-        rate: 10.749
-      },
-      'Sudbury Green Local':
-      {
-        url: 'http://www.google.com',
-        broker: 'Good Energy',
-        contract: 'August 2017 – August 2020',
-        rate: 13.124
-      },
+      url: 'http://www.google.com',
+      broker: 'Colonial Power Group',
+      contract: 'January 2019 – January 2021',
+      rate: 10.631
     },
+    'Billerica Green':
+    {
+      url: 'http://www.google.com',
+      broker: 'Colonial Power Group',
+      contract: 'January 2019 – January 2021',
+      rate: 10.733
+    },
+    'Cambridge Green':
+    {
+      url: 'http://www.google.com',
+      broker: 'Mass Power Choice',
+      contract: 'January 2019 – January 2021',
+      rate: 11.12
+    },
+    'Cambridge Green Local':
+    {
+      url: 'http://www.google.com',
+      broker: 'Mass Power Choice',
+      contract: 'January 2019 – January 2021',
+      rate: 11.94
+    },
+    'Carlisle Standard':
+    {
+      url: 'http://www.google.com',
+      broker: 'Colonial Power Group',
+      contract: 'July 2018 – January 2021',
+      rate: 10.879
+    },
+    'Carlisle Green':
+    {
+      url: 'http://www.google.com',
+      broker: 'Colonial Power Group',
+      contract: 'July 2018 – January 2021',
+      rate: 10.981
+    },
+    'Sudbury Standard':
+    {
+      url: 'http://www.google.com',
+      broker: 'Good Energy',
+      contract: 'August 2017 – August 2020',
+      rate: 10.624
+    },
+    'Sudbury Green':
+    {
+      url: 'http://www.google.com',
+      broker: 'Good Energy',
+      contract: 'August 2017 – August 2020',
+      rate: 10.749
+    },
+    'Sudbury Green Local':
+    {
+      url: 'http://www.google.com',
+      broker: 'Good Energy',
+      contract: 'August 2017 – August 2020',
+      rate: 13.124
+    },
+  };
+
+  var g_tRatesNg =
+  {
     'Jan 18':
     {
       'National Grid': 12.673,
@@ -464,7 +465,7 @@ input.error
     {
       var nCostNg = calculateOutput( 'National Grid' );
 
-      var aSources = Object.keys( g_tRates['Fixed'] );
+      var aSources = Object.keys( g_tRatesCca );
       aSources.push( 'National Grid' );
 
       // Generate the table
@@ -472,7 +473,7 @@ input.error
       for ( var iSource = 0; iSource < aSources.length; iSource ++ )
       {
         var sSource = aSources[iSource];
-        var tSource = ( sSource in g_tRates['Fixed'] ) ? ( g_tRates['Fixed'][sSource] ) : null;
+        var tSource = ( sSource in g_tRatesCca ) ? ( g_tRatesCca[sSource] ) : null;
         sHtml += '<tr>';
         sHtml += '<td>';
         if ( tSource && tSource.url )
@@ -545,7 +546,7 @@ input.error
     {
       var tLabel = $( aLabels[iLabel] );
       var sMonthYear = tLabel.text().replace( /\u00a0/g, ' ' );
-      var nRate = ( sSource in g_tRates['Fixed'] ) ? g_tRates['Fixed'][sSource].rate : g_tRates[sMonthYear][sSource];
+      var nRate = ( sSource in g_tRatesCca ) ? g_tRatesCca[sSource].rate : g_tRatesNg[sMonthYear][sSource];
       var iKwh = $( '#' + tLabel.attr( 'for' ) ).val();
       g_iTotalKwh += parseInt( iKwh );
       nCost += nRate * iKwh;
