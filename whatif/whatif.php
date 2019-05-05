@@ -207,14 +207,14 @@ input.error
       'Billerica Standard':
       {
         url: 'http://www.google.com',
-        broker: 'Broker Foo',
+        broker: 'Colonial Power Group',
         contract: 'Whenever to Whenever',
         rate: 10.631
       },
       'Billerica Green':
       {
         url: 'http://www.google.com',
-        broker: 'Broker Foo',
+        broker: 'Colonial Power Group',
         contract: 'Whenever to Whenever',
         rate: 10.733
       },
