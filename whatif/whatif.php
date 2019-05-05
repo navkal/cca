@@ -204,14 +204,14 @@ input.error
   {
     'Billerica Standard':
     {
-      url: 'http://www.google.com',
+      url: 'https://colonialpowergroup.com/billerica/',
       broker: 'Colonial Power Group',
       contract: 'January 2019 – January 2021',
       rate: 10.631
     },
     'Billerica Green':
     {
-      url: 'http://www.google.com',
+      url: 'https://colonialpowergroup.com/billerica/',
       broker: 'Colonial Power Group',
       contract: 'January 2019 – January 2021',
       rate: 10.733
