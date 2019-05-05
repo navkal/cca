@@ -161,6 +161,8 @@ input.error
             <th>Source</th>
             <th>Cost</th>
             <th>Savings</th>
+            <th>Broker</th>
+            <th>Contract</th>
           </tr>
         </thead>
         <tbody>
@@ -210,15 +212,69 @@ input.error
   {
     'Fixed':
     {
-      'Billerica Standard': 10.631,
-      'Billerica Green': 10.733,
-      'Cambridge Green': 11.12,
-      'Cambridge Green Local': 11.94,
-      'Carlisle Standard': 10.879,
-      'Carlisle Green': 10.981,
-      'Sudbury Standard': 10.624,
-      'Sudbury Green': 10.749,
-      'Sudbury Green Local': 13.124,
+      'Billerica Standard':
+      {
+        url: 'http://www.google.com',
+        broker: 'Broker Foo',
+        contract: 'Whenever to Whenever',
+        rate: 10.631
+      },
+      'Billerica Green':
+      {
+        url: 'http://www.google.com',
+        broker: 'Broker Foo',
+        contract: 'Whenever to Whenever',
+        rate: 10.733
+      },
+      'Cambridge Green':
+      {
+        url: 'http://www.google.com',
+        broker: 'Broker Foo',
+        contract: 'Whenever to Whenever',
+        rate: 11.12
+      },
+      'Cambridge Green Local':
+      {
+        url: 'http://www.google.com',
+        broker: 'Broker Foo',
+        contract: 'Whenever to Whenever',
+        rate: 11.94
+      },
+      'Carlisle Standard':
+      {
+        url: 'http://www.google.com',
+        broker: 'Broker Foo',
+        contract: 'Whenever to Whenever',
+        rate: 10.879
+      },
+      'Carlisle Green':
+      {
+        url: 'http://www.google.com',
+        broker: 'Broker Foo',
+        contract: 'Whenever to Whenever',
+        rate: 10.981
+      },
+      'Sudbury Standard':
+      {
+        url: 'http://www.google.com',
+        broker: 'Broker Foo',
+        contract: 'Whenever to Whenever',
+        rate: 10.624
+      },
+      'Sudbury Green':
+      {
+        url: 'http://www.google.com',
+        broker: 'Broker Foo',
+        contract: 'Whenever to Whenever',
+        rate: 10.749
+      },
+      'Sudbury Green Local':
+      {
+        url: 'http://www.google.com',
+        broker: 'Broker Foo',
+        contract: 'Whenever to Whenever',
+        rate: 13.124
+      },
     },
     'Jan 18':
     {
@@ -424,15 +480,29 @@ input.error
       for ( var iSource = 0; iSource < aSources.length; iSource ++ )
       {
         var sSource = aSources[iSource];
+        var tSource = ( sSource in g_tRates['Fixed'] ) ? ( g_tRates['Fixed'][sSource] ) : null;
         sHtml += '<tr>';
         sHtml += '<td>';
-        sHtml += sSource;
+        if ( tSource && tSource.url )
+        {
+          sHtml += '<a href="' + tSource.url + '" target="_blank" >' + sSource + '</a>';
+        }
+        else
+        {
+          sHtml += sSource;
+        }
         sHtml += '</td>';
         sHtml += '<td>$';
         sHtml += calculateOutput( sSource );
         sHtml += '</td>';
         sHtml += '<td>$';
         sHtml += ( nCostNg - calculateOutput( sSource ) ).toFixed( 0 );
+        sHtml += '</td>';
+        sHtml += '<td>';
+        sHtml += tSource ? tSource.broker : 'n/a';
+        sHtml += '</td>';
+        sHtml += '<td>';
+        sHtml += tSource ? tSource.contract : 'n/a';
         sHtml += '</td>';
         sHtml += '</tr>';
       }
@@ -483,7 +553,7 @@ input.error
     {
       var tLabel = $( aLabels[iLabel] );
       var sMonthYear = tLabel.text().replace( /\u00a0/g, ' ' );
-      var nRate = ( sSource in g_tRates['Fixed'] ) ? g_tRates['Fixed'][sSource] : g_tRates[sMonthYear][sSource];
+      var nRate = ( sSource in g_tRates['Fixed'] ) ? g_tRates['Fixed'][sSource].rate : g_tRates[sMonthYear][sSource];
       var iKwh = $( '#' + tLabel.attr( 'for' ) ).val();
       g_iTotalKwh += parseInt( iKwh );
       nCost += nRate * iKwh;
