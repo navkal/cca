@@ -246,21 +246,21 @@ input.error
     },
     'Sudbury Standard':
     {
-      url: 'http://www.google.com',
+      url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
       contract: 'August 2017 – August 2020',
       rate: 10.624
     },
     'Sudbury Green':
     {
-      url: 'http://www.google.com',
+      url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
       contract: 'August 2017 – August 2020',
       rate: 10.749
     },
     'Sudbury Green Local':
     {
-      url: 'http://www.google.com',
+      url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
       contract: 'August 2017 – August 2020',
       rate: 13.124
