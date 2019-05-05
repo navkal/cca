@@ -235,14 +235,14 @@ input.error
       'Carlisle Standard':
       {
         url: 'http://www.google.com',
-        broker: 'Broker Foo',
+        broker: 'Colonial Power Group',
         contract: 'Whenever to Whenever',
         rate: 10.879
       },
       'Carlisle Green':
       {
         url: 'http://www.google.com',
-        broker: 'Broker Foo',
+        broker: 'Colonial Power Group',
         contract: 'Whenever to Whenever',
         rate: 10.981
       },
