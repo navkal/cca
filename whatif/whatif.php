@@ -218,14 +218,14 @@ input.error
     },
     'Cambridge Green':
     {
-      url: 'http://www.google.com',
+      url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
       contract: 'January 2019 – January 2021',
       rate: 11.12
     },
     'Cambridge Green Local':
     {
-      url: 'http://www.google.com',
+      url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
       contract: 'January 2019 – January 2021',
       rate: 11.94
