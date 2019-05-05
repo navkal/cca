@@ -633,7 +633,7 @@ input.error
 
     var aReadings = g_tSampleHouses[iHouse-1];
 
-    $( '#start-month' ).val( aReadings[0] );
+    $( '#start-month' ).val( aReadings[0] ).change();
 
     for ( var iReading = 1; iReading < aReadings.length; iReading ++ )
     {
