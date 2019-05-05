@@ -13,14 +13,6 @@ input.error
   border: solid 1px #b30000;
   color: #b30000;
 }
-
-#total-kwh.alert
-{
-  height: 32px;
-  line-height:32px;
-  padding:0px 16px;
-  margin-bottom: 8px;
-}
 </style>
 
 <div class="container">
@@ -151,8 +143,8 @@ input.error
   <!-- Output -->
   <div id="output" style="display:none" >
 
-    <div id="total-kwh" class="alert alert-success" role="alert">
-    </div>
+    <p id="total-kwh" class="text-right">
+    </p>
 
     <div class="card" style="padding:3px;background-color:#eef7f0">
       <table id="cca-table" class="tablesorter" >
@@ -514,7 +506,7 @@ input.error
       tTable.trigger( 'updateAll' );
 
       // Show total kWh
-      $( '#total-kwh' ).text( 'Total kWh: ' + g_iTotalKwh.toLocaleString() );
+      $( '#total-kwh' ).text( g_iTotalKwh.toLocaleString() + ' kWh used from ' + $( 'label[for="kwh-1"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
 
       // Show the output
       showOutput( true );
