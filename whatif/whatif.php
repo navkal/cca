@@ -143,8 +143,8 @@ input.error
   <!-- Output -->
   <div id="output" style="display:none" >
 
-    <p id="total-kwh" class="text-right">
-    </p>
+    <div id="total-kwh" class="text-right">
+    </div>
 
     <div class="card" style="padding:3px;background-color:#eef7f0">
       <table id="cca-table" class="tablesorter" >
