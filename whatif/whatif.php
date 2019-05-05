@@ -208,63 +208,63 @@ input.error
       {
         url: 'http://www.google.com',
         broker: 'Colonial Power Group',
-        contract: 'Whenever to Whenever',
+        contract: 'January 2019 – January 2021',
         rate: 10.631
       },
       'Billerica Green':
       {
         url: 'http://www.google.com',
         broker: 'Colonial Power Group',
-        contract: 'Whenever to Whenever',
+        contract: 'January 2019 – January 2021',
         rate: 10.733
       },
       'Cambridge Green':
       {
         url: 'http://www.google.com',
         broker: 'Mass Power Choice',
-        contract: 'Whenever to Whenever',
+        contract: 'January 2019 – January 2021',
         rate: 11.12
       },
       'Cambridge Green Local':
       {
         url: 'http://www.google.com',
         broker: 'Mass Power Choice',
-        contract: 'Whenever to Whenever',
+        contract: 'January 2019 – January 2021',
         rate: 11.94
       },
       'Carlisle Standard':
       {
         url: 'http://www.google.com',
         broker: 'Colonial Power Group',
-        contract: 'Whenever to Whenever',
+        contract: 'July 2018 – January 2021',
         rate: 10.879
       },
       'Carlisle Green':
       {
         url: 'http://www.google.com',
         broker: 'Colonial Power Group',
-        contract: 'Whenever to Whenever',
+        contract: 'July 2018 – January 2021',
         rate: 10.981
       },
       'Sudbury Standard':
       {
         url: 'http://www.google.com',
         broker: 'Good Energy',
-        contract: 'Whenever to Whenever',
+        contract: 'August 2017 – August 2020',
         rate: 10.624
       },
       'Sudbury Green':
       {
         url: 'http://www.google.com',
         broker: 'Good Energy',
-        contract: 'Whenever to Whenever',
+        contract: 'August 2017 – August 2020',
         rate: 10.749
       },
       'Sudbury Green Local':
       {
         url: 'http://www.google.com',
         broker: 'Good Energy',
-        contract: 'Whenever to Whenever',
+        contract: 'August 2017 – August 2020',
         rate: 13.124
       },
     },
@@ -491,10 +491,10 @@ input.error
         sHtml += ( nCostNg - calculateOutput( sSource ) ).toFixed( 0 );
         sHtml += '</td>';
         sHtml += '<td>';
-        sHtml += tSource ? tSource.broker : 'n/a';
+        sHtml += tSource ? tSource.broker : '';
         sHtml += '</td>';
         sHtml += '<td>';
-        sHtml += tSource ? tSource.contract : 'n/a';
+        sHtml += tSource ? tSource.contract : '';
         sHtml += '</td>';
         sHtml += '</tr>';
       }
