@@ -232,14 +232,14 @@ input.error
     },
     'Carlisle Standard':
     {
-      url: 'http://www.google.com',
+      url: 'https://colonialpowergroup.com/carlisle/',
       broker: 'Colonial Power Group',
       contract: 'July 2018 – January 2021',
       rate: 10.879
     },
     'Carlisle Green':
     {
-      url: 'http://www.google.com',
+      url: 'https://colonialpowergroup.com/carlisle/',
       broker: 'Colonial Power Group',
       contract: 'July 2018 – January 2021',
       rate: 10.981
