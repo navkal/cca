@@ -19,7 +19,7 @@
   <dl class="row">
 
     <dt class="<?=$sDtClass?>"><a href="https://www.mass.gov/info-details/municipal-aggregation" target="_blank">Mass.gov - CCA</a></dt>
-    <dd class="<?=$sDdClass?>">CCA (a.k.a Municipal Aggregation) explained</dd>
+    <dd class="<?=$sDdClass?>">CCA (a.k.a. Municipal Aggregation) explained</dd>
 
     <dt class="<?=$sDtClass?>"><a href="https://www.mapc.org/resource-library/start-a-community-choice-aggregation-program/" target="_blank">Metropolitan Area Planning Council</a></dt>
     <dd class="<?=$sDdClass?>">Promoting Smart Growth & Regional Planning</dd>
@@ -42,7 +42,7 @@
     <dd class="<?=$sDdClass?>">Choosing an electrical energy source</dd>
 
     <dt class="<?=$sDtClass?>"><a href="https://commonwealthmagazine.org/opinion/municipal-electricity-aggregation-really-works/" target="_blank">Commonwealth Magazine</a></dt>
-    <dd class="<?=$sDdClass?>">Success story in Newton</dd>
+    <dd class="<?=$sDdClass?>">Municipal electricity aggregation really works (Dec. 29, 2018)</dd>
 
   </dl>
 
