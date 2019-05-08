@@ -2,8 +2,8 @@
   // Copyright 2019 Andover CCA.  All rights reserved.
 
   // Description list layout
-  $sDtClass = 'dl-title col-sm-5 col-md-4 col-lg-3';
-  $sDdClass = 'col-sm-7 col-md-8 col-lg-9';
+  $sDtClass = 'dl-title col-6';
+  $sDdClass = 'col-6';
 ?>
 
 <div class="container">
@@ -12,7 +12,7 @@
     Learn more about <i>Community Choice Aggregation</i>
   </p>
 
-  <p class="h6 mt-4">
+  <p class="h6 mt-5">
     CCA Program Details
   </p>
 
@@ -32,7 +32,7 @@
 
   </dl>
 
-  <p class="h6 mt-4">
+  <p class="h6 mt-5">
     Related Topics
   </p>
 
