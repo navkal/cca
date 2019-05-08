@@ -12,7 +12,7 @@
     Learn more about <i>Community Choice Aggregation</i>
   </p>
 
-  <p class="h6 row mt-4">
+  <p class="h6 mt-4">
     CCA Program Details
   </p>
 
@@ -32,7 +32,7 @@
 
   </dl>
 
-  <p class="h6 row mt-4">
+  <p class="h6 mt-4">
     Related Topics
   </p>
 
