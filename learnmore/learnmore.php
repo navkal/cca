@@ -76,6 +76,37 @@
     Related Topics
   </p>
 
+  <div class="list-group">
+    <a href="http://energyswitchma.gov/" target="_blank" class="list-group-item list-group-item-action">
+      <div class="text-darkgreen">
+        Energy Switch
+      </div>
+      <small>
+        Choosing an electrical energy source
+      </small>
+    </a>
+  </div>
+
+  <div class="list-group">
+    <a href="https://commonwealthmagazine.org/opinion/municipal-electricity-aggregation-really-works/" target="_blank" class="list-group-item list-group-item-action">
+      <div class="text-darkgreen">
+        Commonwealth Magazine
+      </div>
+      <small>
+        Municipal electricity aggregation really works (Dec. 29, 2018)
+      </small>
+    </a>
+  </div>
+
+
+
+
+
+
+
+
+
+
   <dl class="row">
 
     <dt class="<?=$sDtClass?>"><a href="http://energyswitchma.gov/" target="_blank">Energy Switch</a></dt>
