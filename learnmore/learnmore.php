@@ -2,8 +2,8 @@
   // Copyright 2019 Andover CCA.  All rights reserved.
 
   // Description list layout
-  $sDtClass = 'dl-title col-6';
-  $sDdClass = 'col-6';
+  $sDtClass = 'dl-title col-6 col-md-4';
+  $sDdClass = 'col-6 col-md-8';
 ?>
 
 <div class="container">
