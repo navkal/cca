@@ -22,7 +22,7 @@
     Learn more about <i>Community Choice Aggregation</i>
   </p>
 
-  <p class="h6 mt-5">
+  <p class="h6 mt-4">
     CCA Program Details
   </p>
 
@@ -71,8 +71,7 @@
   </div>
 
 
-
-  <p class="h6 mt-5">
+  <p class="h6 mt-3">
     Related Topics
   </p>
 
@@ -97,24 +96,5 @@
       </small>
     </a>
   </div>
-
-
-
-
-
-
-
-
-
-
-  <dl class="row">
-
-    <dt class="<?=$sDtClass?>"><a href="http://energyswitchma.gov/" target="_blank">Energy Switch</a></dt>
-    <dd class="<?=$sDdClass?>">Choosing an electrical energy source</dd>
-
-    <dt class="<?=$sDtClass?>"><a href="https://commonwealthmagazine.org/opinion/municipal-electricity-aggregation-really-works/" target="_blank">Commonwealth Magazine</a></dt>
-    <dd class="<?=$sDdClass?>">Municipal electricity aggregation really works (Dec. 29, 2018)</dd>
-
-  </dl>
 
 </div>
