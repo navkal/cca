@@ -21,8 +21,8 @@
     <dt class="<?=$sDtClass?>"><a href="https://www.mass.gov/info-details/municipal-aggregation" target="_blank">Mass.gov - CCA</a></dt>
     <dd class="<?=$sDdClass?>">CCA (a.k.a. Municipal Aggregation) explained</dd>
 
-    <dt class="<?=$sDtClass?>"><a href="https://www.mapc.org/resource-library/start-a-community-choice-aggregation-program/" target="_blank">Metropolitan Area Planning Council</a></dt>
-    <dd class="<?=$sDdClass?>">Promoting Smart Growth & Regional Planning</dd>
+    <dt class="<?=$sDtClass?>"><a href="https://www.mapc.org/resource-library/start-a-community-choice-aggregation-program/" target="_blank">MAPC</a></dt>
+    <dd class="<?=$sDdClass?>">Metropolitan Area Planning Council - smart growth</dd>
 
     <dt class="<?=$sDtClass?>"><a href="https://drive.google.com/open?id=1D7E_xN45nHt2MoVBcy5JylLRv0Ek5q7B" target="_blank">Merrimack Valley Map</a></dt>
     <dd class="<?=$sDdClass?>">Nearby towns offering CCA</dd>
