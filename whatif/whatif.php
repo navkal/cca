@@ -184,7 +184,7 @@ input.error
           </small>
         </p>
         <div class="alert alert-info" role="alert">
-          Enter <b>Electric Usage History</b> readings, listed on page 2 of your National Grid bill.  Then click 'Calculate'.
+          Enter <b>Electric Usage History</b> readings, listed on page 2 of your National Grid bill.  Then click <b>Calculate</b>.
         </div>
 
         <img src="whatif/bill.png" class="img-fluid" ></img>
