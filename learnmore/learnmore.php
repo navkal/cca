@@ -12,7 +12,7 @@
 }
 .text-darkgreen
 {
-  color: darkgreen;
+  color: #397947;
 }
 </style>
 
