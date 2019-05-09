@@ -154,7 +154,7 @@ input.error
             <th>Cost</th>
             <th>Savings</th>
             <th>Broker</th>
-            <th>Contract</th>
+            <th>Duration</th>
           </tr>
         </thead>
         <tbody>
