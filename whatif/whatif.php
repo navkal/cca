@@ -39,10 +39,10 @@ input.error
       </div>
       <div class="col-9 col-md-10">
         <div class="btn-group btn-group-sm">
-          <button type="button" id="house-1" class="btn btn-outline-secondary">House 1</button>
-          <button type="button" id="house-2" class="btn btn-outline-secondary">House 2</button>
-          <button type="button" id="house-3" class="btn btn-outline-secondary">House 3</button>
-          <button type="button" id="house-4" class="btn btn-outline-secondary">House 4</button>
+          <button type="button" id="house-1" class="btn btn-outline-secondary" title="4 bedrooms, A/C" >House 1</button>
+          <button type="button" id="house-2" class="btn btn-outline-secondary" title="4 bedrooms, A/C, affected by Columbia Gas event" >House 2</button>
+          <button type="button" id="house-3" class="btn btn-outline-secondary" title="4 bedrooms, A/C" >House 3</button>
+          <button type="button" id="house-4" class="btn btn-outline-secondary" title="3 bedrooms, no A/C" >House 4</button>
         </div>
       </div>
     </div>
