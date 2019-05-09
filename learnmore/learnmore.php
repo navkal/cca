@@ -22,70 +22,58 @@
     Learn about <i>Community Choice Aggregation</i>
   </p>
 
-  <div class="list-group">
-    <a href="https://www.mass.gov/info-details/municipal-aggregation" target="_blank" class="list-group-item list-group-item-action">
-      <div class="text-darkgreen">
-        Mass.gov - CCA
-      </div>
-      <small>
-        CCA (a.k.a. Municipal Aggregation) explained
-      </small>
-    </a>
-  </div>
+  <?php
+    $aLinks =
+    [
+      [
+        'url' => 'https://www.mass.gov/info-details/municipal-aggregation',
+        'title' => 'Mass.gov - CCA',
+        'descr' => 'CCA (a.k.a. Municipal Aggregation) explained'
+      ],
+      [
+        'url' => 'https://www.mapc.org/resource-library/start-a-community-choice-aggregation-program/',
+        'title' => 'MAPC',
+        'descr' => 'Metropolitan Area Planning Council - smart growth'
+      ],
+      [
+        'url' => 'https://drive.google.com/open?id=1D7E_xN45nHt2MoVBcy5JylLRv0Ek5q7B',
+        'title' => 'Merrimack Valley Map',
+        'descr' => 'Nearby towns offering CCA'
+      ],
+      [
+        'url' => 'https://docs.google.com/spreadsheets/d/1wNX4zTMuKPAL0QSGVU3hSx6O6sE8keQXy8Zwx2Tbh0c/edit?usp=sharing',
+        'title' => 'Current contracts',
+        'descr' => 'CCA pricing in nearby towns'
+      ],
+      [
+        'url' => 'http://energyswitchma.gov/',
+        'title' => 'Energy Switch',
+        'descr' => 'Choosing an electrical energy source'
+      ],
+      [
+        'url' => 'https://commonwealthmagazine.org/opinion/municipal-electricity-aggregation-really-works/',
+        'title' => 'Commonwealth Magazine',
+        'descr' => 'Municipal electricity aggregation really works (Dec. 29, 2018)'
+      ],
+    ];
 
-  <div class="list-group">
-    <a href="https://www.mapc.org/resource-library/start-a-community-choice-aggregation-program/" target="_blank" class="list-group-item list-group-item-action">
-      <div class="text-darkgreen">
-        MAPC
-      </div>
-      <small>
-        Metropolitan Area Planning Council - smart growth
-      </small>
-    </a>
-  </div>
+    foreach ( $aLinks as $aLink )
+    {
+      ?>
 
-  <div class="list-group">
-    <a href="https://drive.google.com/open?id=1D7E_xN45nHt2MoVBcy5JylLRv0Ek5q7B" target="_blank" class="list-group-item list-group-item-action">
-      <div class="text-darkgreen">
-        Merrimack Valley Map
+      <div class="list-group">
+        <a href="<?=$aLink['url']?>" target="_blank" class="list-group-item list-group-item-action">
+          <div class="text-darkgreen">
+            <?=$aLink['title']?>
+          </div>
+          <small>
+            <?=$aLink['descr']?>
+          </small>
+        </a>
       </div>
-      <small>
-        Nearby towns offering CCA
-      </small>
-    </a>
-  </div>
 
-  <div class="list-group">
-    <a href="https://docs.google.com/spreadsheets/d/1wNX4zTMuKPAL0QSGVU3hSx6O6sE8keQXy8Zwx2Tbh0c/edit?usp=sharing" target="_blank" class="list-group-item list-group-item-action">
-      <div class="text-darkgreen">
-        Current contracts
-      </div>
-      <small>
-        CCA pricing in nearby towns
-      </small>
-    </a>
-  </div>
-
-  <div class="list-group">
-    <a href="http://energyswitchma.gov/" target="_blank" class="list-group-item list-group-item-action">
-      <div class="text-darkgreen">
-        Energy Switch
-      </div>
-      <small>
-        Choosing an electrical energy source
-      </small>
-    </a>
-  </div>
-
-  <div class="list-group">
-    <a href="https://commonwealthmagazine.org/opinion/municipal-electricity-aggregation-really-works/" target="_blank" class="list-group-item list-group-item-action">
-      <div class="text-darkgreen">
-        Commonwealth Magazine
-      </div>
-      <small>
-        Municipal electricity aggregation really works (Dec. 29, 2018)
-      </small>
-    </a>
-  </div>
+      <?php
+    }
+  ?>
 
 </div>
