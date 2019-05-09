@@ -19,10 +19,10 @@ input.error
 
   <div class="pt-1 pb-3">
     <div class="row">
-      <div class="h6 col">
-        What would your electric bill have been with CCA?
+      <div class="h6 col-7">
+        What if Andover adopts CCA?
       </div>
-      <div class="col">
+      <div class="col-5">
         <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#help-modal">
           Help
         </button>
