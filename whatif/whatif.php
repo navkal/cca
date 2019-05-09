@@ -213,63 +213,63 @@ input.error
     {
       url: 'https://colonialpowergroup.com/billerica/',
       broker: 'Colonial Power Group',
-      contract: 'January 2019 – January 2021',
+      contract: '2019-01 to 2021-01',
       rate: 10.631
     },
     'Billerica Green':
     {
       url: 'https://colonialpowergroup.com/billerica/',
       broker: 'Colonial Power Group',
-      contract: 'January 2019 – January 2021',
+      contract: '2019-01 to 2021-01',
       rate: 10.733
     },
     'Cambridge Green':
     {
       url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
-      contract: 'January 2019 – January 2021',
+      contract: '2019-01 to 2021-01',
       rate: 11.12
     },
     'Cambridge Green Local':
     {
       url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
-      contract: 'January 2019 – January 2021',
+      contract: '2019-01 to 2021-01',
       rate: 11.94
     },
     'Carlisle Standard':
     {
       url: 'https://colonialpowergroup.com/carlisle/',
       broker: 'Colonial Power Group',
-      contract: 'July 2018 – January 2021',
+      contract: '2018-07 to 2021-01',
       rate: 10.879
     },
     'Carlisle Green':
     {
       url: 'https://colonialpowergroup.com/carlisle/',
       broker: 'Colonial Power Group',
-      contract: 'July 2018 – January 2021',
+      contract: '2018-07 to 2021-01',
       rate: 10.981
     },
     'Sudbury Standard':
     {
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
-      contract: 'August 2017 – August 2020',
+      contract: '2017-08 to 2020-08',
       rate: 10.624
     },
     'Sudbury Green':
     {
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
-      contract: 'August 2017 – August 2020',
+      contract: '2017-08 to 2020-08',
       rate: 10.749
     },
     'Sudbury Green Local':
     {
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
-      contract: 'August 2017 – August 2020',
+      contract: '2017-08 to 2020-08',
       rate: 13.124
     },
   };
