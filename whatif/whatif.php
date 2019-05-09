@@ -23,7 +23,7 @@ input.error
         What if Andover adopts CCA?
       </div>
       <div class="col-5">
-        <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#help-modal">
+        <button type="button" id="help-button" class="btn btn-info float-right" data-toggle="modal" data-target="#help-modal">
           Help
         </button>
       </div>
@@ -39,10 +39,10 @@ input.error
       </div>
       <div class="col-9 col-md-10">
         <div class="btn-group btn-group-sm">
-          <button type="button" id="house-1" class="btn btn-outline-secondary" title="4 bedrooms, A/C" >House 1</button>
-          <button type="button" id="house-2" class="btn btn-outline-secondary" title="4 bedrooms, A/C, affected by Columbia Gas event" >House 2</button>
-          <button type="button" id="house-3" class="btn btn-outline-secondary" title="4 bedrooms, A/C" >House 3</button>
-          <button type="button" id="house-4" class="btn btn-outline-secondary" title="3 bedrooms, no A/C" >House 4</button>
+          <button type="button" id="house-1" class="btn btn-outline-secondary house-button" title="4 bedrooms, A/C" >House 1</button>
+          <button type="button" id="house-2" class="btn btn-outline-secondary house-button" title="4 bedrooms, A/C, affected by Columbia Gas event" >House 2</button>
+          <button type="button" id="house-3" class="btn btn-outline-secondary house-button" title="4 bedrooms, A/C" >House 3</button>
+          <button type="button" id="house-4" class="btn btn-outline-secondary house-button" title="3 bedrooms, no A/C" >House 4</button>
         </div>
       </div>
     </div>
@@ -384,6 +384,8 @@ input.error
 
   function initTabOrder()
   {
+    $( '#help-button' ).prop( 'tabindex', 1 );
+    $( '.house-button' ).prop( 'tabindex', 1 );
     $( '#start-month' ).prop( 'tabindex', 1 );
 
     var aInputs = $( '.kwh-input' );
@@ -392,7 +394,8 @@ input.error
       $( aInputs[iInput] ).prop( 'tabindex', ( iInput % 2 ) + 1 );
     }
 
-    $( 'form button' ).prop( 'tabindex', 2 );
+    $( '#calculate-button' ).prop( 'tabindex', 10 );
+    $( '#clear-button' ).prop( 'tabindex', 10 );
   }
 
   function onChangeStartMonth()
@@ -573,8 +576,6 @@ input.error
 
     $( '.error' ).removeClass( 'error' );
     $( '.kwh-input' ).val( '' );
-
-    $( '#start-month' ).focus();
   }
 
   function highlightError( tInput, bHighlight )
@@ -596,6 +597,7 @@ input.error
     if ( bShow )
     {
       $( '#error-message' ).show();
+      $('body,html').animate({scrollTop: 500}, 800)
     }
     else
     {
@@ -608,6 +610,7 @@ input.error
     if ( bShow )
     {
       $( '#output' ).show();
+      $('body,html').animate({scrollTop: 500}, 800)
     }
     else
     {
