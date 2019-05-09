@@ -6,7 +6,12 @@
 .table-backdrop
 {
   padding: 3px;
-  background-color: #eef7f0
+  background-color: #eef7f0;
+}
+
+.ng-row
+{
+  background-color: #fbfbfb;
 }
 
 div.error
@@ -507,7 +512,7 @@ input.error
         }
         else
         {
-          sHtml += '<tr style="background-color:#fbfbfb">';
+          sHtml += '<tr class="ng-row">';
           sHtml += '<td>';
           sHtml += sSource;
         }
