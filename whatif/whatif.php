@@ -122,7 +122,7 @@ input.error
     ?>
 
     <!-- Buttons -->
-    <div class="row pt-3 pb-3">
+    <div id="form-buttons" class="row pt-3 pb-3">
       <div class="col text-center">
         <button id="calculate-button" type="submit" class="btn btn-primary mr-2" >
           Calculate
@@ -597,7 +597,7 @@ input.error
     if ( bShow )
     {
       $( '#error-message' ).show();
-      $('body,html').animate({scrollTop: 500}, 800)
+      scrollToResults();
     }
     else
     {
@@ -610,12 +610,18 @@ input.error
     if ( bShow )
     {
       $( '#output' ).show();
-      $('body,html').animate({scrollTop: 500}, 800)
+      scrollToResults();
     }
     else
     {
       $( '#output' ).hide();
     }
+  }
+
+  function scrollToResults()
+  {
+    var iScrollTop = $( '#form-buttons' ).offset().top - $( '.fixed-top' ).outerHeight( true );
+    $( 'body,html' ).animate( { scrollTop: iScrollTop }, 500 );
   }
 
   function loadHouse1()
