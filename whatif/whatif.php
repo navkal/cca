@@ -213,6 +213,7 @@ input.error
     {
       url: 'https://colonialpowergroup.com/billerica/',
       broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
       duration: '2019-01 to 2021-01',
       rate: 10.631
     },
@@ -220,6 +221,7 @@ input.error
     {
       url: 'https://colonialpowergroup.com/billerica/',
       broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
       duration: '2019-01 to 2021-01',
       rate: 10.733
     },
@@ -227,6 +229,7 @@ input.error
     {
       url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
       duration: '2019-01 to 2021-01',
       rate: 11.12
     },
@@ -234,6 +237,7 @@ input.error
     {
       url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
       duration: '2019-01 to 2021-01',
       rate: 11.94
     },
@@ -241,6 +245,7 @@ input.error
     {
       url: 'https://colonialpowergroup.com/carlisle/',
       broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
       duration: '2018-07 to 2021-01',
       rate: 10.879
     },
@@ -248,6 +253,7 @@ input.error
     {
       url: 'https://colonialpowergroup.com/carlisle/',
       broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
       duration: '2018-07 to 2021-01',
       rate: 10.981
     },
@@ -255,6 +261,7 @@ input.error
     {
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
       duration: '2017-08 to 2020-08',
       rate: 10.624
     },
@@ -262,6 +269,7 @@ input.error
     {
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
       duration: '2017-08 to 2020-08',
       rate: 10.749
     },
@@ -269,6 +277,7 @@ input.error
     {
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
       duration: '2017-08 to 2020-08',
       rate: 13.124
     },
@@ -502,10 +511,23 @@ input.error
         sHtml += ( nCostNg - calculateOutput( sSource ) ).toFixed( 0 );
         sHtml += '</td>';
         sHtml += '<td>';
-        sHtml += tSource ? tSource.broker : '';
+        if ( tSource && tSource.broker )
+        {
+          if ( tSource.broker_url )
+          {
+            sHtml += '<a href="' + tSource.broker_url + '" target="_blank" >' + tSource.broker + '</a>';
+          }
+          else
+          {
+            sHtml += tSource.broker;
+          }
+        }
         sHtml += '</td>';
         sHtml += '<td>';
-        sHtml += tSource ? tSource.duration : '';
+        if ( tSource )
+        {
+          sHtml += tSource.duration;
+        }
         sHtml += '</td>';
         sHtml += '</tr>';
       }
