@@ -10,7 +10,7 @@
 {
   border: none;
 }
-.text-green
+.text-title
 {
   color: #397947;
 }
@@ -63,7 +63,7 @@
 
       <div class="list-group">
         <a href="<?=$aLink['url']?>" target="_blank" class="list-group-item list-group-item-action">
-          <div class="text-green">
+          <div class="text-title">
             <?=$aLink['title']?>
           </div>
           <small>
