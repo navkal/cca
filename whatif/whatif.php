@@ -3,6 +3,12 @@
 ?>
 
 <style>
+.table-backdrop
+{
+  padding: 3px;
+  background-color: #eef7f0
+}
+
 div.error
 {
   color: #b30000;
@@ -146,7 +152,7 @@ input.error
     <div id="total-kwh" class="text-right">
     </div>
 
-    <div class="card" style="padding:3px;background-color:#eef7f0">
+    <div class="card table-backdrop">
       <table id="cca-table" class="tablesorter" >
         <thead>
           <tr>
