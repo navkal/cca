@@ -170,16 +170,18 @@ input.error
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Instructions</h5>
+        <h5 class="modal-title" id="exampleModalLabel">CCA Bill Estimator</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
         <p>
-          The electric bill calculator presented here helps you estimate the potential impact of CCA on your bill.
-          The results are based on actual contracts in effect in nearby towns.
-          You can enter readings from your own bill or view results for other Andover homes provided as samples.
+          <small>
+            The CCA bill estimator helps you calculate the potential impact of CCA on your electric bill.
+            The results are based on actual contracts in effect in nearby towns.
+            You can enter readings from your own bill or view results for other Andover homes provided as samples.
+          </small>
         </p>
         <div class="alert alert-info" role="alert">
           Enter <b>Electric Usage History</b> readings, listed on page 2 of your National Grid bill.  Then click 'Calculate'.
