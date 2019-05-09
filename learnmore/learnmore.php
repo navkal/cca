@@ -18,12 +18,8 @@
 
 <div class="container">
 
-  <p class="h5 mt-1">
+  <p class="h5 mt-1 list-group-item">
     Learn more about <i>Community Choice Aggregation</i>
-  </p>
-
-  <p class="h6 mt-4">
-    CCA Program Details
   </p>
 
   <div class="list-group">
@@ -69,11 +65,6 @@
       </small>
     </a>
   </div>
-
-
-  <p class="h6 mt-3">
-    Related Topics
-  </p>
 
   <div class="list-group">
     <a href="http://energyswitchma.gov/" target="_blank" class="list-group-item list-group-item-action">
