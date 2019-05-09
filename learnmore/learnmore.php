@@ -19,7 +19,7 @@
 <div class="container">
 
   <p class="h5 mt-1 list-group-item">
-    Learn more about <i>Community Choice Aggregation</i>
+    Learn about <i>Community Choice Aggregation</i>
   </p>
 
   <div class="list-group">
