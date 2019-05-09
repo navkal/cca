@@ -493,14 +493,16 @@ input.error
       {
         var sSource = aSources[iSource];
         var tSource = ( sSource in g_tRatesCca ) ? ( g_tRatesCca[sSource] ) : null;
-        sHtml += '<tr>';
-        sHtml += '<td>';
         if ( tSource && tSource.url )
         {
+          sHtml += '<tr>';
+          sHtml += '<td>';
           sHtml += '<a href="' + tSource.url + '" target="_blank" >' + sSource + '</a>';
         }
         else
         {
+          sHtml += '<tr style="background-color:#dcefe0">';
+          sHtml += '<td>';
           sHtml += sSource;
         }
         sHtml += '</td>';
