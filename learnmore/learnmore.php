@@ -5,33 +5,33 @@
   [
     [
       'url' => 'https://www.mass.gov/info-details/municipal-aggregation',
-      'title' => 'Mass.gov - CCA',
-      'descr' => 'CCA (a.k.a. Municipal Aggregation) explained'
+      'title' => 'Massachusetts Department of Public Utilities (DPU)',
+      'descr' => 'DPU explains Community Choice Aggregation (a.k.a. Municipal Aggregation)'
     ],
     [
       'url' => 'https://www.mapc.org/resource-library/start-a-community-choice-aggregation-program/',
-      'title' => 'MAPC',
-      'descr' => 'Metropolitan Area Planning Council - smart growth'
+      'title' => 'Metropolitan Area Planning Council (MAPC)',
+      'descr' => 'How to start a Community Choice Aggregation program'
     ],
     [
       'url' => 'https://drive.google.com/open?id=1D7E_xN45nHt2MoVBcy5JylLRv0Ek5q7B',
-      'title' => 'Merrimack Valley Map',
-      'descr' => 'Nearby towns offering CCA'
+      'title' => 'CCA in Merrimack Valley',
+      'descr' => 'Map of Merrimack Valley communities that have adopted CCA'
     ],
     [
       'url' => 'https://docs.google.com/spreadsheets/d/1wNX4zTMuKPAL0QSGVU3hSx6O6sE8keQXy8Zwx2Tbh0c/edit?usp=sharing',
-      'title' => 'Current contracts',
+      'title' => 'Current CCA pricing',
       'descr' => 'CCA pricing in nearby towns'
     ],
     [
       'url' => 'http://energyswitchma.gov/',
-      'title' => 'Energy Switch',
-      'descr' => 'Choosing an electrical energy source'
+      'title' => 'Selecting an electrical energy supplier',
+      'descr' => 'Consumers can choose'
     ],
     [
       'url' => 'https://commonwealthmagazine.org/opinion/municipal-electricity-aggregation-really-works/',
       'title' => 'Commonwealth Magazine',
-      'descr' => 'Municipal electricity aggregation really works (Dec. 29, 2018)'
+      'descr' => 'Newton Mayor Ruthanne Fuller explains benefits of CCA program (Dec. 29, 2018)'
     ],
   ];
 ?>

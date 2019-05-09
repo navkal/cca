@@ -20,7 +20,7 @@ input.error
   <div class="pt-1 pb-3">
     <div class="row">
       <div class="h6 col">
-        What would your electric bill be in a town with CCA?
+        What would your electric bill have been with CCA?
       </div>
       <div class="col">
         <button type="button" class="btn btn-info float-right" data-toggle="modal" data-target="#help-modal">
