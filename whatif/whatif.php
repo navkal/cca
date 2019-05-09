@@ -501,7 +501,7 @@ input.error
         }
         else
         {
-          sHtml += '<tr style="background-color:#dcefe0">';
+          sHtml += '<tr style="background-color:#fbfbfb">';
           sHtml += '<td>';
           sHtml += sSource;
         }
