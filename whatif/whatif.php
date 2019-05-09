@@ -176,6 +176,11 @@ input.error
         </button>
       </div>
       <div class="modal-body">
+        <p>
+          The electric bill calculator presented here helps you estimate the potential impact of CCA on your bill.
+          The results are based on actual contracts in effect in nearby towns.
+          You can either enter readings from your own bill or view results for several Andover homes provided as samples.
+        </p>
         <div class="alert alert-info" role="alert">
           Enter <b>Electric Usage History</b> readings, listed on page 2 of your National Grid bill.  Then click 'Calculate'.
         </div>
