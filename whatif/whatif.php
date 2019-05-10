@@ -655,14 +655,14 @@ input.error
     {
       var nCostNg = calculateOutput( 'National Grid' );
 
-      var aSources = Object.keys( g_tRatesCca );
-      aSources.push( 'National Grid' );
+      var aRateClasses = Object.keys( g_tRatesCca );
+      aRateClasses.push( 'National Grid' );
 
       // Generate the table
       var sHtml = '';
-      for ( var iSource = 0; iSource < aSources.length; iSource ++ )
+      for ( var iSource = 0; iSource < aRateClasses.length; iSource ++ )
       {
-        var sSource = aSources[iSource];
+        var sSource = aRateClasses[iSource];
         var tSource = ( sSource in g_tRatesCca ) ? ( g_tRatesCca[sSource] ) : null;
         if ( tSource && tSource.url )
         {
