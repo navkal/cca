@@ -269,6 +269,14 @@ input.error
       duration: '2018-07 to 2021-01',
       rate: 10.981
     },
+    'Chelmsford Standard':
+    {
+      url: 'http://masspowerchoice.com/chelmsford',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      duration: '2018-02 to 2020-11',
+      rate: 9.403
+    },
     'Dracut Standard':
     {
       url: 'https://masscea.com/dracut/',
