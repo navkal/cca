@@ -194,7 +194,7 @@ input.error
       <div class="modal-body">
         <small>
           <p>
-            The CCA bill estimator helps you calculate the potential impact of CCA on your electric bill.
+            The CCA Bill Estimator helps you evaluate the potential impact of CCA on your electric bill.
             The results are based on actual contracts negotiated by nearby towns.
             You can enter readings from your own bill or view results for other Andover homes provided as samples.
           </p>
