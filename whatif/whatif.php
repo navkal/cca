@@ -355,8 +355,8 @@ input.error
       url: 'http://masspowerchoice.com/chelmsford',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: '30% or less',
-      local: 'No',
+      green: '24.94%',
+      local: '14%',
       duration: '2018-02 to 2020-11',
       rate: 9.403
     },
@@ -366,7 +366,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: 'No',
+      local: '34%',
       duration: '2018-02 to 2020-11',
       rate: 10.089
     },
