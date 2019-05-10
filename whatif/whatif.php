@@ -11,7 +11,7 @@
 
 .ng-row
 {
-  background-color: #fbfbfb;
+  background-color: #ffffe6;
 }
 
 div.error
