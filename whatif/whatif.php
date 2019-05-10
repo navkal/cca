@@ -375,8 +375,8 @@ input.error
       url: 'https://masscea.com/dracut/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      pct_green: '30% or less',
-      local: 'No',
+      pct_green: '24.94%',
+      local: '14%',
       duration: '2018-09 to 2021-01',
       rate: 10.43
     },
