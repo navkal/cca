@@ -269,6 +269,14 @@ input.error
       duration: '2018-07 to 2021-01',
       rate: 10.981
     },
+    'Dracut Standard':
+    {
+      url: 'https://masscea.com/dracut/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      duration: '2018-09 to 2021-01',
+      rate: 10.43
+    },
     'Sudbury Standard':
     {
       url: 'https://sudbury-cea.com/',
