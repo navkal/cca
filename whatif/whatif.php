@@ -445,8 +445,8 @@ input.error
       url: 'https://colonialpowergroup.com/north-andover-further-pricing/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
-      green: '30% or less',
-      local: 'No',
+      green: '24.94%',
+      local: '14%',
       duration: '2019-07 to 2022-07',
       rate: 10.79
     },
@@ -456,7 +456,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: 'No',
+      local: '0%',
       duration: '2019-07 to 2022-07',
       rate: 10.885
     },
