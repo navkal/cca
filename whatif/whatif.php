@@ -209,6 +209,7 @@ input.error
 </div>
 
 <script>
+  var g_iHouse = 0;
 
   var g_tSampleHouses =
   [
@@ -681,7 +682,6 @@ input.error
     loadHouse( 4 );
   }
 
-  var g_iHouse = 0;
   function loadHouse( iHouse )
   {
     clearInput();
