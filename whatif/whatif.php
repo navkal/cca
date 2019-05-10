@@ -301,6 +301,30 @@ input.error
       duration: '2018-09 to 2021-01',
       rate: 10.43
     },
+    'Lexington Standard':
+    {
+      url: 'http://masspowerchoice.com/lexington',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      duration: '2018-12 to 2020-12',
+      rate: 11.494
+    },
+    'Lexington Green':
+    {
+      url: 'http://masspowerchoice.com/lexington',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      duration: '2018-12 to 2020-12',
+      rate: 11.624
+    },
+    'Lexington Green Local':
+    {
+      url: 'http://masspowerchoice.com/lexington',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      duration: '2018-12 to 2020-12',
+      rate: 12.428
+    },
     'Sudbury Standard':
     {
       url: 'https://sudbury-cea.com/',
