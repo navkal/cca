@@ -663,12 +663,12 @@ input.error
       for ( var iSource = 0; iSource < aRateClasses.length; iSource ++ )
       {
         var sRateClass = aRateClasses[iSource];
-        var tSource = ( sRateClass in g_tRatesCca ) ? ( g_tRatesCca[sRateClass] ) : null;
-        if ( tSource && tSource.url )
+        var tRateClass = ( sRateClass in g_tRatesCca ) ? ( g_tRatesCca[sRateClass] ) : null;
+        if ( tRateClass && tRateClass.url )
         {
           sHtml += '<tr>';
           sHtml += '<td>';
-          sHtml += '<a href="' + tSource.url + '" target="_blank" >' + sRateClass + '</a>';
+          sHtml += '<a href="' + tRateClass.url + '" target="_blank" >' + sRateClass + '</a>';
         }
         else
         {
@@ -684,22 +684,22 @@ input.error
         sHtml += ( nCostNg - calculateOutput( sRateClass ) ).toFixed( 0 );
         sHtml += '</td>';
         sHtml += '<td>';
-        if ( tSource && tSource.broker )
+        if ( tRateClass && tRateClass.broker )
         {
-          if ( tSource.broker_url )
+          if ( tRateClass.broker_url )
           {
-            sHtml += '<a href="' + tSource.broker_url + '" target="_blank" >' + tSource.broker + '</a>';
+            sHtml += '<a href="' + tRateClass.broker_url + '" target="_blank" >' + tRateClass.broker + '</a>';
           }
           else
           {
-            sHtml += tSource.broker;
+            sHtml += tRateClass.broker;
           }
         }
         sHtml += '</td>';
         sHtml += '<td>';
-        if ( tSource )
+        if ( tRateClass )
         {
-          sHtml += tSource.duration;
+          sHtml += tRateClass.duration;
         }
         sHtml += '</td>';
         sHtml += '</tr>';
