@@ -250,7 +250,7 @@ input.error
     [ '4.18',  380,  372,  621,  654,  785,  883,  527,  572,  459,  619,  681,  676,  353 ],
   ];
 
-  var g_tRatesCca =
+  var g_tRateClasses =
   {
     'Acton Standard':
     {
@@ -655,7 +655,7 @@ input.error
     {
       var nCostNg = calculateOutput( 'National Grid' );
 
-      var aRateClasses = Object.keys( g_tRatesCca );
+      var aRateClasses = Object.keys( g_tRateClasses );
       aRateClasses.push( 'National Grid' );
 
       // Generate the table
@@ -663,7 +663,7 @@ input.error
       for ( var iRateClass = 0; iRateClass < aRateClasses.length; iRateClass ++ )
       {
         var sRateClass = aRateClasses[iRateClass];
-        var tRateClass = ( sRateClass in g_tRatesCca ) ? ( g_tRatesCca[sRateClass] ) : null;
+        var tRateClass = ( sRateClass in g_tRateClasses ) ? ( g_tRateClasses[sRateClass] ) : null;
         if ( tRateClass && tRateClass.url )
         {
           sHtml += '<tr>';
@@ -753,7 +753,7 @@ input.error
     {
       var tLabel = $( aLabels[iLabel] );
       var sMonthYear = tLabel.text().replace( /\u00a0/g, ' ' );
-      var nRate = ( sRateClass in g_tRatesCca ) ? g_tRatesCca[sRateClass].rate : g_tRatesNg[sMonthYear][sRateClass];
+      var nRate = ( sRateClass in g_tRateClasses ) ? g_tRateClasses[sRateClass].rate : g_tRatesNg[sMonthYear][sRateClass];
       var iKwh = $( '#' + tLabel.attr( 'for' ) ).val();
       g_iTotalKwh += parseInt( iKwh );
       nCost += nRate * iKwh;
