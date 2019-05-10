@@ -580,6 +580,8 @@ input.error
 
   function onChangeStartMonth()
   {
+    showOutput( false );
+
     var aMonthYear = $( '#start-month' ).val().split( '.' );
     var iStartMonth = aMonthYear[0];
     var iStartYear = aMonthYear[1];
