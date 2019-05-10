@@ -315,8 +315,8 @@ input.error
       url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: '100%',
-      local: 'No',
+      green: '24.94%',
+      local: '14%',
       duration: '2019-01 to 2021-01',
       rate: 11.12
     },
@@ -326,7 +326,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: 'Yes',
+      local: '100%',
       duration: '2019-01 to 2021-01',
       rate: 11.94
     },
