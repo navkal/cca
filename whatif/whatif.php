@@ -661,7 +661,7 @@ input.error
 
     if ( isInputReady() )
     {
-      var nCostNg = calculateOutput( 'National Grid' );
+      var nCostNg = calculateCost( 'National Grid' );
 
       var aRateClasses = Object.keys( g_tRateClasses );
       aRateClasses.push( 'National Grid' );
@@ -671,7 +671,7 @@ input.error
       for ( var iRateClass = 0; iRateClass < aRateClasses.length; iRateClass ++ )
       {
         var sRateClass = aRateClasses[iRateClass];
-        var nCostRateClass = calculateOutput( sRateClass );
+        var nCostRateClass = calculateCost( sRateClass );
         var tRateClass = ( sRateClass in g_tRateClasses ) ? ( g_tRateClasses[sRateClass] ) : null;
         if ( tRateClass && tRateClass.url )
         {
@@ -752,7 +752,7 @@ input.error
     return bReady;
   }
 
-  function calculateOutput( sRateClass )
+  function calculateCost( sRateClass )
   {
     g_iTotalKwh = 0;
     var nCost = 0;
