@@ -585,7 +585,7 @@ input.error
       var nCostNg = calculateOutput( 'National Grid' );
 
       var aSources = Object.keys( g_tRatesCca );
-      aSources.push( '<a href="https://www.nationalgridus.com/media/pdfs/billing-payments/electric-rates/ma/resitable.pdf" target="_blank">National Grid<a>' );
+      aSources.push( 'National Grid' );
 
       // Generate the table
       var sHtml = '';
@@ -603,7 +603,7 @@ input.error
         {
           sHtml += '<tr class="ng-row">';
           sHtml += '<td>';
-          sHtml += sSource;
+          sHtml += '<a href="https://www.nationalgridus.com/media/pdfs/billing-payments/electric-rates/ma/resitable.pdf" target="_blank">' + sSource + '<a>';
         }
         sHtml += '</td>';
         sHtml += '<td>$';
