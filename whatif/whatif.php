@@ -165,7 +165,7 @@ input.error
             <th>Cost</th>
             <th>Savings</th>
             <th>Green Content</th>
-            <th>Local</th>
+            <th>Local Green Content</th>
             <th>Broker</th>
             <th>Duration</th>
           </tr>
