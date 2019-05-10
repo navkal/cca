@@ -542,7 +542,7 @@ input.error
     $( '#house-3' ).on( 'click', loadHouse3 );
     $( '#house-4' ).on( 'click', loadHouse4 );
     $( '#start-month' ).on( 'change', onChangeStartMonth );
-    $( '.kwh-input' ).on( 'change', onChangeKwhInput );
+    $( '.kwh-input' ).on( 'input', onInputKwhInput );
     $( '#clear-button' ).on( 'click', clearInput );
 
     // Hide the last label and input
@@ -601,7 +601,7 @@ input.error
     }
   }
 
-  function onChangeKwhInput( tEvent )
+  function onInputKwhInput( tEvent )
   {
     showOutput( false );
 
