@@ -286,7 +286,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: 'No',
+      local: '23%',
       duration: '2018-06 to 2020-12',
       rate: 10.947
     },
