@@ -133,7 +133,7 @@ input.error
     ?>
 
     <!-- Buttons -->
-    <div id="form-buttons" class="row pt-3 pb-3">
+    <div id="form-buttons" class="row pt-3 pb-2">
       <div class="col text-center">
         <button id="calculate-button" type="submit" class="btn btn-primary mr-2" >
           Calculate
