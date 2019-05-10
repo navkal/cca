@@ -277,6 +277,14 @@ input.error
       duration: '2018-02 to 2020-11',
       rate: 9.403
     },
+    'Chelmsford Green':
+    {
+      url: 'http://masspowerchoice.com/chelmsford',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      duration: '2018-02 to 2020-11',
+      rate: 10.089
+    },
     'Dracut Standard':
     {
       url: 'https://masscea.com/dracut/',
