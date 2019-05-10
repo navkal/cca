@@ -210,7 +210,7 @@ input.error
                 <i>Green</i> - 100% renewable, typically generated outside of MA
               </li>
               <li>
-                <i>Green Local</i> - 100% renewable generated within MA
+                <i>Green Local</i> - 100% renewable, generated within MA
               </li>
             </ul>
           </div>
