@@ -773,6 +773,8 @@ input.error
 
     $( '.error' ).removeClass( 'error' );
     $( '.kwh-input' ).val( '' );
+
+    $( 'body,html' ).animate( { scrollTop: 0 }, 300 );
   }
 
   function highlightError( tInput, bHighlight )
