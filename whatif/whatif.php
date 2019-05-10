@@ -276,7 +276,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       pct_green: 'TBD',
-      local: 'Yes',
+      local: 'No',
       duration: '2017-09 to 2019-09',
       rate: 12.712
     },
@@ -286,7 +286,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       pct_green: 'TBD',
-      local: 'Yes',
+      local: 'No',
       duration: '2018-06 to 2020-12',
       rate: 10.947
     },
@@ -376,7 +376,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       pct_green: '30% or less',
-      local: 'Yes',
+      local: 'No',
       duration: '2018-09 to 2021-01',
       rate: 10.43
     },
@@ -436,7 +436,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       pct_green: 'TBD',
-      local: 'No',
+      local: 'Yes',
       duration: '2019-07 to 2020-12',
       rate: 13.063
     },
@@ -456,7 +456,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       pct_green: 'TBD',
-      local: 'Yes',
+      local: 'No',
       duration: '2019-07 to 2022-07',
       rate: 10.885
     },
@@ -476,7 +476,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       pct_green: 'TBD',
-      local: 'Yes',
+      local: 'No',
       duration: '2017-08 to 2020-08',
       rate: 10.749
     },
@@ -486,7 +486,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       pct_green: 'TBD',
-      local: 'No',
+      local: 'Yes',
       duration: '2017-08 to 2020-08',
       rate: 13.124
     },
@@ -506,7 +506,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       pct_green: 'TBD',
-      local: 'Yes',
+      local: 'No',
       duration: '2017-07 to 2020-01',
       rate: 13.558
     },
