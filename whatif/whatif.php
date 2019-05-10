@@ -552,7 +552,9 @@ input.error
       tTable.trigger( 'updateAll' );
 
       // Show total kWh
-      $( '#total-kwh' ).text( g_iTotalKwh.toLocaleString() + ' kWh used from ' + $( 'label[for="kwh-1"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
+      var sHouse = g_iHouse ? 'House ' + g_iHouse : 'You';
+      $( '#total-kwh' ).html( sHouse + ' used ' + g_iTotalKwh.toLocaleString() + ' kWh from ' + $( 'label[for="kwh-1"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
+      g_iHouse = 0;
 
       // Show the output
       showOutput( true );
@@ -679,9 +681,12 @@ input.error
     loadHouse( 4 );
   }
 
+  var g_iHouse = 0;
   function loadHouse( iHouse )
   {
     clearInput();
+
+    g_iHouse = iHouse;
 
     var aReadings = g_tSampleHouses[iHouse-1];
 
