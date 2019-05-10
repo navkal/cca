@@ -495,8 +495,8 @@ input.error
       url: 'https://winpowerma.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: '30% or less',
-      local: 'No',
+      green: '18%',
+      local: '13%',
       duration: '2017-07 to 2020-01',
       rate: 10.898
     },
@@ -506,7 +506,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '100%',
-      local: 'No',
+      local: '0%',
       duration: '2017-07 to 2020-01',
       rate: 13.558
     },
