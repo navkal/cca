@@ -752,12 +752,12 @@ input.error
 
         // Percent green
         sHtml += '<td>';
-        sHtml += ( tRateClass && tRateClass.pct_green ) ? tRateClass.pct_green : '';
+        sHtml += ( tRateClass && tRateClass.pct_green ) ? tRateClass.pct_green : '24.94%';
         sHtml += '</td>';
 
         // Local
         sHtml += '<td>';
-        sHtml += ( tRateClass && tRateClass.local ) ? tRateClass.local : '';
+        sHtml += ( tRateClass && tRateClass.local ) ? tRateClass.local : '14%';
         sHtml += '</td>';
 
         // Broker
