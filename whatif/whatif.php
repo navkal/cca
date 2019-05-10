@@ -690,7 +690,7 @@ input.error
         sHtml += '$' + nCostRateClass;
         sHtml += '</td>';
         sHtml += '<td>';
-        sHtml += '$' + ( nCostNg - nCostRateClass ).toFixed( 0 );
+        sHtml += '$' + ( nCostNg - nCostRateClass );
         sHtml += '</td>';
         sHtml += '<td>';
         if ( tRateClass && tRateClass.broker )
