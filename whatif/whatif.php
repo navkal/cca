@@ -671,6 +671,7 @@ input.error
       for ( var iRateClass = 0; iRateClass < aRateClasses.length; iRateClass ++ )
       {
         var sRateClass = aRateClasses[iRateClass];
+        var nCostRateClass = calculateOutput( sRateClass );
         var tRateClass = ( sRateClass in g_tRateClasses ) ? ( g_tRateClasses[sRateClass] ) : null;
         if ( tRateClass && tRateClass.url )
         {
@@ -685,11 +686,11 @@ input.error
           sHtml += '<a href="https://www.nationalgridus.com/media/pdfs/billing-payments/electric-rates/ma/resitable.pdf" target="_blank">' + sRateClass + '<a>';
         }
         sHtml += '</td>';
-        sHtml += '<td>$';
-        sHtml += calculateOutput( sRateClass );
+        sHtml += '<td>';
+        sHtml += '$' + nCostRateClass;
         sHtml += '</td>';
-        sHtml += '<td>$';
-        sHtml += ( nCostNg - calculateOutput( sRateClass ) ).toFixed( 0 );
+        sHtml += '<td>';
+        sHtml += '$' + ( nCostNg - nCostRateClass ).toFixed( 0 );
         sHtml += '</td>';
         sHtml += '<td>';
         if ( tRateClass && tRateClass.broker )
