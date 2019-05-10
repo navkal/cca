@@ -660,9 +660,9 @@ input.error
 
       // Generate the table
       var sHtml = '';
-      for ( var iSource = 0; iSource < aRateClasses.length; iSource ++ )
+      for ( var iRateClass = 0; iRateClass < aRateClasses.length; iRateClass ++ )
       {
-        var sRateClass = aRateClasses[iSource];
+        var sRateClass = aRateClasses[iRateClass];
         var tRateClass = ( sRateClass in g_tRatesCca ) ? ( g_tRatesCca[sRateClass] ) : null;
         if ( tRateClass && tRateClass.url )
         {
