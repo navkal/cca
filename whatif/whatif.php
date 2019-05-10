@@ -743,7 +743,7 @@ input.error
     return bReady;
   }
 
-  function calculateOutput( sSource )
+  function calculateOutput( sRateClass )
   {
     g_iTotalKwh = 0;
     var nCost = 0;
@@ -753,7 +753,7 @@ input.error
     {
       var tLabel = $( aLabels[iLabel] );
       var sMonthYear = tLabel.text().replace( /\u00a0/g, ' ' );
-      var nRate = ( sSource in g_tRatesCca ) ? g_tRatesCca[sSource].rate : g_tRatesNg[sMonthYear][sSource];
+      var nRate = ( sRateClass in g_tRatesCca ) ? g_tRatesCca[sRateClass].rate : g_tRatesNg[sMonthYear][sRateClass];
       var iKwh = $( '#' + tLabel.attr( 'for' ) ).val();
       g_iTotalKwh += parseInt( iKwh );
       nCost += nRate * iKwh;
