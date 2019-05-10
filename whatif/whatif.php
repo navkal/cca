@@ -465,8 +465,8 @@ input.error
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: '30% or less',
-      local: 'No',
+      green: '24.94%',
+      local: '14%',
       duration: '2017-08 to 2020-08',
       rate: 10.624
     },
@@ -476,7 +476,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '100%',
-      local: 'No',
+      local: '19%',
       duration: '2017-08 to 2020-08',
       rate: 10.749
     },
@@ -486,7 +486,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '100%',
-      local: 'Yes',
+      local: '100%',
       duration: '2017-08 to 2020-08',
       rate: 13.124
     },
