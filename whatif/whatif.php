@@ -761,7 +761,6 @@ input.error
 
     nCost = nCost / 100;
     nCost = nCost.toFixed( 0 );
-    console.log( '===> ' + sSource + ', ' + g_iTotalKwh + ' kWh: $' + nCost + ' from ' + $( '#kwh-1' ).parent().find('label').text() + ' to ' + $( '#kwh-13' ).parent().find('label').text() ) ;
 
     return nCost;
   }
