@@ -415,8 +415,8 @@ input.error
       url: 'http://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      pct_green: '30% or less',
-      local: 'No',
+      pct_green: '24.94%',
+      local: '14%',
       duration: '2019-07 to 2020-12',
       rate: 11.026
     },
@@ -426,7 +426,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       pct_green: '35%',
-      local: 'No',
+      local: '10%',
       duration: '2019-07 to 2020-12',
       rate: 11.263
     },
@@ -436,7 +436,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       pct_green: '100%',
-      local: 'Yes',
+      local: '100%',
       duration: '2019-07 to 2020-12',
       rate: 13.063
     },
