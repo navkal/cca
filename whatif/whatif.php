@@ -194,13 +194,13 @@ input.error
       <div class="modal-body">
         <small>
           <p>
-            The CCA Bill Estimator helps you evaluate the potential impact of CCA on your electric bill.
+            The CCA Bill Estimator helps you gauge the potential impact of CCA on your electric bill.
             The results are based on actual contracts negotiated by nearby towns.
             You can enter readings from your own bill or view results for other Andover homes provided as samples.
           </p>
           <div>
             <b>
-              Terminology
+              <i>Rate Class</i> Terminology
             </b>
             <ul>
               <li>
@@ -226,7 +226,7 @@ input.error
                 Set <b>Start Month</b> to the first month in the <i>Electric Usage History</i>.
               </li>
               <li>
-                Enter monthly <i>kWh</i> readings listed in the <i>Electric Usage History</i>.
+                Enter monthly <i>kWh</i> readings as listed in the <i>Electric Usage History</i>.
               </li>
               <li>
                 Click <b>Calculate</b>.
