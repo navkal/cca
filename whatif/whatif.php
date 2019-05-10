@@ -221,6 +221,14 @@ input.error
 
   var g_tRatesCca =
   {
+    'Ashland Green':
+    {
+      url: 'https://colonialpowergroup.com/ashland/',
+      broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
+      duration: '2018-06 to 2020-12',
+      rate: 10.947
+    },
     'Billerica Standard':
     {
       url: 'https://colonialpowergroup.com/billerica/',
