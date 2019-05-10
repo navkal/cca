@@ -198,24 +198,36 @@ input.error
             The results are based on actual contracts negotiated by nearby towns.
             You can enter readings from your own bill or view results for other Andover homes provided as samples.
           </p>
-          <b>
-            Terminology
-          </b>
-          <ul>
-            <li>
-              Standard - Meets or exceeds renewable energy requirements established by MA
-            </li>
-            <li>
-              Green - 100% renewable, typically generated outside of MA
-            </li>
-            <li>
-              Green Local - 100% renewable generated within MA
-            </li>
-          </p>
+          <div>
+            <b>
+              Terminology
+            </b>
+            <ul>
+              <li>
+                <i>Standard</i> - Meets or exceeds renewable energy requirements established by MA
+              </li>
+              <li>
+                <i>Green</i> - 100% renewable, typically generated outside of MA
+              </li>
+              <li>
+                <i>Green Local</i> - 100% renewable generated within MA
+              </li>
+            </ul>
+          </div>
+          <div>
+            <b>
+              Instructions
+            </b>
+            <ol>
+              <li>
+                Enter <b>Electric Usage History</b> readings listed on your National Grid bill.
+              </li>
+              <li>
+                Click <b>Calculate</b>.
+              </li>
+            </ol>
+          </div>
         </small>
-        <div class="alert alert-info" role="alert">
-          Enter <b>Electric Usage History</b> readings, listed on page 2 of your National Grid bill.  Then click <b>Calculate</b>.
-        </div>
 
         <img src="whatif/bill.png" class="img-fluid" ></img>
 
