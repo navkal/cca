@@ -9,7 +9,7 @@
       'descr' => 'DPU explains Community Choice Aggregation (a.k.a. Municipal Aggregation)'
     ],
     [
-      'url' => 'https://www.mapc.org/resource-library/start-a-community-choice-aggregation-program/',
+      'url' => 'https://www.mapc.org/our-work/expertise/clean-energy/green-municipal-aggregation/',
       'title' => 'Metropolitan Area Planning Council (MAPC)',
       'descr' => 'How to start a Community Choice Aggregation program'
     ],
