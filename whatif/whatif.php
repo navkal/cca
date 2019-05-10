@@ -553,7 +553,7 @@ input.error
       var nCostNg = calculateOutput( 'National Grid' );
 
       var aSources = Object.keys( g_tRatesCca );
-      aSources.push( 'National Grid' );
+      aSources.push( '<a href="https://www.nationalgridus.com/media/pdfs/billing-payments/electric-rates/ma/resitable.pdf" target="_blank">National Grid<a>' );
 
       // Generate the table
       var sHtml = '';
