@@ -2,7 +2,7 @@
   // Copyright 2019 Andover CCA.  All rights reserved.
 ?>
 
-<hr>
+<hr/>
 <p>
   <small>
     <h6>
