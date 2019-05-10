@@ -172,6 +172,11 @@ input.error
         </tbody>
       </table>
     </div>
+
+    <?php
+      include $_SERVER["DOCUMENT_ROOT"]."/disclaimer.php";
+    ?>
+
   </div>
 
 </div>
@@ -187,13 +192,27 @@ input.error
         </button>
       </div>
       <div class="modal-body">
-        <p>
-          <small>
+        <small>
+          <p>
             The CCA bill estimator helps you calculate the potential impact of CCA on your electric bill.
-            The results are based on actual contracts in effect in nearby towns.
+            The results are based on actual contracts negotiated by nearby towns.
             You can enter readings from your own bill or view results for other Andover homes provided as samples.
-          </small>
-        </p>
+          </p>
+          <b>
+            Terminology
+          </b>
+          <ul>
+            <li>
+              Standard - Meets or exceeds renewable energy requirements established by MA
+            </li>
+            <li>
+              Green - 100% renewable, typically generated outside of MA
+            </li>
+            <li>
+              Green Local - 100% renewable generated within MA
+            </li>
+          </p>
+        </small>
         <div class="alert alert-info" role="alert">
           Enter <b>Electric Usage History</b> readings, listed on page 2 of your National Grid bill.  Then click <b>Calculate</b>.
         </div>

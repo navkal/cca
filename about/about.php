@@ -60,4 +60,8 @@
     Andover CCA is supported by the <a href="https://andoverma.gov/189/Andover-Green-Advisory-Board" target="_blank">Andover Green Advisory Board</a>.
   </p>
 
+  <?php
+    include $_SERVER["DOCUMENT_ROOT"]."/disclaimer.php";
+  ?>
+
 </div>
