@@ -221,6 +221,22 @@ input.error
 
   var g_tRatesCca =
   {
+    'Acton Standard':
+    {
+      url: 'http://masspowerchoice.com/acton',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      duration: '2017-09 to 2019-09',
+      rate: 10.72
+    },
+    'Acton Green':
+    {
+      url: 'http://masspowerchoice.com/acton',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      duration: '2017-09 to 2019-09',
+      rate: 12.712
+    },
     'Ashland Green':
     {
       url: 'https://colonialpowergroup.com/ashland/',
