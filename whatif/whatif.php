@@ -365,6 +365,22 @@ input.error
       duration: '2017-08 to 2020-08',
       rate: 13.124
     },
+    'Winchester Standard':
+    {
+      url: 'https://winpowerma.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      duration: '2017-07 to 2020-01',
+      rate: 10.898
+    },
+    'Winchester Green':
+    {
+      url: 'https://winpowerma.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      duration: '2017-07 to 2020-01',
+      rate: 13.558
+    },
   };
 
   var g_tRatesNg =
