@@ -365,6 +365,22 @@ input.error
       duration: '2019-07 to 2020-12',
       rate: 13.063
     },
+    'North Andover Standard':
+    {
+      url: 'https://colonialpowergroup.com/north-andover-further-pricing/',
+      broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
+      duration: '2019-07 to 2022-07',
+      rate: 10.79
+    },
+    'North Andover Green':
+    {
+      url: 'https://colonialpowergroup.com/north-andover-further-pricing/',
+      broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
+      duration: '2019-07 to 2022-07',
+      rate: 10.885
+    },
     'Sudbury Standard':
     {
       url: 'https://sudbury-cea.com/',
