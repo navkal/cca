@@ -154,7 +154,7 @@ input.error
   <!-- Output -->
   <div id="output" style="display:none" >
 
-    <div id="total-kwh" class="text-right">
+    <div id="total-kwh" class="mb-1 text-center">
     </div>
 
     <div class="card table-backdrop">
