@@ -341,6 +341,30 @@ input.error
       duration: '2018-12 to 2020-12',
       rate: 12.428
     },
+    'Natick Standard':
+    {
+      url: 'http://masspowerchoice.com/natick',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      duration: '2019-07 to 2020-12',
+      rate: 11.026
+    },
+    'Natick 35% Green':
+    {
+      url: 'http://masspowerchoice.com/natick',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      duration: '2019-07 to 2020-12',
+      rate: 11.263
+    },
+    'Natick Green Local':
+    {
+      url: 'http://masspowerchoice.com/natick',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      duration: '2019-07 to 2020-12',
+      rate: 13.063
+    },
     'Sudbury Standard':
     {
       url: 'https://sudbury-cea.com/',
