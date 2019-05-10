@@ -275,7 +275,7 @@ input.error
       url: 'http://masspowerchoice.com/acton',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'No',
       duration: '2017-09 to 2019-09',
       rate: 12.712
@@ -285,7 +285,7 @@ input.error
       url: 'https://colonialpowergroup.com/ashland/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'No',
       duration: '2018-06 to 2020-12',
       rate: 10.947
@@ -305,7 +305,7 @@ input.error
       url: 'https://colonialpowergroup.com/billerica/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'No',
       duration: '2019-01 to 2021-01',
       rate: 10.733
@@ -315,7 +315,7 @@ input.error
       url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'No',
       duration: '2019-01 to 2021-01',
       rate: 11.12
@@ -325,7 +325,7 @@ input.error
       url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'Yes',
       duration: '2019-01 to 2021-01',
       rate: 11.94
@@ -345,7 +345,7 @@ input.error
       url: 'https://colonialpowergroup.com/carlisle/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'No',
       duration: '2018-07 to 2021-01',
       rate: 10.981
@@ -365,7 +365,7 @@ input.error
       url: 'http://masspowerchoice.com/chelmsford',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'No',
       duration: '2018-02 to 2020-11',
       rate: 10.089
@@ -395,7 +395,7 @@ input.error
       url: 'http://masspowerchoice.com/lexington',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'No',
       duration: '2018-12 to 2020-12',
       rate: 11.624
@@ -405,7 +405,7 @@ input.error
       url: 'http://masspowerchoice.com/lexington',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'Yes',
       duration: '2018-12 to 2020-12',
       rate: 12.428
@@ -425,7 +425,7 @@ input.error
       url: 'http://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      pct_green: 'TBD',
+      pct_green: '35%',
       local: 'No',
       duration: '2019-07 to 2020-12',
       rate: 11.263
@@ -435,7 +435,7 @@ input.error
       url: 'http://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'Yes',
       duration: '2019-07 to 2020-12',
       rate: 13.063
@@ -455,7 +455,7 @@ input.error
       url: 'https://colonialpowergroup.com/north-andover-further-pricing/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'No',
       duration: '2019-07 to 2022-07',
       rate: 10.885
@@ -475,7 +475,7 @@ input.error
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'No',
       duration: '2017-08 to 2020-08',
       rate: 10.749
@@ -485,7 +485,7 @@ input.error
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'Yes',
       duration: '2017-08 to 2020-08',
       rate: 13.124
@@ -505,7 +505,7 @@ input.error
       url: 'https://winpowerma.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      pct_green: 'TBD',
+      pct_green: '100%',
       local: 'No',
       duration: '2017-07 to 2020-01',
       rate: 13.558
