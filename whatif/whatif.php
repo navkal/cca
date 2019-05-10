@@ -385,8 +385,8 @@ input.error
       url: 'http://masspowerchoice.com/lexington',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: '30% or less',
-      local: 'No',
+      green: '24.94%',
+      local: '14%',
       duration: '2018-12 to 2020-12',
       rate: 11.494
     },
@@ -396,7 +396,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: 'No',
+      local: '19%',
       duration: '2018-12 to 2020-12',
       rate: 11.624
     },
@@ -406,7 +406,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: 'Yes',
+      local: '100%',
       duration: '2018-12 to 2020-12',
       rate: 12.428
     },
