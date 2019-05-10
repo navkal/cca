@@ -220,13 +220,13 @@ input.error
             </b>
             <ol>
               <li>
-                Find the <b>Electric Usage History</b> on your National Grid bill.
+                Find the <i>Electric Usage History</i> on your National Grid bill.
               </li>
               <li>
-                Set <b>Start Month</b> to match the first month in the <b>Electric Usage History</b>.
+                Set <b>Start Month</b> to the first month in the <i>Electric Usage History</i>.
               </li>
               <li>
-                Enter readings from the <b>kWh</b> column in the <b>Electric Usage History</b>.
+                Enter monthly <i>kWh</i> readings listed in the <i>Electric Usage History</i>.
               </li>
               <li>
                 Click <b>Calculate</b>.
