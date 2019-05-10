@@ -295,8 +295,8 @@ input.error
       url: 'https://colonialpowergroup.com/billerica/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
-      green: '30% or less',
-      local: 'No',
+      green: '24.94%',
+      local: '14%',
       duration: '2019-01 to 2021-01',
       rate: 10.631
     },
@@ -306,7 +306,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: 'No',
+      local: '0%',
       duration: '2019-01 to 2021-01',
       rate: 10.733
     },
