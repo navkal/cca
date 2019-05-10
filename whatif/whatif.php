@@ -161,7 +161,7 @@ input.error
       <table id="cca-table" class="tablesorter" >
         <thead>
           <tr>
-            <th>Source</th>
+            <th>Rate Class</th>
             <th>Cost</th>
             <th>Savings</th>
             <th>Broker</th>
