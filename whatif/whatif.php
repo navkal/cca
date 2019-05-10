@@ -662,26 +662,26 @@ input.error
       var sHtml = '';
       for ( var iSource = 0; iSource < aRateClasses.length; iSource ++ )
       {
-        var sSource = aRateClasses[iSource];
-        var tSource = ( sSource in g_tRatesCca ) ? ( g_tRatesCca[sSource] ) : null;
+        var sRateClass = aRateClasses[iSource];
+        var tSource = ( sRateClass in g_tRatesCca ) ? ( g_tRatesCca[sRateClass] ) : null;
         if ( tSource && tSource.url )
         {
           sHtml += '<tr>';
           sHtml += '<td>';
-          sHtml += '<a href="' + tSource.url + '" target="_blank" >' + sSource + '</a>';
+          sHtml += '<a href="' + tSource.url + '" target="_blank" >' + sRateClass + '</a>';
         }
         else
         {
           sHtml += '<tr class="ng-row">';
           sHtml += '<td>';
-          sHtml += '<a href="https://www.nationalgridus.com/media/pdfs/billing-payments/electric-rates/ma/resitable.pdf" target="_blank">' + sSource + '<a>';
+          sHtml += '<a href="https://www.nationalgridus.com/media/pdfs/billing-payments/electric-rates/ma/resitable.pdf" target="_blank">' + sRateClass + '<a>';
         }
         sHtml += '</td>';
         sHtml += '<td>$';
-        sHtml += calculateOutput( sSource );
+        sHtml += calculateOutput( sRateClass );
         sHtml += '</td>';
         sHtml += '<td>$';
-        sHtml += ( nCostNg - calculateOutput( sSource ) ).toFixed( 0 );
+        sHtml += ( nCostNg - calculateOutput( sRateClass ) ).toFixed( 0 );
         sHtml += '</td>';
         sHtml += '<td>';
         if ( tSource && tSource.broker )
