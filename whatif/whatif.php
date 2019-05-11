@@ -370,7 +370,7 @@ input.error
       duration: '2019-01 to 2021-01',
       rate: 11.94
     },
-    'Carlisle Standard':
+    'Carlisle Basic Supply':
     {
       url: 'https://colonialpowergroup.com/carlisle/',
       broker: 'Colonial Power Group',
@@ -380,7 +380,7 @@ input.error
       duration: '2018-07 to 2021-01',
       rate: 10.879
     },
-    'Carlisle Green':
+    'Carlisle Green Supply':
     {
       url: 'https://colonialpowergroup.com/carlisle/',
       broker: 'Colonial Power Group',
