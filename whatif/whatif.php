@@ -390,7 +390,7 @@ input.error
       duration: '2018-07 to 2021-01',
       rate: 10.981
     },
-    'Chelmsford Standard':
+    'Chelmsford Choice':
     {
       url: 'http://masspowerchoice.com/chelmsford',
       broker: 'Mass Power Choice',
@@ -400,7 +400,7 @@ input.error
       duration: '2018-02 to 2020-11',
       rate: 9.403
     },
-    'Chelmsford Green':
+    'Chelmsford Choice Plus':
     {
       url: 'http://masspowerchoice.com/chelmsford',
       broker: 'Mass Power Choice',
