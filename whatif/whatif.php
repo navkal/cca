@@ -202,22 +202,6 @@ input.error
           </p>
           <div>
             <b>
-              <i>Rate Class</i> Terminology
-            </b>
-            <ul>
-              <li>
-                <i>Standard</i> - Meets or exceeds MA renewable energy requirements
-              </li>
-              <li>
-                <i>Green</i> - 100% renewable, typically generated outside of MA
-              </li>
-              <li>
-                <i>Green Local</i> - 100% renewable, generated within MA
-              </li>
-            </ul>
-          </div>
-          <div>
-            <b>
               Instructions
             </b>
             <ol>
