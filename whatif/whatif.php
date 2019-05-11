@@ -540,7 +540,7 @@ input.error
       duration: '2019-05 to 2022-05',
       rate: 10.249
     },
-    'Winchester Standard':
+    'Winchester WinPower':
     {
       url: 'https://winpowerma.com/',
       broker: 'Good Energy',
@@ -550,7 +550,7 @@ input.error
       duration: '2017-07 to 2020-01',
       rate: 10.898
     },
-    'Winchester Green':
+    'Winchester WinPower 100':
     {
       url: 'https://winpowerma.com/',
       broker: 'Good Energy',
