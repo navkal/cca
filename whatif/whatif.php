@@ -340,7 +340,7 @@ input.error
       duration: '2019-01 to 2021-01',
       rate: 10.631
     },
-    'Billerica Green':
+    'Billerica Optional Green':
     {
       url: 'https://colonialpowergroup.com/billerica/',
       broker: 'Colonial Power Group',
