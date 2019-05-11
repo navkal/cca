@@ -754,10 +754,10 @@ input.error
 
       // Generate the table
       var sHtml = '';
-      for ( var iRateClass = 0; iRateClass < aCcaOptions.length; iRateClass ++ )
+      for ( var iCcaOption = 0; iCcaOption < aCcaOptions.length; iCcaOption ++ )
       {
         // Rate class
-        var sRateClass = aCcaOptions[iRateClass];
+        var sRateClass = aCcaOptions[iCcaOption];
         var nCostRateClass = calculateCost( sRateClass );
         var tRateClass = ( sRateClass in g_tCcaOptions ) ? ( g_tCcaOptions[sRateClass] ) : null;
         if ( tRateClass && tRateClass.url )
