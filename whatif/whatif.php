@@ -350,7 +350,7 @@ input.error
       duration: '2019-01 to 2021-01',
       rate: 10.733
     },
-    'Cambridge Green':
+    'Cambridge Standard Green':
     {
       url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
@@ -360,7 +360,7 @@ input.error
       duration: '2019-01 to 2021-01',
       rate: 11.12
     },
-    'Cambridge Green Local':
+    'Cambridge 100% Green Plus':
     {
       url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
