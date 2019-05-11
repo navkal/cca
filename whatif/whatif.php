@@ -490,6 +490,16 @@ input.error
       duration: '2017-08 to 2020-08',
       rate: 13.124
     },
+    'Williamsburg Green':
+    {
+      url: 'https://colonialpowergroup.com/williamsburg/',
+      broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
+      green: '100%',
+      local: '0%',
+      duration: '2019-05 to 2022-05',
+      rate: 10.249
+    },
     'Winchester Standard':
     {
       url: 'https://winpowerma.com/',
