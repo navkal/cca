@@ -759,12 +759,12 @@ input.error
         // Rate class
         var sCcaOption = aCcaOptions[iCcaOption];
         var nCostRateClass = calculateCost( sCcaOption );
-        var tRateClass = ( sCcaOption in g_tCcaOptions ) ? ( g_tCcaOptions[sCcaOption] ) : null;
-        if ( tRateClass && tRateClass.url )
+        var tCcaOption = ( sCcaOption in g_tCcaOptions ) ? ( g_tCcaOptions[sCcaOption] ) : null;
+        if ( tCcaOption && tCcaOption.url )
         {
           sHtml += '<tr>';
           sHtml += '<td>';
-          sHtml += '<a href="' + tRateClass.url + '" target="_blank" >' + sCcaOption + '</a>';
+          sHtml += '<a href="' + tCcaOption.url + '" target="_blank" >' + sCcaOption + '</a>';
         }
         else
         {
@@ -786,34 +786,34 @@ input.error
 
         // Percent green
         sHtml += '<td>';
-        sHtml += ( tRateClass && tRateClass.green ) ? tRateClass.green : '24.94%';
+        sHtml += ( tCcaOption && tCcaOption.green ) ? tCcaOption.green : '24.94%';
         sHtml += '</td>';
 
         // Local
         sHtml += '<td>';
-        sHtml += ( tRateClass && tRateClass.local ) ? tRateClass.local : '14%';
+        sHtml += ( tCcaOption && tCcaOption.local ) ? tCcaOption.local : '14%';
         sHtml += '</td>';
 
         // Broker
         sHtml += '<td>';
-        if ( tRateClass && tRateClass.broker )
+        if ( tCcaOption && tCcaOption.broker )
         {
-          if ( tRateClass.broker_url )
+          if ( tCcaOption.broker_url )
           {
-            sHtml += '<a href="' + tRateClass.broker_url + '" target="_blank" >' + tRateClass.broker + '</a>';
+            sHtml += '<a href="' + tCcaOption.broker_url + '" target="_blank" >' + tCcaOption.broker + '</a>';
           }
           else
           {
-            sHtml += tRateClass.broker;
+            sHtml += tCcaOption.broker;
           }
         }
         sHtml += '</td>';
 
         // Duration
         sHtml += '<td>';
-        if ( tRateClass )
+        if ( tCcaOption )
         {
-          sHtml += tRateClass.duration;
+          sHtml += tCcaOption.duration;
         }
         sHtml += '</td>';
         sHtml += '</tr>';
