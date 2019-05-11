@@ -450,7 +450,7 @@ input.error
       duration: '2018-12 to 2020-12',
       rate: 12.428
     },
-    'Natick Standard':
+    'Natick Basic/Brown':
     {
       url: 'http://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
@@ -460,7 +460,7 @@ input.error
       duration: '2019-07 to 2020-12',
       rate: 11.026
     },
-    'Natick 35% Green':
+    'Natick Standard Green':
     {
       url: 'http://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
@@ -470,7 +470,7 @@ input.error
       duration: '2019-07 to 2020-12',
       rate: 11.263
     },
-    'Natick Green Local':
+    'Natick 100% Green':
     {
       url: 'http://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
@@ -500,7 +500,7 @@ input.error
       duration: '2019-07 to 2022-07',
       rate: 10.885
     },
-    'Sudbury Standard':
+    'Sudbury Basic':
     {
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
@@ -510,7 +510,7 @@ input.error
       duration: '2017-08 to 2020-08',
       rate: 10.624
     },
-    'Sudbury Green':
+    'Sudbury Local Green':
     {
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
@@ -520,7 +520,7 @@ input.error
       duration: '2017-08 to 2020-08',
       rate: 10.749
     },
-    'Sudbury Green Local':
+    'Sudbury Premium One Hundred Local Green':
     {
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
