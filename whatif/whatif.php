@@ -756,7 +756,7 @@ input.error
       var sHtml = '';
       for ( var iCcaOption = 0; iCcaOption < aCcaOptions.length; iCcaOption ++ )
       {
-        // Rate class
+        // CCA option
         var sCcaOption = aCcaOptions[iCcaOption];
         var nCostCcaOption = calculateCost( sCcaOption );
         var tCcaOption = ( sCcaOption in g_tCcaOptions ) ? ( g_tCcaOptions[sCcaOption] ) : null;
