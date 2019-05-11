@@ -749,15 +749,15 @@ input.error
     {
       var nCostNg = calculateCost( 'National Grid' );
 
-      var aRateClasses = Object.keys( g_tCcaOptions );
-      aRateClasses.push( 'National Grid' );
+      var aCcaOptions = Object.keys( g_tCcaOptions );
+      aCcaOptions.push( 'National Grid' );
 
       // Generate the table
       var sHtml = '';
-      for ( var iRateClass = 0; iRateClass < aRateClasses.length; iRateClass ++ )
+      for ( var iRateClass = 0; iRateClass < aCcaOptions.length; iRateClass ++ )
       {
         // Rate class
-        var sRateClass = aRateClasses[iRateClass];
+        var sRateClass = aCcaOptions[iRateClass];
         var nCostRateClass = calculateCost( sRateClass );
         var tRateClass = ( sRateClass in g_tCcaOptions ) ? ( g_tCcaOptions[sRateClass] ) : null;
         if ( tRateClass && tRateClass.url )
