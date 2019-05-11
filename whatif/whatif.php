@@ -30,16 +30,18 @@ input.error
 
   <div class="pt-1 pb-3">
     <div class="row">
-      <div class="h6 col-7">
+      <div class="h5 col-10">
         What if Andover were to adopt CCA?
       </div>
-      <div class="col-5">
+      <div class="col-2">
         <button type="button" id="help-button" class="btn btn-info float-right" data-toggle="modal" data-target="#help-modal">
           Help
         </button>
       </div>
     </div>
   </div>
+
+  <h6 class="pb-3">CCA Bill Estimator</h6>
 
   <!-- Input -->
   <form action="javascript:makeOutput();" style="display:none">
