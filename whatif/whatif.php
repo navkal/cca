@@ -758,7 +758,7 @@ input.error
       {
         // Rate class
         var sCcaOption = aCcaOptions[iCcaOption];
-        var nCostRateClass = calculateCost( sCcaOption );
+        var nCostCcaOption = calculateCost( sCcaOption );
         var tCcaOption = ( sCcaOption in g_tCcaOptions ) ? ( g_tCcaOptions[sCcaOption] ) : null;
         if ( tCcaOption && tCcaOption.url )
         {
@@ -776,12 +776,12 @@ input.error
 
         // Cost
         sHtml += '<td>';
-        sHtml += '$' + nCostRateClass;
+        sHtml += '$' + nCostCcaOption;
         sHtml += '</td>';
 
         // Savings
         sHtml += '<td>';
-        sHtml += '$' + ( nCostNg - nCostRateClass );
+        sHtml += '$' + ( nCostNg - nCostCcaOption );
         sHtml += '</td>';
 
         // Percent green
