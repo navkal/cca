@@ -265,7 +265,7 @@ input.error
       url: 'http://masspowerchoice.com/acton',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: '19%',
+      green: '24.94%',
       local: '19%',
       duration: '2017-09 to 2019-09',
       rate: 10.72
@@ -280,6 +280,53 @@ input.error
       duration: '2017-09 to 2019-09',
       rate: 12.712
     },
+
+    'Arlington 1':
+    {
+      url: 'https://arlingtoncca.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '24.94%',
+      local: '19%',
+      duration: '2017-08 to 2019-12',
+      rate: 10.756
+    },
+
+    'Arlington 2':
+    {
+      url: 'https://arlingtoncca.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '50%',
+      local: '50%',
+      duration: '2017-08 to 2019-12',
+      rate: 11.881
+    },
+
+    'Arlington 3':
+    {
+      url: 'https://arlingtoncca.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '100%',
+      local: '100%',
+      duration: '2017-08 to 2019-12',
+      rate: 13.131
+    },
+
+
+    'Arlington 4':
+    {
+      url: 'https://arlingtoncca.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '24.94%',
+      local: '14%',
+      duration: '2017-08 to 2019-12',
+      rate: 10.631
+    },
+
+
     'Ashland Green':
     {
       url: 'https://colonialpowergroup.com/ashland/',
