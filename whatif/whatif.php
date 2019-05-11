@@ -290,7 +290,7 @@ input.error
       duration: '2017-08 to 2019-12',
       rate: 10.631
     },
-    'Arlington 5% Local Green':
+    'Arlington Local Green':
     {
       url: 'https://arlingtoncca.com/',
       broker: 'Good Energy',
@@ -300,7 +300,7 @@ input.error
       duration: '2017-08 to 2019-12',
       rate: 10.756
     },
-    'Arlington 50% Local Green':
+    'Arlington Premium 50% Local Green':
     {
       url: 'https://arlingtoncca.com/',
       broker: 'Good Energy',
@@ -310,7 +310,7 @@ input.error
       duration: '2017-08 to 2019-12',
       rate: 11.881
     },
-    'Arlington 100% Local Green':
+    'Arlington Premium 100% Local Green':
     {
       url: 'https://arlingtoncca.com/',
       broker: 'Good Energy',
