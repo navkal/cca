@@ -260,7 +260,7 @@ input.error
 
   var g_tRateClasses =
   {
-    'Acton Standard':
+    'Acton Power Choice Standard':
     {
       url: 'http://masspowerchoice.com/acton',
       broker: 'Mass Power Choice',
@@ -270,7 +270,7 @@ input.error
       duration: '2017-09 to 2019-09',
       rate: 10.72
     },
-    'Acton Green':
+    'Acton Power Choice Green':
     {
       url: 'http://masspowerchoice.com/acton',
       broker: 'Mass Power Choice',
