@@ -757,20 +757,20 @@ input.error
       for ( var iCcaOption = 0; iCcaOption < aCcaOptions.length; iCcaOption ++ )
       {
         // Rate class
-        var sRateClass = aCcaOptions[iCcaOption];
-        var nCostRateClass = calculateCost( sRateClass );
-        var tRateClass = ( sRateClass in g_tCcaOptions ) ? ( g_tCcaOptions[sRateClass] ) : null;
+        var sCcaOption = aCcaOptions[iCcaOption];
+        var nCostRateClass = calculateCost( sCcaOption );
+        var tRateClass = ( sCcaOption in g_tCcaOptions ) ? ( g_tCcaOptions[sCcaOption] ) : null;
         if ( tRateClass && tRateClass.url )
         {
           sHtml += '<tr>';
           sHtml += '<td>';
-          sHtml += '<a href="' + tRateClass.url + '" target="_blank" >' + sRateClass + '</a>';
+          sHtml += '<a href="' + tRateClass.url + '" target="_blank" >' + sCcaOption + '</a>';
         }
         else
         {
           sHtml += '<tr class="ng-row">';
           sHtml += '<td>';
-          sHtml += '<a href="https://www.nationalgridus.com/media/pdfs/billing-payments/electric-rates/ma/resitable.pdf" target="_blank">' + sRateClass + '<a>';
+          sHtml += '<a href="https://www.nationalgridus.com/media/pdfs/billing-payments/electric-rates/ma/resitable.pdf" target="_blank">' + sCcaOption + '<a>';
         }
         sHtml += '</td>';
 
