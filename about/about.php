@@ -32,7 +32,7 @@
   </p>
 
   <p>
-    The program would give consumers greater control over their electricity supply by offering multiple options for their electricity mix as well as the ability to leave the program and return to National Grid’s Basic Service at any time, with no penalty or fee.  For all customers, National Grid would continue to be the distributor and billing agent.
+    The program would give consumers greater control over the price and content of their electricity supply by offering one or more alternatives to National Grid <i>Basic Service</i>.  It would also allow customers to resume National Grid Basic Service at any time, with no penalty or fee.  For all customers, National Grid would continue to be the distributor and billing agent.
   </p>
 
   <p>
