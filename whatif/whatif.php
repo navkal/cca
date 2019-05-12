@@ -207,7 +207,7 @@ input.error
               <i>Green Content</i> - Percent of total mix derived from renewable sources
             </li>
             <li>
-              <i>Local Green Content</i> - Percent of total mix derived from renewable sources located in New England, primarily MA
+              <i>Local Green Content</i> - Percent of total mix derived from renewable sources located in New England
             </li>
           </ul>
 
