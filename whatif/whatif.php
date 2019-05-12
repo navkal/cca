@@ -169,7 +169,8 @@ input.error
             <th>Green Content</th>
             <th>Local Green Content</th>
             <th>Broker</th>
-            <th>Duration</th>
+            <th>Start Month</th>
+            <th>End Month</th>
           </tr>
         </thead>
         <tbody>
@@ -265,7 +266,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '24.94%',
       local: '19%',
-      duration: '2017-09 to 2019-09',
+      start: '2017-09',
+      end: '2019-09',
       rate: 10.72
     },
     'Acton Power Choice Green':
@@ -275,7 +277,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
       local: '100%',
-      duration: '2017-09 to 2019-09',
+      start: '2017-09',
+      end: '2019-09',
       rate: 12.712
     },
     'Arlington Basic':
@@ -285,7 +288,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '24.94%',
       local: '14%',
-      duration: '2017-08 to 2019-12',
+      start: '2017-08',
+      end: '2019-12',
       rate: 10.631
     },
     'Arlington Local Green':
@@ -295,7 +299,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '24.94%',
       local: '19%',
-      duration: '2017-08 to 2019-12',
+      start: '2017-08',
+      end: '2019-12',
       rate: 10.756
     },
     'Arlington Premium 50% Local Green':
@@ -305,7 +310,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '50%',
       local: '50%',
-      duration: '2017-08 to 2019-12',
+      start: '2017-08',
+      end: '2019-12',
       rate: 11.881
     },
     'Arlington Premium 100% Local Green':
@@ -315,7 +321,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '100%',
       local: '100%',
-      duration: '2017-08 to 2019-12',
+      start: '2017-08',
+      end: ' 2019-12',
       rate: 13.131
     },
     'Ashland Green':
@@ -325,7 +332,8 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
       local: '23%',
-      duration: '2018-06 to 2020-12',
+      start: '2018-06',
+      end: '2020-12',
       rate: 10.947
     },
     'Billerica Standard':
@@ -335,7 +343,8 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: '24.94%',
       local: '14%',
-      duration: '2019-01 to 2021-01',
+      start: '2019-01',
+      end: '2021-01',
       rate: 10.631
     },
     'Billerica Optional Green':
@@ -345,7 +354,8 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
       local: '0%',
-      duration: '2019-01 to 2021-01',
+      start: '2019-01',
+      end: '2021-01',
       rate: 10.733
     },
     'Cambridge Standard Green':
@@ -355,7 +365,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '24.94%',
       local: '14%',
-      duration: '2019-01 to 2021-01',
+      start: '2019-01',
+      end: '2021-01',
       rate: 11.12
     },
     'Cambridge 100% Green Plus':
@@ -365,7 +376,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
       local: '100%',
-      duration: '2019-01 to 2021-01',
+      start: '2019-01',
+      end: '2021-01',
       rate: 11.94
     },
     'Carlisle Basic Supply':
@@ -375,7 +387,8 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: '24.94%',
       local: '14%',
-      duration: '2018-07 to 2021-01',
+      start: '2018-07',
+      end: '2021-01',
       rate: 10.879
     },
     'Carlisle Green Supply':
@@ -385,7 +398,8 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
       local: '0%',
-      duration: '2018-07 to 2021-01',
+      start: '2018-07',
+      end: '2021-01',
       rate: 10.981
     },
     'Chelmsford Choice':
@@ -395,7 +409,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '24.94%',
       local: '14%',
-      duration: '2018-02 to 2020-11',
+      start: '2018-02',
+      end: '2020-11',
       rate: 9.403
     },
     'Chelmsford Choice Plus':
@@ -405,7 +420,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
       local: '34%',
-      duration: '2018-02 to 2020-11',
+      start: '2018-02',
+      end: '2020-11',
       rate: 10.089
     },
     'Dracut Standard':
@@ -415,7 +431,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '24.94%',
       local: '14%',
-      duration: '2018-09 to 2021-01',
+      start: '2018-09',
+      end: '2021-01',
       rate: 10.43
     },
     'Lexington Basic':
@@ -425,7 +442,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '24.94%',
       local: '14%',
-      duration: '2018-12 to 2020-12',
+      start: '2018-12',
+      end: '2020-12',
       rate: 11.494
     },
     'Lexington 100% Green':
@@ -435,7 +453,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
       local: '19%',
-      duration: '2018-12 to 2020-12',
+      start: '2018-12',
+      end: '2020-12',
       rate: 11.624
     },
     'Lexington New England Green':
@@ -445,7 +464,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
       local: '100%',
-      duration: '2018-12 to 2020-12',
+      start: '2018-12',
+      end: '2020-12',
       rate: 12.428
     },
     'Natick Basic/Brown':
@@ -455,7 +475,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '24.94%',
       local: '14%',
-      duration: '2019-07 to 2020-12',
+      start: '2019-07',
+      end: ' 2020-12',
       rate: 11.026
     },
     'Natick Standard Green':
@@ -465,7 +486,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '35%',
       local: '10%',
-      duration: '2019-07 to 2020-12',
+      start: '2019-07',
+      end: '2020-12',
       rate: 11.263
     },
     'Natick 100% Green':
@@ -475,7 +497,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
       local: '100%',
-      duration: '2019-07 to 2020-12',
+      start: '2019-07',
+      end: '2020-12',
       rate: 13.063
     },
     'North Andover Standard':
@@ -485,7 +508,8 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: '24.94%',
       local: '14%',
-      duration: '2019-07 to 2022-07',
+      start: '2019-07',
+      end: '2022-07',
       rate: 10.79
     },
     'North Andover Green':
@@ -495,7 +519,8 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
       local: '0%',
-      duration: '2019-07 to 2022-07',
+      start: '2019-07',
+      end: '2022-07',
       rate: 10.885
     },
     'Sudbury Basic':
@@ -505,7 +530,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '24.94%',
       local: '14%',
-      duration: '2017-08 to 2020-08',
+      start: '2017-08',
+      end: '2020-08',
       rate: 10.624
     },
     'Sudbury Local Green':
@@ -515,7 +541,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '100%',
       local: '19%',
-      duration: '2017-08 to 2020-08',
+      start: '2017-08',
+      end: '2020-08',
       rate: 10.749
     },
     'Sudbury Premium One Hundred Local Green':
@@ -525,7 +552,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '100%',
       local: '100%',
-      duration: '2017-08 to 2020-08',
+      start: '2017-08',
+      end: '2020-08',
       rate: 13.124
     },
     'Williamsburg Green':
@@ -535,7 +563,8 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
       local: '0%',
-      duration: '2019-05 to 2022-05',
+      start: '2019-05',
+      end: '2022-05',
       rate: 10.249
     },
     'Winchester WinPower':
@@ -545,7 +574,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '18%',
       local: '13%',
-      duration: '2017-07 to 2020-01',
+      start: '2017-07',
+      end: '2020-01',
       rate: 10.898
     },
     'Winchester WinPower 100':
@@ -555,7 +585,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '100%',
       local: '0%',
-      duration: '2017-07 to 2020-01',
+      start: '2017-07',
+      end: '2020-01',
       rate: 13.558
     },
   };
@@ -823,13 +854,22 @@ input.error
         }
         sHtml += '</td>';
 
-        // Duration
+        // Start month
         sHtml += '<td>';
         if ( tCcaOption )
         {
-          sHtml += tCcaOption.duration;
+          sHtml += tCcaOption.start;
         }
         sHtml += '</td>';
+
+        // End month
+        sHtml += '<td>';
+        if ( tCcaOption )
+        {
+          sHtml += tCcaOption.end;
+        }
+        sHtml += '</td>';
+
         sHtml += '</tr>';
       }
 
