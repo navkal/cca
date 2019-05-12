@@ -5,11 +5,11 @@
 <div class="container">
 
   <p class="h5 mt-1">
-    What is <i>Community Choice Aggregation</i>?
+    What is Community Choice Aggregation?
   </p>
 
   <p>
-    Community Choice Aggregation (CCA) is a state-regulated program that addresses a growing demand by Massachusetts electricity consumers to purchase renewable energy at competitive prices.  Also known as <i>Municipal Aggregation</i>, the program authorizes a municipality to negotiate prices and terms with competing electricity suppliers on behalf of the community.  One hundred forty-six Massachusetts towns and cities already participate in this program today.  Andover should, too.
+    <i>Community Choice Aggregation</i> (CCA) is a state-regulated program that addresses a growing demand by Massachusetts electricity consumers to purchase renewable energy at competitive prices.  Also known as <i>Municipal Aggregation</i>, the program authorizes a municipality to negotiate prices and terms with competing electricity suppliers on behalf of the community.  One hundred forty-six Massachusetts towns and cities already participate in this program today.  Andover should, too.
   </p>
 
   <p>

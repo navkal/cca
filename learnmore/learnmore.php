@@ -50,7 +50,7 @@
 <div class="container">
 
   <p class="h5 mt-1 list-group-item">
-    Learn about <i>Community Choice Aggregation</i>
+    Learn about Community Choice Aggregation
   </p>
 
   <?php
