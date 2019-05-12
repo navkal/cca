@@ -199,8 +199,8 @@ input.error
         <small>
           <p>
             The CCA Bill Estimator helps you gauge the potential impact of CCA on your electric bill.
-            The results are based on actual contracts negotiated by nearby towns.
-            You can enter readings from your own bill or view results for other Andover homes provided as samples.
+            It uses your meter readings to show what you would have paid under actual CCA contracts negotiated by nearby towns.
+            You can enter readings from your own bill as described below, or view results for a few Andover homes provided as samples.
           </p>
           <div>
             <b>
@@ -220,6 +220,19 @@ input.error
                 Click <b>Calculate</b>.
               </li>
             </ol>
+          </div>
+          <div>
+            <b>
+              Terminology
+            </b>
+            <ul>
+              <li>
+                <i>Green Content</i> - Percent of total mix derived from renewable sources
+              </li>
+              <li>
+                <i>Local Green Content</i> - Percent of total mix derived from renewable sources located in New England, mostly in MA
+              </li>
+            </ul>
           </div>
         </small>
 
