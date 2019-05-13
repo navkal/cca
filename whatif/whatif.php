@@ -201,7 +201,7 @@ input.error
           <p>
             The CCA Bill Estimator helps you assess the potential impact of CCA on your electric bill.
             It uses your meter readings to show what you would have paid under actual CCA contracts negotiated by nearby towns.
-            It also characterizes each contract by its renewable content:
+            It also quantifies the renewable content promised by each contract:
           </p>
           <ul>
             <li>
