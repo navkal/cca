@@ -697,7 +697,7 @@ input.error
     $( 'form' ).show();
 
     // Initialize the table
-    initTable( clearInput );
+    initTable();
   }
 
   function initTabOrder()
@@ -762,7 +762,7 @@ input.error
     }
   }
 
-  function initTable( fnReadyHandler )
+  function initTable()
   {
     var tTableProps =
     {
@@ -781,7 +781,8 @@ input.error
       function()
       {
         $( '#cca-table' ).off( 'tablesorter-ready' );
-        fnReadyHandler();
+        $( '#cca-table' ).on( 'tablesorter-ready', hideTooltips );
+        clearInput();
       }
     );
     $( '#cca-table' ).tablesorter( jQuery.extend( true, { sortList: [[0,0]] }, tTableProps ) );
@@ -987,9 +988,15 @@ input.error
 
   function scrollToResults()
   {
-    $('.tooltip').tooltip( 'hide' );
+    hideTooltips();
+
     var iScrollTop = $( '#form-buttons' ).offset().top - $( '.fixed-top' ).outerHeight( true );
     $( 'body,html' ).animate( { scrollTop: iScrollTop }, 500 );
+  }
+
+  function hideTooltips()
+  {
+    $('.tooltip').tooltip( 'hide' );
   }
 
   function loadHouse1()
