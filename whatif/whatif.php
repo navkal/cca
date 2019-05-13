@@ -171,8 +171,8 @@ input.error
             <th>CCA Option</th>
             <th>Cost</th>
             <th>Savings</th>
-            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources">Green Content</th>
-            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources located in New England">Local Green Content</th>
+            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources" data-placement="bottom" >Green Content</th>
+            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources located in New England" data-placement="bottom" >Local Green Content</th>
             <th>Broker</th>
             <th>Start Month</th>
             <th>End Month</th>
