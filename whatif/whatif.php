@@ -890,7 +890,7 @@ input.error
       tTable.trigger( 'updateAll' );
 
       // Show total kWh
-      var sHouse = g_iHouse ? 'House ' + g_iHouse : 'You';
+      var sHouse = g_iHouse ? '<i>House ' + g_iHouse + '</i>': 'You';
       $( '#total-kwh' ).html( sHouse + ' used ' + g_iTotalKwh.toLocaleString() + ' kWh from ' + $( 'label[for="kwh-1"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
       g_iHouse = 0;
 
