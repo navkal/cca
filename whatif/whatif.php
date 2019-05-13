@@ -52,10 +52,10 @@ input.error
       </div>
       <div class="col-9 col-md-10">
         <div class="btn-group btn-group-sm">
-          <button type="button" id="house-1" class="btn btn-outline-secondary house-button" title="4 bedrooms, A/C" >House 1</button>
-          <button type="button" id="house-2" class="btn btn-outline-secondary house-button" title="4 bedrooms, A/C, affected by Columbia Gas event" >House 2</button>
-          <button type="button" id="house-3" class="btn btn-outline-secondary house-button" title="4 bedrooms, A/C" >House 3</button>
-          <button type="button" id="house-4" class="btn btn-outline-secondary house-button" title="3 bedrooms, no A/C" >House 4</button>
+          <button type="button" id="house-1" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >House 1</button>
+          <button type="button" id="house-2" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C, affected by Columbia Gas event" >House 2</button>
+          <button type="button" id="house-3" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >House 3</button>
+          <button type="button" id="house-4" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="3 bedrooms, no A/C" >House 4</button>
         </div>
       </div>
     </div>
@@ -166,8 +166,8 @@ input.error
             <th>CCA Option</th>
             <th>Cost</th>
             <th>Savings</th>
-            <th>Green Content</th>
-            <th>Local Green Content</th>
+            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources">Green Content</th>
+            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources located in New England">Local Green Content</th>
             <th>Broker</th>
             <th>Start Month</th>
             <th>End Month</th>
@@ -681,6 +681,7 @@ input.error
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     $( '.kwh-input' ).on( 'input', onInputKwhInput );
     $( '#clear-button' ).on( 'click', clearInput );
+    $( '[data-toggle="tooltip"]' ).tooltip()
 
     // Hide the last label and input
     $( 'label[for="kwh-14"]' ).hide().removeClass( 'kwh-label' );
