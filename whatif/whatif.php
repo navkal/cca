@@ -168,14 +168,30 @@ input.error
       <table id="cca-table" class="tablesorter" >
         <thead>
           <tr>
-            <th>CCA Option</th>
-            <th>Cost</th>
-            <th>Savings</th>
-            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources" >Green Content</th>
-            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources located in New England" >Local Green Content</th>
-            <th>Broker</th>
-            <th>Start Month</th>
-            <th>End Month</th>
+            <th data-toggle="tooltip" title="Town and CCA contract name" >
+              CCA Option
+            </th>
+            <th data-toggle="tooltip" title="Energy component of electric bill" >
+              Cost
+            </th>
+            <th data-toggle="tooltip" title="Difference with respect to National Grid Basic Rate" >
+              Savings
+            </th>
+            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources" >
+              Green Content
+            </th>
+            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources located in New England" >
+              Local Green Content
+            </th>
+            <th data-toggle="tooltip" title="Mediator between town government and bulk energy supplier" >
+              Broker
+            </th>
+            <th data-toggle="tooltip" title="First month of contract" >
+              Start Month
+            </th>
+            <th data-toggle="tooltip" title="Last month of contract" >
+              End Month
+            </th>
           </tr>
         </thead>
         <tbody>
