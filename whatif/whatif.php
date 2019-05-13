@@ -3,6 +3,11 @@
 ?>
 
 <style>
+.tooltip-inner
+{
+  background-color:#006600;
+}
+
 .table-backdrop
 {
   padding: 3px;
@@ -681,7 +686,11 @@ input.error
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     $( '.kwh-input' ).on( 'input', onInputKwhInput );
     $( '#clear-button' ).on( 'click', clearInput );
-    $( '[data-toggle="tooltip"]' ).tooltip()
+    $( '[data-toggle="tooltip"]' ).tooltip(
+      {
+        template: '<div class="tooltip" role="tooltip"><div class="arrow"></div><div class="tooltip-inner" ></div></div>'
+      }
+    );
 
     // Hide the last label and input
     $( 'label[for="kwh-14"]' ).hide().removeClass( 'kwh-label' );
@@ -987,6 +996,7 @@ input.error
 
   function scrollToResults()
   {
+    $('.tooltip').tooltip( 'hide' );
     var iScrollTop = $( '#form-buttons' ).offset().top - $( '.fixed-top' ).outerHeight( true );
     $( 'body,html' ).animate( { scrollTop: iScrollTop }, 500 );
   }
