@@ -607,75 +607,75 @@ input.error
   {
     'Jan 18':
     {
-      'National Grid': 12.673,
+      'National Grid Basic Rate': 12.673,
     },
     'Feb 18':
     {
-      'National Grid': 12.673,
+      'National Grid Basic Rate': 12.673,
     },
     'Mar 18':
     {
-      'National Grid': 12.673,
+      'National Grid Basic Rate': 12.673,
     },
     'Apr 18':
     {
-      'National Grid': 12.673,
+      'National Grid Basic Rate': 12.673,
     },
     'May 18':
     {
-      'National Grid': 12.673,
+      'National Grid Basic Rate': 12.673,
     },
     'Jun 18':
     {
-      'National Grid': 10.87,
+      'National Grid Basic Rate': 10.87,
     },
     'Jul 18':
     {
-      'National Grid': 10.87,
+      'National Grid Basic Rate': 10.87,
     },
     'Aug 18':
     {
-      'National Grid': 10.87,
+      'National Grid Basic Rate': 10.87,
     },
     'Sep 18':
     {
-      'National Grid': 10.87,
+      'National Grid Basic Rate': 10.87,
     },
     'Oct 18':
     {
-      'National Grid': 10.87,
+      'National Grid Basic Rate': 10.87,
     },
     'Nov 18':
     {
-      'National Grid': 13.718,
+      'National Grid Basic Rate': 13.718,
     },
     'Dec 18':
     {
-      'National Grid': 13.718,
+      'National Grid Basic Rate': 13.718,
     },
     'Jan 19':
     {
-      'National Grid': 13.718,
+      'National Grid Basic Rate': 13.718,
     },
     'Jan 19':
     {
-      'National Grid': 13.718,
+      'National Grid Basic Rate': 13.718,
     },
     'Feb 19':
     {
-      'National Grid': 13.718,
+      'National Grid Basic Rate': 13.718,
     },
     'Mar 19':
     {
-      'National Grid': 13.718,
+      'National Grid Basic Rate': 13.718,
     },
     'Apr 19':
     {
-      'National Grid': 13.718,
+      'National Grid Basic Rate': 13.718,
     },
     'May 19':
     {
-      'National Grid': 13.718,
+      'National Grid Basic Rate': 13.718,
     },
   };
 
@@ -810,10 +810,10 @@ input.error
 
     if ( isInputReady() )
     {
-      var nCostNg = calculateCost( 'National Grid' );
+      var nCostNg = calculateCost( 'National Grid Basic Rate' );
 
       var aCcaOptions = Object.keys( g_tCcaOptions );
-      aCcaOptions.push( 'National Grid' );
+      aCcaOptions.push( 'National Grid Basic Rate' );
 
       // Generate the table
       var sHtml = '';
