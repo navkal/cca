@@ -123,15 +123,15 @@ input.error
           <div class="col-2 col-md-1">
             <label for="<?=$sId1?>" class="col-form-label col-form-label-sm kwh-label" ></label>
           </div>
-          <div class="col-3 col-md-4">
+          <div class="col-4 col-md-4">
             <input id="<?=$sId1?>" type="text" class="form-control form-control-sm kwh-input">
           </div>
-          <div class="col-2 col-md-2">
+          <div class="d-none d-md-block col-md-2">
           </div>
           <div class="col-2 col-md-1">
             <label for="<?=$sId2?>" class="col-form-label col-form-label-sm kwh-label"></label>
           </div>
-          <div class="col-3 col-md-4">
+          <div class="col-4 col-md-4">
             <input id="<?=$sId2?>" type="text" class="form-control form-control-sm kwh-input">
           </div>
         </div>
