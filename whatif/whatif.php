@@ -174,7 +174,7 @@ input.error
             <th data-toggle="tooltip" title="Energy component of electric bill" >
               Cost
             </th>
-            <th data-toggle="tooltip" title="Difference with respect to National Grid Basic Rate" >
+            <th data-toggle="tooltip" title="Difference relative to National Grid Basic Rate" >
               Savings
             </th>
             <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources" >
