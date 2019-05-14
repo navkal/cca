@@ -177,10 +177,10 @@ input.error
             <th data-toggle="tooltip" title="Difference relative to National Grid Basic Rate" >
               Savings
             </th>
-            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources" >
+            <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources" >
               Green Content
             </th>
-            <th data-toggle="tooltip" title="Percent of total mix derived from renewable sources located in New England" >
+            <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources located in New England" >
               Local Green Content
             </th>
             <th data-toggle="tooltip" title="Mediator between town government and bulk energy supplier" >
