@@ -61,6 +61,7 @@ input.error
           <button type="button" id="house-2" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C, affected by Columbia Gas event" >House 2</button>
           <button type="button" id="house-3" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >House 3</button>
           <button type="button" id="house-4" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="3 bedrooms, no A/C" >House 4</button>
+          <button type="button" id="house-5" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >House 5</button>
         </div>
       </div>
     </div>
@@ -267,6 +268,7 @@ input.error
     [ '3.18',  660,  508,  552,  712,  737,  680,  768,  745, 1973, 1382, 1059,  786,  793 ],
     [ '4.18', 1033,  974, 1254, 1128, 1445, 1461, 1206, 1055, 1160, 1219, 1198, 1056, 1034 ],
     [ '4.18',  380,  372,  621,  654,  785,  883,  527,  572,  459,  619,  681,  676,  353 ],
+    [ '5.18',  572, 1171, 1573, 1582, 1989,  810,  620,  801,  862,  842,  773,  677,  583 ],
   ];
 
   var g_tCcaOptions =
@@ -690,6 +692,7 @@ input.error
     $( '#house-2' ).on( 'click', loadHouse2 );
     $( '#house-3' ).on( 'click', loadHouse3 );
     $( '#house-4' ).on( 'click', loadHouse4 );
+    $( '#house-5' ).on( 'click', loadHouse5 );
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     $( '.kwh-input' ).on( 'input', onInputKwhInput );
     $( '#clear-button' ).on( 'click', clearInput );
@@ -1033,6 +1036,11 @@ input.error
   function loadHouse4()
   {
     loadHouse( 4 );
+  }
+
+  function loadHouse5()
+  {
+    loadHouse( 5 );
   }
 
   function loadHouse( iHouse )
