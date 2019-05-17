@@ -11,7 +11,7 @@
 .table-backdrop
 {
   padding: 3px;
-  background-color: #eef7f0;
+  background-color: #f6fbf7;
 }
 
 .ng-row
