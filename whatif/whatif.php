@@ -770,7 +770,10 @@ input.error
 
     // Hide the last label and input
     $( 'label[for="kwh-14"]' ).hide().removeClass( 'kwh-label' );
-    $( '#kwh-14' ).hide().removeClass( 'kwh-input' );;
+    $( '#kwh-14' ).hide().removeClass( 'kwh-input' );
+
+    // Exclude first entry from calculations
+    $( 'label[for="kwh-1"]' ).removeClass( 'kwh-label' );
 
     // Set the tab order
     initTabOrder();
@@ -969,7 +972,7 @@ input.error
 
       // Show total kWh
       var sHouse = g_iHouse ? '<i>House ' + g_iHouse + '</i>': 'You';
-      $( '#total-kwh' ).html( sHouse + ' used ' + g_iTotalKwh.toLocaleString() + ' kWh from ' + $( 'label[for="kwh-1"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
+      $( '#total-kwh' ).html( sHouse + ' used ' + g_iTotalKwh.toLocaleString() + ' kWh from ' + $( 'label[for="kwh-2"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
       g_iHouse = 0;
 
       // Show the output
@@ -1003,6 +1006,8 @@ input.error
   {
     g_iTotalKwh = 0;
     var nCost = 0;
+    
+    console.log( '=======' );
 
     var aLabels = $( '.kwh-label' );
     for ( var iLabel = 0; iLabel < aLabels.length; iLabel ++ )
@@ -1012,6 +1017,7 @@ input.error
       var nRate = ( sCcaOption in g_tCcaOptions ) ? g_tCcaOptions[sCcaOption].rate : g_tRatesNg[sMonthYear][sCcaOption];
       var iKwh = $( '#' + tLabel.attr( 'for' ) ).val();
       g_iTotalKwh += parseInt( iKwh );
+      console.log( sCcaOption + ', ' + sMonthYear + ', kwh=' + iKwh + ', rate=' + nRate + ' tot=' + g_iTotalKwh );
       nCost += nRate * iKwh;
     }
 
