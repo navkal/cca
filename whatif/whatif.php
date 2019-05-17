@@ -1006,8 +1006,6 @@ input.error
   {
     g_iTotalKwh = 0;
     var nCost = 0;
-    
-    console.log( '=======' );
 
     var aLabels = $( '.kwh-label' );
     for ( var iLabel = 0; iLabel < aLabels.length; iLabel ++ )
@@ -1017,7 +1015,6 @@ input.error
       var nRate = ( sCcaOption in g_tCcaOptions ) ? g_tCcaOptions[sCcaOption].rate : g_tRatesNg[sMonthYear][sCcaOption];
       var iKwh = $( '#' + tLabel.attr( 'for' ) ).val();
       g_iTotalKwh += parseInt( iKwh );
-      console.log( sCcaOption + ', ' + sMonthYear + ', kwh=' + iKwh + ', rate=' + nRate + ' tot=' + g_iTotalKwh );
       nCost += nRate * iKwh;
     }
 
