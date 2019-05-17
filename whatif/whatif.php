@@ -515,6 +515,39 @@ input.error
       end: '2020-12',
       rate: 13.063
     },
+    'Newton Basic':
+    {
+      url: 'https://masspowerchoice.com/newton',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      green: '14%',
+      local: '0%',
+      start: '2019-03',
+      end: '2021-01',
+      rate: 10.87
+    },
+    'Newton Standard':
+    {
+      url: 'https://masspowerchoice.com/newton',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      green: '60%',
+      local: '60%',
+      start: '2019-03',
+      end: '2021-01',
+      rate: 11.34
+    },
+    'Newton 100% Green':
+    {
+      url: 'https://masspowerchoice.com/newton',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      green: '100%',
+      local: '100%',
+      start: '2019-03',
+      end: '2021-01',
+      rate: 11.75
+    },
     'North Andover Standard':
     {
       url: 'https://colonialpowergroup.com/north-andover-further-pricing/',
