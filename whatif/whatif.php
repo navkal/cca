@@ -912,7 +912,8 @@ input.error
         sHtml += '</td>';
 
         // Savings
-        sHtml += '<td>';
+        var sStyle = ( ( nCostNg > nCostCcaOption ) ? 'font-weight:bold' : ( ( nCostNg < nCostCcaOption ) ? 'color:red' : '' ) )
+        sHtml += '<td style="' + sStyle + '" >';
         sHtml += '$' + ( nCostNg - nCostCcaOption );
         sHtml += '</td>';
 
