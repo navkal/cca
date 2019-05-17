@@ -336,7 +336,7 @@ input.error
       green: '100%',
       local: '100%',
       start: '2017-08',
-      end: ' 2019-12',
+      end: '2019-12',
       rate: 13.131
     },
     'Ashland Green':
@@ -482,6 +482,39 @@ input.error
       end: '2020-12',
       rate: 12.428
     },
+    'Melrose Basic':
+    {
+      url: 'https://melrose-cea.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '24.94%',
+      local: '14%',
+      start: '2019-06',
+      end: '2021-11',
+      rate: 10.401
+    },
+    'Melrose Local Green':
+    {
+      url: 'https://melrose-cea.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '24.94%',
+      local: '19%',
+      start: '2019-06',
+      end: '2021-11',
+      rate: 10.521
+    },
+    'Melrose Premium 100% Local Green':
+    {
+      url: 'https://melrose-cea.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '100%',
+      local: '100%',
+      start: '2019-06',
+      end: '2021-11',
+      rate: 12.801
+    },
     'Natick Basic/Brown':
     {
       url: 'http://masspowerchoice.com/natick',
@@ -490,7 +523,7 @@ input.error
       green: '24.94%',
       local: '14%',
       start: '2019-07',
-      end: ' 2020-12',
+      end: '2020-12',
       rate: 11.026
     },
     'Natick Standard Green':
@@ -520,8 +553,8 @@ input.error
       url: 'https://masspowerchoice.com/newton',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: '14%',
-      local: '0%',
+      green: '24.94%',
+      local: '14%',
       start: '2019-03',
       end: '2021-01',
       rate: 10.87
