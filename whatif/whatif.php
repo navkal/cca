@@ -4,22 +4,27 @@
   $g_aSampleHouses =
   [
     [
+      'description' => '4 bedrooms, A/C',
       'start_month' => '4.18',
       'readings' => [  659,  599,  988, 1569, 2132, 1736,  797,  608,  777, 1119,  709,  715,  695 ]
     ],
     [
+      'description' => '4 bedrooms, A/C, affected by Columbia Gas accident',
       'start_month' => '3.18',
       'readings' => [  660,  508,  552,  712,  737,  680,  768,  745, 1973, 1382, 1059,  786,  793 ]
     ],
     [
+      'description' => '4 bedrooms, A/C',
       'start_month' => '4.18',
       'readings' => [ 1033,  974, 1254, 1128, 1445, 1461, 1206, 1055, 1160, 1219, 1198, 1056, 1034 ]
     ],
     [
+      'description' => '3 bedrooms, no A/C',
       'start_month' => '4.18',
       'readings' => [  380,  372,  621,  654,  785,  883,  527,  572,  459,  619,  681,  676,  353 ]
     ],
     [
+      'description' => '4 bedrooms, A/C',
       'start_month' => '5.18',
       'readings' => [  572, 1171, 1573, 1582, 1989,  810,  620,  801,  862,  842,  773,  677,  583 ]
     ]
@@ -82,11 +87,15 @@ input.error
       </div>
       <div class="col-9 col-md-10">
         <div class="btn-group btn-group-sm">
-          <button type="button" id="house-1" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >1</button>
-          <button type="button" id="house-2" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C, affected by Columbia Gas event" >2</button>
-          <button type="button" id="house-3" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >3</button>
-          <button type="button" id="house-4" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="3 bedrooms, no A/C" >4</button>
-          <button type="button" id="house-5" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >5</button>
+          <?php
+            foreach ( $g_aSampleHouses as $iHouse => $tHouse )
+            {
+              $iHouseNumber = $iHouse + 1;
+              ?>
+            <button type="button" id="house-<?=$iHouseNumber?>" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="<?=$tHouse['description']?>" ><?=$iHouseNumber?></button>
+              <?php
+            }
+          ?>
         </div>
       </div>
     </div>
