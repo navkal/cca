@@ -3,6 +3,6 @@ Andover CCA
 andovercca@gmail.com
 #
 # --- Public views ---
-about,About,about/about.php
+overview,Overview,overview/overview.php
 whatif,What If?,whatif/whatif.php
 learnmore,Learn More,learnmore/learnmore.php
