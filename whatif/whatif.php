@@ -268,7 +268,7 @@ input.error
 <script>
   var g_iHouse = 0;
 
-  var g_tSampleHouses =
+  var g_aSampleHouses =
   [
     [ '4.18',  659,  599,  988, 1569, 2132, 1736,  797,  608,  777, 1119,  709,  715,  695 ],
     [ '3.18',  660,  508,  552,  712,  737,  680,  768,  745, 1973, 1382, 1059,  786,  793 ],
@@ -1153,7 +1153,7 @@ input.error
 
     g_iHouse = iHouse;
 
-    var aReadings = g_tSampleHouses[iHouse-1];
+    var aReadings = g_aSampleHouses[iHouse-1];
 
     $( '#start-month' ).val( aReadings[0] ).change();
 
