@@ -54,15 +54,15 @@ input.error
 
     <div class="form-group row">
       <div class="col-3 col-md-2">
-        <label>Samples</label>
+        <label>Sample Houses</label>
       </div>
       <div class="col-9 col-md-10">
         <div class="btn-group btn-group-sm">
-          <button type="button" id="house-1" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >House 1</button>
-          <button type="button" id="house-2" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C, affected by Columbia Gas event" >House 2</button>
-          <button type="button" id="house-3" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >House 3</button>
-          <button type="button" id="house-4" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="3 bedrooms, no A/C" >House 4</button>
-          <button type="button" id="house-5" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >House 5</button>
+          <button type="button" id="house-1" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >1</button>
+          <button type="button" id="house-2" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C, affected by Columbia Gas event" >2</button>
+          <button type="button" id="house-3" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >3</button>
+          <button type="button" id="house-4" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="3 bedrooms, no A/C" >4</button>
+          <button type="button" id="house-5" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="4 bedrooms, A/C" >5</button>
         </div>
       </div>
     </div>
@@ -236,7 +236,7 @@ input.error
               Instructions
             </b>
             <p>
-              View results for sample Andover homes by clicking the <i>House</i> buttons, or follow the steps below to enter readings from your own bill:
+              View results for sample Andover houses by clicking the numbered buttons, or follow the steps below to enter readings from your own bill:
             </p>
             <ol>
               <li>
@@ -1114,7 +1114,7 @@ input.error
     hideTooltips();
 
     var iScrollTop = $( '#form-buttons' ).offset().top - $( '.fixed-top' ).outerHeight( true );
-    $( 'body,html' ).animate( { scrollTop: iScrollTop }, 500 );
+    $( 'body,html' ).animate( { scrollTop: iScrollTop }, 600 );
   }
 
   function hideTooltips()
