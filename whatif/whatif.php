@@ -63,20 +63,20 @@ input.error
 
 <div class="container">
 
-  <div class="pt-1 pb-3">
-    <div class="row">
-      <div class="h5 col-10">
-        What if Andover were to adopt CCA?
-      </div>
-      <div class="col-2">
-        <button type="button" id="help-button" class="btn btn-info float-right" data-toggle="modal" data-target="#help-modal">
-          Help
-        </button>
-      </div>
-    </div>
+  <div class="h5 pt-1">
+    What if Andover were to adopt CCA?
   </div>
+  <p>
+    CCA has the potential to increase your use of renewable energy while reducing your electricity costs.  Use the <i>CCA Bill Estimator</i> below to assess the potential impact of CCA on your electric bill.
+  </p>
+  <button type="button" id="help-button" class="btn btn-sm btn-info" data-toggle="modal" data-target="#help-modal">
+    Instructions
+  </button>
+  <hr/>
 
-  <h6 class="pb-3">CCA Bill Estimator</h6>
+  <div class="h6 pb-3">
+    CCA Bill Estimator
+  </div>
 
   <!-- Input -->
   <form action="javascript:makeOutput();" style="display:none">
@@ -261,8 +261,7 @@ input.error
       <div class="modal-body">
         <small>
           <p>
-            The CCA Bill Estimator helps you assess the potential impact of CCA on your electric bill.
-            It uses your meter readings to show what you would have paid under actual CCA contracts negotiated by nearby towns.
+            The CCA Bill Estimator uses your meter readings to show what you would have paid under actual CCA contracts negotiated by nearby towns.
           </p>
 
           <div>
@@ -270,7 +269,7 @@ input.error
               Instructions
             </b>
             <p>
-              View results for sample Andover houses by clicking the numbered buttons, or follow the steps below to enter readings from your own bill:
+              View results for actual Sample Houses in Andover by clicking the numbered buttons, or follow the steps below to enter readings from your own bill:
             </p>
             <ol>
               <li>
