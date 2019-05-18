@@ -270,11 +270,26 @@ input.error
 
   var g_aSampleHouses =
   [
-    [ '4.18',  659,  599,  988, 1569, 2132, 1736,  797,  608,  777, 1119,  709,  715,  695 ],
-    [ '3.18',  660,  508,  552,  712,  737,  680,  768,  745, 1973, 1382, 1059,  786,  793 ],
-    [ '4.18', 1033,  974, 1254, 1128, 1445, 1461, 1206, 1055, 1160, 1219, 1198, 1056, 1034 ],
-    [ '4.18',  380,  372,  621,  654,  785,  883,  527,  572,  459,  619,  681,  676,  353 ],
-    [ '5.18',  572, 1171, 1573, 1582, 1989,  810,  620,  801,  862,  842,  773,  677,  583 ],
+    {
+      start_month: '4.18',
+      readings: [  659,  599,  988, 1569, 2132, 1736,  797,  608,  777, 1119,  709,  715,  695 ]
+    },
+    {
+      start_month: '3.18',
+      readings: [  660,  508,  552,  712,  737,  680,  768,  745, 1973, 1382, 1059,  786,  793 ]
+    },
+    {
+      start_month: '4.18',
+      readings: [ 1033,  974, 1254, 1128, 1445, 1461, 1206, 1055, 1160, 1219, 1198, 1056, 1034 ]
+    },
+    {
+      start_month: '4.18',
+      readings: [  380,  372,  621,  654,  785,  883,  527,  572,  459,  619,  681,  676,  353 ]
+    },
+    {
+      start_month: '5.18',
+      readings: [  572, 1171, 1573, 1582, 1989,  810,  620,  801,  862,  842,  773,  677,  583 ]
+    }
   ];
 
   var g_tCcaOptions =
@@ -1153,13 +1168,13 @@ input.error
 
     g_iHouse = iHouse;
 
-    var aReadings = g_aSampleHouses[iHouse-1];
+    $( '#start-month' ).val( g_aSampleHouses[iHouse-1].start_month ).change();
 
-    $( '#start-month' ).val( aReadings[0] ).change();
+    var aReadings = g_aSampleHouses[iHouse-1].readings;
 
-    for ( var iReading = 1; iReading < aReadings.length; iReading ++ )
+    for ( var iReading = 1; iReading <= aReadings.length; iReading ++ )
     {
-      $( '#kwh-' + iReading ).val( aReadings[iReading] );
+      $( '#kwh-' + iReading ).val( aReadings[iReading-1] );
     }
 
     makeOutput();
