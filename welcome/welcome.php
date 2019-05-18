@@ -14,16 +14,17 @@
   .jumbotron
   {
     background-color: transparent;
-    color: white;
+    color: #384897;
   }
 
 </style>
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Welcome!</h1>
+    <h1 class="display-4 font-weight-bold">Join the campaign!</h1>
     <br/>
-    <p class="lead">Let's bring CCA to Andover.</p>
+    <br/>
+    <p class="h2 font-weight-bold">Bring CCA to Andover.</p>
   </div>
 </div>
 
