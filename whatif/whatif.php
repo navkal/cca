@@ -12,6 +12,7 @@
 {
   padding: 3px;
   background-color: #f6fbf7;
+  margin: auto;
 }
 
 .ng-row
@@ -157,15 +158,21 @@ input.error
   <div id="error-message" class="alert alert-danger"  style="display:none" role="alert">
     There are errors.
   </div>
+</div>
 
 
   <!-- Output -->
-  <div id="output" style="display:none" >
+<div id="output" style="display:none" >
 
+  <div class="container-fluid" >
     <div id="total-kwh" class="mb-1 text-center">
     </div>
+  </div>
 
-    <div class="card table-backdrop">
+  <div class="card table-backdrop">
+
+    <div class="container-fluid" >
+
       <table id="cca-table" class="tablesorter" >
         <thead>
           <tr>
@@ -198,15 +205,18 @@ input.error
         <tbody>
         </tbody>
       </table>
-    </div>
 
-    <?php
-      include $_SERVER["DOCUMENT_ROOT"]."/disclaimer.php";
-    ?>
+    </div>
 
   </div>
 
+  <div class="container-fluid" >
+    <?php
+      include $_SERVER["DOCUMENT_ROOT"]."/disclaimer.php";
+    ?>
+  </div>
 </div>
+
 
 <!-- Help modal dialog -->
 <div class="modal fade" id="help-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -754,6 +764,7 @@ input.error
   function onDocumentReady()
   {
     // Set up event handlers
+    $( window ).on( 'resize', resizeBackdrop );
     $( '#house-1' ).on( 'click', loadHouse1 );
     $( '#house-2' ).on( 'click', loadHouse2 );
     $( '#house-3' ).on( 'click', loadHouse3 );
@@ -873,6 +884,7 @@ input.error
         clearInput();
       }
     );
+
     $( '#cca-table' ).tablesorter( jQuery.extend( true, { sortList: [[0,0]] }, tTableProps ) );
   }
 
@@ -1067,6 +1079,7 @@ input.error
     if ( bShow )
     {
       $( '#output' ).show();
+      resizeBackdrop();
       scrollToResults();
     }
     else
@@ -1074,6 +1087,31 @@ input.error
       $( '#output' ).hide();
     }
   }
+
+  function resizeBackdrop()
+  {
+    $( '.table-backdrop' ).width( Math.max( $( '#cca-table' ).width() + $( '#cca-table' ).offset().left, $( window ).width() -  getScrollbarWidth() ) );
+  }
+
+  function getScrollbarWidth()
+  {
+    var tOuter = $( '<div>' ).css(
+      {
+        visibility: 'hidden',
+        width: 100,
+        overflow: 'scroll'
+      }
+    );
+    tOuter.appendTo('body');
+
+    var tFull = $( '<div>' ).css( { width: '100%' } );
+    tFull.appendTo( tOuter );
+
+    var iScrollbarWidth = tOuter.width() - tFull.outerWidth();
+    tOuter.remove();
+
+    return iScrollbarWidth;
+  };
 
   function scrollToResults()
   {
