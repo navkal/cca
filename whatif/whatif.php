@@ -81,6 +81,7 @@ input.error
   <!-- Input -->
   <form action="javascript:makeOutput();" style="display:none">
 
+    <!-- Sample houses -->
     <div class="form-group row">
       <div class="col-3 col-md-2">
         <label>Sample Houses</label>
@@ -92,7 +93,7 @@ input.error
             {
               $iHouseNumber = $iHouse + 1;
               ?>
-            <button type="button" id="house-<?=$iHouseNumber?>" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="<?=$tHouse['description']?>" ><?=$iHouseNumber?></button>
+                <button type="button" id="house-<?=$iHouseNumber?>" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="<?=$tHouse['description']?>" ><?=$iHouseNumber?></button>
               <?php
             }
           ?>
@@ -1178,15 +1179,17 @@ input.error
 
     g_iHouse = iHouse;
 
+    // Set the start month
     $( '#start-month' ).val( g_aSampleHouses[iHouse-1].start_month ).change();
 
+    // Load the readings
     var aReadings = g_aSampleHouses[iHouse-1].readings;
-
     for ( var iReading = 1; iReading <= aReadings.length; iReading ++ )
     {
       $( '#kwh-' + iReading ).val( aReadings[iReading-1] );
     }
 
+    // Generate the output
     makeOutput();
   }
 
