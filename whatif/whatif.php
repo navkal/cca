@@ -161,7 +161,7 @@ input.error
 </div>
 
 
-  <!-- Output -->
+<!-- Output -->
 <div id="output" style="display:none" >
 
   <div class="container-fluid" >
@@ -170,9 +170,7 @@ input.error
   </div>
 
   <div class="card table-backdrop">
-
     <div class="container-fluid" >
-
       <table id="cca-table" class="tablesorter" >
         <thead>
           <tr>
@@ -205,9 +203,7 @@ input.error
         <tbody>
         </tbody>
       </table>
-
     </div>
-
   </div>
 
   <div class="container-fluid" >
