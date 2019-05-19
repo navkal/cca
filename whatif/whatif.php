@@ -93,7 +93,7 @@ input.error
             {
               $iHouseNumber = $iHouse + 1;
               ?>
-                <button type="button" id="house-<?=$iHouseNumber?>" class="btn btn-outline-secondary house-button" data-toggle="tooltip" title="<?=$tHouse['description']?>" ><?=$iHouseNumber?></button>
+                <button type="button" id="house-<?=$iHouseNumber?>" class="btn btn-outline-secondary house-button" data-toggle="tooltip" data-html="true" title="Sample House <?=$iHouseNumber?>:<br><?=$tHouse['description']?>" ><?=$iHouseNumber?></button>
               <?php
             }
           ?>
@@ -1004,7 +1004,7 @@ input.error
       tTable.trigger( 'updateAll' );
 
       // Show total kWh
-      var sHouse = g_iHouse ? '<i>House ' + g_iHouse + '</i>': 'You';
+      var sHouse = g_iHouse ? '<i>Sample House ' + g_iHouse + '</i>': 'You';
       $( '#total-kwh' ).html( sHouse + ' used ' + g_iTotalKwh.toLocaleString() + ' kWh from ' + $( 'label[for="kwh-2"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
       g_iHouse = 0;
 
