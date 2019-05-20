@@ -30,7 +30,8 @@
     <br/>
     <br/>
     <p class="h2 font-weight-bold">Bring <a href="/?page=overview" class="cca-link" ><i>Community Choice Aggregation</i></a> to Andover.</p>
-    <p class="h2 font-weight-bold"><a href="/?page=overview" >Learn more...</a></p>
+    <br/>
+    <p class="h3 font-weight-bold"><a href="/?page=overview" >Learn more...</a></p>
   </div>
 </div>
 

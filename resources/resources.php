@@ -9,6 +9,11 @@
       'descr' => 'DPU explains Community Choice Aggregation (a.k.a. Municipal Aggregation)'
     ],
     [
+      'url' => 'http://energyswitchma.gov/#/about/understandingbill',
+      'title' => 'Understanding your electric bill',
+      'descr' => 'Energy Switch MA explains your electric bill'
+    ],
+    [
       'url' => 'https://www.mapc.org/our-work/expertise/clean-energy/green-municipal-aggregation/',
       'title' => 'Metropolitan Area Planning Council (MAPC)',
       'descr' => 'How to start a Community Choice Aggregation program'
@@ -22,11 +27,6 @@
       'url' => 'https://docs.google.com/spreadsheets/d/1wNX4zTMuKPAL0QSGVU3hSx6O6sE8keQXy8Zwx2Tbh0c/edit?usp=sharing',
       'title' => 'Current CCA pricing',
       'descr' => 'CCA pricing in nearby towns'
-    ],
-    [
-      'url' => 'http://energyswitchma.gov/',
-      'title' => 'Selecting an electrical energy supplier',
-      'descr' => 'Consumers can choose'
     ],
     [
       'url' => 'https://commonwealthmagazine.org/opinion/municipal-electricity-aggregation-really-works/',
