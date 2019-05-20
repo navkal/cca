@@ -9,9 +9,9 @@
       'readings' => [  659,  599,  988, 1569, 2132, 1736,  797,  608,  777, 1119,  709,  715,  695 ]
     ],
     [
-      'description' => '4 bedrooms, A/C, affected by Columbia Gas accident',
-      'start_month' => '3.18',
-      'readings' => [  660,  508,  552,  712,  737,  680,  768,  745, 1973, 1382, 1059,  786,  793 ]
+      'description' => '4 bedrooms, A/C',
+      'start_month' => '5.18',
+      'readings' => [  572, 1171, 1573, 1582, 1989,  810,  620,  801,  862,  842,  773,  677,  583 ]
     ],
     [
       'description' => '4 bedrooms, A/C',
@@ -24,10 +24,10 @@
       'readings' => [  380,  372,  621,  654,  785,  883,  527,  572,  459,  619,  681,  676,  353 ]
     ],
     [
-      'description' => '4 bedrooms, A/C',
-      'start_month' => '5.18',
-      'readings' => [  572, 1171, 1573, 1582, 1989,  810,  620,  801,  862,  842,  773,  677,  583 ]
-    ]
+      'description' => '4 bedrooms, A/C, affected by Columbia Gas accident',
+      'start_month' => '3.18',
+      'readings' => [  660,  508,  552,  712,  737,  680,  768,  745, 1973, 1382, 1059,  786,  793 ]
+    ],
   ];
 ?>
 
@@ -906,7 +906,7 @@ input.error
       }
     );
 
-    $( '#cca-table' ).tablesorter( jQuery.extend( true, { sortList: [[0,0]] }, tTableProps ) );
+    $( '#cca-table' ).tablesorter( jQuery.extend( true, { sortList: [[2,1]] }, tTableProps ) );
   }
 
   function makeOutput()
