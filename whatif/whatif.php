@@ -202,7 +202,7 @@ input.error
     <div id="total-kwh">
     </div>
     <div>
-      Average Savings: <span id="average-savings" class="font-weight-bold"></span>
+      Average Savings offered by CCA Options: <span id="average-savings" class="font-weight-bold"></span>
     </div>
   </div>
 
