@@ -36,7 +36,7 @@
   </p>
 
   <p>
-    Massachusetts General Law, M.G.L. c. 164 sec. 134, outlines CCA rules.  To implement CCA in Andover, the town must take the following steps:
+    <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Massachusetts General Law, M.G.L. c. 164 sec. 134</a>, outlines CCA rules.  To implement CCA in Andover, the town must take the following steps:
     <ol>
       <li>
         Vote at Town Meeting to authorize the town to initiate the program

@@ -1015,7 +1015,7 @@ input.error
 
       // Show total kWh
       var sHouse = g_iHouse ? '<i>Sample House ' + g_iHouse + '</i>': 'You';
-      $( '#total-kwh' ).html( sHouse + ' used ' + g_iTotalKwh.toLocaleString() + ' kWh from ' + $( 'label[for="kwh-2"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
+      $( '#total-kwh' ).html( sHouse + ' used ' + g_iTotalKwh.toLocaleString() + ' kWh from ' + $( 'label[for="kwh-2"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() + '.' );
       g_iHouse = 0;
 
       // Update the average
