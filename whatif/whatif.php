@@ -198,10 +198,10 @@ input.error
 <!-- Output -->
 <div id="output" style="display:none" >
 
-  <div class="container-fluid" >
-    <div id="total-kwh" class="mb-1 text-center">
+  <div class="container-fluid text-center mb-1" >
+    <div id="total-kwh">
     </div>
-    <div class="mb-1 text-center">
+    <div>
       Average Savings: $<span id="average-savings"></span>
     </div>
   </div>
