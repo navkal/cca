@@ -1042,13 +1042,20 @@ input.error
       iTotal += parseInt( tSav.attr( 'savings' ) );
     }
 
-    console.log( '--------> total=' + iTotal );
-    nAverage = Math.round( iTotal / aSav.length );
-    console.log( '======> average=' + nAverage );
-    $( '#average-savings' ).text( '$' + nAverage );
     $( '#average-savings' ).removeClass( 'text-success' );
     $( '#average-savings' ).removeClass( 'text-danger' );
-    $( '#average-savings' ).addClass( ( nAverage >= 0 ) ? 'text-success' : 'text-danger' );
+
+    if ( aSav.length )
+    {
+      nAverage = Math.round( iTotal / aSav.length );
+      $( '#average-savings' ).addClass( ( nAverage >= 0 ) ? 'text-success' : 'text-danger' );
+    }
+    else
+    {
+      nAverage = 'n/a';
+    }
+
+    $( '#average-savings' ).text( '$' + nAverage );
   }
 
   function isInputReady()
