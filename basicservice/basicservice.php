@@ -3,14 +3,12 @@
 ?>
 
 <div class="text-center">
-  <img src="basicservice/basicservice.png" class="img-fluid" style="margin:auto; width:100%; max-width:900px" alt="Basic Service">
+  <img src="basicservice/basicservice.jpg" class="img-fluid" style="margin:auto; width:100%; max-width:600px" alt="Basic Service">
 </div>
 
-<br/>
+<div class="container mt-4">
 
-<div class="container">
-
-  <p class="h5 mt-1">
+  <p class="h5">
     What is Basic Service?
   </p>
 
