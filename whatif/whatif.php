@@ -201,6 +201,9 @@ input.error
   <div class="container-fluid" >
     <div id="total-kwh" class="mb-1 text-center">
     </div>
+    <div class="mb-1 text-center">
+      Average Savings: $<span id="average-savings"></span>
+    </div>
   </div>
 
   <div class="card table-backdrop">
@@ -896,6 +899,7 @@ input.error
       }
     };
 
+    // Set handler to complete initialization
     $( '#cca-table' ).on(
       'tablesorter-ready',
       function()
@@ -906,7 +910,11 @@ input.error
       }
     );
 
+    // Initialize the tablesorter
     $( '#cca-table' ).tablesorter( jQuery.extend( true, { sortList: [[2,1]] }, tTableProps ) );
+
+    // Set filter completion handler
+    $( '#cca-table' ).on( "filterEnd", updateAverage );
   }
 
   function makeOutput()
@@ -948,9 +956,11 @@ input.error
         sHtml += '</td>';
 
         // Savings
-        var sClass = ( ( nCostNg > nCostCcaOption ) ? 'font-weight-bold text-success' : ( ( nCostNg < nCostCcaOption ) ? 'text-danger' : '' ) )
-        sHtml += '<td class="' + sClass + '" >';
-        sHtml += '$' + ( nCostNg - nCostCcaOption );
+        var sClass = ( ( nCostNg > nCostCcaOption ) ? 'font-weight-bold text-success' : ( ( nCostNg < nCostCcaOption ) ? 'text-danger' : '' ) );
+        var nSavings = ( nCostNg - nCostCcaOption )
+        var sSavings = ( sCcaOption == 'National Grid Basic Rate' ) ? '' : ' savings="' + nSavings + '"';
+        sHtml += '<td class="' + sClass + '"' + sSavings + '>';
+        sHtml += '$' + nSavings;
         sHtml += '</td>';
 
         // Percent green
@@ -1008,6 +1018,9 @@ input.error
       $( '#total-kwh' ).html( sHouse + ' used ' + g_iTotalKwh.toLocaleString() + ' kWh from ' + $( 'label[for="kwh-2"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
       g_iHouse = 0;
 
+      // Update the average
+      updateAverage();
+
       // Show the output
       showOutput( true );
     }
@@ -1015,6 +1028,24 @@ input.error
     {
       showErrorMessage( true );
     }
+  }
+
+  function updateAverage()
+  {
+    var aSav = $( '#cca-table>tbody>tr:not(.filtered)>[savings]' );
+
+    var iTotal = 0;
+    for ( var iSav = 0; iSav < aSav.length; iSav ++ )
+    {
+      var tSav = $( aSav[iSav] );
+      console.log( tSav.attr( 'savings' ) );
+      iTotal += parseInt( tSav.attr( 'savings' ) );
+    }
+
+    console.log( '--------> total=' + iTotal );
+    nAverage = Math.round( iTotal / aSav.length );
+    console.log( '======> average=' + nAverage );
+    $( '#average-savings' ).text( nAverage );
   }
 
   function isInputReady()
