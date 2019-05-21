@@ -13,13 +13,13 @@
   </p>
 
   <p>
-    Your electric service has two components:
+    Your <i>electric service</i> has two components:
     <ul class="list-unstyled" >
       <li>
-        <b>Supply</b> - Generation and procurement of the electricity you use
+        <i>Supply</i> - Generation and procurement of the electricity you use
       </li>
       <li>
-        <b>Delivery</b> - Transmission and distribution of the electricity to your home or business
+        <i>Delivery</i> - Transmission and distribution of the electricity to your home or business
       </li>
     </ul>
   </p>
