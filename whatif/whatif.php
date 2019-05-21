@@ -1038,7 +1038,6 @@ input.error
     for ( var iSav = 0; iSav < aSav.length; iSav ++ )
     {
       var tSav = $( aSav[iSav] );
-      console.log( tSav.attr( 'savings' ) );
       iTotal += parseInt( tSav.attr( 'savings' ) );
     }
 
