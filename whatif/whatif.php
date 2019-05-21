@@ -202,7 +202,7 @@ input.error
     <div id="total-kwh">
     </div>
     <div>
-      Average Savings: $<span id="average-savings"></span>
+      Average Savings: <span id="average-savings" class="font-weight-bold"></span>
     </div>
   </div>
 
@@ -1045,7 +1045,10 @@ input.error
     console.log( '--------> total=' + iTotal );
     nAverage = Math.round( iTotal / aSav.length );
     console.log( '======> average=' + nAverage );
-    $( '#average-savings' ).text( nAverage );
+    $( '#average-savings' ).text( '$' + nAverage );
+    $( '#average-savings' ).removeClass( 'text-success' );
+    $( '#average-savings' ).removeClass( 'text-danger' );
+    $( '#average-savings' ).addClass( ( nAverage >= 0 ) ? 'text-success' : 'text-danger' );
   }
 
   function isInputReady()
