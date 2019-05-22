@@ -21,7 +21,6 @@
     [
       'description' => '4 bedrooms, A/C, swimming pool',
       'start_month' => '5.18',
-
       'readings' => [  647, 1062, 2000, 2154, 2031,  789,  582,  630,  548,  457,  463,  520,  562 ]
     ],
     [
