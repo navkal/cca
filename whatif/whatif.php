@@ -19,7 +19,7 @@
       'readings' => [ 1033,  974, 1254, 1128, 1445, 1461, 1206, 1055, 1160, 1219, 1198, 1056, 1034 ]
     ],
     [
-      'description' => '4 bedrooms, A/C, swimming pool',
+      'description' => '4 bedrooms, A/C, inground pool',
       'start_month' => '5.18',
       'readings' => [  647, 1062, 2000, 2154, 2031,  789,  582,  630,  548,  457,  463,  520,  562 ]
     ],
@@ -199,10 +199,12 @@ input.error
 <div id="output" style="display:none" >
 
   <div class="container-fluid text-center mb-1" >
+    <div id="which-house">
+    </div>
     <div id="total-kwh">
     </div>
     <div>
-      Average Savings offered by CCA Options: <span id="average-savings" class="font-weight-bold"></span>
+      Average savings offered by CCA options shown: <span id="average-savings" class="font-weight-bold"></span>
     </div>
   </div>
 
@@ -1018,8 +1020,8 @@ input.error
       tTable.trigger( 'updateAll' );
 
       // Show total kWh
-      var sHouse = g_iHouse ? '<i>Sample House ' + g_iHouse + '</i>': 'You';
-      $( '#total-kwh' ).html( sHouse + ' used ' + g_iTotalKwh.toLocaleString() + ' kWh from ' + $( 'label[for="kwh-2"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() + '.' );
+      $( '#which-house' ).html( g_iHouse ? ( 'Sample House ' + g_iHouse + ': ' + g_aSampleHouses[g_iHouse-1].description ) : '' );
+      $( '#total-kwh' ).html( 'Energy used: <span class="font-weight-bold text-primary">' + g_iTotalKwh.toLocaleString() + ' kWh</span> from ' + $( 'label[for="kwh-2"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
       g_iHouse = 0;
 
       // Update the average
