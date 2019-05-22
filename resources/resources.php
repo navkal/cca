@@ -9,6 +9,11 @@
       'descr' => 'DPU explains Community Choice Aggregation (a.k.a. Municipal Aggregation)'
     ],
     [
+      'url' => 'https://youtu.be/Si5IAloPfw8',
+      'title' => 'Massachusetts Climate Action Network (MCAN) TV Show',
+      'descr' => 'Panel discusses Community Choice Aggregation'
+    ],
+    [
       'url' => 'http://energyswitchma.gov/#/about/understandingbill',
       'title' => 'Understanding your electric bill',
       'descr' => 'Energy Switch MA explains your electric bill'
