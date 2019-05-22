@@ -16,13 +16,13 @@
     CCA offers the following potential benefits to consumers:
     <ul>
       <li>
-        Lower rates
+        Rate stability
       </li>
       <li>
         Increased renewable portfolio
       </li>
       <li>
-        Rate stability
+        Lower rates
       </li>
     </ul>
   </p>
