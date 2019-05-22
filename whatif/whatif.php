@@ -225,11 +225,11 @@ input.error
             <th data-toggle="tooltip" title="Difference relative to National Grid Basic Rate" >
               Savings
             </th>
-            <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources" >
-              Green Content
-            </th>
             <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources located in New England" >
               Local Green Content
+            </th>
+            <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources" >
+              Total Green Content
             </th>
             <th data-toggle="tooltip" title="Mediator between town government and bulk energy supplier" >
               Broker
@@ -972,14 +972,14 @@ input.error
         sHtml += '$' + nSavings;
         sHtml += '</td>';
 
-        // Percent green
-        sHtml += '<td>';
-        sHtml += ( tCcaOption && tCcaOption.green ) ? tCcaOption.green : '24.94%';
-        sHtml += '</td>';
-
-        // Local
+        // Local green
         sHtml += '<td>';
         sHtml += ( tCcaOption && tCcaOption.local ) ? tCcaOption.local : '14%';
+        sHtml += '</td>';
+
+        // Total green
+        sHtml += '<td>';
+        sHtml += ( tCcaOption && tCcaOption.green ) ? tCcaOption.green : '24.94%';
         sHtml += '</td>';
 
         // Broker
