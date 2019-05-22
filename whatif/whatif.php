@@ -4,14 +4,19 @@
   $g_aSampleHouses =
   [
     [
-      'description' => '4 bedrooms, A/C',
+      'description' => '3 bedrooms, no A/C',
       'start_month' => '4.18',
-      'readings' => [  659,  599,  988, 1569, 2132, 1736,  797,  608,  777, 1119,  709,  715,  695 ]
+      'readings' => [  380,  372,  621,  654,  785,  883,  527,  572,  459,  619,  681,  676,  353 ]
     ],
     [
       'description' => '4 bedrooms, A/C',
       'start_month' => '5.18',
       'readings' => [  572, 1171, 1573, 1582, 1989,  810,  620,  801,  862,  842,  773,  677,  583 ]
+    ],
+    [
+      'description' => '4 bedrooms, A/C',
+      'start_month' => '4.18',
+      'readings' => [  659,  599,  988, 1569, 2132, 1736,  797,  608,  777, 1119,  709,  715,  695 ]
     ],
     [
       'description' => '4 bedrooms, A/C',
@@ -22,11 +27,6 @@
       'description' => '4 bedrooms, A/C, swimming pool',
       'start_month' => '5.18',
       'readings' => [  647, 1062, 2000, 2154, 2031,  789,  582,  630,  548,  457,  463,  520,  562 ]
-    ],
-    [
-      'description' => '3 bedrooms, no A/C',
-      'start_month' => '4.18',
-      'readings' => [  380,  372,  621,  654,  785,  883,  527,  572,  459,  619,  681,  676,  353 ]
     ],
     [
       'description' => '4 bedrooms, A/C, affected by Columbia Gas accident',
