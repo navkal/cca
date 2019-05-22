@@ -19,6 +19,12 @@
       'readings' => [ 1033,  974, 1254, 1128, 1445, 1461, 1206, 1055, 1160, 1219, 1198, 1056, 1034 ]
     ],
     [
+      'description' => '4 bedrooms, A/C, swimming pool',
+      'start_month' => '5.18',
+
+      'readings' => [  647, 1062, 2000, 2154, 2031,  789,  582,  630,  548,  457,  463,  520,  562 ]
+    ],
+    [
       'description' => '3 bedrooms, no A/C',
       'start_month' => '4.18',
       'readings' => [  380,  372,  621,  654,  785,  883,  527,  572,  459,  619,  681,  676,  353 ]
@@ -789,11 +795,10 @@ input.error
   {
     // Set up event handlers
     $( window ).on( 'resize', resizeBackdrop );
-    $( '#house-1' ).on( 'click', loadHouse1 );
-    $( '#house-2' ).on( 'click', loadHouse2 );
-    $( '#house-3' ).on( 'click', loadHouse3 );
-    $( '#house-4' ).on( 'click', loadHouse4 );
-    $( '#house-5' ).on( 'click', loadHouse5 );
+    for ( var iHouse = 1; iHouse <= g_aSampleHouses.length; iHouse ++ )
+    {
+      $( '#house-' + iHouse ).on( 'click', createSampleHouseHandler( iHouse ) );
+    }
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     $( '.kwh-input' ).on( 'input', onInputKwhInput );
     $( '#clear-button' ).on( 'click', clearInput );
@@ -821,6 +826,11 @@ input.error
 
     // Initialize the table
     initTable();
+  }
+
+  function createSampleHouseHandler( iHouse )
+  {
+    return function() { loadHouse( iHouse ); };
   }
 
   function initTabOrder()
@@ -1185,31 +1195,6 @@ input.error
   function hideTooltips()
   {
     $('.tooltip').tooltip( 'hide' );
-  }
-
-  function loadHouse1()
-  {
-    loadHouse( 1 );
-  }
-
-  function loadHouse2()
-  {
-    loadHouse( 2 );
-  }
-
-  function loadHouse3()
-  {
-    loadHouse( 3 );
-  }
-
-  function loadHouse4()
-  {
-    loadHouse( 4 );
-  }
-
-  function loadHouse5()
-  {
-    loadHouse( 5 );
   }
 
   function loadHouse( iHouse )
