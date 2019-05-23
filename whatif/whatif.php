@@ -204,7 +204,7 @@ input.error
     <div id="total-kwh">
     </div>
     <div>
-      Average savings offered by CCA options shown: <span id="average-savings" class="font-weight-bold"></span>
+      Average annual savings offered by CCA options shown: <span id="average-savings" class="font-weight-bold"></span>
     </div>
   </div>
 
@@ -217,10 +217,10 @@ input.error
               CCA Option
             </th>
             <th data-toggle="tooltip" title="Energy component of electric bill" >
-              Cost
+              Annual Cost
             </th>
             <th data-toggle="tooltip" title="Difference relative to National Grid Basic Rate" >
-              Savings
+              Annual Savings
             </th>
             <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources located in New England" >
               Local Green Content
