@@ -29,11 +29,6 @@
       'descr' => 'CCA pricing in nearby towns'
     ],
     [
-      'url' => 'https://youtu.be/Si5IAloPfw8',
-      'title' => 'Massachusetts Climate Action Network (MCAN) TV Show',
-      'descr' => 'Panel discusses Community Choice Aggregation'
-    ],
-    [
       'url' => 'https://commonwealthmagazine.org/opinion/municipal-electricity-aggregation-really-works/',
       'title' => 'Commonwealth Magazine',
       'descr' => 'Newton Mayor Ruthanne Fuller explains benefits of CCA program (Dec. 29, 2018)'
