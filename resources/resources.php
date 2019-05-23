@@ -33,6 +33,11 @@
       'title' => 'Commonwealth Magazine',
       'descr' => 'Newton Mayor Ruthanne Fuller explains benefits of CCA program (Dec. 29, 2018)'
     ],
+    [
+      'url' => 'https://photos.app.goo.gl/eZVi4Kdxn8vqawsA6',
+      'title' => 'Massachusetts Climate Action Network TV Show',
+      'descr' => 'Panelists from Lexington, Brookline, and MAPC discuss benefits of CCA'
+    ],
   ];
 ?>
 
