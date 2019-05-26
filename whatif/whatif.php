@@ -962,8 +962,8 @@ input.error
         sHtml += '</td>';
 
         // Savings
-        var sClass = ( ( nCostNg > nCostCcaOption ) ? 'font-weight-bold text-success' : ( ( nCostNg < nCostCcaOption ) ? 'text-danger' : '' ) );
-        var nSavings = ( nCostNg - nCostCcaOption )
+        var nSavings = ( nCostNg - nCostCcaOption );
+        var sClass = ( ( nSavings > 0 ) ? 'font-weight-bold text-success' : ( ( nSavings < 0 ) ? 'text-danger' : '' ) );
         var sSavings = ( sCcaOption == 'National Grid Basic Rate' ) ? '' : ' savings="' + nSavings + '"';
         sHtml += '<td class="' + sClass + '"' + sSavings + '>';
         sHtml += '$' + nSavings;
@@ -1092,13 +1092,12 @@ input.error
       var tLabel = $( aLabels[iLabel] );
       var sMonthYear = tLabel.text().replace( /\u00a0/g, ' ' );
       var nRate = ( sCcaOption in g_tCcaOptions ) ? g_tCcaOptions[sCcaOption].rate : g_tRatesNg[sMonthYear][sCcaOption];
-      var iKwh = $( '#' + tLabel.attr( 'for' ) ).val();
-      g_iTotalKwh += parseInt( iKwh );
+      var iKwh = parseInt( $( '#' + tLabel.attr( 'for' ) ).val() );
+      g_iTotalKwh += iKwh;
       nCost += nRate * iKwh;
     }
 
-    nCost = nCost / 100;
-    nCost = nCost.toFixed( 0 );
+    nCost = Math.round( nCost / 100 );
 
     return nCost;
   }
