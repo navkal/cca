@@ -5,36 +5,16 @@
   $aFaq =
   [
     [
-      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
-      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
+      'q' => 'What are the objectives of Community Choice Aggregation?',
+      'a' => 'CCA aims to increase price stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply, by forming a buying group composed of residents and businesses of one or more municipalities.'
     ],
     [
-      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
-      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
+      'q' => 'What are the objectives of Community Choice Aggregation?',
+      'a' => 'CCA aims to increase price stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply, by forming a buying group composed of residents and businesses of one or more municipalities.'
     ],
     [
-      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
-      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
-    ],
-    [
-      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
-      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
-    ],
-    [
-      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
-      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
-    ],
-    [
-      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
-      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
-    ],
-    [
-      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
-      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
-    ],
-    [
-      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
-      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
+      'q' => 'What are the objectives of Community Choice Aggregation?',
+      'a' => 'CCA aims to increase price stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply, by forming a buying group composed of residents and businesses of one or more municipalities.'
     ],
   ];
 ?>
