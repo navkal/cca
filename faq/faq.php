@@ -5,35 +5,35 @@
   $aFaq =
   [
     [
-      'q' => 'Whahhh?',
+      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
       'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
-      'q' => 'Whahhh?',
+      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
       'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
-      'q' => 'Whahhh?',
+      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
       'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
-      'q' => 'Whahhh?',
+      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
       'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
-      'q' => 'Whahhh?',
+      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
       'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
-      'q' => 'Whahhh?',
+      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
       'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
-      'q' => 'Whahhh?',
+      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
       'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
-      'q' => 'Whahhh?',
+      'q' => 'Whahhh whahhh whahhh whahhh whahhh whahhh whahhh whahhh?',
       'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
   ];
@@ -66,12 +66,10 @@
             ?>
 
               <div class="card">
-                <div class="card-header p-2" id="q<?=$iCard?>">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#a<?=$iCard?>" aria-expanded="true" aria-controls="a<?=$iCard?>">
-                      <?=$aQ['q']?>
-                    </button>
-                  </h5>
+                <div class="card-header" id="q<?=$iCard?>">
+                  <div class="btn-link collapsed" data-toggle="collapse" data-target="#a<?=$iCard?>" aria-expanded="true" aria-controls="a<?=$iCard?>">
+                    <?=$aQ['q']?>
+                  </div>
                 </div>
                 <div id="a<?=$iCard?>" class="collapse" aria-labelledby="q<?=$iCard?>" data-parent="#faq">
                   <div class="card-body">
