@@ -6,35 +6,35 @@
   [
     [
       'q' => 'Whahhh?',
-      'a' => 'Duhhhh!'
+      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
       'q' => 'Whahhh?',
-      'a' => 'Duhhhh!'
+      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
       'q' => 'Whahhh?',
-      'a' => 'Duhhhh!'
+      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
       'q' => 'Whahhh?',
-      'a' => 'Duhhhh!'
+      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
       'q' => 'Whahhh?',
-      'a' => 'Duhhhh!'
+      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
       'q' => 'Whahhh?',
-      'a' => 'Duhhhh!'
+      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
       'q' => 'Whahhh?',
-      'a' => 'Duhhhh!'
+      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
     [
       'q' => 'Whahhh?',
-      'a' => 'Duhhhh!'
+      'a' => 'Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  Blah blah blah blah blah blah blah.  '
     ],
   ];
 ?>
@@ -75,7 +75,7 @@
                 </div>
                 <div id="a<?=$iCard?>" class="collapse" aria-labelledby="q<?=$iCard?>" data-parent="#faq">
                   <div class="card-body">
-                    <b>Answer:</b> <?=$aQ['a']?>
+                    <?=$aQ['a']?>
                   </div>
                 </div>
               </div>
