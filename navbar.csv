@@ -7,4 +7,5 @@ welcome,Welcome,welcome/welcome.php
 overview,Overview,overview/overview.php
 basicservice,Basic Service,basicservice/basicservice.php
 whatif,What If?,whatif/whatif.php
+faq,FAQ,faq/faq.php
 resources,Resources,resources/resources.php
