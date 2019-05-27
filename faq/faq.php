@@ -9,12 +9,12 @@
       'a' => 'CCA aims to increase price stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply, by forming a buying group composed of residents and businesses of one or more municipalities.'
     ],
     [
-      'q' => 'What are the objectives of Community Choice Aggregation?',
-      'a' => 'CCA aims to increase price stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply, by forming a buying group composed of residents and businesses of one or more municipalities.'
+      'q' => 'Where does the renewable energy for the program come from and how do I know I\'m really getting 100% renewable energy?',
+      'a' => 'Answer TBD.'
     ],
     [
-      'q' => 'What are the objectives of Community Choice Aggregation?',
-      'a' => 'CCA aims to increase price stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply, by forming a buying group composed of residents and businesses of one or more municipalities.'
+      'q' => 'How does Community Choice Aggregation work?',
+      'a' => 'Answer TBD.'
     ],
   ];
 ?>
