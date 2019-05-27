@@ -53,10 +53,12 @@
 <div class="container">
 
   <div class="row">
-    <div class="col-10 mx-auto">
-      <div class="h5 py-1">
+    <div class="col-12 mx-auto">
+    
+      <div class="h5 py-2">
         Frequently Asked Questions
       </div>
+      
       <div class="accordion" id="faq">
 
         <?php
