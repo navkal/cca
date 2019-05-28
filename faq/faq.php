@@ -5,9 +5,22 @@
   $aFaq =
   [
     [
-      'q' => 'What are the objectives of Community Choice Aggregation?',
-      'a' => 'CCA aims to increase price stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply, by forming a buying group composed of residents and businesses of one or more municipalities.'
+      'q' => 'What is Community Choice Aggregation?',
+      'a' => 'Community Choice Aggregation (CCA) is a Massachusetts state-regulated program that came out of the Restructuring Act of 1997, specifically Chapter 164, Section 134.  CCA empowers cities and towns to create large buying groups of residential and business electricity customers in order to seek bids for cheaper supply rates.'
     ],
+    [
+      'q' => 'What is the purpose of Community Choice Aggregation?',
+      'a' => 'The law underlying CCA was enacted to ensure that the benefits of energy deregulation would be passed on to residential and business customers, by allowing them to aggregate their accounts within their municipal boundaries in order to obtain competitive bids from third-party suppliers.'
+    ],
+    [
+      'q' => 'How does Community Choice Aggregation work?',
+      'a' => 'By grouping electricity accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to achieve savings for account holders as a whole.'
+    ],
+    [
+      'q' => 'What are the objectives of Community Choice Aggregation?',
+      'a' => 'CCA aims to promote rate stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply.'
+    ],
+    /*************************** /
     [
       'q' => 'Where does the renewable energy for the program come from, and how do I know I\'m really getting 100% renewable energy?',
       'a' => 'Answer TBD.'
@@ -16,6 +29,7 @@
       'q' => 'How does Community Choice Aggregation work?',
       'a' => 'Answer TBD.'
     ],
+    /***************************/
   ];
 ?>
 
