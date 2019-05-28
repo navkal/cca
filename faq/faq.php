@@ -14,7 +14,7 @@
     ],
     [
       'q' => 'How does Community Choice Aggregation work?',
-      'a' => 'By grouping electricity accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to achieve savings for account holders as a whole.'
+      'a' => 'By grouping electricity customer accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to achieve savings for account holders as a whole.'
     ],
     [
       'q' => 'What are the objectives of Community Choice Aggregation?',
