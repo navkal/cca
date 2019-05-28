@@ -20,13 +20,32 @@
       'q' => 'What are the objectives of Community Choice Aggregation?',
       'a' => 'CCA aims to promote rate stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply.'
     ],
+    [
+      'q' => 'What are the steps for implementing a CCA program in Andover?',
+      'a' =>
+        '
+          <ol>
+            <li>
+              Approval by voters at Fall Town Meeting
+            </li>
+            <li>
+              Development of plan by town government
+            </li>
+            <li>
+              Public review of plan
+            </li>
+            <li>
+              Approval of plan by Select Board
+            </li>
+            <li>
+              Submittal of plan to MA DPU for final approval
+            </li>
+          </ol>
+        '
+    ],
     /*************************** /
     [
       'q' => 'Where does the renewable energy for the program come from, and how do I know I\'m really getting 100% renewable energy?',
-      'a' => 'Answer TBD.'
-    ],
-    [
-      'q' => 'How does Community Choice Aggregation work?',
       'a' => 'Answer TBD.'
     ],
     /***************************/
