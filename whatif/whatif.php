@@ -63,9 +63,10 @@ input.error
 
 <div class="container">
 
-  <div class="h5 pt-1">
+  <div class="h5 py-2">
     What if Andover were to adopt CCA?
   </div>
+
   <p>
     CCA has the potential to increase your use of renewable energy while reducing your electricity costs.  Use the <i>CCA Bill Estimator</i> below to assess the potential impact of CCA on your electric bill.
   </p>

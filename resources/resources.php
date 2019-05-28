@@ -54,9 +54,10 @@
 
 <div class="container">
 
-  <p class="h5 mt-1 list-group-item">
+
+  <div class="h5 py-2 list-group-item">
     Learn about Community Choice Aggregation
-  </p>
+  </div>
 
   <?php
     foreach ( $aLinks as $aLink )

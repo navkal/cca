@@ -9,7 +9,7 @@
       'a' => 'CCA aims to increase price stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply, by forming a buying group composed of residents and businesses of one or more municipalities.'
     ],
     [
-      'q' => 'Where does the renewable energy for the program come from and how do I know I\'m really getting 100% renewable energy?',
+      'q' => 'Where does the renewable energy for the program come from, and how do I know I\'m really getting 100% renewable energy?',
       'a' => 'Answer TBD.'
     ],
     [
@@ -20,6 +20,7 @@
 ?>
 
 <style>
+  /******************************* /
   body
   {
     background-image: url( "welcome/banner.jpg" );
@@ -28,10 +29,10 @@
     background-attachment: fixed;
     background-size: cover;
   }
+  /*******************************/
 </style>
 
 <div class="container">
-
   <div class="row">
     <div class="col-12 col-md-10 col-lg-8 mx-auto">
 
@@ -39,19 +40,18 @@
         Frequently Asked Questions
       </div>
 
-      <div class="accordion" id="faq">
-
-        <?php
-          foreach ( $aFaq as $iQ => $aQ )
-          {
-            $iCard = $iQ + 1;
-            ?>
-
+      <div class="accordion" >
+        <div id="faq">
+          <?php
+            foreach ( $aFaq as $iQ => $aQ )
+            {
+              $iCard = $iQ + 1;
+          ?>
               <div class="card">
                 <div class="card-header" id="q<?=$iCard?>">
-                  <div class="btn-link collapsed" data-toggle="collapse" data-target="#a<?=$iCard?>" aria-expanded="true" aria-controls="a<?=$iCard?>">
+                  <a class="card-link" data-toggle="collapse" href="#a<?=$iCard?>">
                     <?=$aQ['q']?>
-                  </div>
+                  </a>
                 </div>
                 <div id="a<?=$iCard?>" class="collapse" aria-labelledby="q<?=$iCard?>" data-parent="#faq">
                   <div class="card-body">
@@ -59,12 +59,12 @@
                   </div>
                 </div>
               </div>
-
-            <?php
-          }
-        ?>
-
+          <?php
+            }
+          ?>
+        </div>
       </div>
+
     </div>
   </div>
 </div>

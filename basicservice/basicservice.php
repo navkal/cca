@@ -8,9 +8,9 @@
 
 <div class="container mt-4">
 
-  <p class="h5">
+  <div class="h5 py-2">
     What is Basic Service?
-  </p>
+  </div>
 
   <p>
     Your <i>electric service</i> has two components:
