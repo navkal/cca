@@ -24,6 +24,11 @@
       'readings' => [  647, 1062, 2000, 2154, 2031,  789,  582,  630,  548,  457,  463,  520,  562 ]
     ],
     [
+      'description' => '4 bedrooms, A/C, electric vehicle',
+      'start_month' => '5.18',
+      'readings' => [ 1131, 1828, 2295, 2397, 1751, 1608, 1783, 2222, 2330, 2158, 1983, 1960, 1591 ]
+    ],
+    [
       'description' => '4 bedrooms, A/C, affected by Columbia Gas accident',
       'start_month' => '3.18',
       'readings' => [  660,  508,  552,  712,  737,  680,  768,  745, 1973, 1382, 1059,  786,  793 ]
