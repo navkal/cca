@@ -6,7 +6,7 @@
   [
     [
       'q' => 'What is Community Choice Aggregation?',
-      'a' => 'Community Choice Aggregation (CCA) is a Massachusetts state-regulated program that came out of the Restructuring Act of 1997, specifically Chapter 164, Section 134.  CCA empowers cities and towns to create large buying groups of residential and business electricity customers in order to seek bids for cheaper supply rates.'
+      'a' => 'Community Choice Aggregation (CCA) is a Massachusetts state-regulated program that came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Chapter 164, Section 134</a>.  CCA empowers cities and towns to create large buying groups of residential and business electricity customers in order to seek bids for cheaper supply rates.'
     ],
     [
       'q' => 'What is the purpose of Community Choice Aggregation?',
