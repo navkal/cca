@@ -52,6 +52,10 @@
       'a' => 'No, there will be no change to your meter.  National Grid will continue to read your meter to determine how much energy you consume.'
     ],
     [
+      'q' => 'Whom should I call in case of an outage or an issue with my electric bill?',
+      'a' => 'To report an outage, contact National Grid at (800) 465-1212. All billing questions will continue to be directed to National Grid at (800) 322-3223.'
+    ],
+    [
       'q' => 'Will I have to pay a deposit to participate in CCA?',
       'a' => 'No, you will not have to pay a deposit.'
     ],
