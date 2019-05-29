@@ -44,6 +44,10 @@
       'a' => 'Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.  As before, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service.  (While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to possible unforeseen fluctuations in National Grid pricing.)'
     ],
     [
+      'q' => 'Under the program, can I continue to participate in National Grid’s budget billing/equal payment plan?',
+      'a' => 'Yes, you may continue to participate in a budget billing/equal payment plan.'
+    ],
+    [
       'q' => 'Will there be a change to my electric meter?',
       'a' => 'No, there will be no change to your meter.  National Grid will continue to read your meter to determine how much energy you consume.'
     ],
