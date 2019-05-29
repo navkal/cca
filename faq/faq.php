@@ -54,19 +54,6 @@
   ];
 ?>
 
-<style>
-  /******************************* /
-  body
-  {
-    background-image: url( "welcome/banner.jpg" );
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-  /*******************************/
-</style>
-
 <div class="container">
   <div class="row">
     <div class="col-12 col-md-10 col-lg-8 mx-auto">
