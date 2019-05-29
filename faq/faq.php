@@ -60,6 +60,10 @@
       'a' => 'No, you will not have to pay a deposit.'
     ],
     [
+      'q' => 'Do I have to participate in CCA if I don\’t want to?',
+      'a' => 'No, residents and businesses can opt out of the CCA program at any time without penalty.'
+    ],
+    [
       'q' => 'Where does the renewable energy for CCA come from?',
       'a' => 'The <a href="http://www.greenenergyconsumers.org/" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island. The Andover CCA program has not yet decided its renewable energy supplier.'
     ],
