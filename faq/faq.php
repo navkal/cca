@@ -44,16 +44,16 @@
       'a' => 'Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.  As before, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service.  (While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to possible unforeseen fluctuations in National Grid pricing.)'
     ],
     [
+      'q' => 'Can businesses participate in the program?',
+      'a' => 'Yes, any account currently on National Grid Basic Service, i.e., not enrolled with a Third-Party Supplier, is eligible, and will be automatically enrolled unless they choose to opt out.'
+    ],
+    [
       'q' => 'Under the program, can I continue to participate in National Grid’s budget billing/equal payment plan?',
       'a' => 'Yes, you may continue to participate in a budget billing/equal payment plan.'
     ],
     [
       'q' => 'Will there be a change to my electric meter?',
       'a' => 'No, there will be no change to your meter.  National Grid will continue to read your meter to determine how much energy you consume.'
-    ],
-    [
-      'q' => 'Whom should I call in case of an outage or an issue with my electric bill?',
-      'a' => 'To report an outage, contact National Grid at (800) 465-1212. All billing questions will continue to be directed to National Grid at (800) 322-3223.'
     ],
     [
       'q' => 'Will I have to pay a deposit to participate in CCA?',
@@ -70,6 +70,10 @@
     [
       'q' => 'If I opt out, can I opt back in at a later date?',
       'a' => 'After opting out, you may return to the CCA program at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.  After you re-enroll, the CCA program rate will appear on your utility bill in the next available billing cycle.  Since National Grid takes at least two days to process a change of supplier, you are encouraged to re-enroll at least five business days before the meter read date indicated on your utility bill, to help ensure that re-enrollment occurs on a timely basis.'
+    ],
+    [
+      'q' => 'Whom should I call in case of an outage or an issue with my electric bill?',
+      'a' => 'To report an outage, contact National Grid at (800) 465-1212. All billing questions will continue to be directed to National Grid at (800) 322-3223.'
     ],
     [
       'q' => 'Where does the renewable energy for CCA come from?',
