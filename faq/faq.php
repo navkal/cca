@@ -49,7 +49,7 @@
     ],
     [
       'q' => 'How will CCA affect my electric bill?',
-      'a' => 'Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  As before, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service.  (While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to possible unforeseen fluctuations in National Grid pricing.)'
+      'a' => 'Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.  As before, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service.  (While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to possible unforeseen fluctuations in National Grid pricing.)'
     ],
     [
       'q' => 'Where does the renewable energy for CCA come from?',
