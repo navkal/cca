@@ -65,7 +65,11 @@
     ],
     [
       'q' => 'What if I choose to leave the CCA program early?',
-      'a' => 'Participating account holders may terminate their participation (<i>opt out</i>) at any time without any early termination or exit fee.  After opting out, account holders may return at any time with no associated re-enrollment fee; but upon returning, they are not guaranteed the original contract rate.'
+      'a' => 'You may terminate your CCA participation (<i>opt out</i>) at any time without any early termination or exit fee.  After opting out, you may return at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.'
+    ],
+    [
+      'q' => 'If I opt out, can I opt back in at a later date?',
+      'a' => 'After opting out, you may return to the CCA program at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.  After you re-enroll, the CCA program rate will appear on your utility bill in the next available billing cycle.  Since National Grid takes at least two days to process a change of supplier, you are encouraged to re-enroll at least five business days before the meter read date indicated on your utility bill, to help ensure that re-enrollment occurs on a timely basis.'
     ],
     [
       'q' => 'Where does the renewable energy for CCA come from?',
