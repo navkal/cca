@@ -5,8 +5,8 @@
   $aFaq =
   [
     [
-      'q' => 'What is Community Choice Aggregation?',
-      'a' => 'Community Choice Aggregation (CCA) is a Massachusetts state-regulated program that came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Chapter 164, Section 134</a>.  CCA empowers cities and towns to create large buying groups of residential and business electricity customers in order to seek bids for cheaper supply rates.'
+      'q' => 'What is Community Choice Aggregation (CCA)?',
+      'a' => 'CCA is a Massachusetts state-regulated program that came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Chapter 164, Section 134</a>.  CCA empowers cities and towns to create large buying groups of residential and business electricity customers in order to seek bids for cheaper supply rates.'
     ],
     [
       'q' => 'What is the purpose of Community Choice Aggregation?',
@@ -74,6 +74,14 @@
     [
       'q' => 'Where does the renewable energy for CCA come from?',
       'a' => 'The <a href="http://www.greenenergyconsumers.org/" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island. The Andover CCA program has not yet decided its renewable energy supplier.'
+    ],
+    [
+      'q' => 'What is a Third-Party Supplier (TPS)?',
+      'a' => 'A TPS is a for-profit company that sells electricity supply into the grid which may be purchased by individual electricity customers under contract.'
+    ],
+    [
+      'q' => 'I have received offers from Third-Party Suppliers promising lower electricity rates. What should I do?',
+      'a' => 'Third-Party Suppliers are currently very active in Massachusetts, due to recent increases in utilities\' Basic Service rates.  Before agreeing to purchase electricity from a TPS, you should read the complete contract fine print and have a clear understanding of rate details and any termination penalties.'
     ],
   ];
 ?>
