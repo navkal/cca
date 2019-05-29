@@ -64,6 +64,10 @@
       'a' => 'No, residents and businesses can opt out of the CCA program at any time without penalty.'
     ],
     [
+      'q' => 'What if I choose to leave the CCA program early?',
+      'a' => 'Participating account holders may terminate their participation ("opt out") at any time without any early termination or exit fee.  After opting out, account holders may return at any time with no associated re-enrollment fee; but upon returning, they are not guaranteed the original contract rate.'
+    ],
+    [
       'q' => 'Where does the renewable energy for CCA come from?',
       'a' => 'The <a href="http://www.greenenergyconsumers.org/" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island. The Andover CCA program has not yet decided its renewable energy supplier.'
     ],
