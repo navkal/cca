@@ -72,6 +72,10 @@
       'a' => 'A TPS is a for-profit company that sells electricity supply into the grid which may be purchased by individual electricity customers under contract.'
     ],
     [
+      'q' => 'Will Andover municipality profit from the CCA program?',
+      'a' => 'No, Andover will not profit from the CCA program.  However, as a current customer of National Grid Basic Service, the municipality has the potential to benefit from the program in the same way as residential and business customers would.'
+    ],
+    [
       'q' => 'I have received offers from Third-Party Suppliers promising lower electricity rates. What should I do?',
       'a' => 'Third-Party Suppliers are currently very active in Massachusetts, due to recent increases in utilities\' Basic Service rates.  Before agreeing to purchase electricity from a TPS, you should read the complete contract fine print and have a clear understanding of rate details and any termination penalties.'
     ],
