@@ -48,6 +48,10 @@
       'a' => 'If enacted, Andover CCA will offer one or more electrical supply options to National Grid customers.  When the program takes effect, you will be enrolled initially in the default option.  If the program offers other supply options - for example, with higher renewable content than the default - you can switch ("opt up") at any time.  You can also return to National Grid Basic Service ("opt out") at any time, without penalty or cost.'
     ],
     [
+      'q' => 'How will CCA affect my electric bill?',
+      'a' => 'Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  As before, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service.  (While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to possible unforeseen fluctuations in National Grid pricing.)'
+    ],
+    [
       'q' => 'Where does the renewable energy for CCA come from?',
       'a' => 'The <a href="http://www.greenenergyconsumers.org/" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island. The Andover CCA program has not yet decided its renewable energy supplier.'
     ],
