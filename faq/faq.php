@@ -60,7 +60,7 @@
       'a' => 'No, you will not have to pay a deposit.'
     ],
     [
-      'q' => 'Do I have to participate in CCA if I don\’t want to?',
+      'q' => 'Do I have to participate in CCA if I don\'t want to?',
       'a' => 'No, residents and businesses can opt out of the CCA program at any time without penalty.'
     ],
     [
