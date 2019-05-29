@@ -56,7 +56,7 @@
       'a' => 'No, there will be no change to your meter.  National Grid will continue to read your meter to determine how much energy you consume.'
     ],
     [
-      'q' => 'Will I have to pay a deposit to participate?',
+      'q' => 'Will I have to pay a deposit to participate in CCA?',
       'a' => 'No, you will not have to pay a deposit.'
     ],
     [
