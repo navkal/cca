@@ -52,6 +52,10 @@
       'a' => 'Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.  As before, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service.  (While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to possible unforeseen fluctuations in National Grid pricing.)'
     ],
     [
+      'q' => 'Will there be a change to my electric meter?',
+      'a' => 'No, there will be no change to your meter.  National Grid will continue to read your meter to determine how much energy you consume.'
+    ],
+    [
       'q' => 'Where does the renewable energy for CCA come from?',
       'a' => 'The <a href="http://www.greenenergyconsumers.org/" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island. The Andover CCA program has not yet decided its renewable energy supplier.'
     ],
