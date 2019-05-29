@@ -9,7 +9,7 @@
       'a' => 'CCA is a Massachusetts state-regulated program that came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Chapter 164, Section 134</a>.  CCA empowers cities and towns to create large buying groups of residential and business electricity customers in order to seek bids for cheaper supply rates.'
     ],
     [
-      'q' => 'What is the purpose of Community Choice Aggregation?',
+      'q' => 'Why was the CCA law enacted?',
       'a' => 'The law underlying CCA was enacted to ensure that the benefits of energy deregulation would be passed on to residential and business customers, by allowing them to aggregate their accounts within their municipal boundaries in order to obtain competitive bids from third-party suppliers.'
     ],
     [
