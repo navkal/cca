@@ -45,7 +45,7 @@
     ],
     [
       'q' => 'How do I participate in the CCA program?',
-      'a' => 'If enacted, Andover CCA will offer one or more electrical supply options to National Grid customers.  When the program takes effect, you will be enrolled initially in the default option.  If the program offers other supply options - for example, with higher renewable content than the default - you can switch ("opt up") at any time.  You can also return to National Grid Basic Service ("opt out") at any time, without penalty or cost.'
+      'a' => 'If enacted, Andover CCA will offer one or more electrical supply options to National Grid customers.  When the program takes effect, you will be enrolled initially in the default option.  If the program offers other supply options - for example, with higher renewable content than the default - you can switch (<i>opt up</i>) at any time.  You can also return to National Grid Basic Service (<i>opt out</i>) at any time, without penalty or cost.'
     ],
     [
       'q' => 'How will CCA affect my electric bill?',
@@ -65,7 +65,7 @@
     ],
     [
       'q' => 'What if I choose to leave the CCA program early?',
-      'a' => 'Participating account holders may terminate their participation ("opt out") at any time without any early termination or exit fee.  After opting out, account holders may return at any time with no associated re-enrollment fee; but upon returning, they are not guaranteed the original contract rate.'
+      'a' => 'Participating account holders may terminate their participation (<i>opt out</i>) at any time without any early termination or exit fee.  After opting out, account holders may return at any time with no associated re-enrollment fee; but upon returning, they are not guaranteed the original contract rate.'
     ],
     [
       'q' => 'Where does the renewable energy for CCA come from?',
