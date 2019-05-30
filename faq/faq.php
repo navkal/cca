@@ -115,6 +115,10 @@
       'q' => 'A few months after I switched to a Third-Party Supplier, my rate jumped above the utility Basic Service rate. Can this happen with a CCA supplier?',
       'a' => 'CCA supply rates are typically fixed for the contract period (months or years).  While they aim to offer a favorable price for the promised energy mix, there is no guarantee that they will be lower than the utility Basic Service rate.'
     ],
+    [
+      'q' => 'What is the history of CCA?',
+      'a' => 'In 1997, Massachusetts passed the first CCA legislation in the country and formed the Cape Light Compact, the first CCA program.  Six other states have since followed.  The programs go by different names in different states, but the bulk-purchasing principles upon which they operate are largely the same.  By aggregating a large number of electric accounts together, the programs create economies of scale, enabling participating municipalities to reap savings for electricity consumers within their borders.'
+    ],
   ];
 ?>
 
