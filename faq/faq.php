@@ -72,6 +72,10 @@
       'a' => 'After opting out, you may return to the CCA program at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.  After you re-enroll, the CCA program rate will appear on your utility bill in the next available billing cycle.  Since National Grid takes at least two days to process a change of supplier, you are encouraged to re-enroll at least five business days before the meter read date indicated on your utility bill, to help ensure that re-enrollment occurs on a timely basis.'
     ],
     [
+      'q' => 'Will Andover municipality profit from the CCA program?',
+      'a' => 'No, Andover will not profit from the CCA program.  However, as a current customer of National Grid Basic Service, the municipality has the potential to benefit from the program in the same way as residential and business customers would.'
+    ],
+    [
       'q' => 'Whom should I call in case of an outage or an issue with my electric bill?',
       'a' => 'To report an outage, contact National Grid at (800) 465-1212. All billing questions will continue to be directed to National Grid at (800) 322-3223.'
     ],
@@ -84,8 +88,8 @@
       'a' => 'A TPS is a for-profit company that sells electricity supply into the grid which may be purchased by individual electricity customers under contract.'
     ],
     [
-      'q' => 'Will Andover municipality profit from the CCA program?',
-      'a' => 'No, Andover will not profit from the CCA program.  However, as a current customer of National Grid Basic Service, the municipality has the potential to benefit from the program in the same way as residential and business customers would.'
+      'q' => 'If I subscribe to a Third-Party Supplier, will the utility take longer to restore my electricity in the event of an outage?',
+      'a' => 'No.  Since the 1997 deregulation law stipulates that your utility can generate revenue only by delivering your electricity, and not by providing the electricity supply, they have no incentive to give priority to their own Basic Service customers when restoring service.'
     ],
     [
       'q' => 'I have received offers from Third-Party Suppliers promising lower electricity rates. What should I do?',
