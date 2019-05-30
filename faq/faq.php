@@ -102,6 +102,18 @@
   ];
 ?>
 
+<style>
+[data-toggle="collapse"].collapsed .faq-toggle:before
+{
+  content: "\f067"; /* Font Awesome plus */
+}
+
+[data-toggle="collapse"] .faq-toggle:before
+{
+  content: "\f068"; /* Font Awesome minus */
+}
+</style>
+
 <div class="container">
   <div class="row">
     <div class="col-12 col-md-10 col-lg-8 mx-auto">
@@ -119,8 +131,17 @@
           ?>
               <div class="card">
                 <div class="card-header" id="q<?=$iCard?>">
-                  <a class="card-link" data-toggle="collapse" href="#a<?=$iCard?>">
-                    <?=$aQ['q']?>
+                  <a class="collapsed" data-toggle="collapse" href="#a<?=$iCard?>">
+                    <table>
+                      <tr class="text-primary">
+                        <td>
+                          <i class="fas faq-toggle pr-3" style="font-size:13px" aria-hidden="true"></i>
+                        </td>
+                        <td>
+                          <?=$aQ['q']?>
+                        </td>
+                      </tr>
+                    </table>
                   </a>
                 </div>
                 <div id="a<?=$iCard?>" class="collapse" aria-labelledby="q<?=$iCard?>" data-parent="#faq">
