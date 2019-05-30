@@ -64,6 +64,10 @@
       'a' => 'No, residents and businesses can opt out of the CCA program at any time without penalty.'
     ],
     [
+      'q' => 'What if I have a solar photo-voltaic (PV) system?',
+      'a' => 'If you have a solar PV system, you can participate in the CCA program, as long as you subscribe to National Grid Basic Service.  You will continue to receive net metering credits, which will appear on your National Grid bill and be calculated based on the National Grid Basic Service price, as before.  There will be no change in your eligibility to earn or sell SRECs.'
+    ],
+    [
       'q' => 'What if I choose to leave the CCA program early?',
       'a' => 'You may terminate your CCA participation (<i>opt out</i>) at any time without any early termination or exit fee.  After opting out, you may return at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.'
     ],
