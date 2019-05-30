@@ -100,8 +100,8 @@
       'a' => 'Third-Party Suppliers are currently very active in Massachusetts, due to recent increases in utilities\' Basic Service rates.  Before agreeing to purchase electricity from a TPS, you should read the complete contract fine print and have a clear understanding of rate details and any termination penalties.'
     ],
     [
-      'q' => 'A few months after I switched to a Third-Party Supplier, my rate increased above the utility Basic Service rate. Can this happen with a CCA supplier?',
-      'a' => 'No.  The rates offered by CCA suppliers are always fixed for the term of the supply contract.'
+      'q' => 'A few months after I switched to a Third-Party Supplier, my rate jumped above the utility Basic Service rate. Can this happen with a CCA supplier?',
+      'a' => 'CCA supply rates are typically fixed for the contract period (months or years).  While they aim to offer a favorable price for the promised energy mix, there is no guarantee that they will be lower than the utility Basic Service rate.'
     ],
   ];
 ?>
