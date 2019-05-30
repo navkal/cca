@@ -56,6 +56,10 @@
       'a' => 'No, there will be no change to your meter.  National Grid will continue to read your meter to determine how much energy you consume.'
     ],
     [
+      'q' => 'Will the CCA supply rate be lower than National Grid Basic Service rate?',
+      'a' => 'There is no guarantee that the CCA supply rate will always be below the National Grid Basic Service rate.  The aggregation price usually reflects a fixed rate for the duration of the Electric Service Agreement, which may last several years.  The Basic Service rate changes every six months for residential, small business, and lighting accounts, and every three months for large commercial and industrial customers.'
+    ],
+    [
       'q' => 'Will I have to pay a deposit to participate in CCA?',
       'a' => 'No, you will not have to pay a deposit.'
     ],
