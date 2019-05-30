@@ -96,6 +96,10 @@
       'a' => 'A TPS is a for-profit company that sells electricity supply into the grid which may be purchased by individual electricity customers under contract.'
     ],
     [
+      'q' => 'How can I trust that Andover will select a competent and reputable supplier?',
+      'a' => 'Only Third-Party Suppliers licensed by the state are eligible to bid for CCA contracts.'
+    ],
+    [
       'q' => 'If I subscribe to a Third-Party Supplier, will the utility take longer to restore my electricity in the event of an outage?',
       'a' => 'No.  Since the 1997 deregulation law stipulates that your utility can generate revenue only by delivering your electricity, and not by providing the electricity supply, they have no incentive to give priority to their own Basic Service customers when restoring service.'
     ],
