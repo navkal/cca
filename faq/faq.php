@@ -97,22 +97,22 @@
     ],
     [
       'q' => 'How can I trust that Andover will select a competent and reputable supplier?',
-      'a' => 'Only Third-Party Suppliers licensed by the state are eligible to bid for CCA contracts.'
+      'a' => 'Only TPS's licensed by the state are eligible to bid for CCA contracts.'
     ],
     [
       'q' => 'Can National Grid be a CCA supplier?',
       'a' => 'No.  By law, utilities cannot bid for CCA supply contracts.'
     ],
     [
-      'q' => 'If I subscribe to a Third-Party Supplier, will the utility take longer to restore my electricity in the event of an outage?',
+      'q' => 'If I subscribe to a TPS, will the utility take longer to restore my electricity in the event of an outage?',
       'a' => 'No.  Since the 1997 deregulation law stipulates that your utility can generate revenue only by delivering your electricity, and not by providing the electricity supply, they have no incentive to give priority to their own Basic Service customers when restoring service.'
     ],
     [
-      'q' => 'I have received offers from Third-Party Suppliers promising lower electricity rates. What should I do?',
-      'a' => 'Third-Party Suppliers are currently very active in Massachusetts, due to recent increases in utilities\' Basic Service rates.  Before agreeing to purchase electricity from a TPS, you should read the complete contract fine print and have a clear understanding of rate details and any termination penalties.'
+      'q' => 'I have received offers from TPS's promising lower electricity rates. What should I do?',
+      'a' => 'TPS's are currently very active in Massachusetts, due to recent increases in utilities\' Basic Service rates.  Before agreeing to purchase electricity from a TPS, you should read the complete contract fine print and have a clear understanding of rate details and any termination penalties.'
     ],
     [
-      'q' => 'A few months after I switched to a Third-Party Supplier, my rate jumped above the utility Basic Service rate. Can this happen with a CCA supplier?',
+      'q' => 'A few months after I switched to a TPS, my rate jumped above the utility Basic Service rate. Can this happen with a CCA supplier?',
       'a' => 'CCA supply rates are typically fixed for the contract period (months or years).  While they aim to offer a favorable price for the promised energy mix, there is no guarantee that they will be lower than the utility Basic Service rate.'
     ],
     [
