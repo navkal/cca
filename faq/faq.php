@@ -97,7 +97,7 @@
     ],
     [
       'q' => 'How can I trust that Andover will select a competent and reputable supplier?',
-      'a' => 'Only TPS\'s licensed by the state are eligible to bid for CCA contracts.'
+      'a' => 'Only suppliers licensed by the state are eligible to bid for CCA contracts.'
     ],
     [
       'q' => 'Can National Grid be a CCA supplier?',
