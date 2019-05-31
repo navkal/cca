@@ -36,6 +36,10 @@
         '
     ],
     [
+      'q' => 'Where does the renewable energy for CCA come from?',
+      'a' => 'The <a href="http://www.greenenergyconsumers.org/" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island. The Andover CCA program has not yet decided its renewable energy supplier.'
+    ],
+    [
       'q' => 'How do I participate in the CCA program?',
       'a' => 'If enacted, Andover CCA will offer one or more electricity supply options to National Grid customers.  Initially, you will be enrolled in the CCA program\'s default supply option.  If the program offers other options - for example, with higher or lower renewable content than the default - you can switch (<i>opt up</i> or <i>opt down</i>) at any time.  You can also return to National Grid Basic Service (<i>opt out</i>) at any time, without penalty or cost.'
     ],
@@ -72,6 +76,10 @@
       'a' => 'If you have a solar PV system, you can participate in the CCA program, as long as you subscribe to National Grid Basic Service.  You will continue to receive net metering credits, which will appear on your National Grid bill and be calculated based on the National Grid Basic Service price, as before.  There will be no change in your eligibility to earn or sell SRECs.'
     ],
     [
+      'q' => 'How can I trust that Andover will select a competent and reputable supplier?',
+      'a' => 'Only suppliers licensed by the state are eligible to bid for CCA contracts.'
+    ],
+    [
       'q' => 'Under the program, can I continue to participate in National Grid’s budget billing/equal payment plan?',
       'a' => 'Yes, you may continue to participate in a budget billing/equal payment plan.'
     ],
@@ -90,14 +98,6 @@
     [
       'q' => 'Whom should I call in case of an outage or an issue with my electric bill?',
       'a' => 'To report an outage, contact National Grid at (800) 465-1212. All billing questions will continue to be directed to National Grid at (800) 322-3223.'
-    ],
-    [
-      'q' => 'Where does the renewable energy for CCA come from?',
-      'a' => 'The <a href="http://www.greenenergyconsumers.org/" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island. The Andover CCA program has not yet decided its renewable energy supplier.'
-    ],
-    [
-      'q' => 'How can I trust that Andover will select a competent and reputable supplier?',
-      'a' => 'Only suppliers licensed by the state are eligible to bid for CCA contracts.'
     ],
     [
       'q' => 'Can National Grid be a CCA supplier?',
