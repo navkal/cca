@@ -9,7 +9,7 @@
       'a' => 'CCA is a Massachusetts state-regulated program that came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Chapter 164, Section 134</a>.  The law was enacted to ensure that the benefits of energy deregulation would be passed on to residential and business electricity customers.  CCA empowers cities and towns to create large buying groups of these customers in order to seek bids for cheaper supply rates.  By grouping electricity customer accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to achieve savings for account holders as a whole.'
     ],
     [
-      'q' => 'What are the objectives of Community Choice Aggregation?',
+      'q' => 'What are the objectives of CCA?',
       'a' => 'CCA aims to promote rate stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply.'
     ],
     [
@@ -44,8 +44,12 @@
       'a' => 'Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.  As before, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service.  (While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to possible unforeseen fluctuations in National Grid pricing.)'
     ],
     [
+      'q' => 'What is a Third-Party Supplier (TPS)?',
+      'a' => 'A TPS is a for-profit company that sells electricity supply into the grid which may be purchased by individual electricity customers under contract.'
+    ],
+    [
       'q' => 'Can businesses participate in the program?',
-      'a' => 'Yes, any account currently on National Grid Basic Service, i.e., not enrolled with a Third-Party Supplier, is eligible, and will be automatically enrolled unless they choose to opt out.'
+      'a' => 'Yes, any account currently on National Grid Basic Service, i.e., not enrolled with a TPS, is eligible, and will be automatically enrolled unless they choose to opt out.'
     ],
     [
       'q' => 'Under the program, can I continue to participate in National Grid’s budget billing/equal payment plan?',
@@ -90,10 +94,6 @@
     [
       'q' => 'Where does the renewable energy for CCA come from?',
       'a' => 'The <a href="http://www.greenenergyconsumers.org/" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island. The Andover CCA program has not yet decided its renewable energy supplier.'
-    ],
-    [
-      'q' => 'What is a Third-Party Supplier (TPS)?',
-      'a' => 'A TPS is a for-profit company that sells electricity supply into the grid which may be purchased by individual electricity customers under contract.'
     ],
     [
       'q' => 'How can I trust that Andover will select a competent and reputable supplier?',
