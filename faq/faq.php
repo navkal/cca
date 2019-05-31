@@ -68,6 +68,10 @@
       'a' => 'No, there will be no change to your meter.  National Grid will continue to read your meter to determine how much energy you consume.'
     ],
     [
+      'q' => 'What if I have a solar photo-voltaic (PV) system?',
+      'a' => 'If you have a solar PV system, you can participate in the CCA program, as long as you subscribe to National Grid Basic Service.  You will continue to receive net metering credits, which will appear on your National Grid bill and be calculated based on the National Grid Basic Service price, as before.  There will be no change in your eligibility to earn or sell SRECs.'
+    ],
+    [
       'q' => 'Under the program, can I continue to participate in National Grid’s budget billing/equal payment plan?',
       'a' => 'Yes, you may continue to participate in a budget billing/equal payment plan.'
     ],
@@ -78,10 +82,6 @@
     [
       'q' => 'Can businesses participate in the CCA program?',
       'a' => 'Yes, any account currently on National Grid Basic Service, i.e., not enrolled with a TPS, is eligible, and will be automatically enrolled unless they choose to opt out.'
-    ],
-    [
-      'q' => 'What if I have a solar photo-voltaic (PV) system?',
-      'a' => 'If you have a solar PV system, you can participate in the CCA program, as long as you subscribe to National Grid Basic Service.  You will continue to receive net metering credits, which will appear on your National Grid bill and be calculated based on the National Grid Basic Service price, as before.  There will be no change in your eligibility to earn or sell SRECs.'
     ],
     [
       'q' => 'Will Andover municipality profit from the CCA program?',
