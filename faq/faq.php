@@ -44,6 +44,14 @@
       'a' => 'No, residents and businesses can opt out of the CCA program at any time without penalty.'
     ],
     [
+      'q' => 'What if I choose to leave the CCA program early?',
+      'a' => 'You may terminate your CCA participation (<i>opt out</i>) at any time without any early termination or exit fee.  After opting out, you may return at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.'
+    ],
+    [
+      'q' => 'If I opt out, can I opt back in at a later date?',
+      'a' => 'After opting out, you may return to the CCA program at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.  After you re-enroll, the CCA program rate will appear on your utility bill in the next available billing cycle.  Since National Grid takes at least two days to process a change of supplier, you are encouraged to re-enroll at least five business days before the meter read date indicated on your utility bill, to help ensure that re-enrollment occurs on a timely basis.'
+    ],
+    [
       'q' => 'How will CCA affect my electric bill?',
       'a' => 'Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.  As before, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service.  (While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to possible unforeseen fluctuations in National Grid pricing.)'
     ],
@@ -74,14 +82,6 @@
     [
       'q' => 'What if I have a solar photo-voltaic (PV) system?',
       'a' => 'If you have a solar PV system, you can participate in the CCA program, as long as you subscribe to National Grid Basic Service.  You will continue to receive net metering credits, which will appear on your National Grid bill and be calculated based on the National Grid Basic Service price, as before.  There will be no change in your eligibility to earn or sell SRECs.'
-    ],
-    [
-      'q' => 'What if I choose to leave the CCA program early?',
-      'a' => 'You may terminate your CCA participation (<i>opt out</i>) at any time without any early termination or exit fee.  After opting out, you may return at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.'
-    ],
-    [
-      'q' => 'If I opt out, can I opt back in at a later date?',
-      'a' => 'After opting out, you may return to the CCA program at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.  After you re-enroll, the CCA program rate will appear on your utility bill in the next available billing cycle.  Since National Grid takes at least two days to process a change of supplier, you are encouraged to re-enroll at least five business days before the meter read date indicated on your utility bill, to help ensure that re-enrollment occurs on a timely basis.'
     ],
     [
       'q' => 'Will Andover municipality profit from the CCA program?',
