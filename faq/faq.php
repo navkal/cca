@@ -48,12 +48,20 @@
       'a' => 'Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.  As before, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service.  (While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to possible unforeseen fluctuations in National Grid pricing.)'
     ],
     [
-      'q' => 'Under the program, can I continue to participate in National Grid’s budget billing/equal payment plan?',
-      'a' => 'Yes, you may continue to participate in a budget billing/equal payment plan.'
+      'q' => 'Will the CCA supply rate be lower than National Grid Basic Service rate?',
+      'a' => 'There is no guarantee that the CCA supply rate will always be below the National Grid Basic Service rate.  The aggregation price usually reflects a fixed rate for the duration of the Electric Service Agreement, which may last several years.  The Basic Service rate changes every six months for residential, small business, and lighting accounts, and every three months for large commercial and industrial customers.'
+    ],
+    [
+      'q' => 'Will I have to pay a deposit to participate in CCA?',
+      'a' => 'No, you will not have to pay a deposit.'
     ],
     [
       'q' => 'Will there be a change to my electric meter?',
       'a' => 'No, there will be no change to your meter.  National Grid will continue to read your meter to determine how much energy you consume.'
+    ],
+    [
+      'q' => 'Under the program, can I continue to participate in National Grid’s budget billing/equal payment plan?',
+      'a' => 'Yes, you may continue to participate in a budget billing/equal payment plan.'
     ],
     [
       'q' => 'What is a <i>Third-Party Supplier</i> (TPS)?',
@@ -62,14 +70,6 @@
     [
       'q' => 'Can businesses participate in the CCA program?',
       'a' => 'Yes, any account currently on National Grid Basic Service, i.e., not enrolled with a TPS, is eligible, and will be automatically enrolled unless they choose to opt out.'
-    ],
-    [
-      'q' => 'Will the CCA supply rate be lower than National Grid Basic Service rate?',
-      'a' => 'There is no guarantee that the CCA supply rate will always be below the National Grid Basic Service rate.  The aggregation price usually reflects a fixed rate for the duration of the Electric Service Agreement, which may last several years.  The Basic Service rate changes every six months for residential, small business, and lighting accounts, and every three months for large commercial and industrial customers.'
-    ],
-    [
-      'q' => 'Will I have to pay a deposit to participate in CCA?',
-      'a' => 'No, you will not have to pay a deposit.'
     ],
     [
       'q' => 'What if I have a solar photo-voltaic (PV) system?',
