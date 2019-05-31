@@ -80,12 +80,20 @@
       'a' => 'Only suppliers licensed by the state are eligible to bid for CCA contracts.'
     ],
     [
-      'q' => 'Under the program, can I continue to participate in National Grid’s budget billing/equal payment plan?',
-      'a' => 'Yes, you may continue to participate in a budget billing/equal payment plan.'
+      'q' => 'Can National Grid be a CCA supplier?',
+      'a' => 'No.  By law, utilities cannot bid for CCA supply contracts.'
     ],
     [
       'q' => 'Will Andover municipality profit from the CCA program?',
       'a' => 'No, Andover will not profit from the CCA program.  However, as a current customer of National Grid Basic Service, the municipality has the potential to benefit from the program in the same way as residential and business customers would.'
+    ],
+    [
+      'q' => 'Under the program, can I continue to participate in National Grid’s budget billing/equal payment plan?',
+      'a' => 'Yes, you may continue to participate in a budget billing/equal payment plan.'
+    ],
+    [
+      'q' => 'Whom should I call in case of an outage or an issue with my electric bill?',
+      'a' => 'To report an outage, contact National Grid at (800) 465-1212. All billing questions will continue to be directed to National Grid at (800) 322-3223.'
     ],
     [
       'q' => 'What is a <i>Third-Party Supplier</i> (TPS)?',
@@ -94,14 +102,6 @@
     [
       'q' => 'Can businesses participate in the CCA program?',
       'a' => 'Yes, any account currently on National Grid Basic Service, i.e., not enrolled with a TPS, is eligible, and will be automatically enrolled unless they choose to opt out.'
-    ],
-    [
-      'q' => 'Whom should I call in case of an outage or an issue with my electric bill?',
-      'a' => 'To report an outage, contact National Grid at (800) 465-1212. All billing questions will continue to be directed to National Grid at (800) 322-3223.'
-    ],
-    [
-      'q' => 'Can National Grid be a CCA supplier?',
-      'a' => 'No.  By law, utilities cannot bid for CCA supply contracts.'
     ],
     [
       'q' => 'If I participate in a CCA program or enroll with a TPS, will the utility take longer to restore my electricity in the event of an outage?',
