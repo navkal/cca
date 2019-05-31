@@ -5,7 +5,7 @@
   $aFaq =
   [
     [
-      'q' => 'What is Community Choice Aggregation (CCA)?',
+      'q' => 'What is <i>Community Choice Aggregation</i> (CCA)?',
       'a' => 'CCA is a Massachusetts state-regulated program that came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Chapter 164, Section 134</a>.  The law was enacted to ensure that the benefits of energy deregulation would be passed on to residential and business electricity customers.  CCA empowers cities and towns to create large buying groups of these customers in order to seek bids for cheaper supply rates.  By grouping electricity customer accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to achieve savings for account holders as a whole.'
     ],
     [
@@ -44,7 +44,7 @@
       'a' => 'Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.  As before, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service.  (While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to possible unforeseen fluctuations in National Grid pricing.)'
     ],
     [
-      'q' => 'What is a Third-Party Supplier (TPS)?',
+      'q' => 'What is a <i>Third-Party Supplier</i> (TPS)?',
       'a' => 'A TPS is a for-profit company that sells electricity supply into the grid which may be purchased by individual electricity customers under contract.'
     ],
     [
@@ -97,7 +97,7 @@
     ],
     [
       'q' => 'How can I trust that Andover will select a competent and reputable supplier?',
-      'a' => 'Only TPS's licensed by the state are eligible to bid for CCA contracts.'
+      'a' => 'Only TPS\'s licensed by the state are eligible to bid for CCA contracts.'
     ],
     [
       'q' => 'Can National Grid be a CCA supplier?',
@@ -108,8 +108,8 @@
       'a' => 'No.  Since the 1997 deregulation law stipulates that your utility can generate revenue only by delivering your electricity, and not by providing the electricity supply, they have no incentive to give priority to their own Basic Service customers when restoring service.'
     ],
     [
-      'q' => 'I have received offers from TPS's promising lower electricity rates. What should I do?',
-      'a' => 'TPS's are currently very active in Massachusetts, due to recent increases in utilities\' Basic Service rates.  Before agreeing to purchase electricity from a TPS, you should read the complete contract fine print and have a clear understanding of rate details and any termination penalties.'
+      'q' => 'I have received offers from TPS\'s promising lower electricity rates. What should I do?',
+      'a' => 'TPS\'s are currently very active in Massachusetts, due to recent increases in utilities\' Basic Service rates.  Before agreeing to purchase electricity from a TPS, you should read the complete contract fine print and have a clear understanding of rate details and any termination penalties.'
     ],
     [
       'q' => 'A few months after I switched to a TPS, my rate jumped above the utility Basic Service rate. Can this happen with a CCA supplier?',
