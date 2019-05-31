@@ -84,16 +84,16 @@
       'a' => 'Yes, you may continue to participate in a budget billing/equal payment plan.'
     ],
     [
+      'q' => 'Will Andover municipality profit from the CCA program?',
+      'a' => 'No, Andover will not profit from the CCA program.  However, as a current customer of National Grid Basic Service, the municipality has the potential to benefit from the program in the same way as residential and business customers would.'
+    ],
+    [
       'q' => 'What is a <i>Third-Party Supplier</i> (TPS)?',
       'a' => 'A TPS is a for-profit company that sells electricity supply into the grid which may be purchased by individual electricity customers under contract.'
     ],
     [
       'q' => 'Can businesses participate in the CCA program?',
       'a' => 'Yes, any account currently on National Grid Basic Service, i.e., not enrolled with a TPS, is eligible, and will be automatically enrolled unless they choose to opt out.'
-    ],
-    [
-      'q' => 'Will Andover municipality profit from the CCA program?',
-      'a' => 'No, Andover will not profit from the CCA program.  However, as a current customer of National Grid Basic Service, the municipality has the potential to benefit from the program in the same way as residential and business customers would.'
     ],
     [
       'q' => 'Whom should I call in case of an outage or an issue with my electric bill?',
