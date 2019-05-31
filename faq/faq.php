@@ -104,7 +104,7 @@
       'a' => 'No.  By law, utilities cannot bid for CCA supply contracts.'
     ],
     [
-      'q' => 'If I enroll with a TPS or participate in a CCA program, will the utility take longer to restore my electricity in the event of an outage?',
+      'q' => 'If I participate in a CCA program or enroll with a TPS, will the utility take longer to restore my electricity in the event of an outage?',
       'a' => 'No.  Since the 1997 deregulation law stipulates that your utility can generate revenue only by delivering your electricity, and not by providing the electricity supply, they have no incentive to give priority to their own Basic Service customers when restoring service.'
     ],
     [
