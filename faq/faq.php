@@ -6,7 +6,16 @@
   [
     [
       'q' => 'What is <i>Community Choice Aggregation</i> (CCA)?',
-      'a' => 'CCA is a Massachusetts state-regulated program that came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Chapter 164, Section 134</a>.  The law was enacted to ensure that the benefits of energy deregulation would be passed on to residential and business electricity customers.  CCA empowers cities and towns to create large buying groups of these customers in order to seek bids for cheaper supply rates.  By grouping electricity customer accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to achieve savings for account holders as a whole.'
+      'a' =>
+        '
+          <p>
+            CCA is a Massachusetts state-regulated program that came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Chapter 164, Section 134</a>.  The law was enacted to ensure that the benefits of energy deregulation would be passed on to residential and business electricity customers.
+          </p>
+
+          <p>
+            CCA empowers cities and towns to create large buying groups of these customers in order to seek bids for cheaper supply rates.  By grouping electricity customer accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to achieve savings for account holders as a whole.
+          </p>
+        '
     ],
     [
       'q' => 'What are the objectives of CCA?',
@@ -41,16 +50,18 @@
     ],
     [
       'q' => 'How do I participate in the CCA program?',
-      'a' => '
-        <p>
-          If enacted, the Andover CCA program will offer one or more supply options to National Grid customers.
-        </p>
-        <p>
-          Initially, if you get your supply from National Grid Basic Service, you will be switched automatically to the program\'s default supply option.  If the program offers other options - for example, with higher or lower renewable content than the default - you can switch (<i>opt up</i> or <i>opt down</i>) at any time.  You can also return to National Grid Basic Service (<i>opt out</i>) at any time, without penalty or cost.
-        </p>
-        <p>
-          If you do not subscribe to National Grid Basic Service, you will not be enrolled automatically, but you can enroll if you wish.
-        </p>'
+      'a' =>
+        '
+          <p>
+            If enacted, the Andover CCA program will offer one or more supply options to National Grid customers.
+          </p>
+          <p>
+            Initially, if you get your supply from National Grid Basic Service, you will be switched automatically to the program\'s default supply option.  If the program offers other options - for example, with higher or lower renewable content than the default - you can switch (<i>opt up</i> or <i>opt down</i>) at any time.  You can also return to National Grid Basic Service (<i>opt out</i>) at any time, without penalty or cost.
+          </p>
+          <p>
+            If you do not subscribe to National Grid Basic Service, you will not be enrolled automatically, but you can enroll if you wish.
+          </p>
+        '
     ],
     [
       'q' => 'Do I have to participate in CCA if I don\'t want to?',
@@ -66,11 +77,19 @@
     ],
     [
       'q' => 'How will CCA affect my electric bill?',
-      'a' => 'Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.  As before, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service.  (While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to possible unforeseen fluctuations in National Grid pricing.)'
+      'a' =>
+        '
+          <p>
+            Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.
+          </p>
+          <p>
+            Once enrolled in CCA, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service as before.  While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to potential fluctuations in National Grid pricing.
+          </p>
+        '
     ],
     [
       'q' => 'Will the CCA supply rate be lower than National Grid Basic Service rate?',
-      'a' => 'There is no guarantee that the CCA supply rate will always be below the National Grid Basic Service rate.  The aggregation price usually reflects a fixed rate for the duration of the Electric Service Agreement, which may last several years.  The Basic Service rate changes every six months for residential, small business, and lighting accounts, and every three months for large commercial and industrial customers.'
+      'a' => 'While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to potential fluctuations in National Grid pricing.  The CCA rate is typically fixed for the duration of the supply contract, which may last several years.  On the other hand, the National Grid Basic Service rate changes every six months for residential, small business, and lighting accounts, and every three months for large commercial and industrial customers.'
     ],
     [
       'q' => 'Will I have to pay a deposit to participate in CCA?',
