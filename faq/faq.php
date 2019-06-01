@@ -76,6 +76,10 @@
       'a' => 'After opting out, you may return to the CCA program at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.  After you re-enroll, the CCA program rate will appear on your utility bill in the next available billing cycle.  Since National Grid takes at least two days to process a change of supplier, you are encouraged to re-enroll at least five business days before the meter read date indicated on your utility bill, to help ensure that re-enrollment occurs on a timely basis.'
     ],
     [
+      'q' => 'Can businesses participate in the CCA program?',
+      'a' => 'Yes, businesses can participate.'
+    ],
+    [
       'q' => 'How will CCA affect my electric bill?',
       'a' =>
         '
@@ -126,10 +130,6 @@
     [
       'q' => 'What is a <i>Third-Party Supplier</i> (TPS)?',
       'a' => 'A TPS is a for-profit company that sells electricity supply into the grid which may be purchased by individual electricity customers under contract.'
-    ],
-    [
-      'q' => 'Can businesses participate in the CCA program?',
-      'a' => 'Yes, any account currently on National Grid Basic Service, i.e., not enrolled with a TPS, is eligible, and will be automatically enrolled unless they choose to opt out.'
     ],
     [
       'q' => 'If I participate in a CCA program or enroll with a TPS, will the utility take longer to restore my electricity in the event of an outage?',
