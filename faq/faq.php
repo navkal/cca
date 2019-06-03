@@ -137,7 +137,7 @@
     ],
     [
       'q' => 'I have received offers from TPS\'s promising lower electricity rates. What should I do?',
-      'a' => 'TPS\'s are currently very active in Massachusetts, due to recent increases in utilities\' Basic Service rates.  Before agreeing to purchase electricity from a TPS, you should read the complete contract fine print and have a clear understanding of rate details and any termination penalties.'
+      'a' => 'TPS\'s are currently very active in Massachusetts, due to recent increases in utilities\' Basic Service rates.  Before agreeing to purchase electricity from a TPS, you should read the complete contract fine print and have a clear understanding of rate details and any termination penalties.  Due to a high incidence of deceptive marketing practices, the Attorney General\'s office has <a href="https://www.mass.gov/news/ag-healey-calls-for-shut-down-of-individual-residential-competitive-supply-industry-to-protect" target="_blank">called for the TPS industry to be shut down</a>.'
     ],
     [
       'q' => 'A few months after I switched to a TPS, my rate jumped above the utility Basic Service rate. Can this happen with a CCA supplier?',
