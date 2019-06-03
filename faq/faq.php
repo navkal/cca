@@ -140,7 +140,7 @@
       'a' =>
         '
           <p>
-            In March 2018, the Attorney General\'s office released a <a href="https://www.mass.gov/news/ag-healey-calls-for-shut-down-of-individual-residential-competitive-supply-industry-to-protect" target="_blank">report</a> citing "aggressive sales tactics and false promises of cheaper electric bills" and calling for the TPS industry to be shut down.
+            In March 2018, the Attorney General\'s office released a <a href="https://www.mass.gov/news/ag-healey-calls-for-shut-down-of-individual-residential-competitive-supply-industry-to-protect" target="_blank">report</a> citing "aggressive sales tactics and false promises of cheaper electric bills", and calling for the TPS industry to be shut down.
           </p>
           <p>
             Beware of scams.  Before agreeing to purchase electricity from a TPS, you should read the complete contract fine print and have a clear understanding of rate details and any termination penalties.
