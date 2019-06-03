@@ -39,7 +39,7 @@
               Approval of plan by Select Board
             </li>
             <li>
-              Submittal of plan to MA DPU for final approval
+              Submission of plan to MA DPU for final approval
             </li>
           </ol>
         '
