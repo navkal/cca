@@ -234,7 +234,7 @@ input.error
             <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources" >
               Total Green Content
             </th>
-            <th data-toggle="tooltip" title="Mediator between town government and bulk energy supplier" >
+            <th data-toggle="tooltip" title="Mediator between town government and bulk energy supplier" class="filter-match" >
               Broker
             </th>
             <th data-toggle="tooltip" title="First month of contract" >
