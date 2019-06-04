@@ -219,7 +219,7 @@ input.error
       <table id="cca-table" class="tablesorter" >
         <thead>
           <tr>
-            <th data-toggle="tooltip" title="Town and CCA contract name" >
+            <th data-toggle="tooltip" title="Town and CCA contract name" class="filter-match" >
               CCA Option
             </th>
             <th data-toggle="tooltip" title="Energy component of electric bill" >
