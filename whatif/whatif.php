@@ -785,7 +785,27 @@ input.error
     },
     'May 19':
     {
-      'National Grid Basic Rate': 13.718,
+      'National Grid Basic Rate': 10.793,
+    },
+    'Jun 19':
+    {
+      'National Grid Basic Rate': 10.793,
+    },
+    'Jul 19':
+    {
+      'National Grid Basic Rate': 10.793,
+    },
+    'Aug 19':
+    {
+      'National Grid Basic Rate': 10.793,
+    },
+    'Sep 19':
+    {
+      'National Grid Basic Rate': 10.793,
+    },
+    'Oct 19':
+    {
+      'National Grid Basic Rate': 10.793,
     },
   };
 
