@@ -39,6 +39,11 @@
       'descr' => 'National Grid Basic Service rates since November, 2004'
     ],
     [
+      'url' => 'https://www.mass.gov/news/ag-healey-calls-for-shut-down-of-individual-residential-competitive-supply-industry-to-protect',
+      'title' => 'Office of MA Attorney General',
+      'descr' => 'AG Maura Healey decries agressive sales tactics and false promises by TPS industry'
+    ],
+    [
       'url' => 'https://commonwealthmagazine.org/opinion/municipal-electricity-aggregation-really-works/',
       'title' => 'Commonwealth Magazine',
       'descr' => 'Newton Mayor Ruthanne Fuller explains benefits of CCA program (Dec. 29, 2018)'
