@@ -34,6 +34,11 @@
       'descr' => 'CCA pricing in nearby towns'
     ],
     [
+      'url' => 'https://www.nationalgridus.com/media/pdfs/billing-payments/electric-rates/ma/resitable.pdf',
+      'title' => 'National Grid Basic Service pricing',
+      'descr' => 'National Grid Basic Service rates since November, 2004'
+    ],
+    [
       'url' => 'https://commonwealthmagazine.org/opinion/municipal-electricity-aggregation-really-works/',
       'title' => 'Commonwealth Magazine',
       'descr' => 'Newton Mayor Ruthanne Fuller explains benefits of CCA program (Dec. 29, 2018)'

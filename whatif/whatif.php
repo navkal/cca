@@ -225,7 +225,7 @@ input.error
             <th data-toggle="tooltip" title="Energy component of electric bill" >
               Annual Cost
             </th>
-            <th data-toggle="tooltip" title="Difference relative to National Grid Basic Rate" >
+            <th data-toggle="tooltip" title="Difference relative to National Grid Basic Service" >
               Annual Savings
             </th>
             <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources located in New England" >
@@ -717,95 +717,95 @@ input.error
   {
     'Jan 18':
     {
-      'National Grid Basic Rate': 12.673,
+      'National Grid Basic Service': 12.673,
     },
     'Feb 18':
     {
-      'National Grid Basic Rate': 12.673,
+      'National Grid Basic Service': 12.673,
     },
     'Mar 18':
     {
-      'National Grid Basic Rate': 12.673,
+      'National Grid Basic Service': 12.673,
     },
     'Apr 18':
     {
-      'National Grid Basic Rate': 12.673,
+      'National Grid Basic Service': 12.673,
     },
     'May 18':
     {
-      'National Grid Basic Rate': 10.87,
+      'National Grid Basic Service': 10.87,
     },
     'Jun 18':
     {
-      'National Grid Basic Rate': 10.87,
+      'National Grid Basic Service': 10.87,
     },
     'Jul 18':
     {
-      'National Grid Basic Rate': 10.87,
+      'National Grid Basic Service': 10.87,
     },
     'Aug 18':
     {
-      'National Grid Basic Rate': 10.87,
+      'National Grid Basic Service': 10.87,
     },
     'Sep 18':
     {
-      'National Grid Basic Rate': 10.87,
+      'National Grid Basic Service': 10.87,
     },
     'Oct 18':
     {
-      'National Grid Basic Rate': 10.87,
+      'National Grid Basic Service': 10.87,
     },
     'Nov 18':
     {
-      'National Grid Basic Rate': 13.718,
+      'National Grid Basic Service': 13.718,
     },
     'Dec 18':
     {
-      'National Grid Basic Rate': 13.718,
+      'National Grid Basic Service': 13.718,
     },
     'Jan 19':
     {
-      'National Grid Basic Rate': 13.718,
+      'National Grid Basic Service': 13.718,
     },
     'Jan 19':
     {
-      'National Grid Basic Rate': 13.718,
+      'National Grid Basic Service': 13.718,
     },
     'Feb 19':
     {
-      'National Grid Basic Rate': 13.718,
+      'National Grid Basic Service': 13.718,
     },
     'Mar 19':
     {
-      'National Grid Basic Rate': 13.718,
+      'National Grid Basic Service': 13.718,
     },
     'Apr 19':
     {
-      'National Grid Basic Rate': 13.718,
+      'National Grid Basic Service': 13.718,
     },
     'May 19':
     {
-      'National Grid Basic Rate': 10.793,
+      'National Grid Basic Service': 10.793,
     },
     'Jun 19':
     {
-      'National Grid Basic Rate': 10.793,
+      'National Grid Basic Service': 10.793,
     },
     'Jul 19':
     {
-      'National Grid Basic Rate': 10.793,
+      'National Grid Basic Service': 10.793,
     },
     'Aug 19':
     {
-      'National Grid Basic Rate': 10.793,
+      'National Grid Basic Service': 10.793,
     },
     'Sep 19':
     {
-      'National Grid Basic Rate': 10.793,
+      'National Grid Basic Service': 10.793,
     },
     'Oct 19':
     {
-      'National Grid Basic Rate': 10.793,
+      'National Grid Basic Service': 10.793,
     },
   };
 
@@ -955,10 +955,10 @@ input.error
 
     if ( isInputReady() )
     {
-      var nCostNg = calculateCost( 'National Grid Basic Rate' );
+      var nCostNg = calculateCost( 'National Grid Basic Service' );
 
       var aCcaOptions = Object.keys( g_tCcaOptions );
-      aCcaOptions.push( 'National Grid Basic Rate' );
+      aCcaOptions.push( 'National Grid Basic Service' );
 
       // Generate the table
       var sHtml = '';
@@ -990,7 +990,7 @@ input.error
         // Savings
         var nSavings = ( nCostNg - nCostCcaOption );
         var sClass = ( ( nSavings > 0 ) ? 'font-weight-bold text-success' : ( ( nSavings < 0 ) ? 'text-danger' : '' ) );
-        var sSavings = ( sCcaOption == 'National Grid Basic Rate' ) ? '' : ' savings="' + nSavings + '"';
+        var sSavings = ( sCcaOption == 'National Grid Basic Service' ) ? '' : ' savings="' + nSavings + '"';
         sHtml += '<td class="' + sClass + '"' + sSavings + '>';
         sHtml += '$' + nSavings;
         sHtml += '</td>';
