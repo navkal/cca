@@ -14,6 +14,11 @@
       'descr' => 'Energy Switch MA explains your electric bill'
     ],
     [
+      'url' => 'http://www.greenenergyconsumers.org/aggregation',
+      'title' => 'Green Energy Consumers Alliance (GECA)',
+      'descr' => 'GECA explains green aspects of CCA'
+    ],
+    [
       'url' => 'https://www.mapc.org/our-work/expertise/clean-energy/green-municipal-aggregation/',
       'title' => 'Metropolitan Area Planning Council (MAPC)',
       'descr' => 'How to start a Community Choice Aggregation program'
