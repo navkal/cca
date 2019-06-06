@@ -18,6 +18,10 @@
         '
     ],
     [
+      'q' => 'What is the goal of CCA?',
+      'a' => 'The goal of CCA is to increase the renewable content of the electricity used by an entire town in a way that is affordable to everyone and that maintains the stability of our electricity rates.'
+    ],
+    [
       'q' => 'What are the objectives of CCA?',
       'a' => 'CCA aims to promote rate stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply.'
     ],
