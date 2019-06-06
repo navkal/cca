@@ -6,24 +6,11 @@
   [
     [
       'q' => 'What is <i>Community Choice Aggregation</i> (CCA)?',
-      'a' =>
-        '
-          <p>
-            CCA is a Massachusetts state-regulated program that came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Chapter 164, Section 134</a>.  The law was enacted to ensure that the benefits of energy deregulation would be passed on to residential and business electricity customers.
-          </p>
-
-          <p>
-            CCA empowers cities and towns to create large buying groups of these customers in order to seek bids for cheaper supply rates.  By grouping electricity customer accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to achieve savings for account holders as a whole.
-          </p>
-        '
+      'a' => 'CCA is a Massachusetts state-regulated program that aims to increase the renewable content of the electricity used by an entire town while keeping supply rates stable and affordable for everyone.'
     ],
     [
-      'q' => 'What is the goal of CCA?',
-      'a' => 'The goal of CCA is to increase the renewable content of the electricity used by an entire town in a way that is affordable to everyone and that maintains the stability of our electricity rates.'
-    ],
-    [
-      'q' => 'What are the objectives of CCA?',
-      'a' => 'CCA aims to promote rate stability, increase renewable content, and decrease costs of the electricity supply, without affecting the level of service provided by the utility delivering the supply.'
+      'q' => 'How does CCA work?',
+      'a' => 'CCA empowers cities and towns to create large buying groups of customers in order to seek bids for cheaper supply rates.  By grouping electricity customer accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to achieve savings for account holders as a whole.'
     ],
     [
       'q' => 'What are the steps for implementing a CCA program in Andover?',
@@ -154,6 +141,10 @@
     [
       'q' => 'A few months after I switched to a TPS, my rate jumped above the utility Basic Service rate. Can this happen with a CCA supplier?',
       'a' => 'CCA supply rates are typically fixed for the contract period (months or years).  While they aim to offer a favorable price for the promised energy mix, there is no guarantee that they will be lower than the utility Basic Service rate.'
+    ],
+    [
+      'q' => 'What is the origin of CCA in Massachusetts?',
+      'a' => 'CCA came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Chapter 164, Section 134</a>.  The law was enacted to ensure that the benefits of energy deregulation would be passed on to residential and business electricity customers.'
     ],
     [
       'q' => 'What is the history of CCA?',
