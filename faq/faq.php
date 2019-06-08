@@ -163,24 +163,42 @@
 {
   content: "\f068"; /* Font Awesome minus */
 }
+
+.card-body
+{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
 </style>
 
 <div class="container">
+
+  <!-- Title and search input -->
   <div class="row">
     <div class="col-12 col-md-10 col-lg-8 mx-auto">
-
       <div class="h5 py-2">
         Frequently Asked Questions
       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-10 col-lg-8 mx-auto">
+      <div class="h5 pb-2">
+        <input id="search-input" type="text" class="form-control form-control-sm" placeholder="Search..." autocomplete="off" />
+      </div>
+    </div>
+  </div>
 
-      <div class="accordion" >
+  <!-- Q/A list -->
+  <div class="row">
+    <div class="col-12 col-md-10 col-lg-8 mx-auto">
+       <div class="accordion" >
         <div id="faq">
           <?php
             foreach ( $aFaq as $iQ => $aQ )
             {
               $iCard = $iQ + 1;
           ?>
-              <div class="card">
+              <div class="card qa">
                 <div class="card-header" id="q<?=$iCard?>">
                   <a class="collapsed" data-toggle="collapse" href="#a<?=$iCard?>">
                     <table>
@@ -188,7 +206,7 @@
                         <td>
                           <i class="fas faq-toggle pr-3" style="font-size:13px" aria-hidden="true"></i>
                         </td>
-                        <td>
+                        <td class="search-content" >
                           <?=$aQ['q']?>
                         </td>
                       </tr>
@@ -196,7 +214,7 @@
                   </a>
                 </div>
                 <div id="a<?=$iCard?>" class="collapse" aria-labelledby="q<?=$iCard?>" data-parent="#faq">
-                  <div class="card-body">
+                  <div class="card-body search-content">
                     <?=$aQ['a']?>
                   </div>
                 </div>
@@ -209,4 +227,38 @@
 
     </div>
   </div>
+
 </div>
+
+<script>
+
+$( document ).ready( onDocumentReady );
+
+function onDocumentReady()
+{
+  // Set search handler
+  $( '#search-input' ).on( 'input', onSearchInput );
+}
+
+// Define jQuery selector for case-insensitive search
+$.expr[':'].icontains = function( tElement, iNotUsed, aMatch )
+{
+  return $( tElement ).text().toUpperCase().indexOf( aMatch[3].toUpperCase() ) >= 0;
+};
+
+// Search handler
+function onSearchInput()
+{
+  // Hide and collapse all the Q/A elements
+  $( '.qa' ).hide();
+  $( '.collapse' ).collapse( 'hide' );
+
+  // Get the search text
+  var sText = $( '#search-input' ).val();
+
+  // Show Q/A elements that contain matches
+  var aShow = $( '.search-content:icontains(' + sText + ')' ).closest( '.qa' );
+  aShow.show();
+}
+
+</script>
