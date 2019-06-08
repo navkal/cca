@@ -187,7 +187,7 @@
       <div class="h5 pb-2">
         <div class="input-group">
           <div class="input-group-prepend">
-            <span class="input-group-text text-muted" id="basic-addon1">
+            <span class="input-group-text text-muted">
               <i class="fas fa-search"></i>
             </span>
           </div>
