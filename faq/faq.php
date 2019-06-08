@@ -223,6 +223,11 @@
             }
           ?>
         </div>
+        <div id="search-text-not-found" style="display:none" >
+          <div class="alert alert-danger" >
+            Search text <span id="search-text" class="font-weight-bold font-italic"></span> not found.
+          </div>
+        </div>
       </div>
 
     </div>
@@ -252,13 +257,22 @@ function onSearchInput()
   // Hide and collapse all the Q/A elements
   $( '.qa' ).hide();
   $( '.collapse' ).collapse( 'hide' );
+  $( '#search-text-not-found' ).hide();
 
   // Get the search text
-  var sText = $( '#search-input' ).val();
+  var sText = $( '#search-input' ).val().trim();
 
   // Show Q/A elements that contain matches
   var aShow = $( '.search-content:icontains(' + sText + ')' ).closest( '.qa' );
-  aShow.show();
+  if ( aShow.length )
+  {
+    aShow.show();
+  }
+  else
+  {
+    $( '#search-text' ).html( sText );
+    $( '#search-text-not-found' ).show();
+  }
 }
 
 </script>
