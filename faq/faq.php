@@ -144,7 +144,7 @@
     ],
     [
       'q' => 'What is the origin of CCA in Massachusetts?',
-      'a' => 'CCA came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Chapter 164, Section 134</a>.  The law was enacted to ensure that the benefits of energy deregulation would be passed on to residential and business electricity customers.'
+      'a' => 'CCA came out of the Restructuring Act of 1997, specifically <a href="https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter164/Section134" target="_blank">Massachusetts General Law, M.G.L. c. 164 sec. 134</a>.  The law was enacted to ensure that the benefits of energy deregulation would be passed on to residential and business electricity customers.'
     ],
     [
       'q' => 'What is the history of CCA?',
