@@ -172,7 +172,7 @@
 
 <div class="container">
 
-  <!-- Title and search input -->
+  <!-- Title -->
   <div class="row">
     <div class="col-12 col-md-10 col-lg-8 mx-auto">
       <div class="h5 py-2">
@@ -180,10 +180,19 @@
       </div>
     </div>
   </div>
+
+  <!-- Search input -->
   <div class="row">
     <div class="col-12 col-md-10 col-lg-8 mx-auto">
       <div class="h5 pb-2">
-        <input id="search-input" type="text" class="form-control form-control-sm" placeholder="Search..." autocomplete="off" />
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text text-muted" id="basic-addon1">
+              <i class="fas fa-search"></i>
+            </span>
+          </div>
+          <input id="search-input" type="text" class="form-control form-control-sm" placeholder="Search..." autocomplete="off" />
+        </div>
       </div>
     </div>
   </div>
