@@ -311,31 +311,32 @@ function highlightSearchText( sText, aShow )
 
     // Find matches of search text in content
     var aOffsets = findMatches( sText, tContent );
-    console.log( aOffsets );
 
-    // Replace matches with markup for highlighting
-    var aParts = [];
-    var iPartStart = 0;
+    // Build new content as array of substring parts
     sContentHtml = tContent.html();
+    var aParts = [];
+    var iPartOffset = 0;
     for ( var iOffset = 0; iOffset < aOffsets.length; iOffset ++ )
     {
+      // Add substring between matches
       var iMatchOffset = aOffsets[iOffset];
-      aParts.push( sContentHtml.substring( iPartStart, iMatchOffset ) );
-      console.log( '-=-> part [' + aParts[aParts.length-1] + ']' );
+      aParts.push( sContentHtml.substring( iPartOffset, iMatchOffset ) );
 
+      // Add matched substring with markup
       var sMatch = sContentHtml.substr( iMatchOffset, iTextLen );
       var sMarkup = '<span class="search-highlight">' + sMatch + '</span>';
       aParts.push( sMarkup );
-      console.log( '-=-> part [' + aParts[aParts.length-1] + ']' );
 
-      iPartStart = iMatchOffset + iTextLen;
+      // Increment offset of next part
+      iPartOffset = iMatchOffset + iTextLen;
     }
 
-    aParts.push( sContentHtml.substring( iPartStart, sContentHtml.length ) );
-    console.log( '-=-> part [' + aParts[aParts.length-1] + ']' );
+    // Add substring following last match
+    aParts.push( sContentHtml.substring( iPartOffset, sContentHtml.length ) );
+
+    // Deploy newly marked-up content
     tContent.html( aParts.join( '' ) );
   }
-
 }
 
 function findMatches( sText, tContent )
