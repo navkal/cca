@@ -340,9 +340,11 @@ function highlightSearchText( sText, aShow )
 
 function findMatches( sText, tContent )
 {
+  // Normalize search text
   var sTextUpper = sText.toUpperCase();
+
+  // Normalize content for searching
   var sContent = preprocessHtml( tContent );
-  console.log( '==> looking for [' + sTextUpper + '] in [' + sContent + ']' );
 
   // Find all occurrences of the search string
   var aOffsets = [];
@@ -352,7 +354,6 @@ function findMatches( sText, tContent )
     iOffset = sContent.indexOf( sTextUpper, iOffset );
     if ( iOffset != -1 )
     {
-      console.log( '===> found offset ' + iOffset );
       aOffsets.push( iOffset );
       iOffset += sTextUpper.length;
     }
@@ -370,7 +371,7 @@ function preprocessHtml( tContent )
   // Find all HTML tags
   var aTags = sHtml.match( /<[^>]*>/g ) || [];
 
-  // Replace HTML tags, if any, with spaces
+  // Replace HTML tags with spaces
   for ( var iTag = 0; iTag < aTags.length; iTag ++ )
   {
     // Replace next HTML tag
