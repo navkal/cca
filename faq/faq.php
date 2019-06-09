@@ -313,7 +313,7 @@ function highlightSearchText( sText, aShow )
     var aOffsets = findMatches( sText, tContent );
     console.log( aOffsets );
 
-    // Replace occurrences with markup for highlighting
+    // Replace matches with markup for highlighting
     var aParts = [];
     var iPartStart = 0;
     sContentHtml = tContent.html();
@@ -366,28 +366,18 @@ function preprocessHtml( tContent )
 {
   // Extract HTML and convert to uppercase
   var sHtml = tContent.html().toUpperCase();
-  console.log( '====> bf ' + sHtml );
 
   // Find all HTML tags
-  var aTags = sHtml.match( /<[^>]*>/g );
+  var aTags = sHtml.match( /<[^>]*>/g ) || [];
 
   // Replace HTML tags, if any, with spaces
-  if ( aTags )
+  for ( var iTag = 0; iTag < aTags.length; iTag ++ )
   {
-    console.log( '===> NUMBER OF TAGS=' + aTags.length );
-    console.log( aTags );
-
-    for ( var iTag = 0; iTag < aTags.length; iTag ++ )
-    {
-      // Replace next HTML tag
-      var sTag = aTags[iTag];
-      console.log( 'replacing [' + sTag + ']' );
-      sHtml = sHtml.replace( sTag, ' '.repeat( sTag.length ) );
-    }
+    // Replace next HTML tag
+    var sTag = aTags[iTag];
+    sHtml = sHtml.replace( sTag, ' '.repeat( sTag.length ) );
   }
-  else console.log( '===========> NO TAGS!!!' );
 
-  console.log( '====> af ' + sHtml );
   return sHtml;
 }
 
