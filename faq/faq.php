@@ -327,7 +327,7 @@ function highlightSearchText( sText, aShow )
       var sMarkup = '<span class="search-highlight">' + sMatch + '</span>';
       aParts.push( sMarkup );
 
-      // Increment offset of next part
+      // Set offset of next part
       iPartOffset = iMatchOffset + iTextLen;
     }
 
