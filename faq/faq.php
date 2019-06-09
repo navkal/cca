@@ -346,12 +346,13 @@ function findMatches( sText, tContent )
   // Normalize content for searching
   var sContent = preprocessHtml( tContent );
 
-  // Find all occurrences of the search string
+  // Build array of offsets where matches occur
   var aOffsets = [];
   var iOffset = 0;
   do
   {
     iOffset = sContent.indexOf( sTextUpper, iOffset );
+
     if ( iOffset != -1 )
     {
       aOffsets.push( iOffset );
