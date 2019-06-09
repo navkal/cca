@@ -300,10 +300,8 @@ function onSearchInput()
 
 function highlightSearchText( sText, aShow )
 {
-  var iTextLen = sText.length;
-
-  var sTextUpper = sText.toUpperCase();
   var aContent = aShow.find( '.search-content' );
+  var iTextLen = sText.length;
 
   for ( var iContent = 0; iContent < aContent.length; iContent ++ )
   {
