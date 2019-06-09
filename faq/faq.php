@@ -303,11 +303,13 @@ function highlightSearchText( sText, aShow )
   var aContent = aShow.find( '.search-content' );
   var iTextLen = sText.length;
 
+  // Iterate over content elements
   for ( var iContent = 0; iContent < aContent.length; iContent ++ )
   {
+    // Get next content element
     var tContent =  $( aContent[iContent] );
 
-    // Find matches of search text in HTML content
+    // Find matches of search text in content
     var aOffsets = findMatches( sText, tContent );
     console.log( aOffsets );
 
