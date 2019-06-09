@@ -20,7 +20,7 @@
 
 .search-highlight
 {
-  background-color: yellow;
+  background-color: #bbff99;
 }
 </style>
 
