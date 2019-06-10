@@ -252,9 +252,28 @@ input.error
   </div>
 
   <div class="container-fluid" >
-    <?php
-      include $_SERVER["DOCUMENT_ROOT"]."/disclaimer.php";
-    ?>
+    <hr/>
+    <p>
+      <small>
+        <h6>
+          Note on Green Content
+        </h6>
+        <i>
+          For some of the CCA Options listed above, we could not calculate the percentages of
+        </i>
+        Local Green Content
+        <i>
+          or
+        </i>
+        Total Green Content
+        <i>
+          precisely due to ambiguities in the online descriptions of the towns' CCA contracts.
+        </i>
+        <i>
+          In those instances, the percentages shown reflect our best estimate based on currently available data.
+        </i>
+      </small>
+    </p>
   </div>
 </div>
 
