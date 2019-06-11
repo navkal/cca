@@ -256,9 +256,7 @@ input.error
     <p>
       <small class="text-muted">
         <h6>
-          <b>
-            Note on Green Content
-          </b>
+          Note on Green Content
         </h6>
 
         We could not calculate the percentages of
