@@ -62,7 +62,7 @@
 
   <hr/>
   <p>
-    <small>
+    <small class="text-muted">
       <h6>
         Disclaimer
       </h6>

@@ -254,24 +254,24 @@ input.error
   <div class="container-fluid" >
     <hr/>
     <p>
-      <small>
+      <small class="text-muted">
         <h6>
-          Note on Green Content
+          <b>
+            Note on Green Content
+          </b>
         </h6>
+
+        We could not calculate the percentages of
         <i>
-          For some of the CCA Options listed above, we could not calculate the percentages of
+          Local Green Content
         </i>
-        Local Green Content
+        and
         <i>
-          or
+          Total Green Content
         </i>
-        Total Green Content
-        <i>
-          precisely due to ambiguities in the online descriptions of the towns' CCA contracts.
-        </i>
-        <i>
-          In those instances, the percentages shown reflect our best estimate based on currently available data.
-        </i>
+        precisely in some cases, because of uncertainties or ambiguities in the online descriptions of contract terms.
+
+        In those instances, the percentages shown reflect our best estimate based on currently available data.
       </small>
     </p>
   </div>
