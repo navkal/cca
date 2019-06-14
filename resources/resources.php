@@ -6,17 +6,17 @@
     [
       'url' => 'https://www.mass.gov/info-details/municipal-aggregation',
       'title' => 'Massachusetts Department of Public Utilities (DPU)',
-      'descr' => 'DPU explains Community Choice Aggregation (a.k.a. Municipal Aggregation)'
+      'descr' => 'DPU explains Community Choice Aggregation (a.k.a. Municipal Aggregation).'
     ],
     [
       'url' => 'http://energyswitchma.gov/#/about/understandingbill',
       'title' => 'Understanding your electric bill',
-      'descr' => 'Energy Switch MA explains your electric bill'
+      'descr' => 'Energy Switch MA explains your electric bill.'
     ],
     [
       'url' => 'http://www.greenenergyconsumers.org/aggregation',
       'title' => 'Green Energy Consumers Alliance (GECA)',
-      'descr' => 'GECA explains green aspects of CCA'
+      'descr' => 'GECA explains green aspects of CCA.'
     ],
     [
       'url' => 'https://www.mapc.org/our-work/expertise/clean-energy/green-municipal-aggregation/',
@@ -41,17 +41,22 @@
     [
       'url' => 'https://www.mass.gov/news/ag-healey-calls-for-shut-down-of-individual-residential-competitive-supply-industry-to-protect',
       'title' => 'Office of MA Attorney General',
-      'descr' => 'AG Maura Healey decries agressive sales tactics and false promises by TPS industry'
+      'descr' => 'AG Maura Healey decries agressive sales tactics and false promises by TPS industry.'
     ],
     [
       'url' => 'https://commonwealthmagazine.org/opinion/municipal-electricity-aggregation-really-works/',
       'title' => 'Commonwealth Magazine',
-      'descr' => 'Newton Mayor Ruthanne Fuller explains benefits of CCA program (Dec. 29, 2018)'
+      'descr' => 'Newton Mayor Ruthanne Fuller explains benefits of CCA program (Dec. 29, 2018).'
     ],
     [
       'url' => 'https://photos.app.goo.gl/eZVi4Kdxn8vqawsA6',
       'title' => 'Massachusetts Climate Action Network TV Show',
-      'descr' => 'Panelists from Lexington, Brookline, and MAPC discuss benefits of CCA'
+      'descr' => 'Panelists from Lexington, Brookline, and MAPC discuss benefits of CCA.'
+    ],
+    [
+      'url' => 'https://www3.epa.gov/carbon-footprint-calculator/',
+      'title' => 'US EPA Carbon Footprint Calculator',
+      'descr' => 'Environmental Protection Agency (EPA) estimates your household carbon footprint.'
     ],
   ];
 ?>
