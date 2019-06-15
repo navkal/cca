@@ -45,7 +45,7 @@
     </h3>
     <!---------------------------------------->
     <br/>
-    <p class="h3"><a href="/?page=whatif" >Explore</a> the possibilities.</p>
+    <p class="h3"><a href="/?page=explore" >Explore</a> the possibilities.</p>
     <!---------------------------------------- >
     <p class="h3"><a href="http://www.google.com" target="_blank" >Sign up</a> for updates from Andover CCA.</p>
     <!---------------------------------------->

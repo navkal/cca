@@ -316,7 +316,7 @@ input.error
           </div>
         </small>
 
-        <img src="whatif/bill.png" class="img-fluid" ></img>
+        <img src="explore/bill.png" class="img-fluid" ></img>
 
       </div>
       <div class="modal-footer">
