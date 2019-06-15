@@ -26,14 +26,29 @@
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4 font-weight-bold">Join the campaign!</h1>
+    <h2>
+      Bring
+    </h2>
+    <h1>
+      <span class="font-weight-bold"><a href="/?page=overview" class="cca-link" ><i>Community Choice Aggregation</i></a></span>
+    </h1>
+    <h2>
+      to Andover.
+    </h2>
     <br/>
-    <p class="h2 font-weight-bold">Bring <a href="/?page=overview" class="cca-link" ><i>Community Choice Aggregation</i></a> to Andover.</p>
+    <!---------------------------------------- >
+    <h3>
+      Vote <b>Yes</b> at <a href="https://andoverma.gov/398/Town-Meeting" target="_blank">Special Town Meeting</a>
+    </h3>
+    <h3>
+      November, 2019
+    </h3>
+    <!---------------------------------------->
     <br/>
-    <p class="h3 font-weight-bold"><a href="/?page=overview" >Learn more...</a></p>
+    <p class="h3"><a href="/?page=whatif" >Explore</a> the possibilities.</p>
+    <!---------------------------------------- >
+    <p class="h3"><a href="http://www.google.com" target="_blank" >Sign up</a> for updates from Andover CCA.</p>
+    <!---------------------------------------->
   </div>
 </div>
-
-
-
 
