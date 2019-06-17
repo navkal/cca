@@ -27,7 +27,7 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h2>
-      Bring
+      Let's bring
     </h2>
     <h1>
       <span class="font-weight-bold"><a href="/?page=overview" class="cca-link" ><i>Community Choice Aggregation</i></a></span>
