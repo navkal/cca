@@ -46,9 +46,8 @@
     <!---------------------------------------->
     <br/>
     <p class="h3"><a href="/?page=explore" >Explore</a> the possibilities.</p>
-    <!---------------------------------------- >
-    <p class="h3"><a href="http://www.google.com" target="_blank" >Sign up</a> for updates from Andover CCA.</p>
-    <!---------------------------------------->
+    <br/>
+    <p class="h3"><a href="https://docs.google.com/forms/d/e/1FAIpQLScP7_LHHiBiykztDq8usdPlBrmZCGDSoFgIJYOxIUuwByxegw/viewform?usp=pp_url&entry.238260412=No&entry.1029755686=No" target="_blank" >Sign up</a> for Andover CCA updates.</p>
   </div>
 </div>
 
