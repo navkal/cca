@@ -695,6 +695,39 @@ input.error
       end: '2020-08',
       rate: 13.124
     },
+    'Watertown Basic':
+    {
+      url: 'https://masspowerchoice.com/watertown',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      green: '24.94%',
+      local: '14%',
+      start: '2019-09',
+      end: '2021-12',
+      rate: 10.654
+    },
+    'Watertown Standard':
+    {
+      url: 'https://masspowerchoice.com/watertown',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      green: '49%',
+      local: '49%',
+      start: '2019-09',
+      end: '2021-12',
+      rate: 11.494
+    },
+    'Watertown 100% Green':
+    {
+      url: 'https://masspowerchoice.com/watertown',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      green: '100%',
+      local: '100%',
+      start: '2019-09',
+      end: '2021-12',
+      rate: 12.718
+    },
     'Williamsburg Green':
     {
       url: 'https://colonialpowergroup.com/williamsburg/',
