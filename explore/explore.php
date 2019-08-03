@@ -508,6 +508,17 @@ input.error
       end: '2021-01',
       rate: 10.43
     },
+    'Lancaster Standard':
+    {
+      url: 'https://colonialpowergroup.com/lancaster/',
+      broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
+      green: '24.94%',
+      local: '14%',
+      start: '2019-06',
+      end: '2021-12',
+      rate: 9.978
+    },
     'Lexington Basic':
     {
       url: 'http://masspowerchoice.com/lexington',
