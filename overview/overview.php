@@ -13,16 +13,19 @@
   </p>
 
   <p>
-    CCA offers the following potential benefits to consumers:
+    CCA offers the following <i>potential</i> benefits to consumers:
     <ul>
+      <li>
+        Higher percentage of local renewable energy
+      </li>
       <li>
         Rate stability
       </li>
       <li>
-        Increased renewable portfolio
+        Lower rates
       </li>
       <li>
-        Lower rates
+        Elimination of scams from third-party suppliers
       </li>
     </ul>
   </p>
@@ -57,7 +60,15 @@
   </p>
 
   <p>
-    Andover CCA is supported by the <a href="https://andoverma.gov/189/Andover-Green-Advisory-Board" target="_blank">Andover Green Advisory Board</a>.
+    Andover CCA is supported by the following local organizations:
+    <ul>
+      <li>
+        <a href="https://andoverma.gov/189/Andover-Green-Advisory-Board" target="_blank">Andover Green Advisory Board</a>
+      </li>
+      <li>
+        Andover WECAN - Working to Educate for Climate Action Now
+      </li>
+    </ul>
   </p>
 
   <hr/>
