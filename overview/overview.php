@@ -25,7 +25,7 @@
         Lower rates
       </li>
       <li>
-        Elimination of scams from third-party suppliers
+        Trustworthy alternative to scams from third-party suppliers
       </li>
     </ul>
   </p>

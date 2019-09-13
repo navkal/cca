@@ -37,7 +37,7 @@
   <p>
     Today, most residents and businesses subscribe to their utility's Basic Service.
     <a href="/?page=overview" >Community Choice Aggregation</a> is a state program that permits a town to choose, on behalf of its residents and businesses, a supplier other than the utility.
-    At CCA inception, Basic Service subscribers are automatically enrolled with the new supplier, with the ability to opt out without penalty at any time.
+    At CCA inception, Basic Service subscribers are automatically enrolled with the new supplier, with the ability to opt out without penalty at any time - even before the program begins.
   </p>
 
 </div>
