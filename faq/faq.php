@@ -217,6 +217,7 @@ $( document ).ready( onDocumentReady );
 function onDocumentReady()
 {
   makeFaq();
+  // makeFaqForBrochure();
 
   // Set search handler
   $( '#search-input' ).on( 'input', onSearchInput );
@@ -250,6 +251,25 @@ function makeFaq()
     sHtml += '    </div>';
     sHtml += '  </div>';
     sHtml += '</div>';
+  }
+
+  $( '#faq' ).html( sHtml );
+}
+
+function makeFaqForBrochure()
+{
+  sHtml = '';
+
+  for ( var iQa = 0; iQa < g_aQa.length; iQa ++ )
+  {
+    sHtml += '<p>';
+    sHtml += '<b>';
+    sHtml +=              g_aQa[iQa].q;
+    sHtml += '</b>';
+    sHtml += '</p>';
+    sHtml += '<p>';
+    sHtml +=              g_aQa[iQa].a;
+    sHtml += '</p>';
   }
 
   $( '#faq' ).html( sHtml );
