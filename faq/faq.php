@@ -103,16 +103,16 @@ var g_aQa =
   },
   {
     q: 'How do CCA programs acquire their renewable energy supply?',
-    a: 'There are several organizations that supply renewable energy to CCA programs.  One example is the <a href="http://www.greenenergyconsumers.org/aggregation" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, which supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island.'
+    a: 'There are several organizations that supply renewable energy to CCA programs.  One example is the <a href="http://www.greenenergyconsumers.org/aggregation" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, which supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island.  They have a history of entering into long-term contracts with renewable energy developers, helping them add renewable energy based on wind and solar to their portfolio.'
   },
   {
-    q: 'How do I participate in the CCA program?',
+    q: 'How do I join or leave the CCA program?',
     a:
       '<p>' +
       '  If enacted, the Andover CCA program will offer one or more supply options to National Grid customers.' +
       '</p>' +
       '<p>' +
-      '  Initially, if you get your supply from National Grid Basic Service, you will be switched automatically to the program\'s default supply option.  If the program offers other options - for example, with higher or lower renewable content than the default - you can switch (<i>opt up</i> or <i>opt down</i>) at any time.  You can also return to National Grid Basic Service (<i>opt out</i>) at any time, without penalty or cost.' +
+      '  Initially, if you get your supply from National Grid Basic Service, you will be switched automatically to the program\'s default supply option.  If the program offers other options - for example, with higher or lower renewable content than the default - you can switch (<i>opt up</i> or <i>opt down</i>) at any time.  You can also return to National Grid Basic Service (<i>opt out</i>) at any time, without penalty or cost.  You can even opt out before the program starts.' +
       '</p>' +
       '<p>' +
       '  If you do not subscribe to National Grid Basic Service, you will not be enrolled automatically, but you can enroll if you wish.' +
