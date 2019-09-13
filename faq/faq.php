@@ -103,7 +103,7 @@ var g_aQa =
   },
   {
     q: 'How do CCA programs acquire their renewable energy supply?',
-    a: 'There are several organizations that supply renewable energy to CCA programs.  One example is the <a href="http://www.greenenergyconsumers.org/aggregation" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, which supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island.  They have a history of entering into long-term contracts with renewable energy developers, helping them add renewable energy based on wind and solar to their portfolio.'
+    a: 'There are several organizations that supply renewable energy to CCA programs.  One example is the <a href="http://www.greenenergyconsumers.org/aggregation" target="_blank">Green Energy Consumers Alliance</a>, a Boston-based nonprofit, which supplies local renewable energy to a number of CCA programs in Greater Boston.  The Green Energy Consumers Alliance purchases renewable energy wholesale, mostly from community-based wind power projects located in Massachusetts and Rhode Island.  They have a history of entering into long-term contracts with renewable energy developers, helping them grow their portfolio based on wind and solar.'
   },
   {
     q: 'How do I join or leave the CCA program?',
