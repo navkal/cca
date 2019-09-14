@@ -426,7 +426,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '0%',
+      local: '14%',
       start: '2019-01',
       end: '2021-01',
       rate: 10.733
@@ -470,7 +470,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '0%',
+      local: '14%',
       start: '2018-07',
       end: '2021-01',
       rate: 10.981
@@ -653,7 +653,7 @@ input.error
     },
     'North Andover Standard':
     {
-      url: 'https://colonialpowergroup.com/north-andover-further-pricing/',
+      url: 'https://colonialpowergroup.com/north-andover',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '24.94%',
@@ -664,11 +664,11 @@ input.error
     },
     'North Andover Green':
     {
-      url: 'https://colonialpowergroup.com/north-andover-further-pricing/',
+      url: 'https://colonialpowergroup.com/north-andover',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '0%',
+      local: '14%',
       start: '2019-07',
       end: '2022-07',
       rate: 10.885
@@ -745,7 +745,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '0%',
+      local: '14%',
       start: '2019-05',
       end: '2022-05',
       rate: 10.249
@@ -756,7 +756,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '18%',
-      local: '13%',
+      local: '18%',
       start: '2017-07',
       end: '2020-01',
       rate: 10.898
@@ -767,7 +767,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '100%',
-      local: '0%',
+      local: '100%',
       start: '2017-07',
       end: '2020-01',
       rate: 13.558
