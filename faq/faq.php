@@ -85,7 +85,7 @@ var g_aQa =
     a:
       '<ol>' +
       '  <li>' +
-      '    Approval by voters at Fall Town Meeting' +
+      '    Approval by voters at Town Meeting' +
       '  </li>' +
       '  <li>' +
       '    Development of plan by town government' +
