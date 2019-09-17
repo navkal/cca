@@ -1,5 +1,5 @@
 <?php
-  // Copyright 2019 Andover CCA.  All rights reserved.
+  // Copyright 2019 Energize Andover.  All rights reserved.
 
   $aLinks =
   [

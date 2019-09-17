@@ -1,5 +1,5 @@
 <?php
-  // Copyright 2019 Andover CCA.  All rights reserved.
+  // Copyright 2019 Energize Andover.  All rights reserved.
 ?>
 
 <div class="container">
@@ -64,6 +64,9 @@
     <ul>
       <li>
         <a href="https://andoverma.gov/189/Andover-Green-Advisory-Board" target="_blank">Andover Green Advisory Board</a>
+      </li>
+      <li>
+        <a href="https://energizeandover.com" target="_blank">Energize Andover</a>
       </li>
       <li>
         Andover WECAN - Working to Educate for Climate Action Now
