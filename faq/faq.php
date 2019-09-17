@@ -266,8 +266,7 @@ function makeFaqForBrochure()
     sHtml += '<b>';
     sHtml +=              g_aQa[iQa].q;
     sHtml += '</b>';
-    sHtml += '</p>';
-    sHtml += '<p>';
+    sHtml += '<br/>';
     sHtml +=              g_aQa[iQa].a;
     sHtml += '</p>';
   }
