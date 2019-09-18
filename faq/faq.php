@@ -74,11 +74,11 @@ var g_aQa =
 [
   {
     q: 'What is <i>Community Choice Aggregation</i> (CCA)?',
-    a: 'CCA is a Massachusetts state-regulated program that aims to increase the renewable content of the electricity used by an entire town while keeping supply rates stable and affordable for everyone.'
+    a: 'CCA is a Massachusetts state-regulated program that offers the potential to increase the renewable content of the electricity used by an entire town while keeping supply rates stable and affordable for everyone.'
   },
   {
     q: 'How does CCA work?',
-    a: 'CCA empowers cities and towns to create large buying groups of customers in order to seek bids for cheaper supply rates.  By grouping electricity customer accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to achieve savings for account holders as a whole.'
+    a: 'CCA empowers cities and towns to create large buying groups of customers in order to seek bids for cheaper supply rates.  By grouping electricity customer accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to negotiate competitive rates for account holders as a whole.'
   },
   {
     q: 'What are the steps for implementing a CCA program in Andover?',
