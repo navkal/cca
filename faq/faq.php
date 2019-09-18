@@ -78,7 +78,7 @@ var g_aQa =
   },
   {
     q: 'How does CCA work?',
-    a: 'CCA empowers cities and towns to create large buying groups of customers in order to seek bids for cheaper supply rates.  By grouping electricity customer accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to negotiate competitive rates for account holders as a whole.'
+    a: 'CCA empowers cities and towns to create large buying groups of customers in order to seek bids for cheaper supply rates.  By grouping electricity customer accounts within municipal boundaries, CCA creates economies of scale, enabling participating cities and towns to obtain competitive rates for account holders as a whole.'
   },
   {
     q: 'What are the steps for implementing a CCA program in Andover?',
