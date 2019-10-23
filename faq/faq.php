@@ -112,7 +112,7 @@ var g_aQa =
       '  If enacted, the Andover CCA program will offer one or more supply options to National Grid customers.' +
       '</p>' +
       '<p>' +
-      '  Initially, if you get your supply from National Grid Basic Service, you will be switched automatically to the program\'s default supply option.  If the program offers other options - for example, with higher or lower renewable content than the default - you can switch (<i>opt up</i> or <i>opt down</i>) at any time.  You can also return to National Grid Basic Service (<i>opt out</i>) at any time, without penalty or cost.  You can even opt out before the program starts.' +
+      '  Initially, if you get your supply from National Grid Basic Service, you will be switched automatically to the program\'s default supply option.  If the program offers other options - for example, with higher or lower renewable content than the default - you can switch (<i>opt up</i> or <i>opt down</i>) at any time.  You can also return to National Grid Basic Service at any time, without penalty or cost.  You can even <i>opt out</i> before the program starts.' +
       '</p>' +
       '<p>' +
       '  If you do not subscribe to National Grid Basic Service, you will not be enrolled automatically, but you can enroll if you wish.' +
@@ -120,15 +120,15 @@ var g_aQa =
   },
   {
     q: 'Do I have to participate in CCA if I don\'t want to?',
-    a: 'No, residents and businesses can opt out of the CCA program at any time without penalty.'
+    a: 'No, residents and businesses can <i>opt out</i> before the CCA program starts, or leave the program at any time thereafter without penalty.'
   },
   {
     q: 'What if I choose to leave the CCA program early?',
-    a: 'You may terminate your CCA participation (<i>opt out</i>) at any time without any early termination or exit fee.  After opting out, you may return at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.'
+    a: 'You may terminate your CCA participation at any time without any early termination or exit fee.  After leaving, you may return at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.'
   },
   {
-    q: 'If I opt out, can I opt back in at a later date?',
-    a: 'After opting out, you may return to the CCA program at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.  After you re-enroll, the CCA program rate will appear on your utility bill in the next available billing cycle.  Since National Grid takes at least two days to process a change of supplier, you are encouraged to re-enroll at least five business days before the meter read date indicated on your utility bill, to help ensure that re-enrollment occurs on a timely basis.'
+    q: 'If I leave, can I return at a later date?',
+    a: 'After leaving, you may return to the CCA program at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.  After you re-enroll, the CCA program rate will appear on your utility bill in the next available billing cycle.  Since National Grid takes at least two days to process a change of supplier, you are encouraged to re-enroll at least five business days before the meter read date indicated on your utility bill, to help ensure that re-enrollment occurs on a timely basis.'
   },
   {
     q: 'Can businesses participate in the CCA program?',
