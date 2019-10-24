@@ -431,6 +431,39 @@ input.error
       end: '2021-01',
       rate: 10.733
     },
+    'Brookline Basic':
+    {
+      url: 'https://www.brooklinema.gov/1340/Brookline-Green-Electricity',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '14%',
+      local: '14%',
+      start: '2017-07',
+      end: '2019-12',
+      rate: 10.398
+    },
+    'Brookline Green':
+    {
+      url: 'https://www.brooklinema.gov/1340/Brookline-Green-Electricity',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '49%',
+      local: '49%',
+      start: '2017-07',
+      end: '2019-12',
+      rate: 11.098
+    },
+    'Brookline All Green':
+    {
+      url: 'https://www.brooklinema.gov/1340/Brookline-Green-Electricity',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '100%',
+      local: '100%',
+      start: '2017-07',
+      end: '2019-12',
+      rate: 13.198
+    },
     'Cambridge Standard Green':
     {
       url: 'http://masspowerchoice.com/cambridge',
