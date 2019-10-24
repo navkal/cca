@@ -861,10 +861,6 @@ input.error
     {
       'National Grid Basic Service': 13.718,
     },
-    'Jan 19':
-    {
-      'National Grid Basic Service': 13.718,
-    },
     'Feb 19':
     {
       'National Grid Basic Service': 13.718,
@@ -900,6 +896,30 @@ input.error
     'Oct 19':
     {
       'National Grid Basic Service': 10.793,
+    },
+    'Nov 19':
+    {
+      'National Grid Basic Service': 13.957,
+    },
+    'Dec 19':
+    {
+      'National Grid Basic Service': 13.957,
+    },
+    'Jan 20':
+    {
+      'National Grid Basic Service': 13.957,
+    },
+    'Feb 20':
+    {
+      'National Grid Basic Service': 13.957,
+    },
+    'Mar 20':
+    {
+      'National Grid Basic Service': 13.957,
+    },
+    'Apr 20':
+    {
+      'National Grid Basic Service': 13.957,
     },
   };
 
