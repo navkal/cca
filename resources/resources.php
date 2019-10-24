@@ -24,9 +24,9 @@
       'descr' => 'How to start a Community Choice Aggregation program'
     ],
     [
-      'url' => 'https://photos.app.goo.gl/v5VK5KjyYShGKwih7',
+      'url' => 'https://photos.app.goo.gl/dMSUzPDctx6r6GFW8',
       'title' => 'Andover Green Advisory Board (AGAB)',
-      'descr' => 'Guest appearance by Good Energy and GECA'
+      'descr' => 'Joint presentation by Good Energy and GECA'
     ],
     [
       'url' => 'https://drive.google.com/open?id=1D7E_xN45nHt2MoVBcy5JylLRv0Ek5q7B',
