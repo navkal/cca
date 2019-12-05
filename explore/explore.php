@@ -439,7 +439,7 @@ input.error
       green: '14%',
       local: '14%',
       start: '2017-07',
-      end: '2019-12',
+      end: '2020-01',
       rate: 10.398
     },
     'Brookline Green':
@@ -450,7 +450,7 @@ input.error
       green: '49%',
       local: '49%',
       start: '2017-07',
-      end: '2019-12',
+      end: '2020-01',
       rate: 11.098
     },
     'Brookline All Green':
@@ -461,7 +461,7 @@ input.error
       green: '100%',
       local: '100%',
       start: '2017-07',
-      end: '2019-12',
+      end: '2020-01',
       rate: 13.198
     },
     'Cambridge Standard Green':
