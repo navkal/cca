@@ -133,6 +133,9 @@ input.error
               $sOptionText = date( 'M', mktime( 0, 0, 0, $iMonth, 1 ) ) . ' ' . $iYear;
               $sOptionValue = $iMonth . '.' . $iYear;
 
+              // Determine loop status
+              $bLastOption = ( $iYear == $iLastYear ) && ( $iMonth == $iThisMonth );
+
               // Increment month and year counters
               $iMonth ++;
               if ( $iMonth > 12 )
@@ -140,9 +143,6 @@ input.error
                 $iMonth = 1;
                 $iYear ++;
               }
-
-              // Determine loop status
-              $bLastOption = ( $iYear >= $iLastYear ) && ( $iMonth > $iThisMonth );
 
               // Echo option
               echo( '<option ' . ( $bLastOption ? 'selected' : '' ) . ' value="' . $sOptionValue . '" >' . $sOptionText . '</option>' );
