@@ -122,7 +122,7 @@ input.error
             $iThisMonth = intval( date( 'm', $iTime ) );
             $iLastYear = intval( date( 'y', $iTime ) ) - 1;
 
-            // Initialize month and year counters
+            // Initialize month and year counters, establishing earliest start date available in dropdown
             $iMonth = 1;
             $iYear = 18;
 
@@ -133,7 +133,7 @@ input.error
               $sOptionText = date( 'M', mktime( 0, 0, 0, $iMonth, 1 ) ) . ' ' . $iYear;
               $sOptionValue = $iMonth . '.' . $iYear;
 
-              // Determine loop status
+              // Determine whether this is the last option in the dropdown
               $bLastOption = ( $iYear == $iLastYear ) && ( $iMonth == $iThisMonth );
 
               // Echo option
