@@ -136,6 +136,9 @@ input.error
               // Determine loop status
               $bLastOption = ( $iYear == $iLastYear ) && ( $iMonth == $iThisMonth );
 
+              // Echo option
+              echo( '<option ' . ( $bLastOption ? 'selected' : '' ) . ' value="' . $sOptionValue . '" >' . $sOptionText . '</option>' );
+
               // Increment month and year counters
               $iMonth ++;
               if ( $iMonth > 12 )
@@ -143,9 +146,6 @@ input.error
                 $iMonth = 1;
                 $iYear ++;
               }
-
-              // Echo option
-              echo( '<option ' . ( $bLastOption ? 'selected' : '' ) . ' value="' . $sOptionValue . '" >' . $sOptionText . '</option>' );
             }
             while( ! $bLastOption );
           ?>
