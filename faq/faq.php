@@ -31,6 +31,11 @@
     <div class="col-12 col-md-10 col-lg-8 mx-auto">
       <div class="h5 py-2">
         Frequently Asked Questions
+        <span class="float-right">
+          <a class="btn btn-link" href="faq/download_pdf.php" role="button" title="Download brochure">
+            <i class="fas fa-file-pdf"></i> Brochure
+          </a>
+        </span>
       </div>
     </div>
   </div>
