@@ -772,6 +772,17 @@ input.error
       end: '2021-12',
       rate: 12.718
     },
+    'Westford Standard':
+    {
+      url: 'https://masscea.com/westford/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '24.94%',
+      local: '14%',
+      start: '2018-09',
+      end: '2021-01',
+      rate: 10.43
+    },
     'Williamsburg Green':
     {
       url: 'https://colonialpowergroup.com/williamsburg/',
