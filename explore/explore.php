@@ -750,6 +750,28 @@ input.error
       end: '2021-12',
       rate: 10.69
     },
+    'Tyngsborough Standard':
+    {
+      url: 'https://colonialpowergroup.com/tyngsborough/',
+      broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
+      green: '24.94%',
+      local: '14%',
+      start: '2019-11',
+      end: '2021-11',
+      rate: 10.692
+    },
+    'Tyngsborough Optional Green':
+    {
+      url: 'https://colonialpowergroup.com/tyngsborough/',
+      broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
+      green: '100%',
+      local: '14%',
+      start: '2019-11',
+      end: '2021-11',
+      rate: 10.733
+    },
     'Watertown Basic':
     {
       url: 'https://masspowerchoice.com/watertown',
