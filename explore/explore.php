@@ -739,6 +739,17 @@ input.error
       end: '2020-08',
       rate: 13.124
     },
+    'Tewksbury Green':
+    {
+      url: 'https://colonialpowergroup.com/tewksbury/',
+      broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
+      green: '100%',
+      local: '14%',
+      start: '2019-06',
+      end: '2021-12',
+      rate: 10.69
+    },
     'Watertown Basic':
     {
       url: 'https://masspowerchoice.com/watertown',
