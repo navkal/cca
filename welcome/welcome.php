@@ -11,9 +11,16 @@
     background-size: cover;
   }
 
+  @media( max-width: 767px )
+  {
+    .jumbotron
+    {
+      padding-top: .5rem;
+    }
+  }
+
   .jumbotron
   {
-    padding-top: 1rem;
     background-color: transparent;
     color: #384897;
   }
