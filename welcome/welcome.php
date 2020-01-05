@@ -13,6 +13,7 @@
 
   .jumbotron
   {
+    padding-top: 1rem;
     background-color: transparent;
     color: #384897;
   }
