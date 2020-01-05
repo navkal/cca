@@ -17,7 +17,7 @@
     color: #384897;
   }
 
-  .cca-link
+  .dark-link
   {
     color: #384897;
   }
@@ -26,28 +26,29 @@
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h2>
+    <h3>
       Let's bring
-    </h2>
-    <h1>
-      <span class="font-weight-bold"><a href="/?page=overview" class="cca-link" ><i>Community Choice Aggregation</i></a></span>
-    </h1>
+    </h3>
     <h2>
-      to Andover.
+      <span class="font-weight-bold"><a href="/?page=overview" class="dark-link" ><i>Community Choice Aggregation</i></a></span>
     </h2>
-    <br/>
-    <!---------------------------------------- >
     <h3>
-      Vote <b>Yes</b> at <a href="https://andoverma.gov/398/Town-Meeting" target="_blank">Special Town Meeting</a>
+      to Andover.
     </h3>
-    <h3>
-      November, 2019
-    </h3>
-    <!---------------------------------------->
     <br/>
-    <p class="h3"><a href="/?page=explore" >Explore</a> the possibilities.</p>
+    <h4>
+      Join us for an <a href="https://andoverma.gov/CivicAlerts.aspx?AID=337" target="_blank" >Introduction to CCA</a>
+    </h4>
+    <h6 class="pl-3">
+      7:00 p.m. on Wednesday, January 8
+    </h6>
+    <h6 class="pl-3">
+      <a href="https://goo.gl/maps/ViRsdVCsX8DHUAEP6" class="dark-link" target="_blank" >Memorial Hall Library</a>
+    </h6>
     <br/>
-    <p class="h3"><a href="https://docs.google.com/forms/d/e/1FAIpQLScP7_LHHiBiykztDq8usdPlBrmZCGDSoFgIJYOxIUuwByxegw/viewform?usp=pp_url&entry.238260412=No&entry.1029755686=No" target="_blank" >Sign up</a> for Andover CCA updates.</p>
+    <h5>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScP7_LHHiBiykztDq8usdPlBrmZCGDSoFgIJYOxIUuwByxegw/viewform?usp=pp_url&entry.238260412=No&entry.1029755686=No" target="_blank" >Sign up</a> for Andover CCA updates.
+    </h5>
   </div>
 </div>
 
