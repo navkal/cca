@@ -360,7 +360,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2017-08',
       end: '2019-12',
       rate: 10.631
@@ -415,7 +415,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2019-01',
       end: '2021-01',
       rate: 10.631
@@ -426,7 +426,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '14%',
+      local: '16%',
       start: '2019-01',
       end: '2021-01',
       rate: 10.733
@@ -436,8 +436,8 @@ input.error
       url: 'https://www.brooklinema.gov/1340/Brookline-Green-Electricity',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: '14%',
-      local: '14%',
+      green: '16%',
+      local: '16%',
       start: '2017-07',
       end: '2020-01',
       rate: 10.398
@@ -470,7 +470,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2019-01',
       end: '2021-01',
       rate: 11.12
@@ -492,7 +492,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2018-07',
       end: '2021-01',
       rate: 10.879
@@ -503,7 +503,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '14%',
+      local: '16%',
       start: '2018-07',
       end: '2021-01',
       rate: 10.981
@@ -514,7 +514,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2018-02',
       end: '2020-11',
       rate: 9.403
@@ -536,7 +536,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2018-09',
       end: '2021-01',
       rate: 10.43
@@ -547,7 +547,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2019-06',
       end: '2021-12',
       rate: 9.978
@@ -558,7 +558,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2018-12',
       end: '2020-12',
       rate: 11.494
@@ -591,7 +591,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2019-06',
       end: '2021-11',
       rate: 10.401
@@ -624,7 +624,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2019-07',
       end: '2020-12',
       rate: 11.026
@@ -635,7 +635,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '35%',
-      local: '10%',
+      local: '16%',
       start: '2019-07',
       end: '2020-12',
       rate: 11.263
@@ -657,7 +657,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2019-03',
       end: '2021-01',
       rate: 10.87
@@ -690,7 +690,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2019-07',
       end: '2022-07',
       rate: 10.79
@@ -701,7 +701,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '14%',
+      local: '16%',
       start: '2019-07',
       end: '2022-07',
       rate: 10.885
@@ -712,7 +712,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2017-08',
       end: '2020-08',
       rate: 10.624
@@ -745,7 +745,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '14%',
+      local: '16%',
       start: '2019-06',
       end: '2021-12',
       rate: 10.69
@@ -756,7 +756,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2019-11',
       end: '2021-11',
       rate: 10.692
@@ -767,7 +767,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '14%',
+      local: '16%',
       start: '2019-11',
       end: '2021-11',
       rate: 10.733
@@ -778,7 +778,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2019-09',
       end: '2021-12',
       rate: 10.654
@@ -811,7 +811,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '24.94%',
-      local: '14%',
+      local: '16%',
       start: '2018-09',
       end: '2021-01',
       rate: 10.43
@@ -822,7 +822,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '14%',
+      local: '16%',
       start: '2019-05',
       end: '2022-05',
       rate: 10.249
@@ -1155,7 +1155,7 @@ input.error
 
         // Local green
         sHtml += '<td>';
-        sHtml += ( tCcaOption && tCcaOption.local ) ? tCcaOption.local : '14%';
+        sHtml += ( tCcaOption && tCcaOption.local ) ? tCcaOption.local : '16%';
         sHtml += '</td>';
 
         // Total green
