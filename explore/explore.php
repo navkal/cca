@@ -339,8 +339,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '27.71%',
       local: '16%',
-      start: '2017-09',
-      end: '2019-09',
+      start: '2019-10',
+      end: '2022-09',
       rate: 10.741
     },
     'Acton Power Choice Standard':
@@ -350,8 +350,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '37.71%',
       local: '16%',
-      start: '2017-09',
-      end: '2019-09',
+      start: '2019-10',
+      end: '2022-09',
       rate: 10.985
     },
     'Acton Power Choice Green':
@@ -361,8 +361,8 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
       local: '100%',
-      start: '2017-09',
-      end: '2019-09',
+      start: '2019-10',
+      end: '2022-09',
       rate: 12.671
     },
     'Arlington Basic':
@@ -372,8 +372,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '27.71%',
       local: '16%',
-      start: '2017-08',
-      end: '2019-12',
+      start: '2019-12',
+      end: '2022-11',
       rate: 10.699
     },
     'Arlington Local Green':
@@ -383,8 +383,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '38.71%',
       local: '27%',
-      start: '2017-08',
-      end: '2019-12',
+      start: '2019-12',
+      end: '2022-11',
       rate: 11.029
     },
     'Arlington Premium 50% Local Green':
@@ -394,8 +394,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '66%',
       local: '66%',
-      start: '2017-08',
-      end: '2019-12',
+      start: '2019-12',
+      end: '2022-11',
       rate: 12.199
     },
     'Arlington Premium 100% Local Green':
@@ -405,8 +405,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '100%',
       local: '100%',
-      start: '2017-08',
-      end: '2019-12',
+      start: '2019-12',
+      end: '2022-11',
       rate: 13.699
     },
     'Ashland Green':
@@ -449,8 +449,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '27.71%',
       local: '16%',
-      start: '2017-07',
-      end: '2020-01',
+      start: '2020-01',
+      end: '2022-12',
       rate: 10.715
     },
     'Brookline Green':
@@ -460,8 +460,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '46%',
       local: '46%',
-      start: '2017-07',
-      end: '2020-01',
+      start: '2020-01',
+      end: '2022-12',
       rate: 11.615
     },
     'Brookline Green 65':
@@ -471,8 +471,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '81%',
       local: '81%',
-      start: '2017-07',
-      end: '2020-01',
+      start: '2020-01',
+      end: '2022-12',
       rate: 12.665
     },
     'Brookline All Green':
@@ -482,8 +482,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '100%',
       local: '100%',
-      start: '2017-07',
-      end: '2020-01',
+      start: '2020-01',
+      end: '2022-12',
       rate: 13.715
     },
     'Cambridge Standard Green':
@@ -856,8 +856,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '27.71%',
       local: '16%',
-      start: '2017-07',
-      end: '2020-01',
+      start: '2020-01',
+      end: '2022-12',
       rate: 10.866
     },
     'Winchester WinPower':
@@ -867,8 +867,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '36.71%',
       local: '25%',
-      start: '2017-07',
-      end: '2020-01',
+      start: '2020-01',
+      end: '2022-12',
       rate: 11.167
     },
     'Winchester WinPower 100':
@@ -878,8 +878,8 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: '100%',
       local: '100%',
-      start: '2017-07',
-      end: '2020-01',
+      start: '2020-01',
+      end: '2022-12',
       rate: 13.866
     },
   };
