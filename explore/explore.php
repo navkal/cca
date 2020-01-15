@@ -332,6 +332,17 @@ input.error
 
   var g_tCcaOptions =
   {
+    'Acton Power Choice Basic':
+    {
+      url: 'http://masspowerchoice.com/acton',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      green: '24.94%',
+      local: '19%',
+      start: '2017-09',
+      end: '2019-09',
+      rate: 10.741
+    },
     'Acton Power Choice Standard':
     {
       url: 'http://masspowerchoice.com/acton',
@@ -341,7 +352,7 @@ input.error
       local: '19%',
       start: '2017-09',
       end: '2019-09',
-      rate: 10.72
+      rate: 10.985
     },
     'Acton Power Choice Green':
     {
@@ -352,7 +363,7 @@ input.error
       local: '100%',
       start: '2017-09',
       end: '2019-09',
-      rate: 12.712
+      rate: 12.671
     },
     'Arlington Basic':
     {
@@ -363,7 +374,7 @@ input.error
       local: '16%',
       start: '2017-08',
       end: '2019-12',
-      rate: 10.631
+      rate: 10.699
     },
     'Arlington Local Green':
     {
@@ -374,7 +385,7 @@ input.error
       local: '19%',
       start: '2017-08',
       end: '2019-12',
-      rate: 10.756
+      rate: 11.029
     },
     'Arlington Premium 50% Local Green':
     {
@@ -385,7 +396,7 @@ input.error
       local: '50%',
       start: '2017-08',
       end: '2019-12',
-      rate: 11.881
+      rate: 12.199
     },
     'Arlington Premium 100% Local Green':
     {
@@ -396,7 +407,7 @@ input.error
       local: '100%',
       start: '2017-08',
       end: '2019-12',
-      rate: 13.131
+      rate: 13.699
     },
     'Ashland Green':
     {
@@ -407,7 +418,7 @@ input.error
       local: '23%',
       start: '2018-06',
       end: '2020-12',
-      rate: 10.947
+      rate: 11.047
     },
     'Billerica Standard':
     {
@@ -440,7 +451,7 @@ input.error
       local: '16%',
       start: '2017-07',
       end: '2020-01',
-      rate: 10.398
+      rate: 10.715
     },
     'Brookline Green':
     {
@@ -451,7 +462,18 @@ input.error
       local: '49%',
       start: '2017-07',
       end: '2020-01',
-      rate: 11.098
+      rate: 11.615
+    },
+    'Brookline Green 65':
+    {
+      url: 'https://www.brooklinema.gov/1340/Brookline-Green-Electricity',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '49%',
+      local: '49%',
+      start: '2017-07',
+      end: '2020-01',
+      rate: 12.665
     },
     'Brookline All Green':
     {
@@ -462,7 +484,7 @@ input.error
       local: '100%',
       start: '2017-07',
       end: '2020-01',
-      rate: 13.198
+      rate: 13.715
     },
     'Cambridge Standard Green':
     {
@@ -473,7 +495,7 @@ input.error
       local: '16%',
       start: '2019-01',
       end: '2021-01',
-      rate: 11.12
+      rate: 11.120
     },
     'Cambridge 100% Green Plus':
     {
@@ -484,7 +506,7 @@ input.error
       local: '100%',
       start: '2019-01',
       end: '2021-01',
-      rate: 11.94
+      rate: 11.940
     },
     'Carlisle Basic Supply':
     {
@@ -495,7 +517,7 @@ input.error
       local: '16%',
       start: '2018-07',
       end: '2021-01',
-      rate: 10.879
+      rate: 10.981
     },
     'Carlisle Green Supply':
     {
@@ -506,7 +528,7 @@ input.error
       local: '16%',
       start: '2018-07',
       end: '2021-01',
-      rate: 10.981
+      rate: 10.879
     },
     'Chelmsford Choice':
     {
@@ -539,7 +561,7 @@ input.error
       local: '16%',
       start: '2018-09',
       end: '2021-01',
-      rate: 10.43
+      rate: 10.430
     },
     'Lancaster Standard':
     {
@@ -660,7 +682,7 @@ input.error
       local: '16%',
       start: '2019-03',
       end: '2021-01',
-      rate: 10.87
+      rate: 10.870
     },
     'Newton Standard':
     {
@@ -671,7 +693,7 @@ input.error
       local: '60%',
       start: '2019-03',
       end: '2021-01',
-      rate: 11.34
+      rate: 11.340
     },
     'Newton 100% Green':
     {
@@ -682,7 +704,7 @@ input.error
       local: '100%',
       start: '2019-03',
       end: '2021-01',
-      rate: 11.75
+      rate: 11.750
     },
     'North Andover Standard':
     {
@@ -693,7 +715,7 @@ input.error
       local: '16%',
       start: '2019-07',
       end: '2022-07',
-      rate: 10.79
+      rate: 10.790
     },
     'North Andover Green':
     {
@@ -748,7 +770,7 @@ input.error
       local: '16%',
       start: '2019-06',
       end: '2021-12',
-      rate: 10.69
+      rate: 10.690
     },
     'Tyngsborough Standard':
     {
@@ -814,7 +836,7 @@ input.error
       local: '16%',
       start: '2018-09',
       end: '2021-01',
-      rate: 10.43
+      rate: 10.430
     },
     'Williamsburg Green':
     {
@@ -827,6 +849,17 @@ input.error
       end: '2022-05',
       rate: 10.249
     },
+    Winchester WinPower Basic':
+    {
+      url: 'https://winpowerma.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: '18%',
+      local: '18%',
+      start: '2017-07',
+      end: '2020-01',
+      rate: 10.866
+    },
     'Winchester WinPower':
     {
       url: 'https://winpowerma.com/',
@@ -836,7 +869,7 @@ input.error
       local: '18%',
       start: '2017-07',
       end: '2020-01',
-      rate: 10.898
+      rate: 11.167
     },
     'Winchester WinPower 100':
     {
@@ -847,7 +880,7 @@ input.error
       local: '100%',
       start: '2017-07',
       end: '2020-01',
-      rate: 13.558
+      rate: 13.866
     },
   };
 
