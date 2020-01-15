@@ -41,7 +41,7 @@
       Join us for an <a href="https://andoverma.gov/CivicAlerts.aspx?AID=337" target="_blank" >Introduction to CCA</a>
     </h4>
     <h6 class="pl-3">
-      7:00 p.m. on Wednesday, January 8
+      7:00 p.m. on Monday, March 2
     </h6>
     <h6 class="pl-3">
       <a href="https://goo.gl/maps/ViRsdVCsX8DHUAEP6" class="dark-link" target="_blank" >Memorial Hall Library</a>
