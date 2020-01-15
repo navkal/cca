@@ -849,7 +849,7 @@ input.error
       end: '2022-05',
       rate: 10.249
     },
-    Winchester WinPower Basic':
+    'Winchester WinPower Basic':
     {
       url: 'https://winpowerma.com/',
       broker: 'Good Energy',
