@@ -38,13 +38,23 @@
     </h3>
     <br/>
     <h4>
-      Join us for an <a href="https://andoverma.gov/CivicAlerts.aspx?AID=337" target="_blank" >Introduction to CCA</a>
+      Join us for an
+      <!----------------------------------------------- >
+      <a href="https://andoverma.gov/CivicAlerts.aspx?AID=337" target="_blank" >
+      <!----------------------------------------------->
+        Introduction to CCA
+      <!----------------------------------------------- >
+      </a>
+      <!----------------------------------------------->
     </h4>
+    <h5>
+      Followed by Q&A
+    </h5>
     <h6 class="pl-3">
-      7:00 p.m. on Wednesday, January 8
+      7:00 - 8:30 p.m. on Thursday, March 12
     </h6>
     <h6 class="pl-3">
-      <a href="https://goo.gl/maps/ViRsdVCsX8DHUAEP6" class="dark-link" target="_blank" >Memorial Hall Library</a>
+      <a href="https://goo.gl/maps/Bsn77M3aBxVgZG33A" class="dark-link" target="_blank" >Andover Public Safety Center</a>
     </h6>
     <br/>
     <h5>
@@ -52,4 +62,3 @@
     </h5>
   </div>
 </div>
-
