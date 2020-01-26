@@ -517,7 +517,7 @@ input.error
       local: '16%',
       start: '2018-07',
       end: '2021-01',
-      rate: 10.981
+      rate: 10.879
     },
     'Carlisle Green Supply':
     {
@@ -528,7 +528,7 @@ input.error
       local: '16%',
       start: '2018-07',
       end: '2021-01',
-      rate: 10.879
+      rate: 10.981
     },
     'Chelmsford Choice':
     {
