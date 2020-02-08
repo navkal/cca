@@ -4,25 +4,37 @@
   $aEvents =
   [
     [
-      'title' => 'Introduction to CCA',
-      'title_link' => '',
-      'subtitle' =>
+      'when' => 'Thursday, March 12, 7:00 - 8:30 p.m.',
+      'topic' => 'Introduction to CCA',
+      'topic_link' => '',
+      'details' =>
       [
         'Followed by Q&A',
       ],
-      'when' => '7:00 - 8:30 p.m. on Thursday, March 12',
+      'presenters' =>
+      [
+        'Michael Lindstrom, Deputy Town Manager',
+        'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+        'Patrick Roche, Good Energy'
+      ],
       'where' => 'Andover Public Safety Center',
       'where_link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
     ],
     [
-      'title' => 'Presentations: Legislative Agenda on Environment',
-      'title_link' => '',
-      'subtitle' =>
+      'when' => 'Monday, March 16, 7:00 pm',
+      'topic' => 'Legislative Agenda on Environment',
+      'topic_link' => '',
+      'details' =>
       [
         'Followed by Q&A',
         'Sponsored by Greater Andover Indivisible and Andover WECAN',
       ],
-      'when' => '7:00 pm on Monday, March 16',
+      'presenters' =>
+      [
+        'Michael Lindstrom, Deputy Town Manager',
+        'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+        'Patrick Roche, Good Energy'
+      ],
       'where' => 'Andover Memorial Hall Library',
       'where_link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
     ],
@@ -31,14 +43,20 @@
 ?>
 
 <style>
-.list-group-item
-{
-  border: none;
-}
-.text-title
-{
-  color: #397947;
-}
+
+  .list-group-item
+  {
+    border: none;
+  }
+
+  .text-title
+  {
+    color: #397947;
+  }
+
+</style>
+
+
 </style>
 
 <div class="container">
@@ -54,58 +72,22 @@
 
       <div class="list-group">
         <div class="list-group-item">
-          <div class="text-title">
-
-            <!-- Title with optional link -->
-            <?php
-              if ( $aEvent['title_link'] )
-              {
-            ?>
-                <a href="<?=$aEvent['title_link']?>" target="_blank">
-            <?php
-              }
-            ?>
-                  <?=$aEvent['title']?>
-            <?php
-              if ( $aEvent['title_link'] )
-              {
-            ?>
-                </a>
-            <?php
-              }
-            ?>
-
-          </div>
-
-          <!-- Subtitles -->
-          <?php
-            foreach ( $aEvent['subtitle'] as $sSubtitle )
-            {
-          ?>
-            <div>
-              <small>
-                <?=$sSubtitle?>
-              </small>
-            </div>
-          <?php
-            }
-          ?>
 
           <!-- When -->
-          <div class="pt-2" >
-            <small class="pl-3">
+          <div>
+            <small>
               <?=$aEvent['when']?>
             </small>
           </div>
 
-          <!-- Location with optional link -->
+          <!-- Where, with optional link -->
           <div>
-            <small class="pl-3">
+            <small>
               <?php
                 if ( $aEvent['where_link'] )
                 {
               ?>
-                  <a href="<?=$aEvent['where_link']?>" target="_blank">
+                  <a href="<?=$aEvent['where_link']?>" target="_blank" class="text-dark">
               <?php
                 }
               ?>
@@ -120,6 +102,62 @@
               ?>
             </small>
           </div>
+
+          <div class="text-title pt-1">
+
+            <!-- topic, with optional link -->
+            <?php
+              if ( $aEvent['topic_link'] )
+              {
+            ?>
+                <a href="<?=$aEvent['topic_link']?>" target="_blank">
+            <?php
+              }
+            ?>
+                  <?=$aEvent['topic']?>
+            <?php
+              if ( $aEvent['topic_link'] )
+              {
+            ?>
+                </a>
+            <?php
+              }
+            ?>
+
+          </div>
+
+          <!-- Subtitles -->
+          <div class="text-title pb-1 pl-3">
+            <?php
+              foreach ( $aEvent['details'] as $sDetail )
+              {
+            ?>
+              <div>
+                <small>
+                  <?=$sDetail?>
+                </small>
+              </div>
+            <?php
+              }
+            ?>
+          </div>
+
+          <!-- Subtitles -->
+          <div class="text-title pb-1 pl-3">
+            <?php
+              foreach ( $aEvent['presenters'] as $sPresenter )
+              {
+            ?>
+              <div>
+                <small>
+                  <?=$sPresenter?>
+                </small>
+              </div>
+            <?php
+              }
+            ?>
+          </div>
+
 
 
         </div>
