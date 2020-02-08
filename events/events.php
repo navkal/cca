@@ -6,16 +6,23 @@
     [
       'title' => 'Introduction to CCA',
       'title_link' => '',
-      'subtitle' => 'Followed by Q&A',
+      'subtitle' =>
+      [
+        'Followed by Q&A',
+      ],
       'when' => '7:00 - 8:30 p.m. on Thursday, March 12',
       'where' => 'Andover Public Safety Center',
       'where_link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
     ],
     [
-      'title' => 'Happy Birthday Baba/Baby!',
-      'title_link' => 'http://www.google.com',
-      'subtitle' => 'Subtitle Subtitle Subtitle',
-      'when' => '5:52 - 11:59 pm on Saturday, February 8',
+      'title' => 'Presentations: Legislative Agenda on Environment',
+      'title_link' => '',
+      'subtitle' =>
+      [
+        'Followed by Q&A',
+        'Sponsored by Greater Andover Indivisible and Andover WECAN',
+      ],
+      'when' => '7:00 pm on Monday, March 16',
       'where' => 'Andover Memorial Hall Library',
       'where_link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
     ],
@@ -70,23 +77,30 @@
 
           </div>
 
-          <!-- Subtitle -->
-          <div>
-            <small>
-              <?=$aEvent['subtitle']?>
-            </small>
-          </div>
+          <!-- Subtitles -->
+          <?php
+            foreach ( $aEvent['subtitle'] as $sSubtitle )
+            {
+          ?>
+            <div>
+              <small>
+                <?=$sSubtitle?>
+              </small>
+            </div>
+          <?php
+            }
+          ?>
 
           <!-- When -->
-          <div>
-            <small>
+          <div class="pt-2" >
+            <small class="pl-3">
               <?=$aEvent['when']?>
             </small>
           </div>
 
           <!-- Location with optional link -->
           <div>
-            <small>
+            <small class="pl-3">
               <?php
                 if ( $aEvent['where_link'] )
                 {
