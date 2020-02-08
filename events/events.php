@@ -15,7 +15,7 @@
       [
         'Michael Lindstrom, Deputy Town Manager',
         'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-        'Patrick Roche, Good Energy'
+        'Patrick Roche, Good Energy',
       ],
       'where' => 'Andover Public Safety Center',
       'where_link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
@@ -31,9 +31,8 @@
       ],
       'presenters' =>
       [
-        'Michael Lindstrom, Deputy Town Manager',
-        'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-        'Patrick Roche, Good Energy'
+        'Big Bird, Sesame Street',
+        'Mr. Rogers, The Neighborhood',
       ],
       'where' => 'Andover Memorial Hall Library',
       'where_link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
