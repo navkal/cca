@@ -37,7 +37,7 @@
       [
         'Senator Barry Finegold',
         'Representative Tram Nguyen',
-        // 'Representative Frank Moran',
+        'Representative Frank Moran',
         'Moderator: Laura Gregory, Select Board Chair',
       ],
       'sponsors' =>
