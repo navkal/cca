@@ -5,9 +5,11 @@
   [
     [
       'when' => 'Thursday, March 12, 7:00 - 8:30 p.m.',
+      'where' => 'Andover Public Safety Center',
+      'where_link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
       'topic' => 'Introduction to CCA',
       'topic_link' => '',
-      'details' =>
+      'topic_details' =>
       [
         'Followed by Q&A',
       ],
@@ -17,50 +19,41 @@
         'Joyce Losick-Yang, PhD, Sustainability Coordinator',
         'Patrick Roche, Good Energy',
       ],
-      'where' => 'Andover Public Safety Center',
-      'where_link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
+      'sponsors' =>
+      [
+      ],
     ],
     [
       'when' => 'Monday, March 16, 7:00 pm',
+      'where' => 'Andover Memorial Hall Library',
+      'where_link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
       'topic' => 'Legislative Agenda on Environment',
       'topic_link' => '',
-      'details' =>
+      'topic_details' =>
       [
         'Followed by Q&A',
-        'Sponsored by Greater Andover Indivisible and Andover WECAN',
       ],
       'presenters' =>
       [
         'Big Bird, Sesame Street',
         'Mr. Rogers, The Neighborhood',
       ],
-      'where' => 'Andover Memorial Hall Library',
-      'where_link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
+      'sponsors' =>
+      [
+        'Greater Andover Indivisible',
+        'Andover WECAN',
+      ],
     ],
 
   ];
+
+  $sDtClass = 'class="col-sm-2"';
+  $sDdClass = 'class="col-sm-10"';
 ?>
-
-<style>
-
-  .list-group-item
-  {
-    border: none;
-  }
-
-  .text-title
-  {
-    color: #397947;
-  }
-
-</style>
-
-
-</style>
 
 <div class="container">
 
-  <div class="h5 py-2 list-group-item">
+  <div class="h5 pt-1 pb-3">
     Coming Events
   </div>
 
@@ -69,99 +62,135 @@
     {
   ?>
 
-      <div class="list-group">
-        <div class="list-group-item">
+      <dl class="row py-2">
 
-          <!-- When -->
-          <div>
-            <small>
-              <?=$aEvent['when']?>
-            </small>
-          </div>
+        <!-- When -->
+        <dt <?=$sDtClass?> >
+          When
+        </dt>
 
-          <!-- Where, with optional link -->
-          <div>
-            <small>
-              <?php
-                if ( $aEvent['where_link'] )
-                {
-              ?>
-                  <a href="<?=$aEvent['where_link']?>" target="_blank" class="text-dark">
-              <?php
-                }
-              ?>
-                    <?=$aEvent['where']?>
-              <?php
-                if ( $aEvent['where_link'] )
-                {
-              ?>
-                  </a>
-              <?php
-                }
-              ?>
-            </small>
-          </div>
+        <dd <?=$sDdClass?> >
+          <?=$aEvent['when']?>
+        </dd>
 
-          <div class="text-title pt-1">
+        <!-- Where, with optional link -->
+        <dt <?=$sDtClass?> >
+          Where
+        </dt>
 
-            <!-- topic, with optional link -->
+        <dd <?=$sDdClass?> >
+          <?php
+            if ( $aEvent['where_link'] )
+            {
+          ?>
+              <a href="<?=$aEvent['where_link']?>" target="_blank" class="text-dark">
+          <?php
+            }
+          ?>
+                <?=$aEvent['where']?>
+          <?php
+            if ( $aEvent['where_link'] )
+            {
+          ?>
+              </a>
+          <?php
+            }
+          ?>
+        </dd>
+
+        <!-- Topic, with optional link -->
+        <dt <?=$sDtClass?> >
+          Topic
+        </dt>
+
+        <dd <?=$sDdClass?> >
+          <?php
+            if ( $aEvent['topic_link'] )
+            {
+          ?>
+              <a href="<?=$aEvent['topic_link']?>" target="_blank">
+          <?php
+            }
+          ?>
+                <?=$aEvent['topic']?>
+          <?php
+            if ( $aEvent['topic_link'] )
+            {
+          ?>
+              </a>
+          <?php
+            }
+          ?>
+
+          <!-- Topic details -->
+          <?php
+            foreach ( $aEvent['topic_details'] as $sLine )
+            {
+          ?>
+            <div>
+              <small>
+                <?=$sLine?>
+              </small>
+            </div>
+          <?php
+            }
+          ?>
+        </dd>
+
+          <!-- Presenters, optional -->
+        <?php
+          if ( count( $aEvent['presenters'] ) )
+          {
+        ?>
+
+          <dt <?=$sDtClass?> >
+            Presenters
+          </dt>
+          <dd <?=$sDdClass?> >
             <?php
-              if ( $aEvent['topic_link'] )
-              {
-            ?>
-                <a href="<?=$aEvent['topic_link']?>" target="_blank">
-            <?php
-              }
-            ?>
-                  <?=$aEvent['topic']?>
-            <?php
-              if ( $aEvent['topic_link'] )
-              {
-            ?>
-                </a>
-            <?php
-              }
-            ?>
-
-          </div>
-
-          <!-- Subtitles -->
-          <div class="text-title pb-1 pl-3">
-            <?php
-              foreach ( $aEvent['details'] as $sDetail )
+              foreach ( $aEvent['presenters'] as $sLine )
               {
             ?>
               <div>
-                <small>
-                  <?=$sDetail?>
-                </small>
+                <?=$sLine?>
               </div>
             <?php
               }
             ?>
-          </div>
+          </dd>
 
-          <!-- Subtitles -->
-          <div class="text-title pb-1 pl-3">
+        <?php
+          }
+        ?>
+
+          <!-- Sponsosrs, optional -->
+        <?php
+          if ( count( $aEvent['sponsors'] ) )
+          {
+        ?>
+
+          <dt <?=$sDtClass?> >
+            Sponsors
+          </dt>
+
+          <dd <?=$sDdClass?> >
             <?php
-              foreach ( $aEvent['presenters'] as $sPresenter )
+              foreach ( $aEvent['sponsors'] as $sLine )
               {
             ?>
               <div>
-                <small>
-                  <?=$sPresenter?>
-                </small>
+                <?=$sLine?>
               </div>
             <?php
               }
             ?>
-          </div>
+          </dd>
 
+        <?php
+          }
+        ?>
 
-
-        </div>
-
-      </div>
+      </dl>
 
   <?php
     }
