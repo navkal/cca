@@ -4,7 +4,7 @@
   $aEvents =
   [
     [
-      'when' => 'Thursday, March 12, 7:00 - 8:30 p.m.',
+      'when' => 'Thursday, March 12, 7:00-8:30 p.m.',
       'where' => 'Andover Public Safety Center',
       'where_link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
       'topic' => 'Introduction to CCA',
@@ -24,7 +24,7 @@
       ],
     ],
     [
-      'when' => 'Monday, March 16, 7:00 - 8:30 p.m.',
+      'when' => 'Monday, March 16, 7:00-8:30 p.m.',
       'where' => 'Memorial Hall Library',
       'where_link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
       'topic' => 'Legislative Agenda on Environment',
@@ -44,6 +44,24 @@
       [
         'Greater Andover Indivisible',
         'Andover WECAN',
+      ],
+    ],
+    [
+      'when' => 'Wednesday, April 22, 3:00-7:00 p.m.',
+      'where' => 'Whole Foods',
+      'where_link' => 'https://goo.gl/maps/tt1kW4pan6iE4RJC8',
+      'topic' => 'Earth Day',
+      'topic_link' => '',
+      'topic_details' =>
+      [
+      ],
+      'presenters' =>
+      [
+        'Yashvi Gosalia, AHS junior',
+        'Eva McKone, AHS sophomore',
+      ],
+      'sponsors' =>
+      [
       ],
     ],
 
