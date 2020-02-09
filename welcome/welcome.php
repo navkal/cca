@@ -37,20 +37,20 @@
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h3>
+    <h4>
       Let's bring
-    </h3>
-    <h2>
-      <span class="font-weight-bold"><a href="/?page=overview" class="dark-link" ><i>Community Choice Aggregation</i></a></span>
-    </h2>
+    </h4>
     <h3>
-      to Andover.
+      <span class="font-weight-bold"><a href="/?page=overview" class="dark-link" ><i>Community Choice Aggregation</i></a></span>
     </h3>
+    <h4>
+      to Andover.
+    </h4>
 
     <hr/>
-    <h4 class="py-2" >
-      Coming Event:
-    </h4>
+    <h5>
+      <u>Coming Event</u>
+    </h5>
     <?php
       formatEvent( $aEvents[0], false );
     ?>
