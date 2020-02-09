@@ -87,11 +87,22 @@
   $sDdClass = 'class="col-sm-10"';
 ?>
 
+<!------------------>
+<style>
+.list-group-item
+{
+  border: none;
+}
+</style>
+<!------------------>
+
 <div class="container">
 
-  <div class="h5 pt-1 pb-3">
+  <div class="h5 pt-2 pb-3 list-group-item">
     Coming Events
   </div>
+
+<div class="list-group" >
 
   <?php
     foreach ( $aEvents as $aEvent )
@@ -99,8 +110,9 @@
   ?>
 
       <!-- Next event -->
+<div class="list-group-item list-group-item-action">
 
-      <dl class="row py-2">
+      <dl class="row">
 
         <!-- When -->
         <dt <?=$sDtClass?> >
@@ -229,9 +241,11 @@
         ?>
 
       </dl>
+</div>
 
   <?php
     }
   ?>
 
+</div>
 </div>
