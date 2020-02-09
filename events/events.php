@@ -102,150 +102,150 @@
     Coming Events
   </div>
 
-<div class="list-group" >
+  <div class="list-group" >
 
-  <?php
-    foreach ( $aEvents as $aEvent )
-    {
-  ?>
+    <?php
+      foreach ( $aEvents as $aEvent )
+      {
+    ?>
 
-      <!-- Next event -->
-<div class="list-group-item list-group-item-action">
+        <!-- Next event -->
+        <div class="list-group-item list-group-item-action">
 
-      <dl class="row">
+          <dl class="row">
 
-        <!-- When -->
-        <dt <?=$sDtClass?> >
-          When
-        </dt>
+            <!-- When -->
+            <dt <?=$sDtClass?> >
+              When
+            </dt>
 
-        <dd <?=$sDdClass?> >
-          <?=$aEvent['when']?>
-        </dd>
+            <dd <?=$sDdClass?> >
+              <?=$aEvent['when']?>
+            </dd>
 
-        <!-- Where, with optional link -->
-        <dt <?=$sDtClass?> >
-          Where
-        </dt>
+            <!-- Where, with optional link -->
+            <dt <?=$sDtClass?> >
+              Where
+            </dt>
 
-        <dd <?=$sDdClass?> >
-          <?php
-            if ( $aEvent['where_link'] )
-            {
-          ?>
-              <a href="<?=$aEvent['where_link']?>" target="_blank" class="text-dark">
-          <?php
-            }
-          ?>
-                <?=$aEvent['where']?>
-          <?php
-            if ( $aEvent['where_link'] )
-            {
-          ?>
-              </a>
-          <?php
-            }
-          ?>
-        </dd>
+            <dd <?=$sDdClass?> >
+              <?php
+                if ( $aEvent['where_link'] )
+                {
+              ?>
+                  <a href="<?=$aEvent['where_link']?>" target="_blank" class="text-dark">
+              <?php
+                }
+              ?>
+                    <?=$aEvent['where']?>
+              <?php
+                if ( $aEvent['where_link'] )
+                {
+              ?>
+                  </a>
+              <?php
+                }
+              ?>
+            </dd>
 
-        <!-- Topic, with optional link -->
-        <dt <?=$sDtClass?> >
-          Topic
-        </dt>
+            <!-- Topic, with optional link -->
+            <dt <?=$sDtClass?> >
+              Topic
+            </dt>
 
-        <dd <?=$sDdClass?> >
-          <?php
-            if ( $aEvent['topic_link'] )
-            {
-          ?>
-              <a href="<?=$aEvent['topic_link']?>" target="_blank">
-          <?php
-            }
-          ?>
-                <?=$aEvent['topic']?>
-          <?php
-            if ( $aEvent['topic_link'] )
-            {
-          ?>
-              </a>
-          <?php
-            }
-          ?>
+            <dd <?=$sDdClass?> >
+              <?php
+                if ( $aEvent['topic_link'] )
+                {
+              ?>
+                  <a href="<?=$aEvent['topic_link']?>" target="_blank">
+              <?php
+                }
+              ?>
+                    <?=$aEvent['topic']?>
+              <?php
+                if ( $aEvent['topic_link'] )
+                {
+              ?>
+                  </a>
+              <?php
+                }
+              ?>
 
-          <!-- Topic details -->
-          <?php
-            foreach ( $aEvent['topic_details'] as $sLine )
-            {
-          ?>
-            <div>
-              <small>
-                <?=$sLine?>
-              </small>
-            </div>
-          <?php
-            }
-          ?>
-        </dd>
+              <!-- Topic details -->
+              <?php
+                foreach ( $aEvent['topic_details'] as $sLine )
+                {
+              ?>
+                <div>
+                  <small>
+                    <?=$sLine?>
+                  </small>
+                </div>
+              <?php
+                }
+              ?>
+            </dd>
 
-          <!-- Presenters, optional -->
-        <?php
-          if ( count( $aEvent['presenters'] ) )
-          {
-        ?>
-
-          <dt <?=$sDtClass?> >
-            Presenters
-          </dt>
-          <dd <?=$sDdClass?> >
+              <!-- Presenters, optional -->
             <?php
-              foreach ( $aEvent['presenters'] as $sLine )
+              if ( count( $aEvent['presenters'] ) )
               {
             ?>
-              <div>
-                <?=$sLine?>
-              </div>
+
+              <dt <?=$sDtClass?> >
+                Presenters
+              </dt>
+              <dd <?=$sDdClass?> >
+                <?php
+                  foreach ( $aEvent['presenters'] as $sLine )
+                  {
+                ?>
+                  <div>
+                    <?=$sLine?>
+                  </div>
+                <?php
+                  }
+                ?>
+              </dd>
+
             <?php
               }
             ?>
-          </dd>
 
-        <?php
-          }
-        ?>
-
-          <!-- Sponsosrs, optional -->
-        <?php
-          if ( count( $aEvent['sponsors'] ) )
-          {
-        ?>
-
-          <dt <?=$sDtClass?> >
-            Sponsors
-          </dt>
-
-          <dd <?=$sDdClass?> >
+              <!-- Sponsosrs, optional -->
             <?php
-              foreach ( $aEvent['sponsors'] as $sLine )
+              if ( count( $aEvent['sponsors'] ) )
               {
             ?>
-              <div>
-                <?=$sLine?>
-              </div>
+
+              <dt <?=$sDtClass?> >
+                Sponsors
+              </dt>
+
+              <dd <?=$sDdClass?> >
+                <?php
+                  foreach ( $aEvent['sponsors'] as $sLine )
+                  {
+                ?>
+                  <div>
+                    <?=$sLine?>
+                  </div>
+                <?php
+                  }
+                ?>
+              </dd>
+
             <?php
               }
             ?>
-          </dd>
 
-        <?php
-          }
-        ?>
+          </dl>
+        </div>
 
-      </dl>
-</div>
+    <?php
+      }
+    ?>
 
-  <?php
-    }
-  ?>
-
-</div>
+  </div>
 </div>
