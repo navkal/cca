@@ -154,7 +154,9 @@
               <?php
                 }
               ?>
-                    <?=$aEvent['topic']?>
+                    <span class="blockquote">
+                      <?=$aEvent['topic']?>
+                    </span>
               <?php
                 if ( $aEvent['topic_link'] )
                 {
@@ -170,7 +172,7 @@
                 {
               ?>
                 <div>
-                  <small>
+                  <small class="text-muted">
                     <?=$sLine?>
                   </small>
                 </div>
