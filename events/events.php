@@ -98,13 +98,14 @@
 
 <div class="container">
 
-  <div class="h5 pt-2 pb-3 list-group-item">
-    Coming Events
-  </div>
-
   <div class="list-group" >
 
+    <div class="h5 pt-2 pb-3 list-group-item">
+      Coming Events
+    </div>
+
     <?php
+      // Iterate through table of events
       foreach ( $aEvents as $aEvent )
       {
     ?>
