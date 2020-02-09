@@ -28,6 +28,11 @@
     color: #384897;
   }
 
+  hr
+  {
+    border: 1px dotted #384897;
+  }
+
 </style>
 
 <div class="jumbotron jumbotron-fluid">
@@ -41,17 +46,16 @@
     <h3>
       to Andover.
     </h3>
-    <br/>
 
+    <hr/>
     <h4 class="py-2" >
       Coming Event:
     </h4>
-
     <?php
       formatEvent( $aEvents[0], false );
     ?>
+    <hr/>
 
-    <br/>
     <h5>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScP7_LHHiBiykztDq8usdPlBrmZCGDSoFgIJYOxIUuwByxegw/viewform?usp=pp_url&entry.238260412=No&entry.1029755686=No" target="_blank" >Sign up</a> for Andover CCA updates.
     </h5>
