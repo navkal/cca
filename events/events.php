@@ -87,22 +87,13 @@
   $sDdClass = 'class="col-sm-10"';
 ?>
 
-<!------------------>
-<style>
-.list-group-item
-{
-  border: none;
-}
-</style>
-<!------------------>
-
 <div class="container">
 
-  <div class="list-group" >
+  <div class="h5 pt-2 pb-3">
+    Coming Events
+  </div>
 
-    <div class="h5 pt-2 pb-3 list-group-item">
-      Coming Events
-    </div>
+  <div class="list-group" >
 
     <?php
       // Iterate through table of events
