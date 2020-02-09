@@ -4,7 +4,7 @@
   $aEvents =
   [
     [
-      'when' => 'Thursday, March 12, 7:00-8:30 p.m.',
+      'when' => 'Thursday, March 12, 7 - 8:30 pm',
       'where' => 'Public Safety Center',
       'where_link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
       'topic' => 'Introduction to CCA',
@@ -24,7 +24,7 @@
       ],
     ],
     [
-      'when' => 'Monday, March 16, 7:00-8:30 p.m.',
+      'when' => 'Monday, March 16, 7 - 8:30 pm',
       'where' => 'Memorial Hall Library',
       'where_link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
       'topic' => 'Legislative Agenda on Environment',
@@ -47,7 +47,7 @@
       ],
     ],
     // [
-      // 'when' => 'Wednesday, April 22, 3:00-7:00 p.m.',
+      // 'when' => 'Wednesday, April 22, 3 - 7 pm',
       // 'where' => 'Whole Foods Market',
       // 'where_link' => 'https://goo.gl/maps/tt1kW4pan6iE4RJC8',
       // 'topic' => 'Earth Day',
@@ -65,7 +65,7 @@
       // ],
     // ],
     [
-      'when' => 'Monday, April 27, 7:00-10:00 p.m.',
+      'when' => 'Monday, April 27, 7 - 10 pm',
       'where' => 'Collins Center',
       'where_link' => 'https://goo.gl/maps/J4cWWJZiiDj1ToVv8',
       'topic' => 'Annual Town Meeting',

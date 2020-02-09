@@ -51,7 +51,7 @@
       Followed by Q&A
     </h5>
     <h6 class="pl-3">
-      7:00 - 8:30 p.m. on Thursday, March 12
+      7 - 8:30 pm on Thursday, March 12
     </h6>
     <h6 class="pl-3">
       <a href="https://goo.gl/maps/Bsn77M3aBxVgZG33A" class="dark-link" target="_blank" >Andover Public Safety Center</a>
