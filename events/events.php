@@ -5,7 +5,7 @@
   [
     [
       'when' => 'Thursday, March 12, 7:00-8:30 p.m.',
-      'where' => 'Andover Public Safety Center',
+      'where' => 'Public Safety Center',
       'where_link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
       'topic' => 'Introduction to CCA',
       'topic_link' => '',
@@ -66,7 +66,7 @@
     ],
     [
       'when' => 'Monday, April 27, 7:00-10:00 p.m.',
-      'where' => 'AHS Collins Center',
+      'where' => 'Collins Center',
       'where_link' => 'https://goo.gl/maps/J4cWWJZiiDj1ToVv8',
       'topic' => 'Annual Town Meeting',
       'topic_link' => '',
