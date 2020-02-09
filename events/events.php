@@ -85,6 +85,7 @@
 
   $sDtClass = 'class="col-sm-2"';
   $sDdClass = 'class="col-sm-10"';
+  $sBulletCode = '&#9702';
 ?>
 
 <div class="container">
@@ -168,12 +169,13 @@
 
               <!-- Topic details -->
               <?php
+                $sBullet = ( count( $aEvent['topic_details'] ) > 1 ) ? $sBulletCode : '';
                 foreach ( $aEvent['topic_details'] as $sLine )
                 {
               ?>
                 <div>
                   <small class="text-muted">
-                    <?=$sLine?>
+                    <?=$sBullet?> <?=$sLine?>
                   </small>
                 </div>
               <?php
