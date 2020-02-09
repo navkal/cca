@@ -46,24 +46,24 @@
         'Andover WECAN',
       ],
     ],
-    [
-      'when' => 'Wednesday, April 22, 3:00-7:00 p.m.',
-      'where' => 'Whole Foods Market',
-      'where_link' => 'https://goo.gl/maps/tt1kW4pan6iE4RJC8',
-      'topic' => 'Earth Day',
-      'topic_link' => '',
-      'topic_details' =>
-      [
-      ],
-      'presenters' =>
-      [
-        'Yashvi Gosalia, AHS junior',
-        'Eva McKone, AHS sophomore',
-      ],
-      'sponsors' =>
-      [
-      ],
-    ],
+    // [
+      // 'when' => 'Wednesday, April 22, 3:00-7:00 p.m.',
+      // 'where' => 'Whole Foods Market',
+      // 'where_link' => 'https://goo.gl/maps/tt1kW4pan6iE4RJC8',
+      // 'topic' => 'Earth Day',
+      // 'topic_link' => '',
+      // 'topic_details' =>
+      // [
+      // ],
+      // 'presenters' =>
+      // [
+        // 'Yashvi Gosalia, AHS junior',
+        // 'Eva McKone, AHS sophomore',
+      // ],
+      // 'sponsors' =>
+      // [
+      // ],
+    // ],
     [
       'when' => 'Monday, April 27, 7:00-10:00 p.m.',
       'where' => 'Collins Center',
