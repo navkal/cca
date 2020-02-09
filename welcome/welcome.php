@@ -2,6 +2,8 @@
   // Copyright 2019 Energize Andover.  All rights reserved.
 
   include $_SERVER["DOCUMENT_ROOT"]."/util/security.php";
+
+  require_once $_SERVER["DOCUMENT_ROOT"]."/util/format_event.php";
 ?>
 
 <style>
@@ -41,41 +43,13 @@
     </h3>
     <br/>
 
-
-
-
-
     <h4>
-      Join us for an
-      <!----------------------------------------------- >
-      <a href="https://andoverma.gov/CivicAlerts.aspx?AID=337" target="_blank" >
-      <!----------------------------------------------->
-        Introduction to CCA
-      <!----------------------------------------------- >
-      </a>
-      <!----------------------------------------------->
+      Coming Event
     </h4>
-    <h5>
-      Followed by Q&A
-    </h5>
-    <h6 class="pl-3">
-      7 - 8:30 pm on Thursday, March 12
-    </h6>
-    <h6 class="pl-3">
-      <a href="https://goo.gl/maps/Bsn77M3aBxVgZG33A" class="dark-link" target="_blank" >Andover Public Safety Center</a>
-    </h6>
 
-
-
-
-
-
-
-
-
-
-
-
+    <?php
+      formatEvent( $aEvents[0], false );
+    ?>
 
     <br/>
     <h5>
