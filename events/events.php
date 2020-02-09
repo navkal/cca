@@ -24,8 +24,8 @@
       ],
     ],
     [
-      'when' => 'Monday, March 16, 7:00 pm',
-      'where' => 'Andover Memorial Hall Library',
+      'when' => 'Monday, March 16, 7:00 - 8:30 p.m.',
+      'where' => 'Memorial Hall Library',
       'where_link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
       'topic' => 'Legislative Agenda on Environment',
       'topic_link' => '',
@@ -35,8 +35,10 @@
       ],
       'presenters' =>
       [
-        'Big Bird, Sesame Street',
-        'Mr. Rogers, The Neighborhood',
+        'Senator Barry Finegold',
+        'Representative Tram Nguyen',
+        'Representative Frank Moran',
+        'Moderator: Laura Gregory, Select Board Chair',
       ],
       'sponsors' =>
       [
