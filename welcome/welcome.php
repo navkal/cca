@@ -1,6 +1,8 @@
 <?php
   // Copyright 2019 Energize Andover.  All rights reserved.
+  include $_SERVER["DOCUMENT_ROOT"]."/util/security.php";
 ?>
+
 <style>
   body
   {
@@ -37,6 +39,11 @@
       to Andover.
     </h3>
     <br/>
+
+
+
+
+
     <h4>
       Join us for an
       <!----------------------------------------------- >
@@ -56,6 +63,19 @@
     <h6 class="pl-3">
       <a href="https://goo.gl/maps/Bsn77M3aBxVgZG33A" class="dark-link" target="_blank" >Andover Public Safety Center</a>
     </h6>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <br/>
     <h5>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScP7_LHHiBiykztDq8usdPlBrmZCGDSoFgIJYOxIUuwByxegw/viewform?usp=pp_url&entry.238260412=No&entry.1029755686=No" target="_blank" >Sign up</a> for Andover CCA updates.
