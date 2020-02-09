@@ -43,8 +43,8 @@
     </h3>
     <br/>
 
-    <h4>
-      Coming Event
+    <h4 class="py-2" >
+      Coming Event:
     </h4>
 
     <?php

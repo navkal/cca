@@ -5,6 +5,7 @@
 
   require_once $_SERVER["DOCUMENT_ROOT"]."/util/format_event.php";
 ?>
+
 <style>
   .dark-link
   {

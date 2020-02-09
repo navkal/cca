@@ -230,10 +230,3 @@
 <?php
   }
 ?>
-
-<style>
-  .dark-link
-  {
-    color: #384897;
-  }
-</style>
