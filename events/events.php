@@ -64,6 +64,8 @@
     {
   ?>
 
+      <!-- Next event -->
+
       <dl class="row py-2">
 
         <!-- When -->
