@@ -7,7 +7,7 @@
       'when' => 'Thursday, March 12, 7 - 8:30 pm',
       'where' => 'Public Safety Center',
       'where_link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
-      'topic' => 'Introduction to CCA',
+      'topic' => 'Learn about CCA',
       'topic_link' => '',
       'topic_details' =>
       [
@@ -17,7 +17,6 @@
       [
         'Michael Lindstrom, Deputy Town Manager',
         'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-        'Patrick Roche, Good Energy',
       ],
       'sponsors' =>
       [
