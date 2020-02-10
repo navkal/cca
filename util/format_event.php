@@ -4,7 +4,7 @@
   $aEvents =
   [
     [
-      'when' => 'Thursday, March 12, 7 - 8:30 pm',
+      'when' => 'Thursday, March 12, 7 - 9 pm',
       'where' => 'Public Safety Center',
       'where_link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
       'topic' => 'Learn about CCA',
@@ -43,6 +43,25 @@
       [
         'Greater Andover Indivisible',
         'Andover WECAN',
+      ],
+    ],
+    [
+      'when' => 'Wednesday, April 8, 7 - 9 pm',
+      'where' => 'Memorial Hall Library',
+      'where_link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
+      'topic' => 'Learn about CCA',
+      'topic_link' => '',
+      'topic_details' =>
+      [
+        'Followed by Q&A',
+      ],
+      'presenters' =>
+      [
+        'Michael Lindstrom, Deputy Town Manager',
+        'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+      ],
+      'sponsors' =>
+      [
       ],
     ],
     // [
