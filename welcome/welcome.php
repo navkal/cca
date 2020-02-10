@@ -37,6 +37,8 @@
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
+
+    <!-- Title -->
     <h4>
       Let's bring
     </h4>
@@ -47,17 +49,25 @@
       to Andover.
     </h4>
 
+    <!-- Link to sign up -->
+    <h6>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScP7_LHHiBiykztDq8usdPlBrmZCGDSoFgIJYOxIUuwByxegw/viewform?usp=pp_url&entry.238260412=No&entry.1029755686=No" target="_blank" >Sign up</a> for Andover CCA updates.
+    </h6>
+
+    <!-- Coming event -->
     <hr/>
-    <h5>
+    <h6>
       <u>Coming Event</u>
-    </h5>
+    </h6>
     <?php
       formatEvent( $aEvents[0], false );
     ?>
     <hr/>
 
-    <h5>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScP7_LHHiBiykztDq8usdPlBrmZCGDSoFgIJYOxIUuwByxegw/viewform?usp=pp_url&entry.238260412=No&entry.1029755686=No" target="_blank" >Sign up</a> for Andover CCA updates.
-    </h5>
+    <!-- Link to more events -->
+    <h6>
+      Other <a href="/?page=events">Events</a>
+    </h6>
+
   </div>
 </div>
