@@ -49,7 +49,7 @@
       to Andover.
     </h4>
 
-    <!-- Link to sign up -->
+    <!-- Link to sign-up form -->
     <h6>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScP7_LHHiBiykztDq8usdPlBrmZCGDSoFgIJYOxIUuwByxegw/viewform?usp=pp_url&entry.238260412=No&entry.1029755686=No" target="_blank" >Sign up</a> for Andover CCA updates.
     </h6>
@@ -64,9 +64,9 @@
     ?>
     <hr/>
 
-    <!-- Link to more events -->
+    <!-- Link to Events page -->
     <h6>
-      Other <a href="/?page=events">Events</a>
+      All <a href="/?page=events">Events</a>
     </h6>
 
   </div>
