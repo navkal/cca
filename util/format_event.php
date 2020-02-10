@@ -46,6 +46,25 @@
       ],
     ],
     [
+      'when' => 'Monday, March 25 (time TBA)',
+      'where' => 'Senior Center at Ballard Vale United Church',
+      'where_link' => 'https://goo.gl/maps/f8XNMAyw1wn2HXfP8',
+      'topic' => 'Learn about CCA',
+      'topic_link' => '',
+      'topic_details' =>
+      [
+        'Followed by Q&A',
+      ],
+      'presenters' =>
+      [
+        'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+      ],
+      'sponsors' =>
+      [
+        'Council on Aging',
+      ],
+    ],
+    [
       'when' => 'Wednesday, April 8, 7 - 9 pm',
       'where' => 'Memorial Hall Library',
       'where_link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
