@@ -27,7 +27,7 @@
         ],
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-          'link' => '',
+          'link' => 'https://andoverma.gov/816/Sustainability',
         ],
       ],
       'sponsors' =>
@@ -101,7 +101,7 @@
       [
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-          'link' => '',
+          'link' => 'https://andoverma.gov/816/Sustainability',
         ],
       ],
       'sponsors' =>
@@ -136,7 +136,7 @@
         ],
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-          'link' => '',
+          'link' => 'https://andoverma.gov/816/Sustainability',
         ],
       ],
       'sponsors' =>
