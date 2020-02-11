@@ -53,8 +53,14 @@
       ],
       'sponsors' =>
       [
-        'Greater Andover Indivisible',
-        'Andover WECAN',
+        [
+          'text' => 'Greater Andover Indivisible',
+          'link' => 'http://indivisibleandoverma.com/',
+        ],
+        [
+          'text' => 'Andover WECAN',
+          'link' => 'https://www.andoverwecan.com/',
+        ],
       ],
     ],
     [
@@ -79,7 +85,10 @@
       ],
       'sponsors' =>
       [
-        'Council on Aging',
+        [
+          'text' => 'Council on Aging',
+          'link' => 'https://andoverma.gov/249/Council-on-Aging',
+        ],
       ],
     ],
     [
@@ -147,7 +156,6 @@
       [
       ],
     ],
-
   ];
 
 
@@ -258,11 +266,11 @@
 
           <dd <?=$sDdClass?> >
 <?php
-            foreach ( $aEvent['sponsors'] as $sLine )
+            foreach ( $aEvent['sponsors'] as $aItem )
             {
 ?>
               <div>
-                <?=$sLine?>
+                <?=formatOptionalLink($aItem)?>
               </div>
 <?php
             }
