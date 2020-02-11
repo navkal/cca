@@ -35,7 +35,7 @@
       ],
     ],
     [
-      'when' => 'Monday, March 16, 7 - 8:30 pm',
+      'when' => 'Monday, March 16, 7 - 8:45 pm',
       'where' =>
       [
         'text' => 'Memorial Hall Library',
@@ -43,12 +43,11 @@
       ],
       'topic' =>
       [
-        'text' => 'Legislative Agenda on Environment',
-        'link' => '',
+        'text' => 'Andover WECAN Environmental Forum',
+        'link' => 'https://www.eventkeeper.com/mars/xpages/M/MHL/EK.cfm?curOrg=MHL&curMonth=3&curYear=2020&SelectedDate=3/16/2020#3/16/2020',
       ],
       'topic_details' =>
       [
-        'Followed by Q&A',
       ],
       'presenters' =>
       [
@@ -65,6 +64,10 @@
           'link' => 'https://malegislature.gov/Legislators/Profile/FAM1',
         ],
         [
+          'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+          'link' => 'https://andoverma.gov/816/Sustainability',
+        ],
+        [
           'text' => 'Moderator: Laura Gregory, Select Board Chair',
           'link' => 'https://andoverma.gov/directory.aspx?EID=457',
         ],
@@ -72,12 +75,12 @@
       'sponsors' =>
       [
         [
-          'text' => 'Greater Andover Indivisible',
-          'link' => 'http://indivisibleandoverma.com/',
-        ],
-        [
           'text' => 'Andover WECAN',
           'link' => 'https://www.andoverwecan.com/',
+        ],
+        [
+          'text' => 'Greater Andover Indivisible',
+          'link' => 'http://indivisibleandoverma.com/',
         ],
       ],
     ],
