@@ -124,8 +124,8 @@
       ],
       'topic' =>
       [
-        'text' => 'Learn about CCA',
-        'link' => '',
+        'text' => 'CCA Public Forum',
+        'link' => 'https://www.eventkeeper.com/mars/xpages/M/MHL/EK.cfm?curOrg=MHL&curMonth=4&curYear=2020&SelectedDate=4/8/2020#4/8/2020',
       ],
       'topic_details' =>
       [
