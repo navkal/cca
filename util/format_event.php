@@ -21,8 +21,14 @@
       ],
       'presenters' =>
       [
-        'Michael Lindstrom, Deputy Town Manager',
-        'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+        [
+          'text' => 'Michael Lindstrom, Deputy Town Manager',
+          'link' => '',
+        ],
+        [
+          'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+          'link' => '',
+        ],
       ],
       'sponsors' =>
       [
@@ -46,10 +52,22 @@
       ],
       'presenters' =>
       [
-        'Senator Barry Finegold',
-        'Representative Tram Nguyen',
-        'Representative Frank Moran',
-        'Moderator: Laura Gregory, Select Board Chair',
+        [
+          'text' => 'Senator Barry Finegold',
+          'link' => '',
+        ],
+        [
+          'text' => 'Representative Tram Nguyen',
+          'link' => '',
+        ],
+        [
+          'text' => 'Representative Frank Moran',
+          'link' => '',
+        ],
+        [
+          'text' => 'Moderator: Laura Gregory, Select Board Chair',
+          'link' => '',
+        ],
       ],
       'sponsors' =>
       [
@@ -81,7 +99,10 @@
       ],
       'presenters' =>
       [
-        'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+        [
+          'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+          'link' => '',
+        ],
       ],
       'sponsors' =>
       [
@@ -109,8 +130,14 @@
       ],
       'presenters' =>
       [
-        'Michael Lindstrom, Deputy Town Manager',
-        'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+        [
+          'text' => 'Michael Lindstrom, Deputy Town Manager',
+          'link' => '',
+        ],
+        [
+          'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+          'link' => '',
+        ],
       ],
       'sponsors' =>
       [
@@ -233,17 +260,16 @@
         if ( count( $aEvent['presenters'] ) )
         {
 ?>
-
           <dt <?=$sDtClass?> >
             Presenters
           </dt>
           <dd <?=$sDdClass?> >
 <?php
-            foreach ( $aEvent['presenters'] as $sLine )
+            foreach ( $aEvent['presenters'] as $aItem )
             {
 ?>
               <div>
-                <?=$sLine?>
+                <?=formatOptionalLink($aItem)?>
               </div>
 <?php
             }
@@ -259,7 +285,6 @@
         if ( count( $aEvent['sponsors'] ) )
         {
 ?>
-
           <dt <?=$sDtClass?> >
             Sponsors
           </dt>
