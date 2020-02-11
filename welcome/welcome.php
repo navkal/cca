@@ -66,7 +66,7 @@
 
     <!-- Link to Events page -->
     <h6>
-      All <a href="/?page=events">Events</a>
+      <a href="/?page=events">All Events</a>
     </h6>
 
   </div>
