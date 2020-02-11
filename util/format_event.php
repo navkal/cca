@@ -23,7 +23,7 @@
       [
         [
           'text' => 'Michael Lindstrom, Deputy Town Manager',
-          'link' => '',
+          'link' => 'https://andoverma.gov/directory.aspx?EID=128',
         ],
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
@@ -132,7 +132,7 @@
       [
         [
           'text' => 'Michael Lindstrom, Deputy Town Manager',
-          'link' => '',
+          'link' => 'https://andoverma.gov/directory.aspx?EID=128',
         ],
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
