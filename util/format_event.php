@@ -121,6 +121,25 @@
   ];
 
 
+  function formatOptionalLink( $aContent )
+  {
+    if ( $aEvent['where_link'] )
+    {
+?>
+      <a href="<?=$aEvent['where_link']?>" target="_blank" class="dark-link">
+<?php
+    }
+?>
+    <?=$aEvent['where']?>
+<?php
+    if ( $aEvent['where_link'] )
+    {
+?>
+      </a>
+<?php
+    }
+  }
+
   function formatEvent( $aEvent, $bList=true )
   {
     $sDtClass = 'class="col-sm-2"';
@@ -145,125 +164,120 @@
         <dt <?=$sDtClass?> >
           Where
         </dt>
-
         <dd <?=$sDdClass?> >
-          <?php
-            if ( $aEvent['where_link'] )
-            {
-          ?>
-              <a href="<?=$aEvent['where_link']?>" target="_blank" class="dark-link">
-          <?php
-            }
-          ?>
-                <?=$aEvent['where']?>
-          <?php
-            if ( $aEvent['where_link'] )
-            {
-          ?>
-              </a>
-          <?php
-            }
-          ?>
+<?php
+        if ( $aEvent['where_link'] )
+        {
+?>
+          <a href="<?=$aEvent['where_link']?>" target="_blank" class="dark-link">
+<?php
+        }
+?>
+        <?=$aEvent['where']?>
+<?php
+        if ( $aEvent['where_link'] )
+        {
+?>
+          </a>
+<?php
+        }
+?>
         </dd>
 
         <!-- Topic, with optional link -->
         <dt <?=$sDtClass?> >
           Topic
         </dt>
-
         <dd <?=$sDdClass?> >
-          <?php
-            if ( $aEvent['topic_link'] )
-            {
-          ?>
-              <a href="<?=$aEvent['topic_link']?>" target="_blank">
-          <?php
-            }
-          ?>
-                <span class="blockquote">
-                  <?=$aEvent['topic']?>
-                </span>
-          <?php
-            if ( $aEvent['topic_link'] )
-            {
-          ?>
-              </a>
-          <?php
-            }
-          ?>
+<?php
+        if ( $aEvent['topic_link'] )
+        {
+?>
+          <a href="<?=$aEvent['topic_link']?>" target="_blank">
+<?php
+        }
+?>
+        <span class="blockquote">
+          <?=$aEvent['topic']?>
+        </span>
+<?php
+        if ( $aEvent['topic_link'] )
+        {
+?>
+          </a>
+<?php
+        }
+?>
 
-          <!-- Topic details -->
-          <?php
-            $sBullet = ( count( $aEvent['topic_details'] ) > 1 ) ? $sBulletCode : '';
-            foreach ( $aEvent['topic_details'] as $sLine )
-            {
-          ?>
-            <div>
-              <small>
-                <?=$sBullet?> <?=$sLine?>
-              </small>
-            </div>
-          <?php
-            }
-          ?>
+        <!-- Topic details -->
+<?php
+        $sBullet = ( count( $aEvent['topic_details'] ) > 1 ) ? $sBulletCode : '';
+        foreach ( $aEvent['topic_details'] as $sLine )
+        {
+?>
+          <div>
+            <small>
+              <?=$sBullet?> <?=$sLine?>
+            </small>
+          </div>
+<?php
+        }
+?>
         </dd>
 
-          <!-- Presenters, optional -->
-        <?php
-          if ( count( $aEvent['presenters'] ) )
-          {
-        ?>
+        <!-- Presenters, optional -->
+<?php
+        if ( count( $aEvent['presenters'] ) )
+        {
+?>
 
           <dt <?=$sDtClass?> >
             Presenters
           </dt>
           <dd <?=$sDdClass?> >
-            <?php
-              foreach ( $aEvent['presenters'] as $sLine )
-              {
-            ?>
-              <div>
-                <?=$sLine?>
-              </div>
-            <?php
-              }
-            ?>
+<?php
+          foreach ( $aEvent['presenters'] as $sLine )
+          {
+?>
+            <div>
+              <?=$sLine?>
+            </div>
+<?php
+          }
+?>
           </dd>
 
-        <?php
-          }
-        ?>
+<?php
+        }
+?>
 
-          <!-- Sponsosrs, optional -->
-        <?php
-          if ( count( $aEvent['sponsors'] ) )
-          {
-        ?>
+        <!-- Sponsosrs, optional -->
+<?php
+        if ( count( $aEvent['sponsors'] ) )
+        {
+?>
 
           <dt <?=$sDtClass?> >
             Sponsors
           </dt>
 
           <dd <?=$sDdClass?> >
-            <?php
-              foreach ( $aEvent['sponsors'] as $sLine )
-              {
-            ?>
-              <div>
-                <?=$sLine?>
-              </div>
-            <?php
-              }
-            ?>
-          </dd>
-
-        <?php
+<?php
+          foreach ( $aEvent['sponsors'] as $sLine )
+          {
+?>
+            <div>
+              <?=$sLine?>
+            </div>
+<?php
           }
-        ?>
-
+?>
+          </dd>
+<?php
+        }
+?>
       </dl>
     </div>
-
 <?php
   }
 ?>
