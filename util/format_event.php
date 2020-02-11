@@ -54,19 +54,19 @@
       [
         [
           'text' => 'Senator Barry Finegold',
-          'link' => '',
+          'link' => 'https://malegislature.gov/Legislators/Profile/BRF0',
         ],
         [
           'text' => 'Representative Tram Nguyen',
-          'link' => '',
+          'link' => 'https://malegislature.gov/Legislators/Profile/TTN1',
         ],
         [
           'text' => 'Representative Frank Moran',
-          'link' => '',
+          'link' => 'https://malegislature.gov/Legislators/Profile/FAM1',
         ],
         [
           'text' => 'Moderator: Laura Gregory, Select Board Chair',
-          'link' => '',
+          'link' => 'https://andoverma.gov/directory.aspx?EID=457',
         ],
       ],
       'sponsors' =>
