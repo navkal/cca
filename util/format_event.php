@@ -8,11 +8,13 @@
       'where' =>
       [
         'text' => 'Public Safety Center',
+        'class' => '',
         'link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
       ],
       'topic' =>
       [
         'text' => 'Learn about CCA',
+        'class' => 'blockquote',
         'link' => '',
       ],
       'topic_details' =>
@@ -23,10 +25,12 @@
       [
         [
           'text' => 'Michael Lindstrom, Deputy Town Manager',
+          'class' => '',
           'link' => 'https://andoverma.gov/directory.aspx?EID=128',
         ],
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+          'class' => '',
           'link' => 'https://andoverma.gov/816/Sustainability',
         ],
       ],
@@ -39,11 +43,13 @@
       'where' =>
       [
         'text' => 'Memorial Hall Library',
+        'class' => '',
         'link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
       ],
       'topic' =>
       [
         'text' => 'Andover WECAN Environmental Forum',
+        'class' => 'blockquote',
         'link' => 'https://www.eventkeeper.com/mars/xpages/M/MHL/EK.cfm?curOrg=MHL&curMonth=3&curYear=2020&SelectedDate=3/16/2020#3/16/2020',
       ],
       'topic_details' =>
@@ -53,22 +59,27 @@
       [
         [
           'text' => 'Senator Barry Finegold',
+          'class' => '',
           'link' => 'https://malegislature.gov/Legislators/Profile/BRF0',
         ],
         [
           'text' => 'Representative Tram Nguyen',
+          'class' => '',
           'link' => 'https://malegislature.gov/Legislators/Profile/TTN1',
         ],
         [
           'text' => 'Representative Frank Moran',
+          'class' => '',
           'link' => 'https://malegislature.gov/Legislators/Profile/FAM1',
         ],
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+          'class' => '',
           'link' => 'https://andoverma.gov/816/Sustainability',
         ],
         [
           'text' => 'Moderator: Laura Gregory, Select Board Chair',
+          'class' => '',
           'link' => 'https://andoverma.gov/directory.aspx?EID=457',
         ],
       ],
@@ -76,10 +87,12 @@
       [
         [
           'text' => 'Andover WECAN',
+          'class' => '',
           'link' => 'https://www.andoverwecan.com/',
         ],
         [
           'text' => 'Greater Andover Indivisible',
+          'class' => '',
           'link' => 'http://indivisibleandoverma.com/',
         ],
       ],
@@ -89,11 +102,13 @@
       'where' =>
       [
         'text' => 'Senior Center at Ballard Vale United Church',
+        'class' => '',
         'link' => 'https://goo.gl/maps/f8XNMAyw1wn2HXfP8',
       ],
       'topic' =>
       [
         'text' => 'Learn about CCA',
+        'class' => 'blockquote',
         'link' => '',
       ],
       'topic_details' =>
@@ -104,6 +119,7 @@
       [
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+          'class' => '',
           'link' => 'https://andoverma.gov/816/Sustainability',
         ],
       ],
@@ -111,6 +127,7 @@
       [
         [
           'text' => 'Council on Aging',
+          'class' => '',
           'link' => 'https://andoverma.gov/249/Council-on-Aging',
         ],
       ],
@@ -120,11 +137,13 @@
       'where' =>
       [
         'text' => 'Memorial Hall Library',
+        'class' => '',
         'link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
       ],
       'topic' =>
       [
         'text' => 'CCA Public Forum',
+        'class' => 'blockquote',
         'link' => 'https://www.eventkeeper.com/mars/xpages/M/MHL/EK.cfm?curOrg=MHL&curMonth=4&curYear=2020&SelectedDate=4/8/2020#4/8/2020',
       ],
       'topic_details' =>
@@ -135,10 +154,12 @@
       [
         [
           'text' => 'Michael Lindstrom, Deputy Town Manager',
+          'class' => '',
           'link' => 'https://andoverma.gov/directory.aspx?EID=128',
         ],
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+          'class' => '',
           'link' => 'https://andoverma.gov/816/Sustainability',
         ],
       ],
@@ -169,11 +190,13 @@
       'where' =>
       [
         'text' => 'Collins Center',
+        'class' => '',
         'link' => 'https://goo.gl/maps/J4cWWJZiiDj1ToVv8',
       ],
       'topic' =>
       [
         'text' => 'Annual Town Meeting',
+        'class' => 'blockquote',
         'link' => '',
       ],
       'topic_details' =>
@@ -198,7 +221,9 @@
 <?php
     }
 ?>
-    <?=$aItem['text']?>
+    <span class="<?=$aItem['class']?>" >
+      <?=$aItem['text']?>
+    </span>
 <?php
     if ( $aItem['link'] )
     {
