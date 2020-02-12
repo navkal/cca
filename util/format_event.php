@@ -46,7 +46,7 @@
     [
       'when' =>
       [
-        'text' => 'Monday, March 16, 7 - 8:45 pm',
+        'text' => 'Monday, March 16, 7 - 8:30 pm',
         'class' => '',
         'link' => '',
       ],
@@ -58,9 +58,9 @@
       ],
       'topic' =>
       [
-        'text' => 'Andover WECAN Environmental Forum',
+        'text' => 'Environmental Forum',
         'class' => 'blockquote',
-        'link' => 'https://www.eventkeeper.com/mars/xpages/M/MHL/EK.cfm?curOrg=MHL&curMonth=3&curYear=2020&SelectedDate=3/16/2020#3/16/2020',
+        'link' => 'https://www.andoverwecan.com/events/environmental-forum',
       ],
       'topic_details' =>
       [
