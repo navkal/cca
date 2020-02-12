@@ -4,7 +4,12 @@
   $aEvents =
   [
     [
-      'when' => 'Thursday, March 12, 7 - 9 pm',
+      'when' =>
+      [
+        'text' => 'Thursday, March 12, 7 - 9 pm',
+        'class' => '',
+        'link' => '',
+      ],
       'where' =>
       [
         'text' => 'Public Safety Center',
@@ -39,7 +44,12 @@
       ],
     ],
     [
-      'when' => 'Monday, March 16, 7 - 8:45 pm',
+      'when' =>
+      [
+        'text' => 'Monday, March 16, 7 - 8:45 pm',
+        'class' => '',
+        'link' => '',
+      ],
       'where' =>
       [
         'text' => 'Memorial Hall Library',
@@ -98,7 +108,12 @@
       ],
     ],
     [
-      'when' => 'Monday, March 25 (time TBA)',
+      'when' =>
+      [
+        'text' => 'Monday, March 25 (time TBA)',
+        'class' => '',
+        'link' => '',
+      ],
       'where' =>
       [
         'text' => 'Senior Center at Ballard Vale United Church',
@@ -133,7 +148,12 @@
       ],
     ],
     [
-      'when' => 'Wednesday, April 8, 7 - 9 pm',
+      'when' =>
+      [
+        'text' => 'Wednesday, April 8, 7 - 9 pm',
+        'class' => '',
+        'link' => '',
+      ],
       'where' =>
       [
         'text' => 'Memorial Hall Library',
@@ -186,7 +206,12 @@
       // ],
     // ],
     [
-      'when' => 'Monday, April 27, 7 - 10 pm',
+      'when' =>
+      [
+        'text' => 'Monday, April 27, 7 - 10 pm',
+        'class' => '',
+        'link' => '',
+      ],
       'where' =>
       [
         'text' => 'Collins Center',
@@ -251,7 +276,7 @@
         </dt>
 
         <dd <?=$sDdClass?> >
-          <?=$aEvent['when']?>
+          <?=formatOptionalLink($aEvent['when'])?>
         </dd>
 
         <!-- Where, with optional link -->
