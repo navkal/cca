@@ -18,7 +18,7 @@
       ],
       'topic' =>
       [
-        'text' => 'Learn about CCA',
+        'text' => 'CCA Public Forum',
         'class' => 'blockquote',
         'link' => '',
       ],
@@ -122,7 +122,7 @@
       ],
       'topic' =>
       [
-        'text' => 'Learn about CCA',
+        'text' => 'CCA Public Forum',
         'class' => 'blockquote',
         'link' => '',
       ],
