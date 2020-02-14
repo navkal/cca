@@ -6,34 +6,34 @@
   $g_aSampleCustomers =
   [
     [
-      'description' => '3 bedrooms, no A/C',
+      'description' => '3-bedroom house, no A/C',
       'start_month' => '4.18',
       'readings' => [  380,  372,  621,  654,  785,  883,  527,  572,  459,  619,  681,  676,  353 ]
     ],
     [
-      'description' => '4 bedrooms, A/C',
+      'description' => '4-bedroom house, A/C',
       'start_month' => '5.18',
       'readings' => [  572, 1171, 1573, 1582, 1989,  810,  620,  801,  862,  842,  773,  677,  583 ]
     ],
     [
-      'description' => '4 bedrooms, A/C',
+      'description' => '4-bedroom house, A/C',
       'start_month' => '4.18',
       'readings' => [ 1033,  974, 1254, 1128, 1445, 1461, 1206, 1055, 1160, 1219, 1198, 1056, 1034 ]
     ],
     [
-      'description' => '4 bedrooms, A/C, inground pool',
+      'description' => '4-bedroom house, A/C, inground pool',
       'start_month' => '5.18',
       'readings' => [  647, 1062, 2000, 2154, 2031,  789,  582,  630,  548,  457,  463,  520,  562 ]
     ],
     [
-      'description' => '4 bedrooms, A/C, electric vehicle',
+      'description' => '4-bedroom house, A/C, electric vehicle',
       'start_month' => '5.18',
       'readings' => [ 1131, 1828, 2295, 2397, 1751, 1608, 1783, 2222, 2330, 2158, 1983, 1960, 1591 ]
     ],
     [
-      'description' => '4 bedrooms, A/C, affected by Columbia Gas accident',
-      'start_month' => '3.18',
-      'readings' => [  660,  508,  552,  712,  737,  680,  768,  745, 1973, 1382, 1059,  786,  793 ]
+      'description' => 'Small business in town center',
+      'start_month' => '1.19',
+      'readings' => [  1475,  1361,  1279,  1329,  1451,  1288,  1578,  1972, 1822, 1331, 1119,  1268,  1458 ]
     ],
   ];
 ?>
