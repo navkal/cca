@@ -3,7 +3,7 @@
 
   include $_SERVER["DOCUMENT_ROOT"]."/util/security.php";
 
-  $g_aSampleHouses =
+  $g_aSampleCustomers =
   [
     [
       'description' => '3 bedrooms, no A/C',
@@ -97,7 +97,7 @@ input.error
       <div class="col-9 col-md-10">
         <div class="btn-group btn-group-sm">
           <?php
-            foreach ( $g_aSampleHouses as $iHouse => $tHouse )
+            foreach ( $g_aSampleCustomers as $iHouse => $tHouse )
             {
               $iHouseNumber = $iHouse + 1;
               ?>
@@ -330,7 +330,7 @@ input.error
 
 <script>
   var g_iHouse = 0;
-  var g_aSampleHouses = JSON.parse( '<?=json_encode( $g_aSampleHouses )?>' );
+  var g_aSampleCustomers = JSON.parse( '<?=json_encode( $g_aSampleCustomers )?>' );
 
   var g_tCcaOptions =
   {
@@ -1010,7 +1010,7 @@ input.error
   {
     // Set up event handlers
     $( window ).on( 'resize', resizeBackdrop );
-    for ( var iHouse = 1; iHouse <= g_aSampleHouses.length; iHouse ++ )
+    for ( var iHouse = 1; iHouse <= g_aSampleCustomers.length; iHouse ++ )
     {
       $( '#house-' + iHouse ).on( 'click', createSampleHouseHandler( iHouse ) );
     }
@@ -1239,7 +1239,7 @@ input.error
       tTable.trigger( 'updateAll' );
 
       // Show total kWh
-      $( '#which-house' ).html( g_iHouse ? ( 'Sample House ' + g_iHouse + ': ' + g_aSampleHouses[g_iHouse-1].description ) : '' );
+      $( '#which-house' ).html( g_iHouse ? ( 'Sample House ' + g_iHouse + ': ' + g_aSampleCustomers[g_iHouse-1].description ) : '' );
       $( '#total-kwh' ).html( 'Energy used: <span class="font-weight-bold text-primary">' + g_iTotalKwh.toLocaleString() + ' kWh</span> from ' + $( 'label[for="kwh-2"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
       g_iHouse = 0;
 
@@ -1418,10 +1418,10 @@ input.error
     g_iHouse = iHouse;
 
     // Set the start month
-    $( '#start-month' ).val( g_aSampleHouses[iHouse-1].start_month ).change();
+    $( '#start-month' ).val( g_aSampleCustomers[iHouse-1].start_month ).change();
 
     // Load the readings
-    var aReadings = g_aSampleHouses[iHouse-1].readings;
+    var aReadings = g_aSampleCustomers[iHouse-1].readings;
     for ( var iReading = 1; iReading <= aReadings.length; iReading ++ )
     {
       $( '#kwh-' + iReading ).val( aReadings[iReading-1] );
