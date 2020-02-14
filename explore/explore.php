@@ -3,7 +3,7 @@
 
   include $_SERVER["DOCUMENT_ROOT"]."/util/security.php";
 
-  $g_aSampleHouses =
+  $g_aSampleCustomers =
   [
     [
       'description' => '3 bedrooms, no A/C',
@@ -89,19 +89,19 @@ input.error
   <!-- Input -->
   <form action="javascript:makeOutput();" style="display:none">
 
-    <!-- Sample houses -->
+    <!-- Sample customers -->
     <div class="form-group row">
       <div class="col-3 col-md-2">
-        <label>Sample Houses</label>
+        <label>Sample Customers</label>
       </div>
       <div class="col-9 col-md-10">
         <div class="btn-group btn-group-sm">
           <?php
-            foreach ( $g_aSampleHouses as $iHouse => $tHouse )
+            foreach ( $g_aSampleCustomers as $iCustomer => $tCustomer )
             {
-              $iHouseNumber = $iHouse + 1;
+              $iCustomerNumber = $iCustomer + 1;
               ?>
-                <button type="button" id="house-<?=$iHouseNumber?>" class="btn btn-outline-secondary house-button" data-toggle="tooltip" data-html="true" title="Sample House <?=$iHouseNumber?>:<br><?=$tHouse['description']?>" ><?=$iHouseNumber?></button>
+                <button type="button" id="customer-<?=$iCustomerNumber?>" class="btn btn-outline-secondary customer-button" data-toggle="tooltip" data-html="true" title="Sample Customer <?=$iCustomerNumber?>:<br><?=$tCustomer['description']?>" ><?=$iCustomerNumber?></button>
               <?php
             }
           ?>
@@ -207,7 +207,7 @@ input.error
 <div id="output" style="display:none" >
 
   <div class="container-fluid text-center mb-1" >
-    <div id="which-house">
+    <div id="which-customer">
     </div>
     <div id="total-kwh">
     </div>
@@ -299,7 +299,7 @@ input.error
               Instructions
             </b>
             <p>
-              View results for actual Sample Houses in Andover by clicking the numbered buttons, or follow the steps below to enter readings from your own bill:
+              View results for actual Sample Customers in Andover by clicking the numbered buttons, or follow the steps below to enter readings from your own bill:
             </p>
             <ol>
               <li>
@@ -329,8 +329,8 @@ input.error
 </div>
 
 <script>
-  var g_iHouse = 0;
-  var g_aSampleHouses = JSON.parse( '<?=json_encode( $g_aSampleHouses )?>' );
+  var g_iCustomer = 0;
+  var g_aSampleCustomers = JSON.parse( '<?=json_encode( $g_aSampleCustomers )?>' );
 
   var g_tCcaOptions =
   {
@@ -1010,9 +1010,9 @@ input.error
   {
     // Set up event handlers
     $( window ).on( 'resize', resizeBackdrop );
-    for ( var iHouse = 1; iHouse <= g_aSampleHouses.length; iHouse ++ )
+    for ( var iCustomer = 1; iCustomer <= g_aSampleCustomers.length; iCustomer ++ )
     {
-      $( '#house-' + iHouse ).on( 'click', createSampleHouseHandler( iHouse ) );
+      $( '#customer-' + iCustomer ).on( 'click', createSampleCustomerHandler( iCustomer ) );
     }
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     $( '.kwh-input' ).on( 'input', onInputKwhInput );
@@ -1043,15 +1043,15 @@ input.error
     initTable();
   }
 
-  function createSampleHouseHandler( iHouse )
+  function createSampleCustomerHandler( iCustomer )
   {
-    return function() { loadHouse( iHouse ); };
+    return function() { loadCustomer( iCustomer ); };
   }
 
   function initTabOrder()
   {
     $( '#help-button' ).prop( 'tabindex', 1 );
-    $( '.house-button' ).prop( 'tabindex', 1 );
+    $( '.customer-button' ).prop( 'tabindex', 1 );
     $( '#start-month' ).prop( 'tabindex', 1 );
 
     var aInputs = $( '.kwh-input' );
@@ -1239,9 +1239,9 @@ input.error
       tTable.trigger( 'updateAll' );
 
       // Show total kWh
-      $( '#which-house' ).html( g_iHouse ? ( 'Sample House ' + g_iHouse + ': ' + g_aSampleHouses[g_iHouse-1].description ) : '' );
+      $( '#which-customer' ).html( g_iCustomer ? ( 'Sample Customer ' + g_iCustomer + ': ' + g_aSampleCustomers[g_iCustomer-1].description ) : '' );
       $( '#total-kwh' ).html( 'Energy used: <span class="font-weight-bold text-primary">' + g_iTotalKwh.toLocaleString() + ' kWh</span> from ' + $( 'label[for="kwh-2"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
-      g_iHouse = 0;
+      g_iCustomer = 0;
 
       // Update the average
       updateAverage();
@@ -1411,17 +1411,17 @@ input.error
     $('.tooltip').tooltip( 'hide' );
   }
 
-  function loadHouse( iHouse )
+  function loadCustomer( iCustomer )
   {
     clearInput();
 
-    g_iHouse = iHouse;
+    g_iCustomer = iCustomer;
 
     // Set the start month
-    $( '#start-month' ).val( g_aSampleHouses[iHouse-1].start_month ).change();
+    $( '#start-month' ).val( g_aSampleCustomers[iCustomer-1].start_month ).change();
 
     // Load the readings
-    var aReadings = g_aSampleHouses[iHouse-1].readings;
+    var aReadings = g_aSampleCustomers[iCustomer-1].readings;
     for ( var iReading = 1; iReading <= aReadings.length; iReading ++ )
     {
       $( '#kwh-' + iReading ).val( aReadings[iReading-1] );
