@@ -3,7 +3,7 @@
 
   include $_SERVER["DOCUMENT_ROOT"]."/util/security.php";
 
-  $g_aSampleCustomers =
+  $g_aSampleHouses =
   [
     [
       'description' => '3 bedrooms, no A/C',
@@ -97,9 +97,9 @@ input.error
       <div class="col-9 col-md-10">
         <div class="btn-group btn-group-sm">
           <?php
-            foreach ( $g_aSampleCustomers as $iCustomer => $tHouse )
+            foreach ( $g_aSampleHouses as $iHouse => $tHouse )
             {
-              $iHouseNumber = $iCustomer + 1;
+              $iHouseNumber = $iHouse + 1;
               ?>
                 <button type="button" id="house-<?=$iHouseNumber?>" class="btn btn-outline-secondary house-button" data-toggle="tooltip" data-html="true" title="Sample House <?=$iHouseNumber?>:<br><?=$tHouse['description']?>" ><?=$iHouseNumber?></button>
               <?php
@@ -330,7 +330,7 @@ input.error
 
 <script>
   var g_iHouse = 0;
-  var g_aSampleCustomers = JSON.parse( '<?=json_encode( $g_aSampleCustomers )?>' );
+  var g_aSampleHouses = JSON.parse( '<?=json_encode( $g_aSampleHouses )?>' );
 
   var g_tCcaOptions =
   {
@@ -1010,9 +1010,9 @@ input.error
   {
     // Set up event handlers
     $( window ).on( 'resize', resizeBackdrop );
-    for ( var iCustomer = 1; iCustomer <= g_aSampleCustomers.length; iCustomer ++ )
+    for ( var iHouse = 1; iHouse <= g_aSampleHouses.length; iHouse ++ )
     {
-      $( '#house-' + iCustomer ).on( 'click', createSampleHouseHandler( iCustomer ) );
+      $( '#house-' + iHouse ).on( 'click', createSampleHouseHandler( iHouse ) );
     }
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     $( '.kwh-input' ).on( 'input', onInputKwhInput );
@@ -1043,9 +1043,9 @@ input.error
     initTable();
   }
 
-  function createSampleHouseHandler( iCustomer )
+  function createSampleHouseHandler( iHouse )
   {
-    return function() { loadHouse( iCustomer ); };
+    return function() { loadHouse( iHouse ); };
   }
 
   function initTabOrder()
@@ -1239,7 +1239,7 @@ input.error
       tTable.trigger( 'updateAll' );
 
       // Show total kWh
-      $( '#which-house' ).html( g_iHouse ? ( 'Sample House ' + g_iHouse + ': ' + g_aSampleCustomers[g_iHouse-1].description ) : '' );
+      $( '#which-house' ).html( g_iHouse ? ( 'Sample House ' + g_iHouse + ': ' + g_aSampleHouses[g_iHouse-1].description ) : '' );
       $( '#total-kwh' ).html( 'Energy used: <span class="font-weight-bold text-primary">' + g_iTotalKwh.toLocaleString() + ' kWh</span> from ' + $( 'label[for="kwh-2"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
       g_iHouse = 0;
 
@@ -1411,17 +1411,17 @@ input.error
     $('.tooltip').tooltip( 'hide' );
   }
 
-  function loadHouse( iCustomer )
+  function loadHouse( iHouse )
   {
     clearInput();
 
-    g_iHouse = iCustomer;
+    g_iHouse = iHouse;
 
     // Set the start month
-    $( '#start-month' ).val( g_aSampleCustomers[iCustomer-1].start_month ).change();
+    $( '#start-month' ).val( g_aSampleHouses[iHouse-1].start_month ).change();
 
     // Load the readings
-    var aReadings = g_aSampleCustomers[iCustomer-1].readings;
+    var aReadings = g_aSampleHouses[iHouse-1].readings;
     for ( var iReading = 1; iReading <= aReadings.length; iReading ++ )
     {
       $( '#kwh-' + iReading ).val( aReadings[iReading-1] );
