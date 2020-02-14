@@ -97,9 +97,9 @@ input.error
       <div class="col-9 col-md-10">
         <div class="btn-group btn-group-sm">
           <?php
-            foreach ( $g_aSampleCustomers as $iHouse => $tHouse )
+            foreach ( $g_aSampleCustomers as $iCustomer => $tHouse )
             {
-              $iHouseNumber = $iHouse + 1;
+              $iHouseNumber = $iCustomer + 1;
               ?>
                 <button type="button" id="house-<?=$iHouseNumber?>" class="btn btn-outline-secondary house-button" data-toggle="tooltip" data-html="true" title="Sample House <?=$iHouseNumber?>:<br><?=$tHouse['description']?>" ><?=$iHouseNumber?></button>
               <?php
@@ -1010,9 +1010,9 @@ input.error
   {
     // Set up event handlers
     $( window ).on( 'resize', resizeBackdrop );
-    for ( var iHouse = 1; iHouse <= g_aSampleCustomers.length; iHouse ++ )
+    for ( var iCustomer = 1; iCustomer <= g_aSampleCustomers.length; iCustomer ++ )
     {
-      $( '#house-' + iHouse ).on( 'click', createSampleHouseHandler( iHouse ) );
+      $( '#house-' + iCustomer ).on( 'click', createSampleHouseHandler( iCustomer ) );
     }
     $( '#start-month' ).on( 'change', onChangeStartMonth );
     $( '.kwh-input' ).on( 'input', onInputKwhInput );
@@ -1043,9 +1043,9 @@ input.error
     initTable();
   }
 
-  function createSampleHouseHandler( iHouse )
+  function createSampleHouseHandler( iCustomer )
   {
-    return function() { loadHouse( iHouse ); };
+    return function() { loadHouse( iCustomer ); };
   }
 
   function initTabOrder()
@@ -1411,17 +1411,17 @@ input.error
     $('.tooltip').tooltip( 'hide' );
   }
 
-  function loadHouse( iHouse )
+  function loadHouse( iCustomer )
   {
     clearInput();
 
-    g_iHouse = iHouse;
+    g_iHouse = iCustomer;
 
     // Set the start month
-    $( '#start-month' ).val( g_aSampleCustomers[iHouse-1].start_month ).change();
+    $( '#start-month' ).val( g_aSampleCustomers[iCustomer-1].start_month ).change();
 
     // Load the readings
-    var aReadings = g_aSampleCustomers[iHouse-1].readings;
+    var aReadings = g_aSampleCustomers[iCustomer-1].readings;
     for ( var iReading = 1; iReading <= aReadings.length; iReading ++ )
     {
       $( '#kwh-' + iReading ).val( aReadings[iReading-1] );
