@@ -32,6 +32,12 @@
   {
     border: 1px dotted #384897;
   }
+  
+  .text-topic
+  {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 
 </style>
 
