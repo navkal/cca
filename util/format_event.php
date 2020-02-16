@@ -19,7 +19,7 @@
       'topic' =>
       [
         'text' => 'CCA Public Forum',
-        'class' => 'blockquote',
+        'class' => 'text-topic',
         'link' => '',
       ],
       'topic_details' =>
@@ -59,7 +59,7 @@
       'topic' =>
       [
         'text' => 'Environmental Forum',
-        'class' => 'blockquote',
+        'class' => 'text-topic',
         'link' => 'https://www.andoverwecan.com/events/environmental-forum',
       ],
       'topic_details' =>
@@ -123,7 +123,7 @@
       'topic' =>
       [
         'text' => 'CCA Public Forum',
-        'class' => 'blockquote',
+        'class' => 'text-topic',
         'link' => '',
       ],
       'topic_details' =>
@@ -163,7 +163,7 @@
       'topic' =>
       [
         'text' => 'CCA Public Forum',
-        'class' => 'blockquote',
+        'class' => 'text-topic',
         'link' => '',
       ],
       'topic_details' =>
@@ -221,7 +221,7 @@
       'topic' =>
       [
         'text' => 'Annual Town Meeting',
-        'class' => 'blockquote',
+        'class' => 'text-topic',
         'link' => '',
       ],
       'topic_details' =>
@@ -362,3 +362,11 @@
 <?php
   }
 ?>
+
+<style>
+  .text-topic
+  {
+    color: #006600;
+    font-size: 1.25rem;
+  }
+</style>
