@@ -367,6 +367,6 @@
   .text-topic
   {
     color: #006600;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
   }
 </style>
