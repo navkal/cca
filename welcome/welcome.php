@@ -28,9 +28,14 @@
     color: #384897;
   }
 
+  .event-text-general
+  {
+    font-weight: 500;
+  }
+
   hr
   {
-    border: 1px dotted #384897;
+    border-top: 1px dotted #384897;
   }
 
 </style>

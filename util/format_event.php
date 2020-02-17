@@ -7,19 +7,19 @@
       'when' =>
       [
         'text' => 'Thursday, March 12, 7 - 9 pm',
-        'class' => '',
+        'class' => 'event-text-general',
         'link' => '',
       ],
       'where' =>
       [
         'text' => 'Public Safety Center',
-        'class' => '',
+        'class' => 'event-text-general',
         'link' => 'https://goo.gl/maps/Pzze23UuQ5uCDWv88',
       ],
       'topic' =>
       [
         'text' => 'CCA Public Forum',
-        'class' => 'text-topic',
+        'class' => 'event-text-topic',
         'link' => '',
       ],
       'topic_details' =>
@@ -30,12 +30,12 @@
       [
         [
           'text' => 'Michael Lindstrom, Deputy Town Manager',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://andoverma.gov/directory.aspx?EID=128',
         ],
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://andoverma.gov/816/Sustainability',
         ],
       ],
@@ -47,19 +47,19 @@
       'when' =>
       [
         'text' => 'Monday, March 16, 7 - 8:30 pm',
-        'class' => '',
+        'class' => 'event-text-general',
         'link' => '',
       ],
       'where' =>
       [
         'text' => 'Memorial Hall Library',
-        'class' => '',
+        'class' => 'event-text-general',
         'link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
       ],
       'topic' =>
       [
         'text' => 'Environmental Forum',
-        'class' => 'text-topic',
+        'class' => 'event-text-topic',
         'link' => 'https://www.andoverwecan.com/events/environmental-forum',
       ],
       'topic_details' =>
@@ -69,27 +69,27 @@
       [
         [
           'text' => 'Senator Barry Finegold',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://malegislature.gov/Legislators/Profile/BRF0',
         ],
         [
           'text' => 'Representative Tram Nguyen',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://malegislature.gov/Legislators/Profile/TTN1',
         ],
         [
           'text' => 'Representative Frank Moran',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://malegislature.gov/Legislators/Profile/FAM1',
         ],
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://andoverma.gov/816/Sustainability',
         ],
         [
           'text' => 'Moderator: Laura Gregory, Select Board Chair',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://andoverma.gov/directory.aspx?EID=457',
         ],
       ],
@@ -97,12 +97,12 @@
       [
         [
           'text' => 'Andover WECAN',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://www.andoverwecan.com/',
         ],
         [
           'text' => 'Greater Andover Indivisible',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'http://indivisibleandoverma.com/',
         ],
       ],
@@ -111,19 +111,19 @@
       'when' =>
       [
         'text' => 'Monday, March 25 (time TBA)',
-        'class' => '',
+        'class' => 'event-text-general',
         'link' => '',
       ],
       'where' =>
       [
         'text' => 'Senior Center at Ballard Vale United Church',
-        'class' => '',
+        'class' => 'event-text-general',
         'link' => 'https://goo.gl/maps/f8XNMAyw1wn2HXfP8',
       ],
       'topic' =>
       [
         'text' => 'CCA Public Forum',
-        'class' => 'text-topic',
+        'class' => 'event-text-topic',
         'link' => '',
       ],
       'topic_details' =>
@@ -134,7 +134,7 @@
       [
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://andoverma.gov/816/Sustainability',
         ],
       ],
@@ -142,7 +142,7 @@
       [
         [
           'text' => 'Council on Aging',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://andoverma.gov/249/Council-on-Aging',
         ],
       ],
@@ -151,19 +151,19 @@
       'when' =>
       [
         'text' => 'Wednesday, April 8, 7 - 9 pm',
-        'class' => '',
+        'class' => 'event-text-general',
         'link' => 'https://www.eventkeeper.com/mars/xpages/M/MHL/EK.cfm?curOrg=MHL&curMonth=4&curYear=2020&SelectedDate=4/8/2020#4/8/2020',
       ],
       'where' =>
       [
         'text' => 'Memorial Hall Library',
-        'class' => '',
+        'class' => 'event-text-general',
         'link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
       ],
       'topic' =>
       [
         'text' => 'CCA Public Forum',
-        'class' => 'text-topic',
+        'class' => 'event-text-topic',
         'link' => '',
       ],
       'topic_details' =>
@@ -174,12 +174,12 @@
       [
         [
           'text' => 'Michael Lindstrom, Deputy Town Manager',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://andoverma.gov/directory.aspx?EID=128',
         ],
         [
           'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-          'class' => '',
+          'class' => 'event-text-general',
           'link' => 'https://andoverma.gov/816/Sustainability',
         ],
       ],
@@ -209,19 +209,19 @@
       'when' =>
       [
         'text' => 'Monday, April 27, 7 - 10 pm',
-        'class' => '',
+        'class' => 'event-text-general',
         'link' => '',
       ],
       'where' =>
       [
         'text' => 'Collins Center',
-        'class' => '',
+        'class' => 'event-text-general',
         'link' => 'https://goo.gl/maps/J4cWWJZiiDj1ToVv8',
       ],
       'topic' =>
       [
         'text' => 'Annual Town Meeting',
-        'class' => 'text-topic',
+        'class' => 'event-text-topic',
         'link' => '',
       ],
       'topic_details' =>
@@ -299,7 +299,7 @@
           {
 ?>
             <div>
-              <small>
+              <small class="event-text-general" >
                 <?=$sBullet?> <?=$sLine?>
               </small>
             </div>
@@ -364,7 +364,7 @@
 ?>
 
 <style>
-  .text-topic
+  .event-text-topic
   {
     color: #006600;
     font-size: 1.25rem;
