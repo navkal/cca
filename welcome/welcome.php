@@ -28,14 +28,21 @@
     color: #384897;
   }
 
+  hr
+  {
+    border-top: 1px dotted #384897;
+  }
+
   .event-text-general
   {
     font-weight: 500;
   }
 
-  hr
+  .event-text-topic
   {
-    border-top: 1px dotted #384897;
+    font-weight: 500;
+    color: #006600;
+    font-size: 1.25rem;
   }
 
 </style>
