@@ -68,12 +68,14 @@
 
     <!-- Coming event -->
     <hr/>
-    <h6>
-      <u>Coming Event</u>
-    </h6>
-    <?php
-      formatEvent( $aEvents[0], false );
-    ?>
+    <div class="pl-4">
+      <h6>
+        <u>Coming Event</u>
+      </h6>
+      <?php
+        formatEvent( $aEvents[0], false );
+      ?>
+    </div>
     <hr/>
 
     <!-- Link to Events page -->
