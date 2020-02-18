@@ -83,5 +83,13 @@
       <a href="/?page=events">All Events</a>
     </h6>
 
+    <!-- Vertical space so text can be scrolled above background clip art -->
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+
   </div>
 </div>
