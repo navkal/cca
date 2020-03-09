@@ -332,7 +332,7 @@ input.error
   var g_iCustomer = 0;
   var g_aSampleCustomers = JSON.parse( '<?=json_encode( $g_aSampleCustomers )?>' );
 
-  var g_nMinimumLocalGreen = 16;
+  var g_nMinimumLocalGreen = 20;
 
   var g_tCcaOptions =
   {
