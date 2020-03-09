@@ -332,6 +332,8 @@ input.error
   var g_iCustomer = 0;
   var g_aSampleCustomers = JSON.parse( '<?=json_encode( $g_aSampleCustomers )?>' );
 
+  var g_nMinimumLocalGreen = 16;
+
   var g_tCcaOptions =
   {
     'Acton Power Choice Basic':
@@ -340,7 +342,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-10',
       end: '2022-09',
       rate: 10.741
@@ -351,7 +353,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '37.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-10',
       end: '2022-09',
       rate: 10.985
@@ -362,7 +364,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: '100%',
+      local: 100,
       start: '2019-10',
       end: '2022-09',
       rate: 12.671
@@ -373,7 +375,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-12',
       end: '2022-11',
       rate: 10.699
@@ -384,7 +386,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '38.71%',
-      local: '27%',
+      local: 27,
       start: '2019-12',
       end: '2022-11',
       rate: 11.029
@@ -395,7 +397,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '66%',
-      local: '66%',
+      local: 66,
       start: '2019-12',
       end: '2022-11',
       rate: 12.199
@@ -406,7 +408,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '100%',
-      local: '100%',
+      local: 100,
       start: '2019-12',
       end: '2022-11',
       rate: 13.699
@@ -417,7 +419,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2018-06',
       end: '2020-12',
       rate: 11.047
@@ -428,7 +430,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-01',
       end: '2021-01',
       rate: 10.631
@@ -439,7 +441,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-01',
       end: '2021-01',
       rate: 10.733
@@ -450,7 +452,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2020-01',
       end: '2022-12',
       rate: 10.715
@@ -461,7 +463,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '46%',
-      local: '46%',
+      local: 46,
       start: '2020-01',
       end: '2022-12',
       rate: 11.615
@@ -472,7 +474,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '81%',
-      local: '81%',
+      local: 81,
       start: '2020-01',
       end: '2022-12',
       rate: 12.665
@@ -483,7 +485,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '100%',
-      local: '100%',
+      local: 100,
       start: '2020-01',
       end: '2022-12',
       rate: 13.715
@@ -494,7 +496,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-01',
       end: '2021-01',
       rate: 11.120
@@ -505,7 +507,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: '100%',
+      local: 100,
       start: '2019-01',
       end: '2021-01',
       rate: 11.940
@@ -516,7 +518,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2018-07',
       end: '2021-01',
       rate: 10.879
@@ -527,7 +529,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2018-07',
       end: '2021-01',
       rate: 10.981
@@ -538,7 +540,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2018-02',
       end: '2020-11',
       rate: 9.403
@@ -549,7 +551,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: '36%',
+      local: 36,
       start: '2018-02',
       end: '2020-11',
       rate: 10.089
@@ -560,7 +562,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2018-09',
       end: '2021-01',
       rate: 10.430
@@ -571,7 +573,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-06',
       end: '2021-12',
       rate: 9.978
@@ -582,7 +584,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2018-12',
       end: '2020-12',
       rate: 11.494
@@ -593,7 +595,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: '21%',
+      local: 21,
       start: '2018-12',
       end: '2020-12',
       rate: 11.624
@@ -604,7 +606,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: '100%',
+      local: 100,
       start: '2018-12',
       end: '2020-12',
       rate: 12.428
@@ -615,7 +617,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-06',
       end: '2021-11',
       rate: 10.401
@@ -626,7 +628,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '32.71%',
-      local: '21%',
+      local: 21,
       start: '2019-06',
       end: '2021-11',
       rate: 10.521
@@ -637,7 +639,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '100%',
-      local: '100%',
+      local: 100,
       start: '2019-06',
       end: '2021-11',
       rate: 12.801
@@ -648,7 +650,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-07',
       end: '2020-12',
       rate: 11.026
@@ -659,7 +661,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '37.71%',
-      local: '26%',
+      local: 26,
       start: '2019-07',
       end: '2020-12',
       rate: 11.263
@@ -670,7 +672,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: '100%',
+      local: 100,
       start: '2019-07',
       end: '2020-12',
       rate: 13.063
@@ -681,7 +683,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-03',
       end: '2021-01',
       rate: 10.870
@@ -692,7 +694,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '62%',
-      local: '62%',
+      local: 62,
       start: '2019-03',
       end: '2021-01',
       rate: 11.340
@@ -703,7 +705,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: '100%',
+      local: 100,
       start: '2019-03',
       end: '2021-01',
       rate: 11.750
@@ -714,7 +716,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-07',
       end: '2022-07',
       rate: 10.790
@@ -725,7 +727,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-07',
       end: '2022-07',
       rate: 10.885
@@ -736,7 +738,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2017-08',
       end: '2020-08',
       rate: 10.624
@@ -747,7 +749,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '32.71%',
-      local: '21%',
+      local: 21,
       start: '2017-08',
       end: '2020-08',
       rate: 10.749
@@ -758,7 +760,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '100%',
-      local: '100%',
+      local: 100,
       start: '2017-08',
       end: '2020-08',
       rate: 13.124
@@ -769,7 +771,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-06',
       end: '2021-12',
       rate: 10.690
@@ -780,7 +782,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-11',
       end: '2021-11',
       rate: 10.692
@@ -791,7 +793,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-11',
       end: '2021-11',
       rate: 10.733
@@ -802,7 +804,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-09',
       end: '2021-12',
       rate: 10.654
@@ -813,7 +815,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '51%',
-      local: '51%',
+      local: 51,
       start: '2019-09',
       end: '2021-12',
       rate: 11.494
@@ -824,7 +826,7 @@ input.error
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: '100%',
-      local: '100%',
+      local: 100,
       start: '2019-09',
       end: '2021-12',
       rate: 12.718
@@ -835,7 +837,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2018-09',
       end: '2021-01',
       rate: 10.430
@@ -846,7 +848,7 @@ input.error
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: '100%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2019-05',
       end: '2022-05',
       rate: 10.249
@@ -857,7 +859,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '27.71%',
-      local: '16%',
+      local: g_nMinimumLocalGreen,
       start: '2020-01',
       end: '2022-12',
       rate: 10.866
@@ -868,7 +870,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '36.71%',
-      local: '25%',
+      local: 25,
       start: '2020-01',
       end: '2022-12',
       rate: 11.167
@@ -879,7 +881,7 @@ input.error
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: '100%',
-      local: '100%',
+      local: 100,
       start: '2020-01',
       end: '2022-12',
       rate: 13.866
@@ -1190,7 +1192,7 @@ input.error
 
         // Local green
         sHtml += '<td>';
-        sHtml += ( tCcaOption && tCcaOption.local ) ? tCcaOption.local : '16%';
+        sHtml += ( ( tCcaOption && tCcaOption.local ) ? tCcaOption.local : g_nMinimumLocalGreen ) + '%';
         sHtml += '</td>';
 
         // Total green
