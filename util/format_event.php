@@ -372,7 +372,6 @@
 
   .event-text-alert
   {
-    font-weight: bold;
     color: red;
   }
 </style>
