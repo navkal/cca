@@ -33,6 +33,12 @@
     border-top: 1px dotted #384897;
   }
 
+  .event-text-alert
+  {
+    font-weight: bold;
+    color: red;
+  }
+
   .event-text-general
   {
     font-weight: 500;

@@ -6,8 +6,8 @@
     [
       'when' =>
       [
-        'text' => 'Thursday, March 12, 7 - 9 pm',
-        'class' => 'event-text-general',
+        'text' => 'Postponed, in response to MA guidance on coronavirus',
+        'class' => 'event-text-alert',
         'link' => '',
       ],
       'where' =>
@@ -368,5 +368,11 @@
   {
     color: #006600;
     font-size: 1.25rem;
+  }
+
+  .event-text-alert
+  {
+    font-weight: bold;
+    color: red;
   }
 </style>
