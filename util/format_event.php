@@ -43,70 +43,70 @@
       [
       ],
     ],
-    [
-      'when' =>
-      [
-        'text' => 'Monday, March 16, 7 - 8:30 pm',
-        'class' => 'event-text-general',
-        'link' => '',
-      ],
-      'where' =>
-      [
-        'text' => 'Memorial Hall Library',
-        'class' => 'event-text-general',
-        'link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
-      ],
-      'topic' =>
-      [
-        'text' => 'Environmental Forum',
-        'class' => 'event-text-topic',
-        'link' => 'https://www.andoverwecan.com/events/environmental-forum',
-      ],
-      'topic_details' =>
-      [
-      ],
-      'presenters' =>
-      [
-        [
-          'text' => 'Senator Barry Finegold',
-          'class' => 'event-text-general',
-          'link' => 'https://malegislature.gov/Legislators/Profile/BRF0',
-        ],
-        [
-          'text' => 'Representative Tram Nguyen',
-          'class' => 'event-text-general',
-          'link' => 'https://malegislature.gov/Legislators/Profile/TTN1',
-        ],
-        [
-          'text' => 'Representative Frank Moran',
-          'class' => 'event-text-general',
-          'link' => 'https://malegislature.gov/Legislators/Profile/FAM1',
-        ],
-        [
-          'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-          'class' => 'event-text-general',
-          'link' => 'https://andoverma.gov/816/Sustainability',
-        ],
-        [
-          'text' => 'Moderator: Laura Gregory, Select Board Chair',
-          'class' => 'event-text-general',
-          'link' => 'https://andoverma.gov/directory.aspx?EID=457',
-        ],
-      ],
-      'sponsors' =>
-      [
-        [
-          'text' => 'Andover WECAN',
-          'class' => 'event-text-general',
-          'link' => 'https://www.andoverwecan.com/',
-        ],
-        [
-          'text' => 'Greater Andover Indivisible',
-          'class' => 'event-text-general',
-          'link' => 'http://indivisibleandoverma.com/',
-        ],
-      ],
-    ],
+    // [
+      // 'when' =>
+      // [
+        // 'text' => 'Monday, March 16, 7 - 8:30 pm',
+        // 'class' => 'event-text-general',
+        // 'link' => '',
+      // ],
+      // 'where' =>
+      // [
+        // 'text' => 'Memorial Hall Library',
+        // 'class' => 'event-text-general',
+        // 'link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
+      // ],
+      // 'topic' =>
+      // [
+        // 'text' => 'Environmental Forum',
+        // 'class' => 'event-text-topic',
+        // 'link' => 'https://www.andoverwecan.com/events/environmental-forum',
+      // ],
+      // 'topic_details' =>
+      // [
+      // ],
+      // 'presenters' =>
+      // [
+        // [
+          // 'text' => 'Senator Barry Finegold',
+          // 'class' => 'event-text-general',
+          // 'link' => 'https://malegislature.gov/Legislators/Profile/BRF0',
+        // ],
+        // [
+          // 'text' => 'Representative Tram Nguyen',
+          // 'class' => 'event-text-general',
+          // 'link' => 'https://malegislature.gov/Legislators/Profile/TTN1',
+        // ],
+        // [
+          // 'text' => 'Representative Frank Moran',
+          // 'class' => 'event-text-general',
+          // 'link' => 'https://malegislature.gov/Legislators/Profile/FAM1',
+        // ],
+        // [
+          // 'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+          // 'class' => 'event-text-general',
+          // 'link' => 'https://andoverma.gov/816/Sustainability',
+        // ],
+        // [
+          // 'text' => 'Moderator: Laura Gregory, Select Board Chair',
+          // 'class' => 'event-text-general',
+          // 'link' => 'https://andoverma.gov/directory.aspx?EID=457',
+        // ],
+      // ],
+      // 'sponsors' =>
+      // [
+        // [
+          // 'text' => 'Andover WECAN',
+          // 'class' => 'event-text-general',
+          // 'link' => 'https://www.andoverwecan.com/',
+        // ],
+        // [
+          // 'text' => 'Greater Andover Indivisible',
+          // 'class' => 'event-text-general',
+          // 'link' => 'http://indivisibleandoverma.com/',
+        // ],
+      // ],
+    // ],
     [
       'when' =>
       [
