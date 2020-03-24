@@ -96,7 +96,7 @@
 
     <!-- Coming events -->
     <?php
-      showComingEvents( $aEvents );
+      // showComingEvents( $aEvents );
     ?>
 
     <!-- Vertical space so text can be scrolled above background clip art -->
