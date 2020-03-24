@@ -4,6 +4,28 @@
   include $_SERVER["DOCUMENT_ROOT"]."/util/security.php";
 
   require_once $_SERVER["DOCUMENT_ROOT"]."/util/format_event.php";
+
+  function showComingEvents( $aEvents )
+  {
+  ?>
+    <!-- Coming event -->
+    <hr/>
+    <div class="pl-4">
+      <h6>
+        <u>Coming Event</u>
+      </h6>
+      <?php
+        formatEvent( $aEvents[0], false );
+      ?>
+    </div>
+    <hr/>
+
+    <!-- Link to Events page -->
+    <h6>
+      <a href="/?page=events">All Events</a>
+    </h6>
+  <?php
+  }
 ?>
 
 <style>
@@ -72,22 +94,10 @@
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScP7_LHHiBiykztDq8usdPlBrmZCGDSoFgIJYOxIUuwByxegw/viewform?usp=pp_url&entry.238260412=No&entry.1029755686=No" target="_blank" >Sign up</a> for Andover CCA updates.
     </h6>
 
-    <!-- Coming event -->
-    <hr/>
-    <div class="pl-4">
-      <h6>
-        <u>Coming Event</u>
-      </h6>
-      <?php
-        formatEvent( $aEvents[0], false );
-      ?>
-    </div>
-    <hr/>
-
-    <!-- Link to Events page -->
-    <h6>
-      <a href="/?page=events">All Events</a>
-    </h6>
+    <!-- Coming events -->
+    <?php
+      showComingEvents( $aEvents );
+    ?>
 
     <!-- Vertical space so text can be scrolled above background clip art -->
     </br>
