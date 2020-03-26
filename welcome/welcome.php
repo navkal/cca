@@ -7,24 +7,27 @@
 
   function showComingEvents( $aEvents )
   {
-  ?>
-    <!-- Coming event -->
-    <hr/>
-    <div class="pl-4">
-      <h6>
-        <u>Coming Event</u>
-      </h6>
-      <?php
-        formatEvent( $aEvents[0], false );
-      ?>
-    </div>
-    <hr/>
+    if ( count( $aEvents ) )
+    {
+?>
+      <!-- Coming event -->
+      <hr/>
+      <div class="pl-4">
+        <h6>
+          <u>Coming Event</u>
+        </h6>
+        <?php
+          formatEvent( $aEvents[0], false );
+        ?>
+      </div>
+      <hr/>
 
-    <!-- Link to Events page -->
-    <h6>
-      <a href="/?page=events">All Events</a>
-    </h6>
-  <?php
+      <!-- Link to Events page -->
+      <h6>
+        <a href="/?page=events">All Events</a>
+      </h6>
+<?php
+    }
   }
 ?>
 
