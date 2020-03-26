@@ -27,7 +27,7 @@
   {
     $nShown += formatEvent( $aEvent );
   }
-  
+
   if ( $nShown == 0 )
   {
 ?>
