@@ -4,7 +4,7 @@
   $aEvents =
   [
     [
-      'show' => true,
+      'show' => false,
       'when' =>
       [
         'text' => 'Postponed, in response to MA guidance on coronavirus',

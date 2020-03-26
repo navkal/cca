@@ -20,19 +20,23 @@
   </div>
 
   <div class="list-group" >
-    <?php
-      // Iterate through table of events
-      $nShown = 0;
-      foreach ( $aEvents as $aEvent )
-      {
-        $nShown += formatEvent( $aEvent );
-      }
-      
-      if ( $nShown == 0 )
-      {
-          echo( 'NONE' );
-      }
-    ?>
+<?php
+  // Iterate through table of events
+  $nShown = 0;
+  foreach ( $aEvents as $aEvent )
+  {
+    $nShown += formatEvent( $aEvent );
+  }
+  
+  if ( $nShown == 0 )
+  {
+?>
+    <div class="alert alert-secondary">
+      No events found.
+    </div>
+<?php
+  }
+?>
   </div>
 
 </div>
