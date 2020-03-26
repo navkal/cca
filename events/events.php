@@ -22,9 +22,15 @@
   <div class="list-group" >
     <?php
       // Iterate through table of events
+      $nShown = 0;
       foreach ( $aEvents as $aEvent )
       {
-        formatEvent( $aEvent );
+        $nShown += formatEvent( $aEvent );
+      }
+      
+      if ( $nShown == 0 )
+      {
+          echo( 'NONE' );
       }
     ?>
   </div>

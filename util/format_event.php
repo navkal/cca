@@ -4,6 +4,7 @@
   $aEvents =
   [
     [
+      'show' => true,
       'when' =>
       [
         'text' => 'Postponed, in response to MA guidance on coronavirus',
@@ -43,6 +44,124 @@
       [
       ],
     ],
+    [
+      'show' => false,
+      'when' =>
+      [
+        'text' => 'Monday, March 25 (time TBA)',
+        'class' => 'event-text-general',
+        'link' => '',
+      ],
+      'where' =>
+      [
+        'text' => 'Senior Center at Ballard Vale United Church',
+        'class' => 'event-text-general',
+        'link' => 'https://goo.gl/maps/f8XNMAyw1wn2HXfP8',
+      ],
+      'topic' =>
+      [
+        'text' => 'CCA Public Forum',
+        'class' => 'event-text-topic',
+        'link' => '',
+      ],
+      'topic_details' =>
+      [
+        'Followed by Q&A',
+      ],
+      'presenters' =>
+      [
+        [
+          'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+          'class' => 'event-text-general',
+          'link' => 'https://andoverma.gov/816/Sustainability',
+        ],
+      ],
+      'sponsors' =>
+      [
+        [
+          'text' => 'Council on Aging',
+          'class' => 'event-text-general',
+          'link' => 'https://andoverma.gov/249/Council-on-Aging',
+        ],
+      ],
+    ],
+    [
+      'show' => false,
+      'when' =>
+      [
+        'text' => 'Wednesday, April 8, 7 - 9 pm',
+        'class' => 'event-text-general',
+        'link' => 'https://www.eventkeeper.com/mars/xpages/M/MHL/EK.cfm?curOrg=MHL&curMonth=4&curYear=2020&SelectedDate=4/8/2020#4/8/2020',
+      ],
+      'where' =>
+      [
+        'text' => 'Memorial Hall Library',
+        'class' => 'event-text-general',
+        'link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
+      ],
+      'topic' =>
+      [
+        'text' => 'CCA Public Forum',
+        'class' => 'event-text-topic',
+        'link' => '',
+      ],
+      'topic_details' =>
+      [
+        'Followed by Q&A',
+      ],
+      'presenters' =>
+      [
+        [
+          'text' => 'Michael Lindstrom, Deputy Town Manager',
+          'class' => 'event-text-general',
+          'link' => 'https://andoverma.gov/directory.aspx?EID=128',
+        ],
+        [
+          'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
+          'class' => 'event-text-general',
+          'link' => 'https://andoverma.gov/816/Sustainability',
+        ],
+      ],
+      'sponsors' =>
+      [
+      ],
+    ],
+    [
+      'show' => false,
+      'when' =>
+      [
+        'text' => 'Monday, April 27, 7 - 10 pm',
+        'class' => 'event-text-general',
+        'link' => '',
+      ],
+      'where' =>
+      [
+        'text' => 'Collins Center',
+        'class' => 'event-text-general',
+        'link' => 'https://goo.gl/maps/J4cWWJZiiDj1ToVv8',
+      ],
+      'topic' =>
+      [
+        'text' => 'Annual Town Meeting',
+        'class' => 'event-text-topic',
+        'link' => '',
+      ],
+      'topic_details' =>
+      [
+      ],
+      'presenters' =>
+      [
+      ],
+      'sponsors' =>
+      [
+      ],
+    ],
+
+
+
+    // ==> NOT GONNA HAPPEN ==>
+
+
     // [
       // 'when' =>
       // [
@@ -107,86 +226,6 @@
         // ],
       // ],
     // ],
-    [
-      'when' =>
-      [
-        'text' => 'Monday, March 25 (time TBA)',
-        'class' => 'event-text-general',
-        'link' => '',
-      ],
-      'where' =>
-      [
-        'text' => 'Senior Center at Ballard Vale United Church',
-        'class' => 'event-text-general',
-        'link' => 'https://goo.gl/maps/f8XNMAyw1wn2HXfP8',
-      ],
-      'topic' =>
-      [
-        'text' => 'CCA Public Forum',
-        'class' => 'event-text-topic',
-        'link' => '',
-      ],
-      'topic_details' =>
-      [
-        'Followed by Q&A',
-      ],
-      'presenters' =>
-      [
-        [
-          'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-          'class' => 'event-text-general',
-          'link' => 'https://andoverma.gov/816/Sustainability',
-        ],
-      ],
-      'sponsors' =>
-      [
-        [
-          'text' => 'Council on Aging',
-          'class' => 'event-text-general',
-          'link' => 'https://andoverma.gov/249/Council-on-Aging',
-        ],
-      ],
-    ],
-    [
-      'when' =>
-      [
-        'text' => 'Wednesday, April 8, 7 - 9 pm',
-        'class' => 'event-text-general',
-        'link' => 'https://www.eventkeeper.com/mars/xpages/M/MHL/EK.cfm?curOrg=MHL&curMonth=4&curYear=2020&SelectedDate=4/8/2020#4/8/2020',
-      ],
-      'where' =>
-      [
-        'text' => 'Memorial Hall Library',
-        'class' => 'event-text-general',
-        'link' => 'https://goo.gl/maps/PgPLW7oPTGgeF7jh9',
-      ],
-      'topic' =>
-      [
-        'text' => 'CCA Public Forum',
-        'class' => 'event-text-topic',
-        'link' => '',
-      ],
-      'topic_details' =>
-      [
-        'Followed by Q&A',
-      ],
-      'presenters' =>
-      [
-        [
-          'text' => 'Michael Lindstrom, Deputy Town Manager',
-          'class' => 'event-text-general',
-          'link' => 'https://andoverma.gov/directory.aspx?EID=128',
-        ],
-        [
-          'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-          'class' => 'event-text-general',
-          'link' => 'https://andoverma.gov/816/Sustainability',
-        ],
-      ],
-      'sponsors' =>
-      [
-      ],
-    ],
     // [
       // 'when' => 'Wednesday, April 22, 3 - 7 pm',
       // 'where' => 'Whole Foods Market',
@@ -205,35 +244,9 @@
       // [
       // ],
     // ],
-    [
-      'when' =>
-      [
-        'text' => 'Monday, April 27, 7 - 10 pm',
-        'class' => 'event-text-general',
-        'link' => '',
-      ],
-      'where' =>
-      [
-        'text' => 'Collins Center',
-        'class' => 'event-text-general',
-        'link' => 'https://goo.gl/maps/J4cWWJZiiDj1ToVv8',
-      ],
-      'topic' =>
-      [
-        'text' => 'Annual Town Meeting',
-        'class' => 'event-text-topic',
-        'link' => '',
-      ],
-      'topic_details' =>
-      [
-      ],
-      'presenters' =>
-      [
-      ],
-      'sponsors' =>
-      [
-      ],
-    ],
+
+    // <== NOT GONNA HAPPEN <==
+
   ];
 
 
@@ -261,105 +274,110 @@
 
   function formatEvent( $aEvent, $bList=true )
   {
-    $sDtClass = 'class="col-sm-2"';
-    $sDdClass = 'class="col-sm-10"';
-    $sBulletCode = '&#9702';
-    $sEventClass = $bList ? 'class="list-group-item list-group-item-action"' : '';
+    if ( $aEvent['show'] )
+    {
+      $sDtClass = 'class="col-sm-2"';
+      $sDdClass = 'class="col-sm-10"';
+      $sBulletCode = '&#9702';
+      $sEventClass = $bList ? 'class="list-group-item list-group-item-action"' : '';
 ?>
-    <div <?=$sEventClass?> >
+      <div <?=$sEventClass?> >
 
-      <dl class="row">
+        <dl class="row">
 
-        <!-- When -->
-        <dt <?=$sDtClass?> >
-          When
-        </dt>
+          <!-- When -->
+          <dt <?=$sDtClass?> >
+            When
+          </dt>
 
-        <dd <?=$sDdClass?> >
-          <?=formatOptionalLink($aEvent['when'])?>
-        </dd>
+          <dd <?=$sDdClass?> >
+            <?=formatOptionalLink($aEvent['when'])?>
+          </dd>
 
-        <!-- Where, with optional link -->
-        <dt <?=$sDtClass?> >
-          Where
-        </dt>
-        <dd <?=$sDdClass?> >
-          <?=formatOptionalLink($aEvent['where'])?>
-        </dd>
+          <!-- Where, with optional link -->
+          <dt <?=$sDtClass?> >
+            Where
+          </dt>
+          <dd <?=$sDdClass?> >
+            <?=formatOptionalLink($aEvent['where'])?>
+          </dd>
 
-        <!-- Topic, with optional link and details -->
-        <dt <?=$sDtClass?> >
-          Topic
-        </dt>
-        <dd <?=$sDdClass?> >
-          <?=formatOptionalLink($aEvent['topic'])?>
+          <!-- Topic, with optional link and details -->
+          <dt <?=$sDtClass?> >
+            Topic
+          </dt>
+          <dd <?=$sDdClass?> >
+            <?=formatOptionalLink($aEvent['topic'])?>
 <?php
-          $sBullet = ( count( $aEvent['topic_details'] ) > 1 ) ? $sBulletCode : '';
-          foreach ( $aEvent['topic_details'] as $sLine )
+            $sBullet = ( count( $aEvent['topic_details'] ) > 1 ) ? $sBulletCode : '';
+            foreach ( $aEvent['topic_details'] as $sLine )
+            {
+?>
+              <div>
+                <small class="event-text-general" >
+                  <?=$sBullet?> <?=$sLine?>
+                </small>
+              </div>
+<?php
+            }
+?>
+          </dd>
+
+          <!-- Presenters, optional -->
+<?php
+          if ( count( $aEvent['presenters'] ) )
           {
 ?>
-            <div>
-              <small class="event-text-general" >
-                <?=$sBullet?> <?=$sLine?>
-              </small>
-            </div>
+            <dt <?=$sDtClass?> >
+              Presenters
+            </dt>
+            <dd <?=$sDdClass?> >
+<?php
+              foreach ( $aEvent['presenters'] as $aItem )
+              {
+?>
+                <div>
+                  <?=formatOptionalLink($aItem)?>
+                </div>
+<?php
+              }
+?>
+            </dd>
+
 <?php
           }
 ?>
-        </dd>
 
-        <!-- Presenters, optional -->
+          <!-- Sponsosrs, optional -->
 <?php
-        if ( count( $aEvent['presenters'] ) )
-        {
+          if ( count( $aEvent['sponsors'] ) )
+          {
 ?>
-          <dt <?=$sDtClass?> >
-            Presenters
-          </dt>
-          <dd <?=$sDdClass?> >
-<?php
-            foreach ( $aEvent['presenters'] as $aItem )
-            {
-?>
-              <div>
-                <?=formatOptionalLink($aItem)?>
-              </div>
-<?php
-            }
-?>
-          </dd>
+            <dt <?=$sDtClass?> >
+              Sponsors
+            </dt>
 
+            <dd <?=$sDdClass?> >
 <?php
-        }
+              foreach ( $aEvent['sponsors'] as $aItem )
+              {
 ?>
-
-        <!-- Sponsosrs, optional -->
+                <div>
+                  <?=formatOptionalLink($aItem)?>
+                </div>
 <?php
-        if ( count( $aEvent['sponsors'] ) )
-        {
+              }
 ?>
-          <dt <?=$sDtClass?> >
-            Sponsors
-          </dt>
-
-          <dd <?=$sDdClass?> >
+            </dd>
 <?php
-            foreach ( $aEvent['sponsors'] as $aItem )
-            {
+          }
 ?>
-              <div>
-                <?=formatOptionalLink($aItem)?>
-              </div>
+        </dl>
+      </div>
 <?php
-            }
-?>
-          </dd>
-<?php
-        }
-?>
-      </dl>
-    </div>
-<?php
+    }
+    
+    return $aEvent['show'];
   }
 ?>
 
