@@ -3,12 +3,103 @@
 
   $aEvents =
   [
-
     [
       'show' => true,
       'when' =>
       [
         'text' => 'Thursday, April 2, 11 am - 12 pm',
+        'class' => 'event-text-general',
+        'link' => '',
+      ],
+      'where' =>
+      [
+        'text' => 'Webinar, registration required',
+        'class' => 'event-text-general',
+        'link' => 'https://register.gotowebinar.com/rt/7950290809783335692',
+      ],
+      'topic' =>
+      [
+        'text' => 'CCA in Massachusetts',
+        'class' => 'event-text-topic',
+        'link' => '',
+      ],
+      'topic_details' =>
+      [
+        'CCA promises stable prices with possible cost savings, and local, renewable sources.  Learn about how CCA can benefit our town.',
+      ],
+      'presenters' =>
+      [
+        [
+          'text' => 'Larry Chretien',
+          'class' => 'event-text-general',
+          'link' => 'https://www.linkedin.com/in/larry-chretien-a855b87/',
+        ],
+        [
+          'text' => 'Daria Mark',
+          'class' => 'event-text-general',
+          'link' => 'https://www.linkedin.com/in/dariamark/',
+        ],
+      ],
+      'sponsors' =>
+      [
+        [
+          'text' => 'Green Energy Consumers Alliance',
+          'class' => 'event-text-general',
+          'link' => 'https://www.greenenergyconsumers.org/',
+        ],
+      ],
+    ],
+    [
+      'show' => true,
+      'when' =>
+      [
+        'text' => 'Wednesday, April 15, 2 - 3 pm',
+        'class' => 'event-text-general',
+        'link' => '',
+      ],
+      'where' =>
+      [
+        'text' => 'Webinar, registration required',
+        'class' => 'event-text-general',
+        'link' => 'https://register.gotowebinar.com/rt/7950290809783335692',
+      ],
+      'topic' =>
+      [
+        'text' => 'CCA in Massachusetts',
+        'class' => 'event-text-topic',
+        'link' => '',
+      ],
+      'topic_details' =>
+      [
+        'CCA promises stable prices with possible cost savings, and local, renewable sources.  Learn about how CCA can benefit our town.',
+      ],
+      'presenters' =>
+      [
+        [
+          'text' => 'Larry Chretien',
+          'class' => 'event-text-general',
+          'link' => 'https://www.linkedin.com/in/larry-chretien-a855b87/',
+        ],
+        [
+          'text' => 'Daria Mark',
+          'class' => 'event-text-general',
+          'link' => 'https://www.linkedin.com/in/dariamark/',
+        ],
+      ],
+      'sponsors' =>
+      [
+        [
+          'text' => 'Green Energy Consumers Alliance',
+          'class' => 'event-text-general',
+          'link' => 'https://www.greenenergyconsumers.org/',
+        ],
+      ],
+    ],
+    [
+      'show' => true,
+      'when' =>
+      [
+        'text' => 'Thursday, April 30, 7 - 8 pm',
         'class' => 'event-text-general',
         'link' => '',
       ],
