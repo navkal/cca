@@ -9,6 +9,7 @@
   {
     global $aEvents;
 
+    // Find next event to be shown
     $aNextEvent = null;
     for ( $iEvent = 0; ( $iEvent < count( $aEvents ) ) && ( $aNextEvent == null ); $iEvent ++ )
     {
@@ -17,6 +18,8 @@
         $aNextEvent = $aEvents[$iEvent];
       }
     }
+
+    // Show next event, if any
     if ( $aNextEvent )
     {
 ?>
