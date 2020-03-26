@@ -376,7 +376,7 @@
       </div>
 <?php
     }
-    
+
     return $aEvent['show'];
   }
 ?>

@@ -5,9 +5,19 @@
 
   require_once $_SERVER["DOCUMENT_ROOT"]."/util/format_event.php";
 
-  function showComingEvents( $aEvents )
+  function showComingEvents()
   {
-    if ( count( $aEvents ) )
+    global $aEvents;
+
+    $aNextEvent = null;
+    for ( $iEvent = 0; ( $iEvent < count( $aEvents ) ) && ( $aNextEvent == null ); $iEvent ++ )
+    {
+      if ( $aEvents[$iEvent]['show'] )
+      {
+        $aNextEvent = $aEvents[$iEvent];
+      }
+    }
+    if ( $aNextEvent )
     {
 ?>
       <!-- Coming event -->
@@ -17,7 +27,7 @@
           <u>Coming Event</u>
         </h6>
         <?php
-          formatEvent( $aEvents[0], false );
+          formatEvent( $aNextEvent, false );
         ?>
       </div>
       <hr/>
@@ -99,7 +109,7 @@
 
     <!-- Coming events -->
     <?php
-      // showComingEvents( $aEvents );
+      showComingEvents();
     ?>
 
     <!-- Vertical space so text can be scrolled above background clip art -->
