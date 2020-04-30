@@ -1002,6 +1002,10 @@ input.error
     {
       'National Grid Basic Service': 13.957,
     },
+    'May 20':
+    {
+      'National Grid Basic Service': 9.898,
+    },
   };
 
   var g_iTotalKwh = 0;
