@@ -7,47 +7,6 @@
       'show' => true,
       'when' =>
       [
-        'text' => 'Wednesday, May 27, 7:30 - 9 pm',
-        'class' => 'event-text-general',
-        'link' => '',
-      ],
-      'where' =>
-      [
-        'text' => 'WebEx Webinar, registration required',
-        'class' => 'event-text-general',
-        'link' => 'https://andover.webex.com/andover/j.php?RGID=r8e896ea752f5fbcf99202dc8e649f18c',
-      ],
-      'topic' =>
-      [
-        'text' => 'Virtual Public Forum on CCA',
-        'class' => 'event-text-topic',
-        'link' => 'https://andoverma.gov/civicalerts.aspx?AID=362',
-      ],
-      'topic_details' =>
-      [
-        'Followed by Q&A',
-      ],
-      'presenters' =>
-      [
-        [
-          'text' => 'Michael Lindstrom, Deputy Town Manager',
-          'class' => 'event-text-general',
-          'link' => 'https://andoverma.gov/directory.aspx?EID=128',
-        ],
-        [
-          'text' => 'Joyce Losick-Yang, PhD, Sustainability Coordinator',
-          'class' => 'event-text-general',
-          'link' => 'https://andoverma.gov/816/Sustainability',
-        ],
-      ],
-      'sponsors' =>
-      [
-      ],
-    ],
-   [
-      'show' => true,
-      'when' =>
-      [
         'text' => 'Monday, June 15, 11 am - 12:30 pm',
         'class' => 'event-text-general',
         'link' => '',
