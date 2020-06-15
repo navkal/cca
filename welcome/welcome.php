@@ -5,6 +5,36 @@
 
   require_once $_SERVER["DOCUMENT_ROOT"]."/util/format_event.php";
 
+  function showPastEvents()
+  {
+    // --> --> Hard-coded.  Remove later.  --> -->
+?>
+    <hr/>
+    <div class="pl-4">
+      <h6>
+        <u>Past Events</u>
+      </h6>
+      <div class="list-group">
+        <a href="https://andoverma.gov/DocumentCenter/View/8102" target="_blank" class="py-2">
+          <div style="color:#397947">
+            Presentation on Andover CCA - June 15, 2020
+          </div>
+        </a>
+
+        <a href="https://andover.vod.castus.tv/vod/?video=c3b22398-aabf-4f0c-ac22-fd4df6cb3834" target="_blank" class="py-2">
+          <div style="color:#397947">
+            Public forum on Andover CCA - May 27, 2020
+          </div>
+        </a>
+
+      </div>
+    </div>
+    <hr/>
+<?php
+    // <-- <-- Hard-coded.  Remove later.  <-- <--
+  }
+
+
   function showComingEvents()
   {
     global $aEvents;
@@ -104,6 +134,11 @@
     <h4>
       to Andover.
     </h4>
+
+    <!-- Past events -->
+    <?php
+      showPastEvents();
+    ?>
 
     <!-- Link to sign-up form -->
     <h6>
