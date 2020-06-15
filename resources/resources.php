@@ -26,6 +26,16 @@
       'descr' => 'How to start a Community Choice Aggregation program'
     ],
     [
+      'url' => 'https://andoverma.gov/DocumentCenter/View/8102',
+      'title' => 'Presentation on Andover CCA (June 15, 2020)',
+      'descr' => 'Michael Lindstrom, Deputy Town Manager, and Joyce Losick-Yang, PhD, Sustainability Coordinator'
+    ],
+    [
+      'url' => 'https://andover.vod.castus.tv/vod/?video=c3b22398-aabf-4f0c-ac22-fd4df6cb3834',
+      'title' => 'Video recording of forum on Andover CCA (May 27, 2020)',
+      'descr' => 'WebEx forum led by Michael Lindstrom, Deputy Town Manager, and Joyce Losick-Yang, PhD, Sustainability Coordinator'
+    ],
+    [
       'url' => 'https://photos.app.goo.gl/dMSUzPDctx6r6GFW8',
       'title' => 'Andover Green Advisory Board (AGAB)',
       'descr' => 'Joint presentation by Good Energy and GECA'
