@@ -11,22 +11,24 @@
 ?>
     <hr/>
     <div class="pl-4">
-      <h6>
-        <u>Past Events</u>
-      </h6>
+      <h5>
+        Past Events
+      </h5>
       <div class="list-group">
-        <a href="https://andoverma.gov/DocumentCenter/View/8102" target="_blank" class="py-2">
+        <a href="https://andoverma.gov/DocumentCenter/View/8102" target="_blank">
           <div style="color:#397947">
-            Presentation on Andover CCA - June 15, 2020
+            <b>
+              Presentation - June 15, 2020
+            </b>
           </div>
         </a>
-
-        <a href="https://andover.vod.castus.tv/vod/?video=c3b22398-aabf-4f0c-ac22-fd4df6cb3834" target="_blank" class="py-2">
+        <a href="https://andover.vod.castus.tv/vod/?video=c3b22398-aabf-4f0c-ac22-fd4df6cb3834" target="_blank">
           <div style="color:#397947">
-            Public forum on Andover CCA - May 27, 2020
+            <b>
+              Public forum - May 27, 2020
+            </b>
           </div>
         </a>
-
       </div>
     </div>
     <hr/>
