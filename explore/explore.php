@@ -168,7 +168,7 @@ input.error
             <label for="<?=$sId1?>" class="col-form-label col-form-label-sm kwh-label" ></label>
           </div>
           <div class="col-4 col-md-4">
-            <input id="<?=$sId1?>" type="text" class="form-control form-control-sm kwh-input">
+            <input id="<?=$sId1?>" type="text" class="form-control form-control-sm kwh-input" placeholder="kWh">
           </div>
           <div class="d-none d-md-block col-md-2">
           </div>
@@ -176,7 +176,7 @@ input.error
             <label for="<?=$sId2?>" class="col-form-label col-form-label-sm kwh-label"></label>
           </div>
           <div class="col-4 col-md-4">
-            <input id="<?=$sId2?>" type="text" class="form-control form-control-sm kwh-input">
+            <input id="<?=$sId2?>" type="text" class="form-control form-control-sm kwh-input" placeholder="kWh">
           </div>
         </div>
     <?php
