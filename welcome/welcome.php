@@ -42,7 +42,7 @@
 
         <div>
           Details on page 70 of
-          <a href="https://goo.gl/maps/zvzbhHNe1zzHriwo6" target="_blank">
+          <a href="https://andoverma.gov/DocumentCenter/View/8309/2020-ATM-Fincom-Report_August-20_Final-Submission-to-Printer?bidId=" target="_blank">
             <span style="color:#397947">
               Town Warrant
             </span>
