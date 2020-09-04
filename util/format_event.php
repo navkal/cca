@@ -62,11 +62,12 @@
       [
         'text' => 'Annual Town Meeting',
         'class' => 'event-text-topic',
-        'link' => 'https://andoverma.gov/Calendar.aspx?EID=4442&month=9&year=2020&day=12&calType=0',
+        'link' => 'https://andoverma.gov/DocumentCenter/View/8309/2020-ATM-Fincom-Report_August-20_Final-Submission-to-Printer?bidId=',
       ],
       'topic_details' =>
       [
         'Vote on Article 28 - Community Choice Aggregation',
+        'Details on page 70'
       ],
       'presenters' =>
       [
