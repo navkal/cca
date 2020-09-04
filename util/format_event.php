@@ -4,10 +4,10 @@
   $aEvents =
   [
    [
-      'show' => false,
+      'show' => true,
       'when' =>
       [
-        'text' => 'Monday, June 15, 11 am - 12:30 pm',
+        'text' => 'Wednesday, September 9, 7 - 8 pm',
         'class' => 'event-text-general',
         'link' => '',
       ],
@@ -15,13 +15,13 @@
       [
         'text' => 'WebEx Webinar, registration required',
         'class' => 'event-text-general',
-        'link' => 'https://andover.webex.com/andover/j.php?RGID=r8a9b287593ba0f614b4a19813ba07b14',
+        'link' => 'https://andover.webex.com/andover/j.php?RGID=r65476dbac2c75e83f6197bd4459435fc',
       ],
       'topic' =>
       [
         'text' => 'Virtual Public Forum on CCA',
         'class' => 'event-text-topic',
-        'link' => 'https://andoverma.gov/civicalerts.aspx?AID=362',
+        'link' => 'https://andoverma.gov/Calendar.aspx?EID=4485&month=9&year=2020&day=9&calType=0',
       ],
       'topic_details' =>
       [
@@ -45,49 +45,34 @@
       ],
     ],
     [
-      'show' => false,
+      'show' => true,
       'when' =>
       [
-        'text' => 'Thursday, April 30, 7 - 8 pm',
+        'text' => 'Saturday, September 12, 9:30 am',
         'class' => 'event-text-general',
         'link' => '',
       ],
       'where' =>
       [
-        'text' => 'Webinar, registration required',
+        'text' => 'West Middle School Field',
         'class' => 'event-text-general',
-        'link' => 'https://register.gotowebinar.com/rt/7950290809783335692',
+        'link' => 'https://goo.gl/maps/zvzbhHNe1zzHriwo6',
       ],
       'topic' =>
       [
-        'text' => 'CCA in Massachusetts',
+        'text' => 'Annual Town Meeting',
         'class' => 'event-text-topic',
-        'link' => '',
+        'link' => 'https://andoverma.gov/Calendar.aspx?EID=4442&month=9&year=2020&day=12&calType=0',
       ],
       'topic_details' =>
       [
-        'CCA promises stable prices with possible cost savings, and local, renewable sources.  Learn about how CCA can benefit our town.',
+        'Vote on Article 28 - Community Choice Aggregation',
       ],
       'presenters' =>
       [
-        [
-          'text' => 'Larry Chretien',
-          'class' => 'event-text-general',
-          'link' => 'https://www.linkedin.com/in/larry-chretien-a855b87/',
-        ],
-        [
-          'text' => 'Daria Mark',
-          'class' => 'event-text-general',
-          'link' => 'https://www.linkedin.com/in/dariamark/',
-        ],
       ],
       'sponsors' =>
       [
-        [
-          'text' => 'Green Energy Consumers Alliance',
-          'class' => 'event-text-general',
-          'link' => 'https://www.greenenergyconsumers.org/',
-        ],
       ],
     ],
   ];

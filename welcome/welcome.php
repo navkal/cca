@@ -5,6 +5,46 @@
 
   require_once $_SERVER["DOCUMENT_ROOT"]."/util/format_event.php";
 
+
+  function showFeaturedEvent()
+  {
+    // --> --> Hard-coded.  Remove later.  --> -->
+?>
+    <hr/>
+    <div class="pl-4">
+      <h5>
+        <div class="pt-1">
+          Vote on Article 28
+        </div>
+
+        <div>
+          at
+          <a href="https://andoverma.gov/Calendar.aspx?EID=4442&month=9&year=2020&day=12&calType=0" target="_blank">
+            <span style="color:#397947">
+            Annual Town Meeting
+            </span>
+          </a>
+        </div>
+      </h5>
+
+      <div>
+        Saturday, September 12, 9:30 am
+      </div>
+      <div>
+        <a href="https://goo.gl/maps/zvzbhHNe1zzHriwo6" target="_blank">
+          <div style="color:#397947">
+            West Middle School Field
+          </div>
+        </a>
+      </div>
+
+    </div>
+    <hr/>
+<?php
+    // <-- <-- Hard-coded.  Remove later.  <-- <--
+  }
+
+
   function showPastEvents()
   {
     // --> --> Hard-coded.  Remove later.  --> -->
@@ -139,7 +179,12 @@
 
     <!-- Past events -->
     <?php
-      showPastEvents();
+      //showPastEvents();
+    ?>
+
+    <!-- Featured event -->
+    <?php
+      showFeaturedEvent();
     ?>
 
     <!-- Link to sign-up form -->
