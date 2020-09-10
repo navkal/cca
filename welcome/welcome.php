@@ -211,7 +211,7 @@
 
     <!-- Featured event -->
     <?php
-      showFeaturedEvent();
+      //showFeaturedEvent();
     ?>
 
     <!-- Vertical space so text can be scrolled above background clip art -->
