@@ -21,7 +21,7 @@
       </div>
 
       <div class="h6 py-1">
-        <b>Thanks</b> to all who participated!
+        Thanks to all who participated!
       </div>
 
     </div>
