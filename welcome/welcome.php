@@ -17,7 +17,7 @@
       </div>
 
       <div class="h6 py-1">
-        Annual Town Meeting passed Article 28 with overwhelming support.
+        Town Meeting passed Article 28 with overwhelming support.
       </div>
 
       <div class="h6 py-1">
