@@ -13,7 +13,7 @@
     <hr/>
     <div class="pl-4 py-2">
       <div class="h5 py-1">
-        Congratulations, Andover!
+        Congratulations, Andover:
       </div>
 
       <div class="h6 py-1">
@@ -21,7 +21,7 @@
       </div>
 
       <div class="h6 py-1">
-        <b>Thanks</b> to all who participated.
+        <b>Thanks</b> to all who participated!
       </div>
 
     </div>
