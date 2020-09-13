@@ -6,49 +6,23 @@
   require_once $_SERVER["DOCUMENT_ROOT"]."/util/format_event.php";
 
 
-  function showFeaturedEvent()
+  function showFeaturedAnnouncement()
   {
     // --> --> Hard-coded.  Remove later.  --> -->
 ?>
+    <hr/>
     <div class="pl-4 py-2">
-      <h5>
-        <div>
-          Vote on Article 28
-        </div>
-        <div>
-          at
-          <a href="https://andoverma.gov/Calendar.aspx?EID=4442&month=9&year=2020&day=12&calType=0" target="_blank">
-            <span style="color:#397947">
-            Annual Town Meeting
-            </span>
-          </a>
-        </div>
-      </h5>
-
-      <div class="py-2">
-
-        <div>
-          Saturday, September 12, 9:30 am
-        </div>
-
-        <div>
-          <a href="https://goo.gl/maps/zvzbhHNe1zzHriwo6" target="_blank">
-            <div style="color:#397947">
-              West Middle School Field
-            </div>
-          </a>
-        </div>
+      <div class="h5 py-1">
+        Congratulations, Andover!
       </div>
 
-        <div>
-          Details on page 70 of
-          <a href="https://andoverma.gov/DocumentCenter/View/8309/2020-ATM-Fincom-Report_August-20_Final-Submission-to-Printer?bidId=" target="_blank">
-            <span style="color:#397947">
-              Town Warrant
-            </span>
-          </a>
-        </div>
+      <div class="h6 py-1">
+        Annual Town Meeting passed Article 28 with overwhelming support.
+      </div>
 
+      <div class="h6 py-1">
+        Thanks to all who participated.
+      </div>
 
     </div>
     <hr/>
@@ -199,6 +173,11 @@
       //showPastEvents();
     ?>
 
+    <!-- Featured announcement -->
+    <?php
+      showFeaturedAnnouncement();
+    ?>
+
     <!-- Link to sign-up form -->
     <h6 class="py-2">
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScP7_LHHiBiykztDq8usdPlBrmZCGDSoFgIJYOxIUuwByxegw/viewform?usp=pp_url&entry.238260412=No&entry.1029755686=No" target="_blank" >Sign up</a> for Andover CCA updates.
@@ -207,11 +186,6 @@
     <!-- Coming events -->
     <?php
       showComingEvents( false );
-    ?>
-
-    <!-- Featured event -->
-    <?php
-      //showFeaturedEvent();
     ?>
 
     <!-- Vertical space so text can be scrolled above background clip art -->

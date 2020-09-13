@@ -45,7 +45,7 @@
       ],
     ],
     [
-      'show' => true,
+      'show' => false,
       'when' =>
       [
         'text' => 'Saturday, September 12, 9:30 am',
