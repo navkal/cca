@@ -1,5 +1,5 @@
 <?php
-  // Copyright 2019 Energize Andover.  All rights reserved.
+  // Copyright 2020 Energize Andover.  All rights reserved.
 
   if ( ! isset( $_SESSION ) )
   {
