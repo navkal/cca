@@ -231,7 +231,7 @@ input.error
               Annual Savings
             </th>
             <th data-toggle="tooltip" title="Cost per kWh" >
-              Unit Cost
+              Rate
             </th>
             <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources located in New England" >
               Local Green Content
