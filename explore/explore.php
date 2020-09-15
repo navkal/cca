@@ -1197,10 +1197,10 @@ input.error
         sHtml += '$' + nSavings;
         sHtml += '</td>';
 
-        // Unit cost
-        var nCostPerKwh = ( nCostCcaOption / g_iTotalKwh ).toFixed( 4 );
+        // Rate
+        var nRate = ( nCostCcaOption / g_iTotalKwh ).toFixed( 4 );
         sHtml += '<td>';
-        sHtml += '$' + nCostPerKwh;
+        sHtml += '$' + nRate;
         sHtml += '</td>';
 
         // Local green
