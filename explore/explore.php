@@ -230,6 +230,9 @@ input.error
             <th data-toggle="tooltip" title="Difference relative to National Grid Basic Service" >
               Annual Savings
             </th>
+            <th data-toggle="tooltip" title="Cost per kWh" >
+              Unit Cost
+            </th>
             <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources located in New England" >
               Local Green Content
             </th>
@@ -1192,6 +1195,12 @@ input.error
         var sSavings = ( sCcaOption == 'National Grid Basic Service' ) ? '' : ' savings="' + nSavings + '"';
         sHtml += '<td class="' + sClass + '"' + sSavings + '>';
         sHtml += '$' + nSavings;
+        sHtml += '</td>';
+
+        // Unit cost
+        var nCostPerKwh = ( nCostCcaOption / g_iTotalKwh ).toFixed( 4 );
+        sHtml += '<td>';
+        sHtml += '$' + nCostPerKwh;
         sHtml += '</td>';
 
         // Local green
