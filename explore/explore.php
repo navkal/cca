@@ -274,7 +274,7 @@ input.error
         </i>
         precisely in some cases, because of uncertainties or ambiguities in the online descriptions of contract terms.
 
-        In those instances, the percentages shown reflect our best estimate based on currently available data.
+        In those instances, the percentages shown reflect our best estimate based on available data.
       </small>
     </p>
   </div>
@@ -742,31 +742,31 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: 27.71,
       local: g_nMinimumLocalGreen,
-      start: '2017-08',
-      end: '2020-08',
-      rate: 10.624
+      start: '2020-08',
+      end: '2023-12',
+      rate: 9.965
     },
     'Sudbury Local Green':
     {
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 32.71,
-      local: 21,
-      start: '2017-08',
-      end: '2020-08',
-      rate: 10.749
+      green: 100,
+      local: g_nMinimumLocalGreen + 15,
+      start: '2020-08',
+      end: '2023-12',
+      rate: 10.629
     },
-    'Sudbury Premium One Hundred Local Green':
+    'Sudbury Premium 100% Local Green':
     {
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: 100,
       local: 100,
-      start: '2017-08',
-      end: '2020-08',
-      rate: 13.124
+      start: '2020-08',
+      end: '2023-12',
+      rate: 13.722
     },
     'Tewksbury Green':
     {
@@ -1198,9 +1198,9 @@ input.error
         sHtml += '</td>';
 
         // Rate
-        var nRate = ( nCostCcaOption / g_iTotalKwh ).toFixed( 4 );
+        var nRate = ( tCcaOption && tCcaOption.rate ) ? ( tCcaOption.rate / 100 ) : ( nCostCcaOption / g_iTotalKwh );
         sHtml += '<td>';
-        sHtml += '$' + nRate;
+        sHtml += '$' + nRate.toFixed( 5 );
         sHtml += '</td>';
 
         // Local green
