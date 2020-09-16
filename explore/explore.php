@@ -683,7 +683,7 @@ input.error
     },
     'Newton Basic':
     {
-      url: 'https://masspowerchoice.com/newton',
+      url: 'https://masspowerchoice.com/newton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: g_nMinimumTotalGreen,
@@ -694,18 +694,18 @@ input.error
     },
     'Newton Standard':
     {
-      url: 'https://masspowerchoice.com/newton',
+      url: 'https://masspowerchoice.com/newton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: 62,
-      local: 62,
+      green: g_nMinimumTotalGreen + 46,
+      local: g_nMinimumLocalGreen + 46,
       start: '2019-03',
       end: '2021-01',
       rate: 11.340
     },
     'Newton 100% Green':
     {
-      url: 'https://masspowerchoice.com/newton',
+      url: 'https://masspowerchoice.com/newton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: 100,
