@@ -452,7 +452,7 @@ input.error
     },
     'Brookline Basic':
     {
-      url: 'https://www.brooklinema.gov/1340/Brookline-Green-Electricity',
+      url: 'https://www.brooklinema.gov/1341/Energy-Choices',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
       green: g_nMinimumTotalGreen,
@@ -463,33 +463,33 @@ input.error
     },
     'Brookline Green':
     {
-      url: 'https://www.brooklinema.gov/1340/Brookline-Green-Electricity',
+      url: 'https://www.brooklinema.gov/1341/Energy-Choices',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 46,
-      local: 46,
+      green: g_nMinimumTotalGreen + 30,
+      local: g_nMinimumLocalGreen + 30,
       start: '2020-01',
       end: '2022-12',
       rate: 11.615
     },
     'Brookline Green 65':
     {
-      url: 'https://www.brooklinema.gov/1340/Brookline-Green-Electricity',
+      url: 'https://www.brooklinema.gov/1341/Energy-Choices',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 81,
-      local: 81,
+      green: g_nMinimumTotalGreen + 65,
+      local: g_nMinimumLocalGreen + 65,
       start: '2020-01',
       end: '2022-12',
       rate: 12.665
     },
     'Brookline All Green':
     {
-      url: 'https://www.brooklinema.gov/1340/Brookline-Green-Electricity',
+      url: 'https://www.brooklinema.gov/1341/Energy-Choices',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 100,
-      local: 100,
+      green: g_nMinimumTotalGreen + 100,
+      local: g_nMinimumLocalGreen + 100,
       start: '2020-01',
       end: '2022-12',
       rate: 13.715
