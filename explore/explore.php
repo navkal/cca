@@ -234,10 +234,10 @@ input.error
               Rate
             </th>
             <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources located in New England" >
-              Local Green Content
+              Local Renewable Content
             </th>
             <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources" >
-              Total Green Content
+              Total Renewable Content
             </th>
             <th data-toggle="tooltip" title="Mediator between town government and bulk energy supplier" class="filter-match" >
               Broker
@@ -261,16 +261,16 @@ input.error
     <p>
       <small class="text-muted">
         <h6>
-          Note on Green Content
+          Note on Renewable Content
         </h6>
 
         We could not calculate the percentages of
         <i>
-          Local Green Content
+          Local Renewable Content
         </i>
         and
         <i>
-          Total Green Content
+          Total Renewable Content
         </i>
         precisely in some cases, because of uncertainties or ambiguities in the online descriptions of contract terms.
 
@@ -664,8 +664,8 @@ input.error
       url: 'http://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: 37.71,
-      local: 26,
+      green: g_nMinimumTotalGreen + 10,
+      local: g_nMinimumLocalGreen + 10,
       start: '2019-07',
       end: '2020-12',
       rate: 11.263
