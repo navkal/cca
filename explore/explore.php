@@ -804,7 +804,7 @@ input.error
     },
     'Watertown Basic':
     {
-      url: 'https://masspowerchoice.com/watertown',
+      url: 'https://masspowerchoice.com/watertown/options-prices',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: g_nMinimumTotalGreen,
@@ -815,18 +815,18 @@ input.error
     },
     'Watertown Standard':
     {
-      url: 'https://masspowerchoice.com/watertown',
+      url: 'https://masspowerchoice.com/watertown/options-prices',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: 51,
-      local: 51,
+      green: g_nMinimumTotalGreen + 35,
+      local: g_nMinimumLocalGreen + 35,
       start: '2019-09',
       end: '2021-12',
       rate: 11.494
     },
     'Watertown 100% Green':
     {
-      url: 'https://masspowerchoice.com/watertown',
+      url: 'https://masspowerchoice.com/watertown/options-prices',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: 100,
