@@ -631,8 +631,8 @@ input.error
       url: 'https://melrose-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 32.71,
-      local: 21,
+      green: g_nMinimumTotalGreen + 5,
+      local: g_nMinimumLocalGreen + 5,
       start: '2019-06',
       end: '2021-11',
       rate: 10.521
