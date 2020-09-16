@@ -389,24 +389,24 @@ input.error
       url: 'https://arlingtoncca.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 38.71,
-      local: 27,
+      green: g_nMinimumTotalGreen + 11,
+      local: g_nMinimumLocalGreen + 11,
       start: '2019-12',
       end: '2022-11',
       rate: 11.029
     },
-    'Arlington Premium 50% Local Green':
+    'Arlington Local Greener':
     {
       url: 'https://arlingtoncca.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 66,
-      local: 66,
+      green: g_nMinimumTotalGreen + 50,
+      local: g_nMinimumLocalGreen + 50,
       start: '2019-12',
       end: '2022-11',
       rate: 12.199
     },
-    'Arlington Premium 100% Local Green':
+    'Arlington Local Greenest':
     {
       url: 'https://arlingtoncca.com/',
       broker: 'Good Energy',
