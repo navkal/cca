@@ -857,7 +857,7 @@ input.error
       end: '2022-05',
       rate: 10.249
     },
-    'Winchester WinPower Basic':
+    'Winchester Basic':
     {
       url: 'https://winpowerma.com/',
       broker: 'Good Energy',
@@ -868,13 +868,13 @@ input.error
       end: '2022-12',
       rate: 10.866
     },
-    'Winchester WinPower':
+    'Winchester WinPower Standard':
     {
       url: 'https://winpowerma.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 36.71,
-      local: 25,
+      green: g_nMinimumTotalGreen + 10,
+      local: g_nMinimumLocalGreen + 10,
       start: '2020-01',
       end: '2022-12',
       rate: 11.167
