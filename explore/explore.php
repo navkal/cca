@@ -342,10 +342,10 @@ input.error
   {
     'Acton Power Choice Basic':
     {
-      url: 'http://masspowerchoice.com/acton',
+      url: 'https://masspowerchoice.com/acton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: g_nMinimumTotalGreen + 11.7056,
+      green: g_nMinimumTotalGreen,
       local: g_nMinimumLocalGreen,
       start: '2019-10',
       end: '2022-09',
@@ -353,7 +353,7 @@ input.error
     },
     'Acton Power Choice Standard':
     {
-      url: 'http://masspowerchoice.com/acton',
+      url: 'https://masspowerchoice.com/acton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: g_nMinimumTotalGreen + 10,
@@ -364,7 +364,7 @@ input.error
     },
     'Acton Power Choice Green':
     {
-      url: 'http://masspowerchoice.com/acton',
+      url: 'https://masspowerchoice.com/acton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: 100,
