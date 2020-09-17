@@ -342,6 +342,7 @@ input.error
   {
     'Acton Power Choice Basic':
     {
+      is_default: false,
       url: 'https://masspowerchoice.com/acton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -353,6 +354,7 @@ input.error
     },
     'Acton Power Choice Standard':
     {
+      is_default: true,
       url: 'https://masspowerchoice.com/acton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -364,6 +366,7 @@ input.error
     },
     'Acton Power Choice Green':
     {
+      is_default: false,
       url: 'https://masspowerchoice.com/acton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -375,6 +378,7 @@ input.error
     },
     'Arlington Basic':
     {
+      is_default: false,
       url: 'https://arlingtoncca.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -386,6 +390,7 @@ input.error
     },
     'Arlington Local Green':
     {
+      is_default: true,
       url: 'https://arlingtoncca.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -397,6 +402,7 @@ input.error
     },
     'Arlington Local Greener':
     {
+      is_default: false,
       url: 'https://arlingtoncca.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -408,6 +414,7 @@ input.error
     },
     'Arlington Local Greenest':
     {
+      is_default: false,
       url: 'https://arlingtoncca.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -419,6 +426,7 @@ input.error
     },
     'Ashland Green':
     {
+      is_default: true,
       url: 'https://colonialpowergroup.com/ashland/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -430,6 +438,7 @@ input.error
     },
     'Billerica Standard':
     {
+      is_default: true,
       url: 'https://colonialpowergroup.com/billerica/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -441,6 +450,7 @@ input.error
     },
     'Billerica Optional Green':
     {
+      is_default: false,
       url: 'https://colonialpowergroup.com/billerica/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -452,6 +462,7 @@ input.error
     },
     'Brookline Basic':
     {
+      is_default: false,
       url: 'https://www.brooklinema.gov/1341/Energy-Choices',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -463,6 +474,7 @@ input.error
     },
     'Brookline Green':
     {
+      is_default: true,
       url: 'https://www.brooklinema.gov/1341/Energy-Choices',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -474,6 +486,7 @@ input.error
     },
     'Brookline Green 65':
     {
+      is_default: false,
       url: 'https://www.brooklinema.gov/1341/Energy-Choices',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -485,6 +498,7 @@ input.error
     },
     'Brookline All Green':
     {
+      is_default: false,
       url: 'https://www.brooklinema.gov/1341/Energy-Choices',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -496,6 +510,7 @@ input.error
     },
     'Cambridge Standard Green':
     {
+      is_default: true,
       url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -507,6 +522,7 @@ input.error
     },
     'Cambridge 100% Green Plus':
     {
+      is_default: false,
       url: 'http://masspowerchoice.com/cambridge',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -518,6 +534,7 @@ input.error
     },
     'Carlisle Basic Supply':
     {
+      is_default: false,
       url: 'https://colonialpowergroup.com/carlisle/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -529,6 +546,7 @@ input.error
     },
     'Carlisle Green Supply':
     {
+      is_default: true,
       url: 'https://colonialpowergroup.com/carlisle/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -540,6 +558,7 @@ input.error
     },
     'Chelmsford Choice':
     {
+      is_default: true,
       url: 'https://masspowerchoice.com/chelmsford/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -551,6 +570,7 @@ input.error
     },
     'Chelmsford Choice Plus':
     {
+      is_default: false,
       url: 'https://masspowerchoice.com/chelmsford/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -562,6 +582,7 @@ input.error
     },
     'Dracut Standard':
     {
+      is_default: true,
       url: 'https://masscea.com/dracut/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -573,6 +594,7 @@ input.error
     },
     'Lancaster Standard':
     {
+      is_default: true,
       url: 'https://colonialpowergroup.com/lancaster/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -584,6 +606,7 @@ input.error
     },
     'Lexington Basic':
     {
+      is_default: false,
       url: 'http://masspowerchoice.com/lexington',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -595,17 +618,19 @@ input.error
     },
     'Lexington 100% Green':
     {
+      is_default: true,
       url: 'http://masspowerchoice.com/lexington',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: 100,
-      local: 21,
+      local: g_nMinimumLocalGreen + 5,
       start: '2018-12',
       end: '2020-12',
       rate: 11.624
     },
     'Lexington New England Green':
     {
+      is_default: false,
       url: 'http://masspowerchoice.com/lexington',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -617,6 +642,7 @@ input.error
     },
     'Melrose Basic':
     {
+      is_default: false,
       url: 'https://melrose-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -628,6 +654,7 @@ input.error
     },
     'Melrose Local Green':
     {
+      is_default: true,
       url: 'https://melrose-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -639,6 +666,7 @@ input.error
     },
     'Melrose Premium 100% Local Green':
     {
+      is_default: false,
       url: 'https://melrose-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -650,6 +678,7 @@ input.error
     },
     'Natick Basic/Brown':
     {
+      is_default: false,
       url: 'http://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -661,6 +690,7 @@ input.error
     },
     'Natick Standard Green':
     {
+      is_default: true,
       url: 'http://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -672,6 +702,7 @@ input.error
     },
     'Natick 100% Green':
     {
+      is_default: false,
       url: 'http://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -683,6 +714,7 @@ input.error
     },
     'Newton Basic':
     {
+      is_default: false,
       url: 'https://masspowerchoice.com/newton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -694,6 +726,7 @@ input.error
     },
     'Newton Standard':
     {
+      is_default: true,
       url: 'https://masspowerchoice.com/newton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -705,6 +738,7 @@ input.error
     },
     'Newton 100% Green':
     {
+      is_default: false,
       url: 'https://masspowerchoice.com/newton/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -716,6 +750,7 @@ input.error
     },
     'North Andover Standard':
     {
+      is_default: true,
       url: 'https://colonialpowergroup.com/north-andover',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -727,6 +762,7 @@ input.error
     },
     'North Andover Green':
     {
+      is_default: false,
       url: 'https://colonialpowergroup.com/north-andover',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -738,6 +774,7 @@ input.error
     },
     'Sudbury Basic':
     {
+      is_default: false,
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -749,6 +786,7 @@ input.error
     },
     'Sudbury Local Green':
     {
+      is_default: true,
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -760,6 +798,7 @@ input.error
     },
     'Sudbury Premium 100% Local Green':
     {
+      is_default: false,
       url: 'https://sudbury-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -771,6 +810,7 @@ input.error
     },
     'Tewksbury Green':
     {
+      is_default: true,
       url: 'https://colonialpowergroup.com/tewksbury/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -782,6 +822,7 @@ input.error
     },
     'Tyngsborough Standard':
     {
+      is_default: true,
       url: 'https://colonialpowergroup.com/tyngsborough/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -793,6 +834,7 @@ input.error
     },
     'Tyngsborough Optional Green':
     {
+      is_default: false,
       url: 'https://colonialpowergroup.com/tyngsborough/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -804,6 +846,7 @@ input.error
     },
     'Watertown Basic':
     {
+      is_default: false,
       url: 'https://masspowerchoice.com/watertown/options-prices',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -815,6 +858,7 @@ input.error
     },
     'Watertown Standard':
     {
+      is_default: true,
       url: 'https://masspowerchoice.com/watertown/options-prices',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -826,6 +870,7 @@ input.error
     },
     'Watertown 100% Green':
     {
+      is_default: false,
       url: 'https://masspowerchoice.com/watertown/options-prices',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
@@ -837,6 +882,7 @@ input.error
     },
     'Westford Standard':
     {
+      is_default: true,
       url: 'https://masscea.com/westford/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -848,6 +894,7 @@ input.error
     },
     'Williamsburg Green':
     {
+      is_default: true,
       url: 'https://colonialpowergroup.com/williamsburg/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
@@ -859,6 +906,7 @@ input.error
     },
     'Winchester Basic':
     {
+      is_default: false,
       url: 'https://winpowerma.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -870,6 +918,7 @@ input.error
     },
     'Winchester WinPower Standard':
     {
+      is_default: true,
       url: 'https://winpowerma.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
@@ -881,6 +930,7 @@ input.error
     },
     'Winchester WinPower 100':
     {
+      is_default: false,
       url: 'https://winpowerma.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
