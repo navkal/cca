@@ -1273,7 +1273,7 @@ input.error
         var tCcaOption = ( sCcaOption in g_tCcaOptions ) ? ( g_tCcaOptions[sCcaOption] ) : null;
         if ( tCcaOption && tCcaOption.url )
         {
-          sIsDefault = tCcaOption.is_default ? ' <small class="text-muted">(D)</small>' : '';
+          sIsDefault = tCcaOption.is_default ? '<small class="text-muted">&nbsp;(D)</small>' : '';
           sHtml += '<tr>';
           sHtml += '<td>';
           sHtml += '<a href="' + tCcaOption.url + '" target="_blank" >' + sCcaOption + sIsDefault + '</a>';
