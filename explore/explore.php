@@ -256,7 +256,13 @@ input.error
     </div>
   </div>
 
-  <div class="container-fluid" >
+  <!-- Footnotes -->
+  <div class="container-fluid pt-3" >
+    <p>
+      <small class="text-muted">
+        (D) - Participants in the program are enrolled in this option by default
+      </small>
+    </p>
     <hr/>
     <p>
       <small class="text-muted">
