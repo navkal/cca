@@ -540,7 +540,7 @@ input.error
     },
     'Chelmsford Choice':
     {
-      url: 'http://masspowerchoice.com/chelmsford',
+      url: 'https://masspowerchoice.com/chelmsford/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: g_nMinimumTotalGreen,
@@ -551,11 +551,11 @@ input.error
     },
     'Chelmsford Choice Plus':
     {
-      url: 'http://masspowerchoice.com/chelmsford',
+      url: 'https://masspowerchoice.com/chelmsford/options-pricing',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: 100,
-      local: 36,
+      green: g_nMinimumTotalGreen + 20 + 52.2944,
+      local: g_nMinimumLocalGreen + 20,
       start: '2018-02',
       end: '2020-11',
       rate: 10.089
