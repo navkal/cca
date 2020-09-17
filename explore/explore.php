@@ -260,7 +260,7 @@ input.error
   <div class="container-fluid pt-3" >
     <p>
       <small class="text-muted">
-        (D) - Participants in the program are enrolled in this option by default
+        (D) - Participants are enrolled in this option by default
       </small>
     </p>
     <hr/>
