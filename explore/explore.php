@@ -1066,6 +1066,50 @@ input.error
     {
       'National Grid Basic Service': 9.898,
     },
+    'Jun 20':
+    {
+      'National Grid Basic Service': 9.898,
+    },
+    'Jul 20':
+    {
+      'National Grid Basic Service': 9.898,
+    },
+    'Aug 20':
+    {
+      'National Grid Basic Service': 9.898,
+    },
+    'Sep 20':
+    {
+      'National Grid Basic Service': 9.898,
+    },
+    'Oct 20':
+    {
+      'National Grid Basic Service': 9.898,
+    },
+    'Nov 20':
+    {
+      'National Grid Basic Service': 12.388,
+    },
+    'Dec 20':
+    {
+      'National Grid Basic Service': 12.388,
+    },
+    'Jan 21':
+    {
+      'National Grid Basic Service': 12.388,
+    },
+    'Feb 21':
+    {
+      'National Grid Basic Service': 12.388,
+    },
+    'Mar 21':
+    {
+      'National Grid Basic Service': 12.388,
+    },
+    'Apr 21':
+    {
+      'National Grid Basic Service': 12.388,
+    },
   };
 
   var g_iTotalKwh = 0;
