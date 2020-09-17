@@ -1284,6 +1284,10 @@ input.error
             sHtml += tCcaOption.broker;
           }
         }
+        else
+        {
+          sHtml += '<a href="https://www.nationalgridus.com/media/pdfs/billing-payments/bill-inserts/mae/cm4391_ma.pdf" target="_blank" >Power Sources</a>';
+        }
         sHtml += '</td>';
 
         // Start month
