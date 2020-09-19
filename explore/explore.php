@@ -227,7 +227,7 @@ input.error
             <th data-toggle="tooltip" title="Energy component of electric bill" >
               Annual Cost
             </th>
-            <th data-toggle="tooltip" title="Difference relative to National Grid Basic Service" >
+            <th data-toggle="tooltip" title="Difference relative to <?=NGBS?>" >
               Annual Savings
             </th>
             <th data-toggle="tooltip" title="Cost per kWh" >
@@ -952,163 +952,163 @@ input.error
   {
     'Jan 18':
     {
-      'National Grid Basic Service': 12.673,
+      '<?=NGBS?>': 12.673,
     },
     'Feb 18':
     {
-      'National Grid Basic Service': 12.673,
+      '<?=NGBS?>': 12.673,
     },
     'Mar 18':
     {
-      'National Grid Basic Service': 12.673,
+      '<?=NGBS?>': 12.673,
     },
     'Apr 18':
     {
-      'National Grid Basic Service': 12.673,
+      '<?=NGBS?>': 12.673,
     },
     'May 18':
     {
-      'National Grid Basic Service': 10.87,
+      '<?=NGBS?>': 10.87,
     },
     'Jun 18':
     {
-      'National Grid Basic Service': 10.87,
+      '<?=NGBS?>': 10.87,
     },
     'Jul 18':
     {
-      'National Grid Basic Service': 10.87,
+      '<?=NGBS?>': 10.87,
     },
     'Aug 18':
     {
-      'National Grid Basic Service': 10.87,
+      '<?=NGBS?>': 10.87,
     },
     'Sep 18':
     {
-      'National Grid Basic Service': 10.87,
+      '<?=NGBS?>': 10.87,
     },
     'Oct 18':
     {
-      'National Grid Basic Service': 10.87,
+      '<?=NGBS?>': 10.87,
     },
     'Nov 18':
     {
-      'National Grid Basic Service': 13.718,
+      '<?=NGBS?>': 13.718,
     },
     'Dec 18':
     {
-      'National Grid Basic Service': 13.718,
+      '<?=NGBS?>': 13.718,
     },
     'Jan 19':
     {
-      'National Grid Basic Service': 13.718,
+      '<?=NGBS?>': 13.718,
     },
     'Feb 19':
     {
-      'National Grid Basic Service': 13.718,
+      '<?=NGBS?>': 13.718,
     },
     'Mar 19':
     {
-      'National Grid Basic Service': 13.718,
+      '<?=NGBS?>': 13.718,
     },
     'Apr 19':
     {
-      'National Grid Basic Service': 13.718,
+      '<?=NGBS?>': 13.718,
     },
     'May 19':
     {
-      'National Grid Basic Service': 10.793,
+      '<?=NGBS?>': 10.793,
     },
     'Jun 19':
     {
-      'National Grid Basic Service': 10.793,
+      '<?=NGBS?>': 10.793,
     },
     'Jul 19':
     {
-      'National Grid Basic Service': 10.793,
+      '<?=NGBS?>': 10.793,
     },
     'Aug 19':
     {
-      'National Grid Basic Service': 10.793,
+      '<?=NGBS?>': 10.793,
     },
     'Sep 19':
     {
-      'National Grid Basic Service': 10.793,
+      '<?=NGBS?>': 10.793,
     },
     'Oct 19':
     {
-      'National Grid Basic Service': 10.793,
+      '<?=NGBS?>': 10.793,
     },
     'Nov 19':
     {
-      'National Grid Basic Service': 13.957,
+      '<?=NGBS?>': 13.957,
     },
     'Dec 19':
     {
-      'National Grid Basic Service': 13.957,
+      '<?=NGBS?>': 13.957,
     },
     'Jan 20':
     {
-      'National Grid Basic Service': 13.957,
+      '<?=NGBS?>': 13.957,
     },
     'Feb 20':
     {
-      'National Grid Basic Service': 13.957,
+      '<?=NGBS?>': 13.957,
     },
     'Mar 20':
     {
-      'National Grid Basic Service': 13.957,
+      '<?=NGBS?>': 13.957,
     },
     'Apr 20':
     {
-      'National Grid Basic Service': 13.957,
+      '<?=NGBS?>': 13.957,
     },
     'May 20':
     {
-      'National Grid Basic Service': 9.898,
+      '<?=NGBS?>': 9.898,
     },
     'Jun 20':
     {
-      'National Grid Basic Service': 9.898,
+      '<?=NGBS?>': 9.898,
     },
     'Jul 20':
     {
-      'National Grid Basic Service': 9.898,
+      '<?=NGBS?>': 9.898,
     },
     'Aug 20':
     {
-      'National Grid Basic Service': 9.898,
+      '<?=NGBS?>': 9.898,
     },
     'Sep 20':
     {
-      'National Grid Basic Service': 9.898,
+      '<?=NGBS?>': 9.898,
     },
     'Oct 20':
     {
-      'National Grid Basic Service': 9.898,
+      '<?=NGBS?>': 9.898,
     },
     'Nov 20':
     {
-      'National Grid Basic Service': 12.388,
+      '<?=NGBS?>': 12.388,
     },
     'Dec 20':
     {
-      'National Grid Basic Service': 12.388,
+      '<?=NGBS?>': 12.388,
     },
     'Jan 21':
     {
-      'National Grid Basic Service': 12.388,
+      '<?=NGBS?>': 12.388,
     },
     'Feb 21':
     {
-      'National Grid Basic Service': 12.388,
+      '<?=NGBS?>': 12.388,
     },
     'Mar 21':
     {
-      'National Grid Basic Service': 12.388,
+      '<?=NGBS?>': 12.388,
     },
     'Apr 21':
     {
-      'National Grid Basic Service': 12.388,
+      '<?=NGBS?>': 12.388,
     },
   };
 
@@ -1258,10 +1258,10 @@ input.error
 
     if ( isInputReady() )
     {
-      var nCostNg = calculateCost( 'National Grid Basic Service' );
+      var nCostNg = calculateCost( '<?=NGBS?>' );
 
       var aCcaOptions = Object.keys( g_tCcaOptions );
-      aCcaOptions.push( 'National Grid Basic Service' );
+      aCcaOptions.push( '<?=NGBS?>' );
 
       // Generate the table
       var sHtml = '';
@@ -1294,7 +1294,7 @@ input.error
         // Savings
         var nSavings = ( nCostNg - nCostCcaOption );
         var sClass = ( ( nSavings > 0 ) ? 'font-weight-bold text-success' : ( ( nSavings < 0 ) ? 'text-danger' : '' ) );
-        var sSavings = ( sCcaOption == 'National Grid Basic Service' ) ? '' : ' savings="' + nSavings + '"';
+        var sSavings = ( sCcaOption == '<?=NGBS?>' ) ? '' : ' savings="' + nSavings + '"';
         sHtml += '<td class="' + sClass + '"' + sSavings + '>';
         sHtml += '$' + nSavings;
         sHtml += '</td>';

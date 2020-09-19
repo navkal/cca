@@ -119,10 +119,10 @@ var g_aQa =
       '  If enacted, the Andover CCA program will offer one or more supply options to National Grid customers.' +
       '</p>' +
       '<p>' +
-      '  Initially, if you get your supply from National Grid Basic Service, you will be switched automatically to the program\'s default supply option.  If the program offers other options - for example, with higher or lower renewable content than the default - you can switch (<i>opt up</i> or <i>opt down</i>) at any time.  You can also return to National Grid Basic Service at any time, without penalty or cost.  You can even <i>opt out</i> before the program starts.' +
+      '  Initially, if you get your supply from <?=NGBS?>, you will be switched automatically to the program\'s default supply option.  If the program offers other options - for example, with higher or lower renewable content than the default - you can switch (<i>opt up</i> or <i>opt down</i>) at any time.  You can also return to <?=NGBS?> at any time, without penalty or cost.  You can even <i>opt out</i> before the program starts.' +
       '</p>' +
       '<p>' +
-      '  If you do not subscribe to National Grid Basic Service, you will not be enrolled automatically, but you can enroll if you wish.' +
+      '  If you do not subscribe to <?=NGBS?>, you will not be enrolled automatically, but you can enroll if you wish.' +
       '</p>'
   },
   {
@@ -148,12 +148,12 @@ var g_aQa =
       '  Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.' +
       '</p>' +
       '<p>' +
-      '  Once enrolled in CCA, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service as before.  While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to potential fluctuations in National Grid pricing.' +
+      '  Once enrolled in CCA, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service as before.  While CCA aims to offer favorable supply prices, savings relative to <?=NGBS?> is not guaranteed, due to potential fluctuations in National Grid pricing.' +
       '</p>'
   },
   {
-    q: 'Will the CCA supply rate be lower than National Grid Basic Service rate?',
-    a: 'While CCA aims to offer favorable supply prices, savings relative to National Grid Basic Service is not guaranteed, due to potential fluctuations in National Grid pricing.  The CCA rate is typically fixed for the duration of the supply contract, which may last several years.  On the other hand, the National Grid Basic Service rate changes every six months for residential, small business, and lighting accounts, and every three months for large commercial and industrial customers.'
+    q: 'Will the CCA supply rate be lower than <?=NGBS?> rate?',
+    a: 'While CCA aims to offer favorable supply prices, savings relative to <?=NGBS?> is not guaranteed, due to potential fluctuations in National Grid pricing.  The CCA rate is typically fixed for the duration of the supply contract, which may last several years.  On the other hand, the <?=NGBS?> rate changes every six months for residential, small business, and lighting accounts, and every three months for large commercial and industrial customers.'
   },
   {
     q: 'Will I have to pay a deposit to participate in CCA?',
@@ -165,7 +165,7 @@ var g_aQa =
   },
   {
     q: 'What if I have a solar photo-voltaic (PV) system?',
-    a: 'If you have a solar PV system, you can participate in the CCA program, as long as you subscribe to National Grid Basic Service.  You will continue to receive net metering credits, which will appear on your National Grid bill and be calculated based on the National Grid Basic Service price, as before.  There will be no change in your eligibility to earn or sell SRECs.'
+    a: 'If you have a solar PV system, you can participate in the CCA program, as long as you subscribe to <?=NGBS?>.  You will continue to receive net metering credits, which will appear on your National Grid bill and be calculated based on the <?=NGBS?> price, as before.  There will be no change in your eligibility to earn or sell SRECs.'
   },
   {
     q: 'How can I trust that Andover will select a competent and reputable supplier?',
@@ -177,7 +177,7 @@ var g_aQa =
   },
   {
     q: 'Will Andover municipality profit from the CCA program?',
-    a: 'No, Andover will not profit from the CCA program.  However, as a current customer of National Grid Basic Service, the municipality has the potential to benefit from the program in the same way as residential and business customers would.'
+    a: 'No, Andover will not profit from the CCA program.  However, as a current customer of <?=NGBS?>, the municipality has the potential to benefit from the program in the same way as residential and business customers would.'
   },
   {
     q: 'Under the program, can I continue to participate in National Grid’s budget billing/equal payment plan?',

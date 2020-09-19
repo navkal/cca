@@ -52,8 +52,8 @@
     ],
     [
       'url' => 'https://www.nationalgridus.com/media/pdfs/billing-payments/electric-rates/ma/resitable.pdf',
-      'title' => 'National Grid Basic Service pricing',
-      'descr' => 'National Grid Basic Service rates since November, 2004'
+      'title' => NGBS . ' pricing',
+      'descr' => NGBS . ' rates since November, 2004'
     ],
     [
       'url' => 'https://www.mass.gov/news/ag-healey-calls-for-shut-down-of-individual-residential-competitive-supply-industry-to-protect',
