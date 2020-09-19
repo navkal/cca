@@ -193,7 +193,7 @@ var g_aQa =
   },
   {
     q: 'If I participate in a CCA program or enroll with a TPS, will the utility take longer to restore my electricity in the event of an outage?',
-    a: 'No.  Since the 1997 deregulation law stipulates that your utility can generate revenue only by delivering your electricity, and not by providing the electricity supply, they have no incentive to give priority to their own Basic Service customers when restoring service.'
+    a: 'No.  Since the 1997 deregulation law stipulates that your utility can generate revenue only by delivering your electricity, and not by providing the electricity supply, they have no incentive to give priority to their own <?=BS?> customers when restoring service.'
   },
   {
     q: 'I have received offers from TPS\'s promising lower electricity rates. What should I do?',
@@ -206,8 +206,8 @@ var g_aQa =
       '</p>'
   },
   {
-    q: 'A few months after I switched to a TPS, my rate jumped above the utility Basic Service rate. Can this happen with a CCA supplier?',
-    a: 'CCA supply rates are typically fixed for the contract period (months or years).  While they aim to offer a favorable price for the promised energy mix, there is no guarantee that they will be lower than the utility Basic Service rate.'
+    q: 'A few months after I switched to a TPS, my rate jumped above the utility <?=BS?> rate. Can this happen with a CCA supplier?',
+    a: 'CCA supply rates are typically fixed for the contract period (months or years).  While they aim to offer a favorable price for the promised energy mix, there is no guarantee that they will be lower than the utility <?=BS?> rate.'
   },
   {
     q: 'What is the origin of CCA in Massachusetts?',
