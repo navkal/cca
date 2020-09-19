@@ -312,7 +312,7 @@ input.error
             </p>
             <ol>
               <li>
-                Find the <i>Electric Usage History</i> on your National Grid bill.
+                Find the <i>Electric Usage History</i> on your <?=NG?> bill.
               </li>
               <li>
                 Set <b>Start Month</b> to the first month in the <i>Electric Usage History</i>.
