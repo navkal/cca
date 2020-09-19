@@ -5,6 +5,8 @@
 <?php
   define( 'BOOTSTRAP_VERSION', '_4' );
   require_once '../common/libraries' . BOOTSTRAP_VERSION . '.php';
-  define ( 'NGBS', 'National Grid Basic Service' );
+  define ( 'NG', 'National Grid' );
+  define ( 'BS', 'Basic Service' );
+  define ( 'NGBS', NG . ' ' . BS );
   include "../common/main.php";
 ?>
