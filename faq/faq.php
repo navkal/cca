@@ -116,7 +116,7 @@ var g_aQa =
     q: 'How do I join or leave the CCA program?',
     a:
       '<p>' +
-      '  If enacted, the Andover CCA program will offer one or more supply options to National Grid customers.' +
+      '  If enacted, the Andover CCA program will offer one or more supply options to <?=NG?> customers.' +
       '</p>' +
       '<p>' +
       '  Initially, if you get your supply from <?=NGBS?>, you will be switched automatically to the program\'s default supply option.  If the program offers other options - for example, with higher or lower renewable content than the default - you can switch (<i>opt up</i> or <i>opt down</i>) at any time.  You can also return to <?=NGBS?> at any time, without penalty or cost.  You can even <i>opt out</i> before the program starts.' +
@@ -135,7 +135,7 @@ var g_aQa =
   },
   {
     q: 'If I leave, can I return at a later date?',
-    a: 'After leaving, you may return to the CCA program at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.  After you re-enroll, the CCA program rate will appear on your utility bill in the next available billing cycle.  Since National Grid takes at least two days to process a change of supplier, you are encouraged to re-enroll at least five business days before the meter read date indicated on your utility bill, to help ensure that re-enrollment occurs on a timely basis.'
+    a: 'After leaving, you may return to the CCA program at any time with no associated re-enrollment fee; but upon returning, you are not guaranteed the original contract rate.  After you re-enroll, the CCA program rate will appear on your utility bill in the next available billing cycle.  Since <?=NG?> takes at least two days to process a change of supplier, you are encouraged to re-enroll at least five business days before the meter read date indicated on your utility bill, to help ensure that re-enrollment occurs on a timely basis.'
   },
   {
     q: 'Can businesses participate in the CCA program?',
@@ -148,12 +148,12 @@ var g_aQa =
       '  Your electric utility bill has two cost components – delivery and supply.  CCA affects only the supply component.  CCA does not affect the price of delivery, which is set by the utility and regulated by MA DPU.' +
       '</p>' +
       '<p>' +
-      '  Once enrolled in CCA, you will continue to receive one bill for both delivery and supply from National Grid, and National Grid will continue to provide the same level of service as before.  While CCA aims to offer favorable supply prices, savings relative to <?=NGBS?> is not guaranteed, due to potential fluctuations in National Grid pricing.' +
+      '  Once enrolled in CCA, you will continue to receive one bill for both delivery and supply from <?=NG?>, and <?=NG?> will continue to provide the same level of service as before.  While CCA aims to offer favorable supply prices, savings relative to <?=NGBS?> is not guaranteed, due to potential fluctuations in <?=NG?> pricing.' +
       '</p>'
   },
   {
     q: 'Will the CCA supply rate be lower than <?=NGBS?> rate?',
-    a: 'While CCA aims to offer favorable supply prices, savings relative to <?=NGBS?> is not guaranteed, due to potential fluctuations in National Grid pricing.  The CCA rate is typically fixed for the duration of the supply contract, which may last several years.  On the other hand, the <?=NGBS?> rate changes every six months for residential, small business, and lighting accounts, and every three months for large commercial and industrial customers.'
+    a: 'While CCA aims to offer favorable supply prices, savings relative to <?=NGBS?> is not guaranteed, due to potential fluctuations in <?=NG?> pricing.  The CCA rate is typically fixed for the duration of the supply contract, which may last several years.  On the other hand, the <?=NGBS?> rate changes every six months for residential, small business, and lighting accounts, and every three months for large commercial and industrial customers.'
   },
   {
     q: 'Will I have to pay a deposit to participate in CCA?',
@@ -161,18 +161,18 @@ var g_aQa =
   },
   {
     q: 'Will there be a change to my electric meter?',
-    a: 'No, there will be no change to your meter.  National Grid will continue to read your meter to determine how much energy you consume.'
+    a: 'No, there will be no change to your meter.  <?=NG?> will continue to read your meter to determine how much energy you consume.'
   },
   {
     q: 'What if I have a solar photo-voltaic (PV) system?',
-    a: 'If you have a solar PV system, you can participate in the CCA program, as long as you subscribe to <?=NGBS?>.  You will continue to receive net metering credits, which will appear on your National Grid bill and be calculated based on the <?=NGBS?> price, as before.  There will be no change in your eligibility to earn or sell SRECs.'
+    a: 'If you have a solar PV system, you can participate in the CCA program, as long as you subscribe to <?=NGBS?>.  You will continue to receive net metering credits, which will appear on your <?=NG?> bill and be calculated based on the <?=NGBS?> price, as before.  There will be no change in your eligibility to earn or sell SRECs.'
   },
   {
     q: 'How can I trust that Andover will select a competent and reputable supplier?',
     a: 'Only suppliers licensed by the state are eligible to bid for CCA contracts.'
   },
   {
-    q: 'Can National Grid be a CCA supplier?',
+    q: 'Can <?=NG?> be a CCA supplier?',
     a: 'No.  By law, utilities cannot bid for CCA supply contracts.'
   },
   {
@@ -180,12 +180,12 @@ var g_aQa =
     a: 'No, Andover will not profit from the CCA program.  However, as a current customer of <?=NGBS?>, the municipality has the potential to benefit from the program in the same way as residential and business customers would.'
   },
   {
-    q: 'Under the program, can I continue to participate in National Grid’s budget billing/equal payment plan?',
+    q: 'Under the program, can I continue to participate in <?=NG?>’s budget billing/equal payment plan?',
     a: 'Yes, you may continue to participate in a budget billing/equal payment plan.'
   },
   {
     q: 'Whom should I call in case of an outage or an issue with my electric bill?',
-    a: 'To report an outage, contact National Grid at (800) 465-1212. All billing questions will continue to be directed to National Grid at (800) 322-3223.'
+    a: 'To report an outage, contact <?=NG?> at (800) 465-1212. All billing questions will continue to be directed to <?=NG?> at (800) 322-3223.'
   },
   {
     q: 'What is a <i>Third-Party Supplier</i> (TPS)?',
