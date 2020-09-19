@@ -37,7 +37,7 @@
   </p>
 
   <p>
-    The program would give consumers greater control over the price and content of their electricity supply by offering one or more alternatives to National Grid <a href="/?page=basicservice" ><i><?=BS?></i></a>.  It would also allow customers to resume <?=NGBS?> at any time, with no penalty or fee.  For all customers, National Grid would continue to be the distributor and billing agent.
+    The program would give consumers greater control over the price and content of their electricity supply by offering one or more alternatives to <?=NG?> <a href="/?page=basicservice" ><i><?=BS?></i></a>.  It would also allow customers to resume <?=NGBS?> at any time, with no penalty or fee.  For all customers, <?=NG?> would continue to be the distributor and billing agent.
   </p>
 
   <p>
