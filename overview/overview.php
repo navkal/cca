@@ -37,7 +37,7 @@
   </p>
 
   <p>
-    The program would give consumers greater control over the price and content of their electricity supply by offering one or more alternatives to National Grid <a href="/?page=basicservice" ><i>Basic Service</i></a>.  It would also allow customers to resume <?=NGBS?> at any time, with no penalty or fee.  For all customers, National Grid would continue to be the distributor and billing agent.
+    The program would give consumers greater control over the price and content of their electricity supply by offering one or more alternatives to National Grid <a href="/?page=basicservice" ><i><?=BS?></i></a>.  It would also allow customers to resume <?=NGBS?> at any time, with no penalty or fee.  For all customers, National Grid would continue to be the distributor and billing agent.
   </p>
 
   <p>
@@ -83,8 +83,8 @@
         Disclaimer
       </h6>
       <i>
-        A goal of the aggregation program is to produce savings for customers, but savings cannot be guaranteed compared to the utility’s Basic Service rate, which changes every six months for Residential and Small Business customers and every three months for Large Business customers.
-        The aggregation program seeks to provide price stability and average savings over the full term of the program, but because future basic service rates are not known, there is no guarantee of savings.
+        A goal of the aggregation program is to produce savings for customers, but savings cannot be guaranteed compared to the utility’s <?=BS?> rate, which changes every six months for Residential and Small Business customers and every three months for Large Business customers.
+        The aggregation program seeks to provide price stability and average savings over the full term of the program, but because future <?=BS?> rates are not known, there is no guarantee of savings.
       </i>
     </small>
   </p>
