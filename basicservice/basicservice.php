@@ -5,13 +5,13 @@
 ?>
 
 <div class="text-center">
-  <img src="basicservice/basicservice.jpg" class="img-fluid" style="margin:auto; width:100%; max-width:600px" alt="Basic Service">
+  <img src="basicservice/basicservice.jpg" class="img-fluid" style="margin:auto; width:100%; max-width:600px" alt="<?=BS?>">
 </div>
 
 <div class="container mt-4">
 
   <div class="h5 py-2">
-    What is Basic Service?
+    What is <?=BS?>?
   </div>
 
   <p>
@@ -27,7 +27,7 @@
   </p>
 
   <p>
-    The electricity <i>supplied</i> by National Grid is known as <b><i>Basic Service</i></b>.
+    The electricity <i>supplied</i> by <?=NG?> is known as <b><i><?=BS?></i></b>.
   </p>
 
   <p>
@@ -37,9 +37,9 @@
   </p>
 
   <p>
-    Today, most residents and businesses subscribe to their utility's Basic Service.
+    Today, most residents and businesses subscribe to their utility's <?=BS?>.
     <a href="/?page=overview" >Community Choice Aggregation</a> is a state program that permits a town to choose, on behalf of its residents and businesses, a supplier other than the utility.
-    At CCA inception, Basic Service subscribers who do not <i>opt out</i> are automatically enrolled with the new supplier, with the ability to leave without penalty at any time.
+    At CCA inception, <?=BS?> subscribers who do not <i>opt out</i> are automatically enrolled with the new supplier, with the ability to leave without penalty at any time.
   </p>
 
 </div>
