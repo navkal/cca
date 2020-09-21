@@ -1249,7 +1249,7 @@ input.error
     $( '#cca-table' ).tablesorter( jQuery.extend( true, { sortList: [[2,1]] }, tTableProps ) );
 
     // Set filter completion handler
-    $( '#cca-table' ).on( "filterEnd", updateAverage );
+    $( '#cca-table' ).on( "filterEnd", onFilterEnd );
   }
 
   function makeOutput()
@@ -1374,6 +1374,15 @@ input.error
     {
       showErrorMessage( true );
     }
+  }
+
+  function onFilterEnd()
+  {
+    // Update average savings
+    updateAverage();
+
+    // Always show National Grid row, even if it is hidden by filter
+    $( '.ng-row' ).removeClass( 'filtered' );
   }
 
   function updateAverage()
