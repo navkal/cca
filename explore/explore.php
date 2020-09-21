@@ -646,6 +646,18 @@ input.error
       end: '2020-12',
       rate: 12.428
     },
+    'Lowell Standard':
+    {
+      is_default: true,
+      url: 'https://colonialpowergroup.com/lowell/lowell-further-pricing/',
+      broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
+      green: g_nMinimumTotalGreen + 45,
+      local: g_nMinimumLocalGreen + 45,
+      start: '2019-10',
+      end: '2021-12',
+      rate: 11.874
+    },
     'Melrose Basic':
     {
       is_default: false,
