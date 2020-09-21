@@ -430,7 +430,7 @@ input.error
       end: '2022-11',
       rate: 13.699
     },
-    'Ashland Green':
+    'Ashland':
     {
       is_default: true,
       url: 'https://colonialpowergroup.com/ashland/',
@@ -586,7 +586,7 @@ input.error
       end: '2020-11',
       rate: 10.089
     },
-    'Dracut Standard':
+    'Dracut':
     {
       is_default: true,
       url: 'https://masscea.com/dracut/',
@@ -598,7 +598,7 @@ input.error
       end: '2021-01',
       rate: 10.430
     },
-    'Lancaster Standard':
+    'Lancaster':
     {
       is_default: true,
       url: 'https://colonialpowergroup.com/lancaster/',
@@ -646,7 +646,7 @@ input.error
       end: '2020-12',
       rate: 12.428
     },
-    'Lowell Standard':
+    'Lowell':
     {
       is_default: true,
       url: 'https://colonialpowergroup.com/lowell/lowell-further-pricing/',
@@ -826,7 +826,7 @@ input.error
       end: '2023-12',
       rate: 13.722
     },
-    'Tewksbury Green':
+    'Tewksbury':
     {
       is_default: true,
       url: 'https://colonialpowergroup.com/tewksbury/',
@@ -898,7 +898,7 @@ input.error
       end: '2021-12',
       rate: 12.718
     },
-    'Westford Standard':
+    'Westford':
     {
       is_default: true,
       url: 'https://masscea.com/westford/',
@@ -910,7 +910,7 @@ input.error
       end: '2021-01',
       rate: 10.430
     },
-    'Williamsburg Green':
+    'Williamsburg':
     {
       is_default: true,
       url: 'https://colonialpowergroup.com/williamsburg/',
