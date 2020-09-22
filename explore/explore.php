@@ -598,6 +598,42 @@ input.error
       end: '2021-01',
       rate: 10.430
     },
+    'Gloucester Basic':
+    {
+      is_default: false,
+      url: 'https://gloucester-cea.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: g_nMinimumTotalGreen,
+      local: g_nMinimumLocalGreen,
+      start: '2018-12',
+      end: '2021-12',
+      rate: 10.980
+    },
+    'Gloucester Local Green':
+    {
+      is_default: true,
+      url: 'https://gloucester-cea.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: g_nMinimumTotalGreen + 5,
+      local: g_nMinimumLocalGreen + 5,
+      start: '2018-12',
+      end: '2021-12',
+      rate: 11.085
+    },
+    'Gloucester Premium Local Green':
+    {
+      is_default: false,
+      url: 'https://gloucester-cea.com/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: 100,
+      local: 100,
+      start: '2018-12',
+      end: '2021-12',
+      rate: 13.080
+    },
     'Lancaster':
     {
       is_default: true,
