@@ -634,6 +634,18 @@ input.error
       end: '2021-12',
       rate: 13.080
     },
+    'Haverhill':
+    {
+      is_default: true,
+      url: 'https://colonialpowergroup.com/haverhill/',
+      broker: 'Colonial Power Group',
+      broker_url: 'https://colonialpowergroup.com/',
+      green: g_nMinimumTotalGreen,
+      local: g_nMinimumLocalGreen,
+      start: '2020-11',
+      end: '2023-11',
+      rate: 10.860
+    },
     'Lancaster':
     {
       is_default: true,
