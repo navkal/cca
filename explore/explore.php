@@ -236,9 +236,11 @@ input.error
             <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources located in New England" >
               Local Renewable Content
             </th>
+            <!---------------------- Replace with GHG math ---------------------- >
             <th data-toggle="tooltip" title="Percent of total energy mix derived from renewable sources" >
               Total Renewable Content
             </th>
+            <!-------------------------------------------------------------------->
             <th data-toggle="tooltip" title="Mediator between town government and bulk energy supplier" class="filter-match" >
               Broker
             </th>
@@ -273,10 +275,6 @@ input.error
         We could not calculate the percentages of
         <i>
           Local Renewable Content
-        </i>
-        and
-        <i>
-          Total Renewable Content
         </i>
         precisely in some cases, because of uncertainties or ambiguities in the online descriptions of contract terms.
 
@@ -1370,10 +1368,12 @@ input.error
         sHtml += ( ( tCcaOption && tCcaOption.local ) ? tCcaOption.local : g_nMinimumLocalGreen ) + '%';
         sHtml += '</td>';
 
+        // ----------------------> Replace with GHG math ----------------------> //
         // Total green
-        sHtml += '<td>';
-        sHtml += ( ( tCcaOption && tCcaOption.green ) ? tCcaOption.green : g_nMinimumTotalGreen ) + '%';
-        sHtml += '</td>';
+        // sHtml += '<td>';
+        // sHtml += ( ( tCcaOption && tCcaOption.green ) ? tCcaOption.green : g_nMinimumTotalGreen ) + '%';
+        // sHtml += '</td>';
+        // <---------------------- Replace with GHG math <---------------------- //
 
         // Broker
         sHtml += '<td>';
