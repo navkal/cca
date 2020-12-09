@@ -596,10 +596,10 @@ input.error
       end: '2021-01',
       rate: 10.430
     },
-    'Gill Optional Green 25':
+    'Gill Optional Green 5':
     {
       is_default: false,
-      url: 'https://colonialpowergroup.com/gill/',
+      url: 'https://colonialpowergroup.com/gill-further-pricing/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: g_nMinimumTotalGreen + 5,
@@ -611,7 +611,7 @@ input.error
     'Gill Standard':
     {
       is_default: true,
-      url: 'https://colonialpowergroup.com/gill/',
+      url: 'https://colonialpowergroup.com/gill-further-pricing/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: g_nMinimumTotalGreen + 25,
@@ -623,7 +623,7 @@ input.error
     'Gill Optional Green 100':
     {
       is_default: false,
-      url: 'https://colonialpowergroup.com/gill/',
+      url: 'https://colonialpowergroup.com/gill-further-pricing/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
       green: 100,
