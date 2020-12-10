@@ -707,38 +707,38 @@ input.error
     'Lexington Basic':
     {
       is_default: false,
-      url: 'http://masspowerchoice.com/lexington',
+      url: 'https://masspowerchoice.com/lexington',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: g_nMinimumTotalGreen,
       local: g_nMinimumLocalGreen,
-      start: '2018-12',
-      end: '2020-12',
-      rate: 11.494
+      start: '2020-12',
+      end: '2023-12',
+      rate: 9.935
     },
     'Lexington 100% Green':
     {
       is_default: true,
-      url: 'http://masspowerchoice.com/lexington',
+      url: 'https://masspowerchoice.com/lexington',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: 100,
-      local: g_nMinimumLocalGreen + 5,
-      start: '2018-12',
-      end: '2020-12',
-      rate: 11.624
+      local: g_nMinimumLocalGreen + 20,
+      start: '2020-12',
+      end: '2023-12',
+      rate: 10.80
     },
     'Lexington New England Green':
     {
       is_default: false,
-      url: 'http://masspowerchoice.com/lexington',
+      url: 'https://masspowerchoice.com/lexington',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: 100,
       local: 100,
-      start: '2018-12',
-      end: '2020-12',
-      rate: 12.428
+      start: '2020-12',
+      end: '2023-12',
+      rate: 13.219
     },
     'Lowell':
     {
