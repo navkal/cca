@@ -791,38 +791,38 @@ input.error
     'Natick Basic/Brown':
     {
       is_default: false,
-      url: 'http://masspowerchoice.com/natick',
+      url: 'https://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: g_nMinimumTotalGreen,
       local: g_nMinimumLocalGreen,
-      start: '2019-07',
-      end: '2020-12',
-      rate: 11.026
+      start: '2020-12',
+      end: '2022-12',
+      rate: 10.938
     },
     'Natick Standard Green':
     {
       is_default: true,
-      url: 'http://masspowerchoice.com/natick',
+      url: 'https://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: g_nMinimumTotalGreen + 10,
-      local: g_nMinimumLocalGreen + 10,
-      start: '2019-07',
-      end: '2020-12',
-      rate: 11.263
+      green: g_nMinimumTotalGreen + 13, // 2021: +13, 2022: +16
+      local: g_nMinimumLocalGreen + 13, // 2021: +13, 2022: +16
+      start: '2020-12',
+      end: '2022-12',
+      rate: 11.551
     },
     'Natick 100% Green':
     {
       is_default: false,
-      url: 'http://masspowerchoice.com/natick',
+      url: 'https://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: 100,
       local: 100,
-      start: '2019-07',
-      end: '2020-12',
-      rate: 13.063
+      start: '2020-12',
+      end: '2022-12',
+      rate: 14.422
     },
     'Newton Basic':
     {
