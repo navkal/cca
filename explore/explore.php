@@ -436,9 +436,9 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: 100,
       local: g_nMinimumLocalGreen,
-      start: '2018-06',
-      end: '2020-12',
-      rate: 11.047
+      start: '2020-12',
+      end: '2023-12',
+      rate: 10.409
     },
     'Billerica Standard':
     {
