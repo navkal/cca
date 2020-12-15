@@ -632,7 +632,7 @@ input.error
       end: '2023-12',
       rate: 12.244
     },
-    'Dracut Local Green 50%':
+    'Dracut Local Green 100%':
     {
       is_default: false,
       url: 'https://masscea.com/dracut/',
