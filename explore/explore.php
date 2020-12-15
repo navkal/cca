@@ -863,38 +863,38 @@ input.error
     'Newton Basic':
     {
       is_default: false,
-      url: 'https://masspowerchoice.com/newton/options-pricing',
+      url: 'https://masspowerchoice.com/newton',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: g_nMinimumTotalGreen,
       local: g_nMinimumLocalGreen,
-      start: '2019-03',
-      end: '2021-01',
-      rate: 10.870
+      start: '2021-01',
+      end: '2024-01',
+      rate: 10.646
     },
     'Newton Standard':
     {
       is_default: true,
-      url: 'https://masspowerchoice.com/newton/options-pricing',
+      url: 'https://masspowerchoice.com/newton',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: g_nMinimumTotalGreen + 46,
-      local: g_nMinimumLocalGreen + 46,
-      start: '2019-03',
-      end: '2021-01',
-      rate: 11.340
+      green: g_nMinimumTotalGreen + 62,
+      local: g_nMinimumLocalGreen + 62,
+      start: '2021-01',
+      end: '2024-01',
+      rate: 13.452
     },
     'Newton 100% Green':
     {
       is_default: false,
-      url: 'https://masspowerchoice.com/newton/options-pricing',
+      url: 'https://masspowerchoice.com/newton',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
       green: 100,
       local: 100,
-      start: '2019-03',
-      end: '2021-01',
-      rate: 11.750
+      start: '2021-01',
+      end: '2024-01',
+      rate: 14.357
     },
     'North Andover Standard':
     {
