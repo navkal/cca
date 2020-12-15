@@ -448,11 +448,11 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: g_nMinimumTotalGreen,
       local: g_nMinimumLocalGreen,
-      start: '2019-01',
-      end: '2021-01',
-      rate: 10.631
+      start: '2021-01',
+      end: '2024-01',
+      rate: 9.303
     },
-    'Billerica Optional Green':
+    'Billerica Optional':
     {
       is_default: false,
       url: 'https://colonialpowergroup.com/billerica/',
@@ -460,9 +460,9 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: 100,
       local: g_nMinimumLocalGreen,
-      start: '2019-01',
-      end: '2021-01',
-      rate: 10.733
+      start: '2021-01',
+      end: '2024-01',
+      rate: 9.424
     },
     'Brookline Basic':
     {
