@@ -638,8 +638,8 @@ input.error
       url: 'https://masscea.com/dracut/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 100,
-      local: 100,
+      green: g_nMinimumTotalGreen + 100,
+      local: g_nMinimumLocalGreen + 100,
       start: '2021-01',
       end: '2023-12',
       rate: 14.019
@@ -1070,8 +1070,8 @@ input.error
       url: 'https://masscea.com/westford/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 100,
-      local: 100,
+      green: g_nMinimumTotalGreen + 100,
+      local: g_nMinimumLocalGreen + 100,
       start: '2021-01',
       end: '2023-12',
       rate: 13.695
