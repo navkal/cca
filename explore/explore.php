@@ -520,9 +520,9 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: g_nMinimumTotalGreen,
       local: g_nMinimumLocalGreen,
-      start: '2019-01',
-      end: '2021-01',
-      rate: 11.120
+      start: '2021-01',
+      end: '2024-01',
+      rate: 10.20
     },
     'Cambridge 100% Green Plus':
     {
@@ -532,9 +532,9 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: 100,
       local: 100,
-      start: '2019-01',
-      end: '2021-01',
-      rate: 11.940
+      start: '2021-01',
+      end: '2024-01',
+      rate: 13.669
     },
     'Carlisle Basic Supply':
     {
