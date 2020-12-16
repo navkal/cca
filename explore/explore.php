@@ -1124,6 +1124,30 @@ input.error
       end: '2022-12',
       rate: 13.866
     },
+    'Worcester Standard Green':
+    {
+      is_default: true,
+      url: 'https://masspowerchoice.com/worcester/options-prices',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      green: g_nMinimumTotalGreen + 20,
+      local: g_nMinimumLocalGreen + 20,
+      start: '2020-02',
+      end: '2022-12',
+      rate: 11.442
+    },
+    'Worcester 100% Green':
+    {
+      is_default: false,
+      url: 'https://masspowerchoice.com/worcester/options-prices',
+      broker: 'Mass Power Choice',
+      broker_url: 'https://masspowerchoice.com/',
+      green: 100,
+      local: 100,
+      start: '2020-02',
+      end: '2022-12',
+      rate: 14.031
+    },
   };
 
   var g_tRatesNg =
