@@ -219,10 +219,10 @@ input.error
         - Average annual savings: <span id="average-savings" class="font-weight-bold"></span>
       </div>
       <div>
-        - Average local renewable content: <span id="average-green" class="font-weight-bold text-primary"></span>
+        - Average local renewable content: <span id="average-green" class="font-weight-bold"></span>
       </div>
       <div>
-        - Median local renewable content: <span id="median-green" class="font-weight-bold text-primary"></span>
+        - Median local renewable content: <span id="median-green" class="font-weight-bold"></span>
       </div>
     </small>
   </div>
@@ -1648,7 +1648,16 @@ input.error
     }
 
     // Average local green
-    sAverage = ( aGreen.length ) ? Math.round( iTotal / aGreen.length ) + '%' : 'n/a'
+    $( '#average-green' ).removeClass( 'text-primary' );
+    if ( aGreen.length )
+    {
+      $( '#average-green' ).addClass( 'text-primary' );
+      sAverage = Math.round( iTotal / aGreen.length ) + '%';
+    }
+    else
+    {
+      sAverage = 'n/a'
+    }
     $( '#average-green' ).text( sAverage );
 
     // Median local green
