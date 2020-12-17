@@ -213,7 +213,7 @@ input.error
     </div>
     <small>
       <div>
-        Showing <span id="options-count" class="font-weight-bold"></span> CCA options with:
+        Showing <span id="options-count" class="font-weight-bold"></span> CCA options:
       </div>
       <div>
         - Average annual savings: <span id="average-savings" class="font-weight-bold"></span>
@@ -1657,7 +1657,8 @@ input.error
     if ( aGreenValues.length )
     {
       var nMidOffset = Math.floor( aGreenValues.length / 2 );
-      sMedianGreen = ( ( aGreenValues.length % 2 ) ? aGreenValues[nMidOffset] : ( '' + Math.round( ( aGreenValues[nMidOffset - 1] + aGreenValues[nMidOffset] ) / 2 ) ) ) + '%';
+      var nMedianGreen = ( aGreenValues.length % 2 ) ? aGreenValues[nMidOffset] : Math.round( ( aGreenValues[nMidOffset - 1] + aGreenValues[nMidOffset] ) / 2 );
+      sMedianGreen = nMedianGreen + '%';
     }
 
     $( '#median-green' ).text( sMedianGreen );
