@@ -211,9 +211,20 @@ input.error
     </div>
     <div id="total-kwh">
     </div>
-    <div>
-      Average annual savings offered by CCA options shown: <span id="average-savings" class="font-weight-bold"></span>
-    </div>
+    <small>
+      <div>
+        For CCA options shown:
+      </div>
+      <div>
+        - Average annual savings: <span id="average-savings" class="font-weight-bold"></span>
+      </div>
+      <div>
+        - Average local renewable content: <span id="average-green" class="font-weight-bold text-primary"></span>
+      </div>
+      <div>
+        - Median local renewable content: <span id="median-green" class="font-weight-bold text-primary"></span>
+      </div>
+    </small>
   </div>
 
   <div class="card table-backdrop">
@@ -1508,8 +1519,10 @@ input.error
         sHtml += '</td>';
 
         // Local green
-        sHtml += '<td>';
-        sHtml += ( ( tCcaOption && tCcaOption.local ) ? tCcaOption.local : g_nMinimumLocalGreen ) + '%';
+        var nLocalGreen = ( tCcaOption && tCcaOption.local ) ? tCcaOption.local : g_nMinimumLocalGreen;
+        var sLocalGreen = ( sCcaOption == '<?=NGBS?>' ) ? '' : ' local_green="' + nLocalGreen + '"';
+        sHtml += '<td ' + sLocalGreen + '>';
+        sHtml += nLocalGreen + '%';
         sHtml += '</td>';
 
         // ----------------------> Replace with GHG math ----------------------> //
@@ -1568,8 +1581,8 @@ input.error
       $( '#total-kwh' ).html( 'Energy used: <span class="font-weight-bold text-primary">' + g_iTotalKwh.toLocaleString() + ' kWh</span> from ' + $( 'label[for="kwh-2"]' ).text() + ' through ' + $( 'label[for="kwh-13"]' ).text() );
       g_iCustomer = 0;
 
-      // Update the average
-      updateAverage();
+      // Update summary statistics
+      updateStatistics();
 
       // Show the output
       showOutput( true );
@@ -1583,14 +1596,18 @@ input.error
   function onFilterEnd()
   {
     // Update average savings
-    updateAverage();
+    updateStatistics();
 
     // Always show National Grid row, even if it is hidden by filter
     $( '.ng-row' ).removeClass( 'filtered' );
   }
 
-  function updateAverage()
+  function updateStatistics()
   {
+    //
+    // Savings
+    //
+
     var aSav = $( '#cca-table>tbody>tr:not(.filtered)>[savings]' );
 
     var iTotal = 0;
@@ -1603,6 +1620,7 @@ input.error
     $( '#average-savings' ).removeClass( 'text-success' );
     $( '#average-savings' ).removeClass( 'text-danger' );
 
+    var nAverage = null;
     if ( aSav.length )
     {
       nAverage = Math.round( iTotal / aSav.length );
@@ -1614,6 +1632,45 @@ input.error
     }
 
     $( '#average-savings' ).text( '$' + nAverage );
+
+    //
+    // Local green content
+    //
+
+    var aGreen = $( '#cca-table>tbody>tr:not(.filtered)>[local_green]' );
+    console.log( 'n rows: ' + aGreen.length );
+
+    var iTotal = 0;
+    var aGreenValues = []
+    for ( var iGreen = 0; iGreen < aGreen.length; iGreen ++ )
+    {
+      var tGreen = $( aGreen[iGreen] );
+      var nGreen = parseInt( tGreen.attr( 'local_green' ) )
+      aGreenValues.push( nGreen );
+      iTotal += nGreen;
+    }
+    console.log( 'total=' + iTotal );
+
+    // Average local green
+    nAverage = ( aGreen.length ) ? Math.round( iTotal / aGreen.length ) : 'n/a'
+    $( '#average-green' ).text( '' + nAverage + '%');
+
+    console.log( 'bf', aGreenValues );
+    aGreenValues.sort( function( a, b ){ return a - b; } );
+    console.log( 'af', aGreenValues );
+
+    // Median local green
+    if ( aGreenValues.length )
+    {
+      var nMidOffset = Math.floor( aGreenValues.length / 2 );
+      var nMedianGreen = ( aGreenValues.length % 2 ) ? aGreenValues[nMidOffset] : Math.round( ( aGreenValues[nMidOffset - 1] + aGreenValues[nMidOffset] ) / 2 );
+    }
+    else
+    {
+      nMedianGreen = 'n/a';
+    }
+
+    $( '#median-green' ).text( '' + nMedianGreen + '%');
   }
 
   function isInputReady()
