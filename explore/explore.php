@@ -1638,7 +1638,6 @@ input.error
     //
 
     var aGreen = $( '#cca-table>tbody>tr:not(.filtered)>[local_green]' );
-    console.log( 'n rows: ' + aGreen.length );
 
     var iTotal = 0;
     var aGreenValues = []
@@ -1649,15 +1648,12 @@ input.error
       aGreenValues.push( nGreen );
       iTotal += nGreen;
     }
-    console.log( 'total=' + iTotal );
 
     // Average local green
     nAverage = ( aGreen.length ) ? Math.round( iTotal / aGreen.length ) : 'n/a'
     $( '#average-green' ).text( '' + nAverage + '%');
 
-    console.log( 'bf', aGreenValues );
     aGreenValues.sort( function( a, b ){ return a - b; } );
-    console.log( 'af', aGreenValues );
 
     // Median local green
     if ( aGreenValues.length )
