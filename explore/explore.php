@@ -1653,13 +1653,13 @@ input.error
     nAverage = ( aGreen.length ) ? Math.round( iTotal / aGreen.length ) : 'n/a'
     $( '#average-green' ).text( '' + nAverage + '%');
 
-    aGreenValues.sort( function( a, b ){ return a - b; } );
-
     // Median local green
+    aGreenValues.sort( function( a, b ){ return a - b; } );
+    var nMedianGreen = null;
     if ( aGreenValues.length )
     {
       var nMidOffset = Math.floor( aGreenValues.length / 2 );
-      var nMedianGreen = ( aGreenValues.length % 2 ) ? aGreenValues[nMidOffset] : Math.round( ( aGreenValues[nMidOffset - 1] + aGreenValues[nMidOffset] ) / 2 );
+      nMedianGreen = ( aGreenValues.length % 2 ) ? aGreenValues[nMidOffset] : Math.round( ( aGreenValues[nMidOffset - 1] + aGreenValues[nMidOffset] ) / 2 );
     }
     else
     {
