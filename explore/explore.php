@@ -1621,19 +1621,15 @@ input.error
     $( '#average-savings' ).removeClass( 'text-success' );
     $( '#average-savings' ).removeClass( 'text-danger' );
 
-    var nAverage = null;
+    var sAverage = 'n/a';
     if ( aSav.length )
     {
-      nAverage = Math.round( iTotal / aSav.length );
+      var nAverage = Math.round( iTotal / aSav.length );
       $( '#average-savings' ).addClass( ( nAverage >= 0 ) ? 'text-success' : 'text-danger' );
-      nAverage = '$' + nAverage;
-    }
-    else
-    {
-      nAverage = 'n/a';
+      sAverage = '$' + nAverage;
     }
 
-    $( '#average-savings' ).text( nAverage );
+    $( '#average-savings' ).text( sAverage );
 
     //
     // Local green content
@@ -1652,23 +1648,19 @@ input.error
     }
 
     // Average local green
-    nAverage = ( aGreen.length ) ? Math.round( iTotal / aGreen.length ) : 'n/a'
-    $( '#average-green' ).text( '' + nAverage + '%');
+    sAverage = ( aGreen.length ) ? Math.round( iTotal / aGreen.length ) + '%' : 'n/a'
+    $( '#average-green' ).text( sAverage );
 
     // Median local green
     aGreenValues.sort( function( a, b ){ return a - b; } );
-    var nMedianGreen = null;
+    var sMedianGreen = 'n/a';
     if ( aGreenValues.length )
     {
       var nMidOffset = Math.floor( aGreenValues.length / 2 );
-      nMedianGreen = ( aGreenValues.length % 2 ) ? aGreenValues[nMidOffset] : Math.round( ( aGreenValues[nMidOffset - 1] + aGreenValues[nMidOffset] ) / 2 );
-    }
-    else
-    {
-      nMedianGreen = 'n/a';
+      sMedianGreen = ( ( aGreenValues.length % 2 ) ? aGreenValues[nMidOffset] : ( '' + Math.round( ( aGreenValues[nMidOffset - 1] + aGreenValues[nMidOffset] ) / 2 ) ) ) + '%';
     }
 
-    $( '#median-green' ).text( '' + nMedianGreen + '%');
+    $( '#median-green' ).text( sMedianGreen );
   }
 
   function isInputReady()
