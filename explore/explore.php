@@ -213,7 +213,7 @@ input.error
     </div>
     <small>
       <div>
-        For CCA options shown:
+        Showing <span id="options-count" class="font-weight-bold"></span> CCA options with:
       </div>
       <div>
         - Average annual savings: <span id="average-savings" class="font-weight-bold"></span>
@@ -1609,6 +1609,7 @@ input.error
     //
 
     var aSav = $( '#cca-table>tbody>tr:not(.filtered)>[savings]' );
+    $( '#options-count' ).text( aSav.length );
 
     var iTotal = 0;
     for ( var iSav = 0; iSav < aSav.length; iSav ++ )
@@ -1625,13 +1626,14 @@ input.error
     {
       nAverage = Math.round( iTotal / aSav.length );
       $( '#average-savings' ).addClass( ( nAverage >= 0 ) ? 'text-success' : 'text-danger' );
+      nAverage = '$' + nAverage;
     }
     else
     {
       nAverage = 'n/a';
     }
 
-    $( '#average-savings' ).text( '$' + nAverage );
+    $( '#average-savings' ).text( nAverage );
 
     //
     // Local green content
