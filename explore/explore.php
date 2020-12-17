@@ -1661,15 +1661,16 @@ input.error
     $( '#average-green' ).text( sAverage );
 
     // Median local green
+    $( '#median-green' ).removeClass( 'text-primary' );
     aGreenValues.sort( function( a, b ){ return a - b; } );
     var sMedianGreen = 'n/a';
     if ( aGreenValues.length )
     {
+      $( '#median-green' ).addClass( 'text-primary' );
       var nMidOffset = Math.floor( aGreenValues.length / 2 );
       var nMedianGreen = ( aGreenValues.length % 2 ) ? aGreenValues[nMidOffset] : Math.round( ( aGreenValues[nMidOffset - 1] + aGreenValues[nMidOffset] ) / 2 );
       sMedianGreen = nMedianGreen + '%';
     }
-
     $( '#median-green' ).text( sMedianGreen );
   }
 
