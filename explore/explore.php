@@ -216,7 +216,7 @@ input.error
       <div class="col-auto">
         <table class="table table-sm">
           <tr>
-            <td><small>CCA Options shown</small></td>
+            <td><small>CCA options shown</small></td>
             <td>
               <small>
                 <span id="options-count" class="font-weight-bold"></span>
