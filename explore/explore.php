@@ -217,7 +217,7 @@ input.error
         <table class="table table-sm">
           <tr>
             <td><small>CCA options shown</small></td>
-            <td>
+            <td class="text-right" >
               <small>
                 <span id="options-count" class="font-weight-bold"></span>
               </small>
@@ -225,7 +225,7 @@ input.error
           </tr>
           <tr>
             <td><small>Average annual savings</small></td>
-            <td>
+            <td class="text-right" >
               <small>
                 <span id="average-savings" class="font-weight-bold"></span>
               </small>
@@ -233,7 +233,7 @@ input.error
           </tr>
           <tr>
             <td><small>Average local renewable content</small></td>
-            <td>
+            <td class="text-right" >
               <small>
                 <span id="average-green" class="font-weight-bold"></span>
               </small>
@@ -241,7 +241,7 @@ input.error
           </tr>
           <tr>
             <td><small>Median local renewable content</small></td>
-            <td>
+            <td class="text-right" >
               <small>
                 <span id="median-green" class="font-weight-bold"></span>
               </small>
