@@ -775,6 +775,54 @@ input.error
       end: '2021-12',
       rate: 13.080
     },
+    'Hamilton Basic 0%':
+    {
+      is_default: false,
+      url: 'https://hamiltoncca.com/electricity-choices/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: g_nMinimumTotalGreen,
+      local: g_nMinimumLocalGreen,
+      start: '2020-12',
+      end: '2023-12',
+      rate: 11.038
+    },
+    'Hamilton Local Green':
+    {
+      is_default: true,
+      url: 'https://hamiltoncca.com/electricity-choices/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: g_nMinimumTotalGreen + 5,
+      local: g_nMinimumLocalGreen + 5,
+      start: '2020-12',
+      end: '2023-12',
+      rate: 11.206
+    },
+    'Hamilton Local 50% Green':
+    {
+      is_default: false,
+      url: 'https://hamiltoncca.com/electricity-choices/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: g_nMinimumTotalGreen + 50,
+      local: g_nMinimumLocalGreen + 50,
+      start: '2020-12',
+      end: '2023-12',
+      rate: 12.713
+    },
+    'Hamilton Local 100% Green':
+    {
+      is_default: false,
+      url: 'https://hamiltoncca.com/electricity-choices/',
+      broker: 'Good Energy',
+      broker_url: 'http://goodenergy.com/',
+      green: g_nMinimumTotalGreen + 100,
+      local: g_nMinimumLocalGreen + 100,
+      start: '2020-12',
+      end: '2023-12',
+      rate: 14.388
+    },
     'Haverhill':
     {
       is_default: true,
