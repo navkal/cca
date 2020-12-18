@@ -211,20 +211,46 @@ input.error
     </div>
     <div id="total-kwh">
     </div>
-    <small>
-      <div>
-        Showing <span id="options-count" class="font-weight-bold"></span> CCA options:
+    
+    <div class="row justify-content-center pt-2">
+      <div class="col-auto">
+        <table class="table table-sm">
+          <tr>
+            <td><small>CCA Options shown</small></td>
+            <td>
+              <small>
+                <span id="options-count" class="font-weight-bold"></span>
+              </small>
+            </td>
+          </tr>
+          <tr>
+            <td><small>Average annual savings</small></td>
+            <td>
+              <small>
+                <span id="average-savings" class="font-weight-bold"></span>
+              </small>
+            </td>
+          </tr>
+          <tr>
+            <td><small>Average local renewable content</small></td>
+            <td>
+              <small>
+                <span id="average-green" class="font-weight-bold"></span>
+              </small>
+            </td>
+          </tr>
+          <tr>
+            <td><small>Median local renewable content</small></td>
+            <td>
+              <small>
+                <span id="median-green" class="font-weight-bold"></span>
+              </small>
+            </td>
+          </tr>
+        </table>
       </div>
-      <div>
-        - Average annual savings: <span id="average-savings" class="font-weight-bold"></span>
-      </div>
-      <div>
-        - Average local renewable content: <span id="average-green" class="font-weight-bold"></span>
-      </div>
-      <div>
-        - Median local renewable content: <span id="median-green" class="font-weight-bold"></span>
-      </div>
-    </small>
+    </div>
+
   </div>
 
   <div class="card table-backdrop">
