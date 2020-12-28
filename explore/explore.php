@@ -12,8 +12,8 @@
     ],
     [
       'description' => '4-bedroom house, A/C',
-      'start_month' => '5.18',
-      'readings' => [  572, 1171, 1573, 1582, 1989,  810,  620,  801,  862,  842,  773,  677,  583 ]
+      'start_month' => '12.19',
+      'readings' => [  826,  797,  618,  704,  819,  762,  924, 1449, 1546,  987,  547,  646,  884 ]
     ],
     [
       'description' => '4-bedroom house, A/C',
@@ -211,7 +211,7 @@ input.error
     </div>
     <div id="total-kwh">
     </div>
-    
+
     <div class="row justify-content-center pt-2">
       <div class="col-auto">
         <table class="table table-sm">
