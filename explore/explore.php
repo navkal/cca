@@ -549,6 +549,42 @@ input.error
       end: '2024-01',
       rate: 9.424
     },
+    'Boston Optional Basic':
+    {
+      is_default: false,
+      url: 'https://www.cityofbostoncce.com/',
+      broker: 'Constellation NewEnergy',
+      broker_url: 'https://www.constellation.com/solutions/for-government/governmental-aggregation/massachusetts-aggregation-programs/Boston.html',
+      green: g_nMinimumTotalGreen,
+      local: g_nMinimumLocalGreen,
+      start: '2021-02',
+      end: '2021-11',
+      rate: 10.959
+    },
+    'Boston Standard':
+    {
+      is_default: true,
+      url: 'https://www.cityofbostoncce.com/',
+      broker: 'Constellation NewEnergy',
+      broker_url: 'https://www.constellation.com/solutions/for-government/governmental-aggregation/massachusetts-aggregation-programs/Boston.html',
+      green: g_nMinimumTotalGreen + 10,
+      local: g_nMinimumLocalGreen + 10,
+      start: '2021-02',
+      end: '2021-11',
+      rate: 11.409
+    },
+    'Boston Optional Green 100':
+    {
+      is_default: false,
+      url: 'https://www.cityofbostoncce.com/',
+      broker: 'Constellation NewEnergy',
+      broker_url: 'https://www.constellation.com/solutions/for-government/governmental-aggregation/massachusetts-aggregation-programs/Boston.html',
+      green: 100,
+      local: 100,
+      start: '2021-02',
+      end: '2021-11',
+      rate: 14.764
+    },
     'Brookline Basic':
     {
       is_default: false,
