@@ -1505,7 +1505,6 @@ input.error
     {
       '<?=NGBS?>': 9.707,
     },
-
   };
 
   var g_iTotalKwh = 0;
