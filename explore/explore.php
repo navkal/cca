@@ -953,9 +953,9 @@ input.error
       broker_url: 'https://colonialpowergroup.com/',
       green: g_nMinimumTotalGreen + 45,
       local: g_nMinimumLocalGreen + 45,
-      start: '2019-10',
-      end: '2021-12',
-      rate: 11.874
+      start: '2021-12',
+      end: '2024-12',
+      rate: 14.449 
     },
     'Melrose Basic':
     {
