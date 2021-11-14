@@ -955,7 +955,7 @@ input.error
       local: g_nMinimumLocalGreen + 45,
       start: '2021-12',
       end: '2024-12',
-      rate: 14.449 
+      rate: 14.449
     },
     'Melrose Basic':
     {
@@ -1131,11 +1131,11 @@ input.error
       url: 'https://colonialpowergroup.com/tewksbury/',
       broker: 'Colonial Power Group',
       broker_url: 'https://colonialpowergroup.com/',
-      green: 100,
-      local: g_nMinimumLocalGreen,
-      start: '2019-06',
-      end: '2021-12',
-      rate: 10.690
+      green: g_nMinimumTotalGreen + 5,
+      local: g_nMinimumLocalGreen + 5,
+      start: '2021-12',
+      end: '2024-12',
+      rate: 10.949
     },
     'Tyngsborough Standard':
     {
