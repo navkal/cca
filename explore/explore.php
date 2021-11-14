@@ -965,9 +965,9 @@ input.error
       broker_url: 'http://goodenergy.com/',
       green: g_nMinimumTotalGreen,
       local: g_nMinimumLocalGreen,
-      start: '2019-06',
-      end: '2021-11',
-      rate: 10.401
+      start: '2021-11',
+      end: '2024-11',
+      rate: 11.172
     },
     'Melrose Local Green':
     {
@@ -975,23 +975,23 @@ input.error
       url: 'https://melrose-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: g_nMinimumTotalGreen + 5,
-      local: g_nMinimumLocalGreen + 5,
-      start: '2019-06',
-      end: '2021-11',
-      rate: 10.521
+      green: g_nMinimumTotalGreen + 10,
+      local: g_nMinimumLocalGreen + 10,
+      start: '2021-11',
+      end: '2024-11',
+      rate: 11.537
     },
-    'Melrose Premium 100% Local Green':
+    'Melrose Local Green 100%':
     {
       is_default: false,
       url: 'https://melrose-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: g_nMinimumTotalGreen + 100,
-      local: g_nMinimumLocalGreen + 100,
-      start: '2019-06',
-      end: '2021-11',
-      rate: 12.801
+      green: 100,
+      local: 100,
+      start: '2021-11',
+      end: '2024-11',
+      rate: 14.822
     },
     'Natick Basic/Brown':
     {
