@@ -519,8 +519,8 @@ input.error
       url: 'https://bedfordcca.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 100,
-      local: 100,
+      green: g_nMinimumTotalGreen + 100,
+      local: g_nMinimumLocalGreen + 100,
       start: '2021-12',
       end: '2024-11',
       rate: 13.847
@@ -831,8 +831,8 @@ input.error
       url: 'https://gloucester-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 100,
-      local: 100,
+      green: g_nMinimumTotalGreen + 100,
+      local: g_nMinimumLocalGreen + 100,
       start: '2021-12',
       end: '2024-12',
       rate: 14.356
@@ -987,8 +987,8 @@ input.error
       url: 'https://melrose-cea.com/',
       broker: 'Good Energy',
       broker_url: 'http://goodenergy.com/',
-      green: 100,
-      local: 100,
+      green: g_nMinimumTotalGreen + 100,
+      local: g_nMinimumLocalGreen + 100,
       start: '2021-11',
       end: '2024-11',
       rate: 14.822
