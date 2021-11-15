@@ -387,7 +387,16 @@ input.error
     2024: 24,
     2025: 27
   };
-  var g_nMinimumLocalGreen = g_tMinimumLocalGreen[new Date().getFullYear()];
+  var g_iCurrentYear = new Date().getFullYear()
+  if ( g_iCurrentYear in g_tMinimumLocalGreen )
+  {
+    var g_nMinimumLocalGreen = g_tMinimumLocalGreen[g_iCurrentYear];
+  }
+  else
+  {
+    console.log( 'Need RPS Minimum Standard for year ' + g_iCurrentYear  + '. See https://www.mass.gov/doc/minimum-standards' );
+    g_nMinimumLocalGreen = -999;
+  }
   var g_nMinimumTotalGreen = g_nMinimumLocalGreen;
 
   var g_tCcaOptions =
