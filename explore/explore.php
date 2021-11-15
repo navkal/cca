@@ -376,12 +376,18 @@ input.error
   var g_iCustomer = 0;
   var g_aSampleCustomers = JSON.parse( '<?=json_encode( $g_aSampleCustomers )?>' );
 
-  // Calculate current minimum standard (https://www.mass.gov/doc/minimum-standards)
-  var g_nBaseYear = 2019;
-  var g_nBaseGreen = 14;
-  var g_nThisYear = new Date().getFullYear();
-  var g_nYearOffset = g_nThisYear - g_nBaseYear;
-  var g_nMinimumLocalGreen = g_nBaseGreen + ( 2 * g_nYearOffset );
+  // Determine minimum standard for current year (https://www.mass.gov/doc/minimum-standards)
+  var g_tMinimumLocalGreen =
+  {
+    2019: 14,
+    2020: 16,
+    2021: 18,
+    2022: 20,
+    2023: 22,
+    2024: 24,
+    2025: 27
+  };
+  var g_nMinimumLocalGreen = g_tMinimumLocalGreen[new Date().getFullYear()];
   var g_nMinimumTotalGreen = g_nMinimumLocalGreen;
 
   var g_tCcaOptions =
