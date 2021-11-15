@@ -376,7 +376,12 @@ input.error
   var g_iCustomer = 0;
   var g_aSampleCustomers = JSON.parse( '<?=json_encode( $g_aSampleCustomers )?>' );
 
-  var g_nMinimumLocalGreen = 18;
+  // Calculate current minimum standard (https://www.mass.gov/doc/minimum-standards)
+  var g_nBaseYear = 2019;
+  var g_nBaseGreen = 14;
+  var g_nThisYear = new Date().getFullYear();
+  var g_nYearOffset = g_nThisYear - g_nBaseYear;
+  var g_nMinimumLocalGreen = g_nBaseGreen + ( 2 * g_nYearOffset );
   var g_nMinimumTotalGreen = g_nMinimumLocalGreen;
 
   var g_tCcaOptions =
