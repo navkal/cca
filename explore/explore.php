@@ -1031,8 +1031,8 @@ input.error
       url: 'https://masspowerchoice.com/natick',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: g_nMinimumTotalGreen + 13, // 2021: +13, 2022: +16
-      local: g_nMinimumLocalGreen + 13, // 2021: +13, 2022: +16
+      green: g_nMinimumTotalGreen + 16,
+      local: g_nMinimumLocalGreen + 16,
       start: '2020-12',
       end: '2022-12',
       rate: 11.551
@@ -1189,9 +1189,9 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: g_nMinimumTotalGreen,
       local: g_nMinimumLocalGreen,
-      start: '2019-09',
-      end: '2021-12',
-      rate: 10.654
+      start: '2021-12',
+      end: '2023-12',
+      rate: 12.723
     },
     'Watertown Standard':
     {
@@ -1199,11 +1199,11 @@ input.error
       url: 'https://masspowerchoice.com/watertown/options-prices',
       broker: 'Mass Power Choice',
       broker_url: 'https://masspowerchoice.com/',
-      green: g_nMinimumTotalGreen + 35,
-      local: g_nMinimumLocalGreen + 35,
-      start: '2019-09',
-      end: '2021-12',
-      rate: 11.494
+      green: g_nMinimumTotalGreen + 30,
+      local: g_nMinimumLocalGreen + 3,
+      start: '2021-12',
+      end: '2023-12',
+      rate: 12.999
     },
     'Watertown 100% Green':
     {
@@ -1213,9 +1213,9 @@ input.error
       broker_url: 'https://masspowerchoice.com/',
       green: 100,
       local: 100,
-      start: '2019-09',
-      end: '2021-12',
-      rate: 12.718
+      start: '2021-12',
+      end: '2023-12',
+      rate: 15.638
     },
     'Westford POP Basic':
     {
